@@ -1,26 +1,85 @@
+"use client";
+
+type BadgeVariant = "default" | "glow" | "outline";
+
 interface BadgeProps {
   level: number;
+  variant?: BadgeVariant;
+  pulse?: boolean;
   className?: string;
 }
 
-const hskColors: Record<number, string> = {
-  1: "bg-[var(--color-green)] text-white",
-  2: "bg-[var(--color-blue)] text-white",
-  3: "bg-[var(--color-orange)] text-white",
-  4: "bg-[var(--color-purple)] text-white",
-  5: "bg-[#e04998] text-white",
-  6: "bg-[#cc3c3c] text-white",
-  7: "bg-gray-500 text-white",
-  8: "bg-gray-600 text-white",
-  9: "bg-gray-700 text-white",
+interface HskColorConfig {
+  bg: string;
+  border: string;
+  glow: string;
+  text: string;
+}
+
+const hskColors: Record<number, HskColorConfig> = {
+  1: { bg: "var(--color-green)", border: "var(--color-green-dark)", glow: "rgba(88,204,2,0.4)", text: "#fff" },
+  2: { bg: "var(--color-blue)", border: "var(--color-blue-dark)", glow: "rgba(28,176,246,0.4)", text: "#fff" },
+  3: { bg: "var(--color-orange)", border: "#d67e00", glow: "rgba(255,150,0,0.4)", text: "#fff" },
+  4: { bg: "var(--color-purple)", border: "#a95ee6", glow: "rgba(206,130,255,0.4)", text: "#fff" },
+  5: { bg: "#e04998", border: "#c03080", glow: "rgba(224,73,152,0.4)", text: "#fff" },
+  6: { bg: "#cc3c3c", border: "#a82e2e", glow: "rgba(204,60,60,0.4)", text: "#fff" },
+  7: { bg: "#6b7280", border: "#4b5563", glow: "rgba(107,114,128,0.4)", text: "#fff" },
+  8: { bg: "#4b5563", border: "#374151", glow: "rgba(75,85,99,0.4)", text: "#fff" },
+  9: { bg: "#374151", border: "#1f2937", glow: "rgba(55,65,81,0.4)", text: "#fff" },
 };
 
-export default function Badge({ level, className = "" }: BadgeProps) {
-  const color = hskColors[level] ?? "bg-gray-500 text-white";
+const fallbackColor: HskColorConfig = {
+  bg: "#6b7280", border: "#4b5563", glow: "rgba(107,114,128,0.4)", text: "#fff",
+};
+
+export default function Badge({
+  level,
+  variant = "default",
+  pulse = false,
+  className = "",
+}: BadgeProps) {
+  const color = hskColors[level] ?? fallbackColor;
+
+  const baseClasses = [
+    "inline-flex items-center justify-center",
+    "px-3 py-1 rounded-full",
+    "text-xs font-extrabold tracking-wider",
+    "transition-all duration-200 ease-out",
+    "select-none",
+  ].join(" ");
+
+  const variantStyle = (() => {
+    switch (variant) {
+      case "glow":
+        return {
+          background: color.bg,
+          color: color.text,
+          boxShadow: `0 0 12px ${color.glow}, 0 0 24px ${color.glow.replace("0.4", "0.15")}`,
+        };
+      case "outline":
+        return {
+          background: "transparent",
+          color: color.bg,
+          border: `2px solid ${color.bg}`,
+          boxShadow: "none",
+        };
+      default:
+        return {
+          background: color.bg,
+          color: color.text,
+          boxShadow: `0 2px 8px ${color.glow.replace("0.4", "0.2")}`,
+        };
+    }
+  })();
 
   return (
     <span
-      className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold ${color} ${className}`}
+      className={`
+        ${baseClasses}
+        ${pulse ? "animate-pulse" : ""}
+        ${className}
+      `}
+      style={variantStyle}
     >
       HSK{level}
     </span>

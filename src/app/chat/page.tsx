@@ -108,7 +108,7 @@ export default function ChatPage() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="sticky top-0 z-50 bg-[#131F24] border-b border-[#2A4050] px-4 py-3">
+      <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
         <div className="max-w-lg mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-[#1CB0F6] rounded-full flex items-center justify-center text-sm">
@@ -149,7 +149,7 @@ export default function ChatPage() {
                   onClick={() => {
                     setInput(suggestion);
                   }}
-                  className="bg-[#1A2C34] border border-[#2A4050] rounded-xl px-3 py-2 text-xs text-[#9EAAB4] hover:border-[#1CB0F6] transition-all"
+                  className="bg-gradient-card border border-white/5 rounded-xl shadow-card hover-lift px-3 py-2 text-xs text-[#9EAAB4] hover:border-[#1CB0F6] transition-all"
                 >
                   {suggestion}
                 </button>
@@ -177,7 +177,7 @@ export default function ChatPage() {
       </main>
 
       {/* Input */}
-      <div className="sticky bottom-16 bg-[#131F24] border-t border-[#2A4050] px-4 py-3">
+      <div className="sticky bottom-16 glass-dark border-t border-white/5 px-4 py-3">
         <div className="max-w-lg mx-auto flex gap-2">
           <input
             type="text"
@@ -185,7 +185,7 @@ export default function ChatPage() {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && sendMessage()}
             placeholder="Écrivez votre message..."
-            className="flex-1 bg-[#1A2C34] border border-[#2A4050] rounded-xl px-4 py-2.5 text-sm placeholder-[#9EAAB4] focus:outline-none focus:border-[#1CB0F6]"
+            className="flex-1 bg-[#1A2C34] rounded-xl px-4 py-2.5 text-sm placeholder-[#9EAAB4] input-focus"
           />
           <button
             onClick={sendMessage}

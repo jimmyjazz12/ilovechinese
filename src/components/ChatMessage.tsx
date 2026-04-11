@@ -1,3 +1,5 @@
+"use client";
+
 import ToneDisplay from "./ToneDisplay";
 
 interface ChatMessageProps {
@@ -19,17 +21,44 @@ export default function ChatMessage({
 
   return (
     <div
-      className={`flex ${isUser ? "justify-end" : "justify-start"} mb-3 ${className}`}
+      className={`flex ${isUser ? "justify-end" : "justify-start"} mb-3 animate-slide-up ${className}`}
     >
+      {/* Assistant avatar */}
+      {!isUser && (
+        <div
+          className="flex-shrink-0 w-8 h-8 rounded-full mr-2.5 mt-1 flex items-center justify-center text-sm font-bold"
+          style={{
+            background: "linear-gradient(135deg, var(--color-blue), var(--color-purple))",
+            boxShadow: "0 0 0 2px rgba(28, 176, 246, 0.3)",
+          }}
+        >
+          AI
+        </div>
+      )}
+
       <div
-        className={`max-w-[80%] rounded-2xl px-4 py-3 ${
-          isUser
-            ? "bg-[var(--color-green)] text-white rounded-br-sm"
-            : "bg-[var(--color-card)] border border-[var(--color-border)] text-white rounded-bl-sm"
+        className={`max-w-[80%] px-4 py-3 ${
+          isUser ? "rounded-2xl rounded-br-sm" : "rounded-2xl rounded-bl-sm"
         }`}
+        style={
+          isUser
+            ? {
+                background: "linear-gradient(135deg, var(--color-green), var(--color-green-dark))",
+                color: "white",
+                boxShadow: "0 2px 8px rgba(88, 204, 2, 0.2), 0 4px 16px rgba(0, 0, 0, 0.15)",
+              }
+            : {
+                background: "rgba(26, 44, 52, 0.8)",
+                backdropFilter: "blur(16px)",
+                WebkitBackdropFilter: "blur(16px)",
+                border: "1px solid rgba(255, 255, 255, 0.05)",
+                color: "white",
+                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.15)",
+              }
+        }
       >
         {pinyin && (
-          <div className="mb-1">
+          <div className="mb-1.5">
             <ToneDisplay pinyin={pinyin} size="sm" />
           </div>
         )}
@@ -38,8 +67,8 @@ export default function ChatMessage({
         </p>
         {timestamp && (
           <p
-            className={`text-[10px] mt-1 ${
-              isUser ? "text-white/60" : "text-[var(--color-text-secondary)]"
+            className={`text-[11px] mt-1.5 font-medium ${
+              isUser ? "text-white/70" : "text-[var(--color-text-secondary)]"
             }`}
           >
             {timestamp}

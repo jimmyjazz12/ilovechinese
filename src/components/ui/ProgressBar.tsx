@@ -7,6 +7,8 @@ interface ProgressBarProps {
   max: number;
   label?: string;
   showFraction?: boolean;
+  shimmer?: boolean;
+  color?: string;
   className?: string;
 }
 
@@ -15,6 +17,8 @@ export default function ProgressBar({
   max,
   label,
   showFraction = false,
+  shimmer = false,
+  color,
   className = "",
 }: ProgressBarProps) {
   const [animated, setAnimated] = useState(false);
@@ -25,21 +29,62 @@ export default function ProgressBar({
     return () => cancelAnimationFrame(t);
   }, []);
 
+  const fillColor = color ?? "var(--color-green)";
+  const fillColorLight = color ? `${color}99` : "#8DE84E";
+
+  const showInnerLabel = percent >= 20;
+
   return (
     <div className={`w-full ${className}`}>
       {(label || showFraction) && (
-        <div className="flex justify-between items-center mb-1 text-sm">
-          {label && <span className="text-[var(--color-text-secondary)]">{label}</span>}
-          <span className="text-[var(--color-text-secondary)] ml-auto">
+        <div className="flex justify-between items-center mb-1.5 text-sm">
+          {label && (
+            <span className="text-[var(--color-text-secondary)] font-semibold">
+              {label}
+            </span>
+          )}
+          <span className="text-[var(--color-text-secondary)] ml-auto font-medium tabular-nums">
             {showFraction ? `${value}/${max}` : `${percent}%`}
           </span>
         </div>
       )}
-      <div className="w-full h-3 bg-[var(--color-border)] rounded-full overflow-hidden">
+      <div
+        className="relative w-full h-4 rounded-full overflow-hidden"
+        style={{
+          backgroundColor: "var(--color-border)",
+          boxShadow: "inset 0 2px 4px rgba(0,0,0,0.3)",
+        }}
+      >
         <div
-          className="h-full bg-[var(--color-green)] rounded-full transition-all duration-700 ease-out"
-          style={{ width: animated ? `${percent}%` : "0%" }}
-        />
+          className="h-full rounded-full relative overflow-hidden"
+          style={{
+            width: animated ? `${percent}%` : "0%",
+            background: `linear-gradient(90deg, ${fillColor}, ${fillColorLight})`,
+            boxShadow: `0 0 12px ${fillColor}40, 0 0 4px ${fillColor}30`,
+            transition: "width 0.8s cubic-bezier(0.4, 0, 0.2, 1)",
+          }}
+        >
+          {/* Shimmer overlay */}
+          {shimmer && animated && percent > 0 && (
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.25) 50%, transparent 100%)",
+                animation: "shimmer 2s ease-in-out infinite",
+              }}
+            />
+          )}
+
+          {/* Inner label */}
+          {showInnerLabel && (
+            <span
+              className="absolute inset-0 flex items-center justify-center text-[10px] font-bold text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.3)]"
+            >
+              {showFraction ? `${value}/${max}` : `${percent}%`}
+            </span>
+          )}
+        </div>
       </div>
     </div>
   );

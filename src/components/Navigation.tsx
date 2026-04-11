@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 interface NavTab {
   id: string;
@@ -9,18 +10,13 @@ interface NavTab {
   href: string;
 }
 
-interface NavigationProps {
-  activeTab?: string;
-  onTabChange?: (tabId: string) => void;
-}
-
 const tabs: NavTab[] = [
   {
     id: "home",
     label: "Accueil",
     href: "/",
     icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
         <polyline points="9 22 9 12 15 12 15 22" />
       </svg>
@@ -31,7 +27,7 @@ const tabs: NavTab[] = [
     label: "Vocabulaire",
     href: "/vocabulary",
     icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
         <line x1="8" y1="7" x2="16" y2="7" />
@@ -44,18 +40,18 @@ const tabs: NavTab[] = [
     label: "Revision",
     href: "/review",
     icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
         <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
       </svg>
     ),
   },
   {
-    id: "translation",
+    id: "translate",
     label: "Traduction",
-    href: "/translation",
+    href: "/translate",
     icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M5 8l6 6" />
         <path d="M4 14l6-6 2-3" />
         <path d="M2 5h12" />
@@ -70,7 +66,7 @@ const tabs: NavTab[] = [
     label: "Grammaire",
     href: "/grammar",
     icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
         <polyline points="14 2 14 8 20 8" />
         <line x1="8" y1="13" x2="16" y2="13" />
@@ -79,11 +75,11 @@ const tabs: NavTab[] = [
     ),
   },
   {
-    id: "teacher",
+    id: "chat",
     label: "Prof",
-    href: "/teacher",
+    href: "/chat",
     icon: (
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
         <circle cx="9" cy="10" r="1" fill="currentColor" />
         <circle cx="12" cy="10" r="1" fill="currentColor" />
@@ -93,37 +89,48 @@ const tabs: NavTab[] = [
   },
 ];
 
-export default function Navigation({ activeTab, onTabChange }: NavigationProps) {
-  const [active, setActive] = useState(activeTab ?? "home");
-
-  const handleTab = (tabId: string) => {
-    setActive(tabId);
-    onTabChange?.(tabId);
-  };
+export default function Navigation() {
+  const pathname = usePathname();
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-[var(--color-card)] border-t border-[var(--color-border)] safe-area-pb">
+    <nav
+      className="fixed bottom-0 left-0 right-0 z-50"
+      style={{
+        background: "rgba(19, 31, 36, 0.85)",
+        backdropFilter: "blur(20px)",
+        WebkitBackdropFilter: "blur(20px)",
+        borderTop: "1px solid rgba(255, 255, 255, 0.06)",
+      }}
+    >
       <div className="flex justify-around items-center h-16 max-w-lg mx-auto">
         {tabs.map((tab) => {
-          const isActive = active === tab.id;
+          const isActive =
+            pathname === tab.href ||
+            (tab.href !== "/" && pathname.startsWith(tab.href));
+
           return (
-            <button
+            <Link
               key={tab.id}
-              onClick={() => handleTab(tab.id)}
-              className={`flex flex-col items-center justify-center gap-0.5 w-full h-full transition-colors cursor-pointer ${
-                isActive
-                  ? "text-[var(--color-green)]"
-                  : "text-[var(--color-text-secondary)] hover:text-white"
-              }`}
+              href={tab.href}
+              className={`
+                relative flex flex-col items-center justify-center gap-0.5 w-full h-full
+                transition-all duration-300 ease-out
+                ${
+                  isActive
+                    ? "text-[var(--color-green)] nav-active-glow"
+                    : "text-[var(--color-text-secondary)] hover:text-white"
+                }
+              `}
             >
-              <div className={`transition-transform ${isActive ? "scale-110" : ""}`}>
+              <div
+                className={`transition-all duration-300 ${
+                  isActive ? "scale-110 drop-shadow-[0_0_6px_rgba(88,204,2,0.4)]" : ""
+                }`}
+              >
                 {tab.icon}
               </div>
-              <span className="text-[10px] font-semibold">{tab.label}</span>
-              {isActive && (
-                <div className="absolute bottom-0 w-12 h-0.5 bg-[var(--color-green)] rounded-full" />
-              )}
-            </button>
+              <span className="text-[11px] font-semibold">{tab.label}</span>
+            </Link>
           );
         })}
       </div>

@@ -63,9 +63,9 @@ export default function VocabularyPage() {
 
   return (
     <div className="min-h-screen">
-      <header className="sticky top-0 z-50 bg-[#131F24] border-b border-[#2A4050] px-4 py-3">
+      <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
         <div className="max-w-lg mx-auto">
-          <h1 className="text-lg font-bold mb-3">📚 Vocabulaire</h1>
+          <h1 className="text-lg font-extrabold mb-3 animate-fade-in">📚 Vocabulaire</h1>
           {/* HSK Level tabs */}
           <div className="flex gap-2 mb-3">
             {[1, 2, 3, 4].map((level) => (
@@ -89,7 +89,7 @@ export default function VocabularyPage() {
             placeholder="Rechercher un mot..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-[#1A2C34] border border-[#2A4050] rounded-xl px-4 py-2 text-sm placeholder-[#9EAAB4] focus:outline-none focus:border-[#58CC02]"
+            className="w-full bg-[#1A2C34] rounded-xl px-4 py-2.5 text-sm placeholder-[#9EAAB4] input-focus"
           />
         </div>
       </header>
@@ -140,8 +140,8 @@ export default function VocabularyPage() {
             {filteredWords.map((word, i) => (
               <Link
                 key={`${word.simplified}-${i}`}
-                href={`/vocabulary/${selectedHsk}-${i}`}
-                className="flex items-center gap-4 bg-[#1A2C34] rounded-xl p-3 border border-[#2A4050] hover:border-[#3A5060] transition-all"
+                href={`/vocabulary/${encodeURIComponent(word.simplified)}`}
+                className="flex items-center gap-4 bg-gradient-card rounded-xl p-3 border border-white/5 shadow-card hover-lift transition-all duration-200"
               >
                 <div className="w-12 h-12 bg-[#223A44] rounded-xl flex items-center justify-center chinese-char text-xl font-bold">
                   {word.simplified}

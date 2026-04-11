@@ -46,7 +46,7 @@ export default function GrammarPage() {
 
   return (
     <div className="min-h-screen">
-      <header className="sticky top-0 z-50 bg-[#131F24] border-b border-[#2A4050] px-4 py-3">
+      <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
         <div className="max-w-lg mx-auto">
           <div className="flex items-center justify-between mb-3">
             <h1 className="text-lg font-bold">📝 Grammaire</h1>
@@ -80,7 +80,7 @@ export default function GrammarPage() {
         {rules.map((rule) => (
           <div
             key={rule.id}
-            className="bg-[#1A2C34] rounded-xl border border-[#2A4050] overflow-hidden"
+            className="bg-gradient-card rounded-xl border border-white/5 shadow-card overflow-hidden"
           >
             <button
               onClick={() =>

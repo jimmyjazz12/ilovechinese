@@ -93,7 +93,7 @@ export default function GrammarReviewPage() {
   if (!started) {
     return (
       <div className="min-h-screen">
-        <header className="sticky top-0 z-50 bg-[#131F24] border-b border-[#2A4050] px-4 py-3">
+        <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
           <div className="max-w-lg mx-auto">
             <h1 className="text-lg font-bold">📝 Quiz Grammaire</h1>
           </div>
@@ -134,7 +134,7 @@ export default function GrammarReviewPage() {
         <main className="max-w-lg mx-auto px-4 py-12 text-center space-y-6">
           <div className="text-6xl">{pct >= 80 ? "🎉" : "💪"}</div>
           <h2 className="text-2xl font-bold">Quiz terminé !</h2>
-          <div className="bg-[#1A2C34] rounded-2xl p-6 border border-[#2A4050]">
+          <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card">
             <div className="text-4xl font-bold text-[#58CC02]">{pct}%</div>
             <div className="text-[#9EAAB4]">{score.correct}/{score.total}</div>
           </div>
@@ -168,7 +168,7 @@ export default function GrammarReviewPage() {
       <main className="max-w-lg mx-auto px-4 py-6 space-y-6">
         {currentRule && (
           <>
-            <div className="bg-[#1A2C34] rounded-2xl p-6 border border-[#2A4050] text-center">
+            <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card text-center">
               <p className="text-sm text-[#9EAAB4] mb-2">Quelle règle correspond à ce pattern ?</p>
               <p className="text-2xl font-bold font-mono text-[#1CB0F6]">{currentRule.pattern}</p>
               {currentRule.examples[0] && (

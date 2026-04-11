@@ -264,7 +264,7 @@ export default function ReviewPage() {
   if (!started) {
     return (
       <div className="min-h-screen">
-        <header className="sticky top-0 z-50 bg-[#131F24] border-b border-[#2A4050] px-4 py-3">
+        <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
           <div className="max-w-lg mx-auto">
             <h1 className="text-lg font-bold">🧠 Révision</h1>
           </div>
@@ -286,7 +286,7 @@ export default function ReviewPage() {
                   className={`px-4 py-2 rounded-xl font-bold transition-all ${
                     currentHsk === level
                       ? "bg-[#58CC02] text-white"
-                      : "bg-[#1A2C34] text-[#9EAAB4] hover:bg-[#223A44]"
+                      : "bg-[#1A2C34] text-[#9EAAB4] hover:bg-[#223A44] hover-scale"
                   }`}
                 >
                   HSK {level}
@@ -314,7 +314,7 @@ export default function ReviewPage() {
         <main className="max-w-lg mx-auto px-4 py-12 text-center space-y-6">
           <div className="text-6xl mb-4">{percentage >= 80 ? "🎉" : percentage >= 50 ? "👍" : "💪"}</div>
           <h2 className="text-2xl font-bold">Session terminée !</h2>
-          <div className="bg-[#1A2C34] rounded-2xl p-6 border border-[#2A4050]">
+          <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card">
             <div className="text-4xl font-bold text-[#58CC02] mb-2">{percentage}%</div>
             <div className="text-[#9EAAB4]">
               {sessionScore.correct} / {sessionScore.total} bonnes réponses

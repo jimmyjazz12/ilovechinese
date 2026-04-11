@@ -105,7 +105,7 @@ export default function TranslatePage() {
 
   return (
     <div className="min-h-screen">
-      <header className="sticky top-0 z-50 bg-[#131F24] border-b border-[#2A4050] px-4 py-3">
+      <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
         <div className="max-w-lg mx-auto">
           <h1 className="text-lg font-bold mb-3">🔄 Traduction</h1>
           <div className="flex gap-2">
@@ -159,7 +159,7 @@ export default function TranslatePage() {
         {currentSentence && (
           <div className="space-y-4">
             {/* Question */}
-            <div className="bg-[#1A2C34] rounded-2xl p-6 border border-[#2A4050] text-center">
+            <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card text-center">
               <p className="text-sm text-[#9EAAB4] mb-2">Traduisez :</p>
               {direction === "fr_to_cn" ? (
                 <p className="text-2xl font-bold">{currentSentence.french}</p>
@@ -190,7 +190,7 @@ export default function TranslatePage() {
                     ? "Écrivez en chinois..."
                     : "Écrivez en français..."
                 }
-                className="w-full bg-[#1A2C34] border-2 border-[#2A4050] rounded-xl px-4 py-3 text-lg text-center placeholder-[#9EAAB4] focus:outline-none focus:border-[#58CC02]"
+                className="w-full bg-[#1A2C34] rounded-xl px-4 py-3 text-lg text-center placeholder-[#9EAAB4] input-focus"
                 disabled={showResult}
               />
             </div>

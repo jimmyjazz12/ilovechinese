@@ -1,0 +1,23 @@
+[
+  {"initial": "b", "ipa": "p", "description_fr": "Comme 'b' mais non voisé, sans vibration des cordes vocales", "examples": ["bā 八", "bù 不", "bái 白"]},
+  {"initial": "p", "ipa": "pʰ", "description_fr": "Comme 'p' français avec une forte aspiration", "examples": ["pá 爬", "péng 朋", "piào 票"]},
+  {"initial": "m", "ipa": "m", "description_fr": "Identique au 'm' français", "examples": ["mā 妈", "méi 没", "míng 明"]},
+  {"initial": "f", "ipa": "f", "description_fr": "Identique au 'f' français", "examples": ["fā 发", "fēi 飞", "fàn 饭"]},
+  {"initial": "d", "ipa": "t", "description_fr": "Comme 'd' mais non voisé, langue contre les dents", "examples": ["dà 大", "de 的", "dōu 都"]},
+  {"initial": "t", "ipa": "tʰ", "description_fr": "Comme 't' français avec forte aspiration", "examples": ["tā 他", "tiān 天", "tóu 头"]},
+  {"initial": "n", "ipa": "n", "description_fr": "Identique au 'n' français, langue contre les dents", "examples": ["nǐ 你", "nà 那", "niú 牛"]},
+  {"initial": "l", "ipa": "l", "description_fr": "Identique au 'l' français", "examples": ["lái 来", "lǎo 老", "liù 六"]},
+  {"initial": "g", "ipa": "k", "description_fr": "Comme 'g' dur mais non voisé", "examples": ["gāo 高", "gè 个", "guó 国"]},
+  {"initial": "k", "ipa": "kʰ", "description_fr": "Comme 'k' français avec forte aspiration", "examples": ["kāi 开", "kàn 看", "kè 课"]},
+  {"initial": "h", "ipa": "x", "description_fr": "Son guttural, comme le 'ch' allemand dans 'Bach'", "examples": ["hǎo 好", "hé 和", "huí 回"]},
+  {"initial": "j", "ipa": "tɕ", "description_fr": "Entre 'dj' et 'tch', langue contre le palais, non aspiré. N'existe pas en français.", "examples": ["jiā 家", "jiào 叫", "jīn 今"]},
+  {"initial": "q", "ipa": "tɕʰ", "description_fr": "Comme 'j' mais avec aspiration. Comme 'tch' avec un souffle.", "examples": ["qī 七", "qù 去", "qián 前"]},
+  {"initial": "x", "ipa": "ɕ", "description_fr": "Entre 's' et 'ch', langue proche du palais. Comme un 'si' très doux.", "examples": ["xiǎo 小", "xué 学", "xiè 谢"]},
+  {"initial": "zh", "ipa": "ʈʂ", "description_fr": "Langue retroussée, comme 'dj' avec la langue en arrière. Non aspiré.", "examples": ["zhōng 中", "zhè 这", "zhī 知"]},
+  {"initial": "ch", "ipa": "ʈʂʰ", "description_fr": "Comme 'zh' mais avec aspiration. Langue retroussée + souffle.", "examples": ["chī 吃", "chá 茶", "chū 出"]},
+  {"initial": "sh", "ipa": "ʂ", "description_fr": "Comme 'ch' français mais avec la langue retroussée en arrière", "examples": ["shì 是", "shū 书", "shuǐ 水"]},
+  {"initial": "r", "ipa": "ʐ", "description_fr": "Langue retroussée, entre le 'r' anglais et le 'j' français. Vibrant.", "examples": ["rén 人", "rè 热", "rì 日"]},
+  {"initial": "z", "ipa": "ts", "description_fr": "Comme 'dz' mais non voisé, dents serrées", "examples": ["zài 在", "zuò 做", "zǎo 早"]},
+  {"initial": "c", "ipa": "tsʰ", "description_fr": "Comme 'ts' avec forte aspiration, dents serrées", "examples": ["cài 菜", "cóng 从", "cì 次"]},
+  {"initial": "s", "ipa": "s", "description_fr": "Identique au 's' français, dents serrées", "examples": ["sān 三", "sì 四", "suì 岁"]}
+]

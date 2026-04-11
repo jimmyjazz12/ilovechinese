@@ -1,0 +1,149 @@
+"use client";
+
+import { useState } from "react";
+import Navigation from "@/components/Navigation";
+import ToneDisplay from "@/components/ToneDisplay";
+import Link from "next/link";
+
+import grammarData from "@/data/grammar.json";
+
+interface GrammarExample {
+  chinese: string;
+  pinyin: string;
+  french: string;
+}
+
+interface GrammarRule {
+  id: string;
+  hsk_level: number;
+  title: string;
+  explanation_fr: string;
+  pattern: string;
+  examples: GrammarExample[];
+}
+
+const hskColors: Record<number, string> = {
+  1: "#58CC02",
+  2: "#1CB0F6",
+  3: "#FF9600",
+  4: "#CE82FF",
+};
+
+export default function GrammarPage() {
+  const [selectedHsk, setSelectedHsk] = useState(1);
+  const [expandedRule, setExpandedRule] = useState<string | null>(null);
+
+  const rules = (grammarData as GrammarRule[]).filter(
+    (r) => r.hsk_level === selectedHsk
+  );
+
+  const speak = (text: string) => {
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "zh-CN";
+    u.rate = 0.8;
+    speechSynthesis.speak(u);
+  };
+
+  return (
+    <div className="min-h-screen">
+      <header className="sticky top-0 z-50 bg-[#131F24] border-b border-[#2A4050] px-4 py-3">
+        <div className="max-w-lg mx-auto">
+          <div className="flex items-center justify-between mb-3">
+            <h1 className="text-lg font-bold">📝 Grammaire</h1>
+            <Link
+              href="/grammar/review"
+              className="btn-3d bg-[#58CC02] text-white text-sm font-bold px-4 py-1.5 rounded-xl"
+            >
+              Quiz →
+            </Link>
+          </div>
+          <div className="flex gap-2">
+            {[1, 2, 3, 4].map((level) => (
+              <button
+                key={level}
+                onClick={() => setSelectedHsk(level)}
+                className={`px-4 py-1.5 rounded-full text-sm font-bold transition-all ${
+                  selectedHsk === level
+                    ? "text-white"
+                    : "bg-[#1A2C34] text-[#9EAAB4] hover:bg-[#223A44]"
+                }`}
+                style={selectedHsk === level ? { backgroundColor: hskColors[level] } : {}}
+              >
+                HSK {level}
+              </button>
+            ))}
+          </div>
+        </div>
+      </header>
+
+      <main className="max-w-lg mx-auto px-4 py-6 space-y-3">
+        {rules.map((rule) => (
+          <div
+            key={rule.id}
+            className="bg-[#1A2C34] rounded-xl border border-[#2A4050] overflow-hidden"
+          >
+            <button
+              onClick={() =>
+                setExpandedRule(expandedRule === rule.id ? null : rule.id)
+              }
+              className="w-full text-left p-4 hover:bg-[#223A44] transition-all"
+            >
+              <div className="flex items-start gap-3">
+                <div
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-white text-xs font-bold shrink-0"
+                  style={{ backgroundColor: hskColors[rule.hsk_level] }}
+                >
+                  {rule.id}
+                </div>
+                <div>
+                  <div className="font-bold text-sm">{rule.title}</div>
+                  <div className="text-xs text-[#9EAAB4] mt-1 font-mono">
+                    {rule.pattern}
+                  </div>
+                </div>
+              </div>
+            </button>
+
+            {expandedRule === rule.id && (
+              <div className="border-t border-[#2A4050] p-4 space-y-4">
+                <p className="text-sm text-[#9EAAB4] leading-relaxed">
+                  {rule.explanation_fr}
+                </p>
+
+                <div className="space-y-3">
+                  <h3 className="text-xs font-bold text-[#9EAAB4] uppercase tracking-wide">
+                    Exemples
+                  </h3>
+                  {rule.examples.map((ex, i) => (
+                    <div
+                      key={i}
+                      className="bg-[#223A44] rounded-lg p-3"
+                    >
+                      <div className="flex items-center gap-2 mb-1">
+                        <button
+                          onClick={() => speak(ex.chinese)}
+                          className="text-[#1CB0F6] text-xs"
+                        >
+                          🔊
+                        </button>
+                        <span className="chinese-char text-lg font-bold">
+                          {ex.chinese}
+                        </span>
+                      </div>
+                      <ToneDisplay pinyin={ex.pinyin} size="sm" />
+                      <div className="text-sm text-[#9EAAB4] mt-1">
+                        {ex.french}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </main>
+
+      <Navigation />
+    </div>
+  );
+}

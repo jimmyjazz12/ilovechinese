@@ -1,34 +1,402 @@
 [
-  {"id": "g1", "hsk_level": 1, "title": "Ordre des mots: Sujet + Verbe + Objet", "explanation_fr": "Le chinois suit l'ordre SVO (Sujet-Verbe-Objet), similaire au français. Le sujet vient en premier, suivi du verbe, puis de l'objet.", "pattern": "S + V + O", "examples": [{"chinese": "我喝水", "pinyin": "wǒ hē shuǐ", "french": "Je bois de l'eau"}, {"chinese": "他看书", "pinyin": "tā kàn shū", "french": "Il lit un livre"}, {"chinese": "她吃饭", "pinyin": "tā chī fàn", "french": "Elle mange"}]},
-  {"id": "g2", "hsk_level": 1, "title": "Négation avec 不 (b��)", "explanation_fr": "不 se place avant le verbe ou l'adjectif pour former la négation. C'est l'équivalent de 'ne...pas' en français.", "pattern": "S + 不 + V/Adj", "examples": [{"chinese": "我不喝茶", "pinyin": "wǒ bù hē chá", "french": "Je ne bois pas de thé"}, {"chinese": "他不高", "pinyin": "tā bù gāo", "french": "Il n'est pas grand"}]},
-  {"id": "g3", "hsk_level": 1, "title": "Questions avec 吗 (ma)", "explanation_fr": "Ajoutez 吗 à la fin d'une phrase affirmative pour la transformer en question oui/non. C'est la façon la plus simple de poser une question.", "pattern": "S + V + O + 吗？", "examples": [{"chinese": "你好吗？", "pinyin": "nǐ hǎo ma?", "french": "Comment vas-tu ?"}, {"chinese": "你是学生吗？", "pinyin": "nǐ shì xuéshēng ma?", "french": "Es-tu étudiant ?"}]},
-  {"id": "g4", "hsk_level": 1, "title": "Utilisation de 是 (shì) - être", "explanation_fr": "是 s'utilise pour relier un sujet à un nom ou un pronom. Attention : on n'utilise PAS 是 avec les adjectifs (on dit 我很好 et non 我是好).", "pattern": "A + 是 + B", "examples": [{"chinese": "我是老师", "pinyin": "wǒ shì lǎoshī", "french": "Je suis professeur"}, {"chinese": "这是我的书", "pinyin": "zhè shì wǒ de shū", "french": "C'est mon livre"}]},
-  {"id": "g5", "hsk_level": 1, "title": "Particule structurelle 的 (de)", "explanation_fr": "的 indique la possession ou relie un modificateur à un nom. C'est similaire à 'de' en français.", "pattern": "Possesseur + 的 + Nom", "examples": [{"chinese": "我的猫", "pinyin": "wǒ de māo", "french": "Mon chat"}, {"chinese": "中国的食物", "pinyin": "zhōngguó de shíwù", "french": "La nourriture chinoise"}]},
-  {"id": "g6", "hsk_level": 1, "title": "Adjectifs prédicatifs avec 很 (hěn)", "explanation_fr": "En chinois, les adjectifs fonctionnent comme des verbes. On utilise 很 devant l'adjectif (même sans sens intensif) pour former le prédicat.", "pattern": "S + 很 + Adj", "examples": [{"chinese": "天气很好", "pinyin": "tiānqì hěn hǎo", "french": "Le temps est beau"}, {"chinese": "她很漂亮", "pinyin": "tā hěn piàoliang", "french": "Elle est belle"}]},
-  {"id": "g7", "hsk_level": 1, "title": "Expression du lieu avec 在 (zài)", "explanation_fr": "在 indique le lieu où quelque chose se trouve ou se passe. Il se place avant le lieu.", "pattern": "S + 在 + Lieu", "examples": [{"chinese": "我在家", "pinyin": "wǒ zài jiā", "french": "Je suis à la maison"}, {"chinese": "他��学校", "pinyin": "tā zài xuéxiào", "french": "Il est à l'école"}]},
-  {"id": "g8", "hsk_level": 1, "title": "Nombres et classificateurs (量词)", "explanation_fr": "En chinois, on doit utiliser un classificateur entre le nombre et le nom. 个 est le classificateur le plus courant et peut être utilisé par défaut.", "pattern": "Nombre + Classificateur + Nom", "examples": [{"chinese": "一个人", "pinyin": "yí gè rén", "french": "Une personne"}, {"chinese": "三本书", "pinyin": "sān běn sh��", "french": "Trois livres"}]},
-  {"id": "g9", "hsk_level": 2, "title": "Le passé avec 了 (le)", "explanation_fr": "了 placé après le verbe indique l'accomplissement d'une action. C'est le marqueur le plus courant du passé en chinois.", "pattern": "S + V + 了 + O", "examples": [{"chinese": "我吃了饭", "pinyin": "wǒ chī le fàn", "french": "J'ai mangé"}, {"chinese": "他买了一本书", "pinyin": "tā mǎi le yì běn shū", "french": "Il a acheté un livre"}]},
-  {"id": "g10", "hsk_level": 2, "title": "Action en cours avec 在 (zài) + V", "explanation_fr": "在 placé avant le verbe indique qu'une action est en cours, similaire au présent progressif en français.", "pattern": "S + 在 + V", "examples": [{"chinese": "我在���电视", "pinyin": "wǒ zài kàn diànshì", "french": "Je regarde la télévision"}, {"chinese": "他们在吃��", "pinyin": "tāmen zài chī fàn", "french": "Ils sont en train de manger"}]},
-  {"id": "g11", "hsk_level": 2, "title": "Expérience avec 过 (guò)", "explanation_fr": "过 après le verbe indique qu'on a déjà fait l'expérience de quelque chose au moins une fois dans le passé.", "pattern": "S + V + 过 + O", "examples": [{"chinese": "我去过中国", "pinyin": "wǒ qù guò zhōngguó", "french": "Je suis déjà allé en Chine"}, {"chinese": "你吃过北京烤���吗？", "pinyin": "nǐ chī guò běijīng kǎoyā ma?", "french": "As-tu déjà mangé du canard laqué ?"}]},
-  {"id": "g12", "hsk_level": 2, "title": "Comparaison avec 比 (bǐ)", "explanation_fr": "比 permet de comparer deux éléments. L'élément supérieur est placé avant 比.", "pattern": "A + 比 + B + Adj", "examples": [{"chinese": "他比我高", "pinyin": "tā bǐ wǒ gāo", "french": "Il est plus grand que moi"}, {"chinese": "今天比昨天热", "pinyin": "jīntiān bǐ zuótiān rè", "french": "Aujourd'hui il fait plus chaud qu'hier"}]},
-  {"id": "g13", "hsk_level": 2, "title": "Complément de résultat", "explanation_fr": "Un complément de résultat se place directement après le verbe pour indiquer le résultat de l'action.", "pattern": "V + Résultat", "examples": [{"chinese": "听懂", "pinyin": "tīng dǒng", "french": "Comprendre en écoutant"}, {"chinese": "看见", "pinyin": "kàn jiàn", "french": "Apercevoir (voir en regardant)"}]},
-  {"id": "g14", "hsk_level": 2, "title": "Pouvoir : 能 (néng) vs 可以 (kěyǐ) vs 会 (huì)", "explanation_fr": "会 exprime une capacité apprise, 能 une capacité physique ou circonstancielle, 可以 une permission.", "pattern": "S + 会/能/可以 + V", "examples": [{"chinese": "我会说中文", "pinyin": "wǒ huì shuō zhōngwén", "french": "Je sais parler chinois"}, {"chinese": "你可以进来", "pinyin": "nǐ kěyǐ jìnlái", "french": "Tu peux entrer"}]},
-  {"id": "g15", "hsk_level": 2, "title": "Vouloir avec 想 (xiǎng) et 要 (yào)", "explanation_fr": "想 exprime un souhait ou une envie, 要 exprime une volonté plus forte ou une nécessité.", "pattern": "S + 想/要 + V", "examples": [{"chinese": "我想去中国", "pinyin": "wǒ xiǎng qù zhōngguó", "french": "Je voudrais aller en Chine"}, {"chinese": "我要学中文", "pinyin": "wǒ yào xué zhōngwén", "french": "Je veux apprendre le chinois"}]},
-  {"id": "g16", "hsk_level": 2, "title": "La particule 呢 (ne)", "explanation_fr": "呢 s'utilise pour poser une question retournée ('et toi ?') ou pour insister sur un état continu.", "pattern": "A...，B + 呢？", "examples": [{"chinese": "我很好，你呢？", "pinyin": "wǒ hěn h��o, nǐ ne?", "french": "Je vais bien, et toi ?"}, {"chinese": "他在哪儿呢？", "pinyin": "tā zài nǎr ne?", "french": "Où est-il donc ?"}]},
-  {"id": "g17", "hsk_level": 3, "title": "Complément de degré avec 得 (de)", "explanation_fr": "得 se place après le verbe pour introduire un complément décrivant le degré ou la manière de l'action.", "pattern": "V + 得 + Adj/Description", "examples": [{"chinese": "她说得很好", "pinyin": "tā shuō de hěn hǎo", "french": "Elle parle très bien"}, {"chinese": "他跑得很��", "pinyin": "tā pǎo de hěn kuài", "french": "Il court très vite"}]},
-  {"id": "g18", "hsk_level": 3, "title": "Construction 把 (bǎ)", "explanation_fr": "把 déplace l'objet avant le verbe pour mettre l'accent sur ce qui arrive à l'objet. Le verbe doit avoir un complément.", "pattern": "S + 把 + O + V + Complément", "examples": [{"chinese": "请把门关上", "pinyin": "qǐng bǎ mén guān shàng", "french": "Veuillez fermer la porte"}, {"chinese": "他把作业做完了", "pinyin": "tā bǎ zuòyè zuò wán le", "french": "Il a fini ses devoirs"}]},
-  {"id": "g19", "hsk_level": 3, "title": "Voix passive avec 被 (bèi)", "explanation_fr": "被 introduit la voix passive. Le sujet subit l'action. Souvent utilisé pour des situations négatives.", "pattern": "S + 被 + Agent + V", "examples": [{"chinese": "我的手机被偷了", "pinyin": "wǒ de shǒujī bèi tōu le", "french": "Mon téléphone a été volé"}, {"chinese": "蛋糕被他吃了", "pinyin": "dàngāo bèi tā chī le", "french": "Le gâteau a été mangé par lui"}]},
-  {"id": "g20", "hsk_level": 3, "title": "Durée d'une action", "explanation_fr": "Pour exprimer la durée d'une action, on place la durée après le verbe (et après l'objet s'il y en a un).", "pattern": "S + V + Durée / S + V + O + V + Durée", "examples": [{"chinese": "我学了两年中���", "pinyin": "wǒ xué le liǎng nián zhōngwén", "french": "J'ai étudié le chinois pendant deux ans"}, {"chinese": "他等了一个小时", "pinyin": "tā děng le yí gè xiǎoshí", "french": "Il a attendu une heure"}]},
-  {"id": "g21", "hsk_level": 3, "title": "Conjonctions: 虽然...但是 et 因为...所���", "explanation_fr": "虽然...但是 exprime la concession (bien que). 因为...所以 exprime la cause et la conséquence.", "pattern": "虽然 A，但是 B / 因为 A，所以 B", "examples": [{"chinese": "虽然很累，但是很开心", "pinyin": "suīrán hěn lèi, dànshì hěn kāixīn", "french": "Bien que fatigué, je suis content"}, {"chinese": "因为下雨，所以我没去", "pinyin": "yīnwèi xià yǔ, suǒyǐ wǒ méi qù", "french": "Parce qu'il pleuvait, je n'y suis pas all��"}]},
-  {"id": "g22", "hsk_level": 3, "title": "Complément directionnel", "explanation_fr": "Les compléments directionnels suivent le verbe pour indiquer la direction du mouvement: 来/去, 上/下, 进/出, 回, 过, 起.", "pattern": "V + Direction (来/去/上/下...)", "examples": [{"chinese": "请进��", "pinyin": "qǐng jìn lái", "french": "Entrez, s'il vous plaît"}, {"chinese": "他走出去了", "pinyin": "tā zǒu chū qù le", "french": "Il est sorti"}]},
-  {"id": "g23", "hsk_level": 3, "title": "Expressions de temps précises", "explanation_fr": "En chinois, le temps se place AVANT le verbe ou en début de phrase. L'ordre va du plus grand au plus petit.", "pattern": "Temps + S + V + O", "examples": [{"chinese": "我明天下午三点去", "pinyin": "wǒ míngtiān xiàwǔ sān diǎn qù", "french": "J'y vais demain à 15h"}, {"chinese": "他每天早上跑步", "pinyin": "tā měitiān zǎoshang pǎobù", "french": "Il court tous les matins"}]},
-  {"id": "g24", "hsk_level": 3, "title": "又...又 et 一边...一边", "explanation_fr": "又...又 exprime deux qualités simultanées. 一边...一边 exprime deux actions simultanées.", "pattern": "又 A 又 B / 一边 V1 一边 V2", "examples": [{"chinese": "又便宜又好吃", "pinyin": "yòu piányi yòu hǎochī", "french": "Bon marché et délicieux"}, {"chinese": "一边吃饭一边看电视", "pinyin": "yìbiān chīfàn yìbiān kàn diànshì", "french": "Manger en regardant la télé"}]},
-  {"id": "g25", "hsk_level": 4, "title": "Construction 是...的 (shì...de)", "explanation_fr": "是...的 met l'accent sur le temps, le lieu, la manière ou le but d'une action passée (pas sur l'action elle-même).", "pattern": "S + 是 + Détail + V + 的", "examples": [{"chinese": "我是坐飞机来的", "pinyin": "wǒ shì zuò fēijī lái de", "french": "C'est en avion que je suis venu"}, {"chinese": "他是在北京学的中文", "pinyin": "tā shì zài běijīng xué de zhōngwén", "french": "C'est à Pékin qu'il a appris le chinois"}]},
-  {"id": "g26", "hsk_level": 4, "title": "Potentiel: V + 得/不 + Résultat", "explanation_fr": "得 et 不 insérés entre le verbe et le complément de résultat expriment la possibilité ou l'impossibilité.", "pattern": "V + 得/不 + Complément", "examples": [{"chinese": "听得懂", "pinyin": "tīng de dǒng", "french": "Pouvoir comprendre (en écoutant)"}, {"chinese": "看不见", "pinyin": "k��n bu jiàn", "french": "Ne pas pouvoir voir"}]},
-  {"id": "g27", "hsk_level": 4, "title": "Relatives avec 的", "explanation_fr": "En chinois, la proposition relative se place AVANT le nom qu'elle modifie, suivie de 的.", "pattern": "Proposition relative + 的 + Nom", "examples": [{"chinese": "我买的书", "pinyin": "wǒ mǎi de shū", "french": "Le livre que j'ai acheté"}, {"chinese": "穿红衣服的女孩", "pinyin": "chuān hóng yīfu de nǚhái", "french": "La fille qui porte des vêtements rouges"}]},
-  {"id": "g28", "hsk_level": 4, "title": "越来越 et 越...越", "explanation_fr": "越来越 exprime un changement progressif. 越...越 exprime que plus une chose augmente, plus l'autre aussi.", "pattern": "越来越 + Adj / 越 A 越 B", "examples": [{"chinese": "天气越来越冷", "pinyin": "tiānqì yuèláiyuè lěng", "french": "Le temps devient de plus en plus froid"}, {"chinese": "越学越有意思", "pinyin": "yuè xué yuè yǒu yìsi", "french": "Plus on étudie, plus c'est intéressant"}]},
-  {"id": "g29", "hsk_level": 4, "title": "��...都/也 (même...)", "explanation_fr": "连...都 ou 连...也 exprime 'même' avec un sens d'insistance sur un cas extrême.", "pattern": "连 + N/V + 都/也 + V", "examples": [{"chinese": "他连名字都不知��", "pinyin": "tā lián míngzi dōu bù zhīdào", "french": "Il ne connaît même pas son nom"}, {"chinese": "连孩子也会", "pinyin": "lián háizi yě huì", "french": "Même les enfants savent le faire"}]},
-  {"id": "g30", "hsk_level": 4, "title": "除了...以外 (en dehors de)", "explanation_fr": "除了...以外 exprime l'exclusion ('sauf') ou l'addition ('en plus de'), selon le contexte.", "pattern": "除了 A 以外，都/也 B", "examples": [{"chinese": "除了他以外，都去了", "pinyin": "chúle tā yǐwài, dōu qù le", "french": "À part lui, tout le monde y est allé"}, {"chinese": "除了中文以外，他也会日语", "pinyin": "chúle zh��ngwén yǐwài, tā yě huì rìyǔ", "french": "En plus du chinois, il parle aussi japonais"}]},
-  {"id": "g31", "hsk_level": 4, "title": "不但...而且 (non seulement... mais aussi)", "explanation_fr": "不但...而且 exprime une addition progressive, similaire à 'non seulement... mais en plus'.", "pattern": "不但 A，而且 B", "examples": [{"chinese": "她不但聪明，而且很努力", "pinyin": "tā búdàn cōngming, érqiě hěn nǔlì", "french": "Elle est non seulement intelligente mais aussi travailleuse"}]},
-  {"id": "g32", "hsk_level": 4, "title": "只要...就 et 只有...才", "explanation_fr": "只要...就 exprime une condition suffisante ('il suffit que'). 只有...才 exprime une condition nécessaire ('seulement si').", "pattern": "只要 A，就 B / 只有 A，才 B", "examples": [{"chinese": "只要努力，就能成功", "pinyin": "zhǐyào nǔlì, jiù néng chénggōng", "french": "Il suffit de travailler dur pour réussir"}, {"chinese": "只有练习，才能进步", "pinyin": "zhǐyǒu liànxí, cái n��ng jìnbù", "french": "Ce n'est qu'en pratiquant qu'on peut progresser"}]}
+  {
+    "id": "g1",
+    "hsk_level": 1,
+    "title": "Ordre des mots: Sujet + Verbe + Objet",
+    "explanation_fr": "Le chinois suit généralement l'ordre SVO comme le français. Le sujet vient en premier, suivi du verbe, puis de l'objet.",
+    "pattern": "S + V + O",
+    "examples": [
+      {"chinese": "我喝水。", "pinyin": "wǒ hē shuǐ.", "french": "Je bois de l'eau."},
+      {"chinese": "他看书。", "pinyin": "tā kàn shū.", "french": "Il lit un livre."},
+      {"chinese": "她吃米饭。", "pinyin": "tā chī mǐfàn.", "french": "Elle mange du riz."}
+    ]
+  },
+  {
+    "id": "g2",
+    "hsk_level": 1,
+    "title": "Questions avec 吗 (ma)",
+    "explanation_fr": "Pour former une question oui/non, ajoutez la particule 吗 à la fin d'une phrase affirmative. La structure de la phrase ne change pas.",
+    "pattern": "Phrase affirmative + 吗？",
+    "examples": [
+      {"chinese": "你是学生吗？", "pinyin": "nǐ shì xuéshēng ma?", "french": "Es-tu étudiant ?"},
+      {"chinese": "他喜欢中国菜吗？", "pinyin": "tā xǐhuan Zhōngguó cài ma?", "french": "Aime-t-il la cuisine chinoise ?"},
+      {"chinese": "你忙吗？", "pinyin": "nǐ máng ma?", "french": "Es-tu occupé ?"}
+    ]
+  },
+  {
+    "id": "g3",
+    "hsk_level": 1,
+    "title": "Négation avec 不 (bù) et 没 (méi)",
+    "explanation_fr": "不 est utilisé pour nier des actions habituelles, des états ou des intentions futures. 没 est utilisé pour nier des actions passées ou l'existence (没有).",
+    "pattern": "S + 不/没 + V + O",
+    "examples": [
+      {"chinese": "我不喝咖啡。", "pinyin": "wǒ bù hē kāfēi.", "french": "Je ne bois pas de café."},
+      {"chinese": "他没去学校。", "pinyin": "tā méi qù xuéxiào.", "french": "Il n'est pas allé à l'école."},
+      {"chinese": "我没有钱。", "pinyin": "wǒ méiyǒu qián.", "french": "Je n'ai pas d'argent."}
+    ]
+  },
+  {
+    "id": "g4",
+    "hsk_level": 1,
+    "title": "Le verbe 是 (shì) - être",
+    "explanation_fr": "是 relie le sujet à un nom ou un pronom. Attention : on n'utilise pas 是 avec les adjectifs (on utilise 很 à la place).",
+    "pattern": "A + 是 + B",
+    "examples": [
+      {"chinese": "我是法国人。", "pinyin": "wǒ shì Fǎguó rén.", "french": "Je suis français."},
+      {"chinese": "她是老师。", "pinyin": "tā shì lǎoshī.", "french": "Elle est professeur."},
+      {"chinese": "这是我的书。", "pinyin": "zhè shì wǒ de shū.", "french": "C'est mon livre."}
+    ]
+  },
+  {
+    "id": "g5",
+    "hsk_level": 1,
+    "title": "La particule structurale 的 (de)",
+    "explanation_fr": "的 est placé entre un modificateur et un nom pour indiquer la possession ou la description. Équivalent de 'de' en français.",
+    "pattern": "Modificateur + 的 + Nom",
+    "examples": [
+      {"chinese": "我的妈妈", "pinyin": "wǒ de māma", "french": "ma maman"},
+      {"chinese": "漂亮的女孩", "pinyin": "piàoliang de nǚhái", "french": "une jolie fille"},
+      {"chinese": "中国的文化", "pinyin": "Zhōngguó de wénhuà", "french": "la culture chinoise"}
+    ]
+  },
+  {
+    "id": "g6",
+    "hsk_level": 1,
+    "title": "Compter avec les classificateurs",
+    "explanation_fr": "En chinois, un classificateur (ou mot de mesure) doit être placé entre un nombre et un nom. Le classificateur le plus courant est 个 (gè).",
+    "pattern": "Nombre + Classificateur + Nom",
+    "examples": [
+      {"chinese": "三个人", "pinyin": "sān gè rén", "french": "trois personnes"},
+      {"chinese": "两本书", "pinyin": "liǎng běn shū", "french": "deux livres"},
+      {"chinese": "一杯茶", "pinyin": "yì bēi chá", "french": "une tasse de thé"}
+    ]
+  },
+  {
+    "id": "g7",
+    "hsk_level": 1,
+    "title": "Expression du temps: placement temporel",
+    "explanation_fr": "En chinois, les expressions de temps se placent avant le verbe, généralement après le sujet. L'ordre est : Sujet + Temps + Verbe.",
+    "pattern": "S + Temps + V + O",
+    "examples": [
+      {"chinese": "我明天去北京。", "pinyin": "wǒ míngtiān qù Běijīng.", "french": "Je vais à Pékin demain."},
+      {"chinese": "他昨天买了一本书。", "pinyin": "tā zuótiān mǎi le yì běn shū.", "french": "Il a acheté un livre hier."},
+      {"chinese": "我们现在吃饭。", "pinyin": "wǒmen xiànzài chīfàn.", "french": "Nous mangeons maintenant."}
+    ]
+  },
+  {
+    "id": "g8",
+    "hsk_level": 1,
+    "title": "Questions avec des mots interrogatifs",
+    "explanation_fr": "Les mots interrogatifs (谁, 什么, 哪, 哪儿, 怎么) remplacent directement l'élément questionné dans la phrase, sans changer l'ordre des mots.",
+    "pattern": "S + V + Mot interrogatif?",
+    "examples": [
+      {"chinese": "你叫什么名字？", "pinyin": "nǐ jiào shénme míngzi?", "french": "Comment t'appelles-tu ?"},
+      {"chinese": "你去哪儿？", "pinyin": "nǐ qù nǎr?", "french": "Où vas-tu ?"},
+      {"chinese": "这是谁的书？", "pinyin": "zhè shì shéi de shū?", "french": "À qui est ce livre ?"}
+    ]
+  },
+  {
+    "id": "g9",
+    "hsk_level": 1,
+    "title": "La particule 了 (le) - action accomplie",
+    "explanation_fr": "了 placé après un verbe indique qu'une action a été accomplie. Ce n'est pas exactement un passé mais un marqueur d'accomplissement.",
+    "pattern": "S + V + 了 + O",
+    "examples": [
+      {"chinese": "我吃了三个苹果。", "pinyin": "wǒ chī le sān gè píngguǒ.", "french": "J'ai mangé trois pommes."},
+      {"chinese": "她买了一件衣服。", "pinyin": "tā mǎi le yí jiàn yīfu.", "french": "Elle a acheté un vêtement."},
+      {"chinese": "我们到了。", "pinyin": "wǒmen dào le.", "french": "Nous sommes arrivés."}
+    ]
+  },
+  {
+    "id": "g10",
+    "hsk_level": 2,
+    "title": "Comparaison avec 比 (bǐ)",
+    "explanation_fr": "比 est utilisé pour comparer deux éléments. L'adjectif vient après l'objet de comparaison, sans 很.",
+    "pattern": "A + 比 + B + Adjectif",
+    "examples": [
+      {"chinese": "他比我高。", "pinyin": "tā bǐ wǒ gāo.", "french": "Il est plus grand que moi."},
+      {"chinese": "今天比昨天冷。", "pinyin": "jīntiān bǐ zuótiān lěng.", "french": "Aujourd'hui il fait plus froid qu'hier."},
+      {"chinese": "中文比法语难。", "pinyin": "Zhōngwén bǐ Fǎyǔ nán.", "french": "Le chinois est plus difficile que le français."}
+    ]
+  },
+  {
+    "id": "g11",
+    "hsk_level": 2,
+    "title": "Le superlatif avec 最 (zuì)",
+    "explanation_fr": "最 se place directement avant un adjectif ou un verbe pour exprimer le superlatif.",
+    "pattern": "最 + Adjectif/Verbe",
+    "examples": [
+      {"chinese": "她是最漂亮的。", "pinyin": "tā shì zuì piàoliang de.", "french": "Elle est la plus belle."},
+      {"chinese": "我最喜欢吃饺子。", "pinyin": "wǒ zuì xǐhuan chī jiǎozi.", "french": "Ce que je préfère manger, ce sont les raviolis."},
+      {"chinese": "这是最好的办法。", "pinyin": "zhè shì zuì hǎo de bànfǎ.", "french": "C'est la meilleure méthode."}
+    ]
+  },
+  {
+    "id": "g12",
+    "hsk_level": 2,
+    "title": "Cause et conséquence: 因为...所以...",
+    "explanation_fr": "因为 introduit la cause et 所以 introduit la conséquence. On peut utiliser l'un sans l'autre.",
+    "pattern": "因为 + Cause, 所以 + Conséquence",
+    "examples": [
+      {"chinese": "因为下雨了，所以我没去。", "pinyin": "yīnwèi xià yǔ le, suǒyǐ wǒ méi qù.", "french": "Parce qu'il a plu, je n'y suis pas allé."},
+      {"chinese": "因为他很忙，所以不能来。", "pinyin": "yīnwèi tā hěn máng, suǒyǐ bù néng lái.", "french": "Parce qu'il est très occupé, il ne peut pas venir."}
+    ]
+  },
+  {
+    "id": "g13",
+    "hsk_level": 2,
+    "title": "Concession: 虽然...但是...",
+    "explanation_fr": "虽然 (bien que) introduit une concession et 但是 (mais) introduit le contraste. Le sujet peut venir avant ou après 虽然.",
+    "pattern": "虽然 + A, 但是 + B",
+    "examples": [
+      {"chinese": "虽然很贵，但是质量很好。", "pinyin": "suīrán hěn guì, dànshì zhìliàng hěn hǎo.", "french": "Bien que ce soit cher, la qualité est bonne."},
+      {"chinese": "他虽然年轻，但是很有经验。", "pinyin": "tā suīrán niánqīng, dànshì hěn yǒu jīngyàn.", "french": "Bien qu'il soit jeune, il a beaucoup d'expérience."}
+    ]
+  },
+  {
+    "id": "g14",
+    "hsk_level": 2,
+    "title": "Condition: 如果...就...",
+    "explanation_fr": "如果 introduit la condition (si) et 就 introduit le résultat (alors). 就 se place après le sujet de la deuxième proposition.",
+    "pattern": "如果 + Condition, S + 就 + Résultat",
+    "examples": [
+      {"chinese": "如果明天下雨，我就不去了。", "pinyin": "rúguǒ míngtiān xià yǔ, wǒ jiù bú qù le.", "french": "S'il pleut demain, je n'irai pas."},
+      {"chinese": "如果你有问题，就问我。", "pinyin": "rúguǒ nǐ yǒu wèntí, jiù wèn wǒ.", "french": "Si tu as des questions, demande-moi."}
+    ]
+  },
+  {
+    "id": "g15",
+    "hsk_level": 2,
+    "title": "Action en cours: 正在 (zhèngzài)",
+    "explanation_fr": "正在 se place avant le verbe pour indiquer qu'une action est en cours, comme le gérondif en français. On peut aussi utiliser 在 seul.",
+    "pattern": "S + 正在 + V + (呢)",
+    "examples": [
+      {"chinese": "他正在看电视呢。", "pinyin": "tā zhèngzài kàn diànshì ne.", "french": "Il est en train de regarder la télé."},
+      {"chinese": "我正在学中文。", "pinyin": "wǒ zhèngzài xué Zhōngwén.", "french": "Je suis en train d'apprendre le chinois."},
+      {"chinese": "她在吃饭呢。", "pinyin": "tā zài chīfàn ne.", "french": "Elle est en train de manger."}
+    ]
+  },
+  {
+    "id": "g16",
+    "hsk_level": 2,
+    "title": "Expérience passée avec 过 (guò)",
+    "explanation_fr": "过 placé après le verbe indique qu'on a fait l'expérience de quelque chose au moins une fois. La négation se fait avec 没...过.",
+    "pattern": "S + V + 过 + O",
+    "examples": [
+      {"chinese": "我去过中国。", "pinyin": "wǒ qù guò Zhōngguó.", "french": "Je suis déjà allé en Chine."},
+      {"chinese": "你吃过北京烤鸭吗？", "pinyin": "nǐ chī guò Běijīng kǎoyā ma?", "french": "As-tu déjà mangé du canard laqué ?"},
+      {"chinese": "我没看过这个电影。", "pinyin": "wǒ méi kàn guò zhège diànyǐng.", "french": "Je n'ai jamais vu ce film."}
+    ]
+  },
+  {
+    "id": "g17",
+    "hsk_level": 2,
+    "title": "Le complément de résultat",
+    "explanation_fr": "Un complément de résultat est un verbe ou adjectif ajouté directement après le verbe principal pour indiquer le résultat de l'action.",
+    "pattern": "V + Complément de résultat",
+    "examples": [
+      {"chinese": "我听懂了。", "pinyin": "wǒ tīng dǒng le.", "french": "J'ai compris (en écoutant)."},
+      {"chinese": "他做完了作业。", "pinyin": "tā zuò wán le zuòyè.", "french": "Il a fini ses devoirs."},
+      {"chinese": "你看到了吗？", "pinyin": "nǐ kàn dào le ma?", "french": "As-tu vu (remarqué) ?"}
+    ]
+  },
+  {
+    "id": "g18",
+    "hsk_level": 3,
+    "title": "La construction 把 (bǎ)",
+    "explanation_fr": "La construction 把 place l'objet avant le verbe pour mettre l'accent sur ce qui arrive à l'objet. Le verbe doit avoir un complément ou résultat.",
+    "pattern": "S + 把 + Objet + V + Complément",
+    "examples": [
+      {"chinese": "请你把门关上。", "pinyin": "qǐng nǐ bǎ mén guān shàng.", "french": "Ferme la porte, s'il te plaît."},
+      {"chinese": "他把书放在桌子上了。", "pinyin": "tā bǎ shū fàng zài zhuōzi shàng le.", "french": "Il a posé le livre sur la table."},
+      {"chinese": "我把作业做完了。", "pinyin": "wǒ bǎ zuòyè zuò wán le.", "french": "J'ai fini mes devoirs."}
+    ]
+  },
+  {
+    "id": "g19",
+    "hsk_level": 3,
+    "title": "Le passif avec 被 (bèi)",
+    "explanation_fr": "被 introduit la voix passive. Le sujet subit l'action. Souvent utilisé pour des situations négatives ou indésirables.",
+    "pattern": "S + 被 + (Agent) + V + Complément",
+    "examples": [
+      {"chinese": "我的手机被偷了。", "pinyin": "wǒ de shǒujī bèi tōu le.", "french": "Mon téléphone a été volé."},
+      {"chinese": "蛋糕被他吃了。", "pinyin": "dàngāo bèi tā chī le.", "french": "Le gâteau a été mangé par lui."},
+      {"chinese": "那本书被借走了。", "pinyin": "nà běn shū bèi jiè zǒu le.", "french": "Ce livre a été emprunté."}
+    ]
+  },
+  {
+    "id": "g20",
+    "hsk_level": 3,
+    "title": "Le complément de degré avec 得 (de)",
+    "explanation_fr": "得 relie un verbe à un complément qui décrit comment l'action est réalisée (manière ou degré).",
+    "pattern": "V + 得 + Complément (Adjectif/Phrase)",
+    "examples": [
+      {"chinese": "她说得很好。", "pinyin": "tā shuō de hěn hǎo.", "french": "Elle parle très bien."},
+      {"chinese": "他跑得很快。", "pinyin": "tā pǎo de hěn kuài.", "french": "Il court très vite."},
+      {"chinese": "你写得太慢了。", "pinyin": "nǐ xiě de tài màn le.", "french": "Tu écris trop lentement."}
+    ]
+  },
+  {
+    "id": "g21",
+    "hsk_level": 3,
+    "title": "Le complément directionnel",
+    "explanation_fr": "Les compléments directionnels (来/去) s'ajoutent après le verbe pour indiquer la direction du mouvement par rapport au locuteur.",
+    "pattern": "V + 上/下/进/出/回/过/起 + 来/去",
+    "examples": [
+      {"chinese": "他走进来了。", "pinyin": "tā zǒu jìnlai le.", "french": "Il est entré (vers nous)."},
+      {"chinese": "请你拿出来。", "pinyin": "qǐng nǐ ná chūlai.", "french": "Sors-le, s'il te plaît."},
+      {"chinese": "他跑回去了。", "pinyin": "tā pǎo huíqu le.", "french": "Il est retourné en courant."}
+    ]
+  },
+  {
+    "id": "g22",
+    "hsk_level": 3,
+    "title": "Le complément potentiel 得/不",
+    "explanation_fr": "Pour exprimer la possibilité ou l'impossibilité d'atteindre un résultat, on insère 得 (possible) ou 不 (impossible) entre le verbe et le complément de résultat.",
+    "pattern": "V + 得/不 + Complément de résultat",
+    "examples": [
+      {"chinese": "我听得懂中文。", "pinyin": "wǒ tīng de dǒng Zhōngwén.", "french": "Je peux comprendre le chinois (à l'écoute)."},
+      {"chinese": "这个字我看不清楚。", "pinyin": "zhège zì wǒ kàn bu qīngchu.", "french": "Je n'arrive pas à voir clairement ce caractère."},
+      {"chinese": "吃得完吗？", "pinyin": "chī de wán ma?", "french": "Tu peux tout finir (manger) ?"}
+    ]
+  },
+  {
+    "id": "g23",
+    "hsk_level": 3,
+    "title": "Durée d'une action",
+    "explanation_fr": "Pour exprimer la durée d'une action, le complément de temps se place après le verbe. Si le verbe a un objet, on répète le verbe ou on place l'objet avant.",
+    "pattern": "S + V + Durée + (的 + O)",
+    "examples": [
+      {"chinese": "我学了三年中文。", "pinyin": "wǒ xué le sān nián Zhōngwén.", "french": "J'ai étudié le chinois pendant trois ans."},
+      {"chinese": "他睡了八个小时。", "pinyin": "tā shuì le bā gè xiǎoshí.", "french": "Il a dormi huit heures."},
+      {"chinese": "我等了半个小时。", "pinyin": "wǒ děng le bàn gè xiǎoshí.", "french": "J'ai attendu une demi-heure."}
+    ]
+  },
+  {
+    "id": "g24",
+    "hsk_level": 3,
+    "title": "Propositions relatives avec 的",
+    "explanation_fr": "En chinois, les propositions relatives se placent avant le nom qu'elles modifient, avec 的 pour relier la proposition au nom.",
+    "pattern": "Proposition relative + 的 + Nom",
+    "examples": [
+      {"chinese": "我买的书很好看。", "pinyin": "wǒ mǎi de shū hěn hǎokàn.", "french": "Le livre que j'ai acheté est intéressant."},
+      {"chinese": "说中文的人很多。", "pinyin": "shuō Zhōngwén de rén hěn duō.", "french": "Les gens qui parlent chinois sont nombreux."},
+      {"chinese": "他做的菜很好吃。", "pinyin": "tā zuò de cài hěn hǎochī.", "french": "Les plats qu'il prépare sont délicieux."}
+    ]
+  },
+  {
+    "id": "g25",
+    "hsk_level": 3,
+    "title": "不但...而且... (non seulement...mais aussi)",
+    "explanation_fr": "Cette structure exprime une progression : non seulement une chose, mais en plus une autre chose.",
+    "pattern": "不但 + A, 而且 + B",
+    "examples": [
+      {"chinese": "她不但会说中文，而且会说日语。", "pinyin": "tā búdàn huì shuō Zhōngwén, érqiě huì shuō Rìyǔ.", "french": "Non seulement elle parle chinois, mais aussi japonais."},
+      {"chinese": "这个地方不但漂亮，而且安静。", "pinyin": "zhège dìfang búdàn piàoliang, érqiě ānjìng.", "french": "Cet endroit est non seulement beau, mais aussi calme."}
+    ]
+  },
+  {
+    "id": "g26",
+    "hsk_level": 3,
+    "title": "只要...就... (du moment que...alors...)",
+    "explanation_fr": "只要 exprime une condition suffisante : du moment que la condition est remplie, le résultat s'ensuit.",
+    "pattern": "只要 + Condition, S + 就 + Résultat",
+    "examples": [
+      {"chinese": "只要你努力，就能成功。", "pinyin": "zhǐyào nǐ nǔlì, jiù néng chénggōng.", "french": "Du moment que tu fais des efforts, tu réussiras."},
+      {"chinese": "只要天气好，我们就去爬山。", "pinyin": "zhǐyào tiānqì hǎo, wǒmen jiù qù pá shān.", "french": "Du moment qu'il fait beau, nous irons randonner."}
+    ]
+  },
+  {
+    "id": "g27",
+    "hsk_level": 4,
+    "title": "越来越 (yuè lái yuè) - de plus en plus",
+    "explanation_fr": "越来越 suivi d'un adjectif exprime un changement progressif, une tendance croissante.",
+    "pattern": "越来越 + Adjectif/Verbe",
+    "examples": [
+      {"chinese": "天气越来越冷了。", "pinyin": "tiānqì yuè lái yuè lěng le.", "french": "Le temps est de plus en plus froid."},
+      {"chinese": "他的中文越来越好。", "pinyin": "tā de Zhōngwén yuè lái yuè hǎo.", "french": "Son chinois est de mieux en mieux."},
+      {"chinese": "城市越来越大了。", "pinyin": "chéngshì yuè lái yuè dà le.", "french": "La ville est de plus en plus grande."}
+    ]
+  },
+  {
+    "id": "g28",
+    "hsk_level": 4,
+    "title": "越...越... (yuè...yuè...) - plus...plus...",
+    "explanation_fr": "Cette structure exprime une relation proportionnelle entre deux éléments qui changent ensemble.",
+    "pattern": "越 + A + 越 + B",
+    "examples": [
+      {"chinese": "越学越有意思。", "pinyin": "yuè xué yuè yǒu yìsi.", "french": "Plus on étudie, plus c'est intéressant."},
+      {"chinese": "他越说越快。", "pinyin": "tā yuè shuō yuè kuài.", "french": "Plus il parle, plus il parle vite."},
+      {"chinese": "越努力越幸运。", "pinyin": "yuè nǔlì yuè xìngyùn.", "french": "Plus on fait d'efforts, plus on a de chance."}
+    ]
+  },
+  {
+    "id": "g29",
+    "hsk_level": 4,
+    "title": "连...都/也... (même...aussi/même pas)",
+    "explanation_fr": "Cette structure met en relief un cas extrême. 连 introduit l'élément surprenant, suivi de 都 ou 也.",
+    "pattern": "连 + Nom/Verbe + 都/也 + (不/没) + V",
+    "examples": [
+      {"chinese": "他连一个字都不认识。", "pinyin": "tā lián yí gè zì dōu bú rènshi.", "french": "Il ne connaît même pas un seul caractère."},
+      {"chinese": "连孩子都知道。", "pinyin": "lián háizi dōu zhīdào.", "french": "Même les enfants le savent."},
+      {"chinese": "我连饭都没吃。", "pinyin": "wǒ lián fàn dōu méi chī.", "french": "Je n'ai même pas mangé."}
+    ]
+  },
+  {
+    "id": "g30",
+    "hsk_level": 4,
+    "title": "无论/不管...都... (peu importe...)",
+    "explanation_fr": "无论 ou 不管 introduisent une condition universelle : quel que soit le cas, le résultat reste le même.",
+    "pattern": "无论/不管 + Question, S + 都 + V",
+    "examples": [
+      {"chinese": "无论多难，我都不会放弃。", "pinyin": "wúlùn duō nán, wǒ dōu bú huì fàngqì.", "french": "Peu importe la difficulté, je n'abandonnerai pas."},
+      {"chinese": "不管你去不去，我都去。", "pinyin": "bùguǎn nǐ qù bu qù, wǒ dōu qù.", "french": "Que tu y ailles ou non, j'y vais."}
+    ]
+  },
+  {
+    "id": "g31",
+    "hsk_level": 4,
+    "title": "是...的 (shì...de) - mise en relief",
+    "explanation_fr": "La structure 是...的 est utilisée pour mettre en relief le temps, le lieu, la manière ou le but d'une action passée connue.",
+    "pattern": "S + 是 + Info mise en relief + V + 的",
+    "examples": [
+      {"chinese": "你是什么时候来的？", "pinyin": "nǐ shì shénme shíhou lái de?", "french": "Quand est-ce que tu es venu ?"},
+      {"chinese": "我是坐飞机来的。", "pinyin": "wǒ shì zuò fēijī lái de.", "french": "Je suis venu en avion."},
+      {"chinese": "这本书是在中国买的。", "pinyin": "zhè běn shū shì zài Zhōngguó mǎi de.", "french": "Ce livre a été acheté en Chine."}
+    ]
+  },
+  {
+    "id": "g32",
+    "hsk_level": 4,
+    "title": "除了...以外，还/都... (en plus de / à part)",
+    "explanation_fr": "除了 A 以外，还 B signifie 'en plus de A, aussi B' (inclusion). 除了 A 以外，都 B signifie 'à part A, tout B' (exclusion).",
+    "pattern": "除了 + A + 以外, 还/都 + B",
+    "examples": [
+      {"chinese": "除了中文以外，她还会说日语。", "pinyin": "chúle Zhōngwén yǐwài, tā hái huì shuō Rìyǔ.", "french": "En plus du chinois, elle parle aussi japonais."},
+      {"chinese": "除了他以外，大家都来了。", "pinyin": "chúle tā yǐwài, dàjiā dōu lái le.", "french": "À part lui, tout le monde est venu."}
+    ]
+  },
+  {
+    "id": "g33",
+    "hsk_level": 4,
+    "title": "不是...而是... (ce n'est pas...mais plutôt...)",
+    "explanation_fr": "Cette structure corrige une idée fausse en opposant deux éléments : 'ce n'est pas A, mais B'.",
+    "pattern": "不是 + A, 而是 + B",
+    "examples": [
+      {"chinese": "他不是不想去，而是没有时间。", "pinyin": "tā bú shì bù xiǎng qù, ér shì méiyǒu shíjiān.", "french": "Ce n'est pas qu'il ne veut pas y aller, mais qu'il n'a pas le temps."},
+      {"chinese": "问题不是价格，而是质量。", "pinyin": "wèntí bú shì jiàgé, ér shì zhìliàng.", "french": "Le problème n'est pas le prix, mais la qualité."}
+    ]
+  },
+  {
+    "id": "g34",
+    "hsk_level": 4,
+    "title": "一...就... (dès que...alors...)",
+    "explanation_fr": "Cette structure exprime qu'une action suit immédiatement après une autre. 'Dès que A, alors B'.",
+    "pattern": "S + 一 + V1, + 就 + V2",
+    "examples": [
+      {"chinese": "我一到家就给你打电话。", "pinyin": "wǒ yí dào jiā jiù gěi nǐ dǎ diànhuà.", "french": "Dès que j'arrive à la maison, je t'appelle."},
+      {"chinese": "他一看书就睡觉。", "pinyin": "tā yí kàn shū jiù shuìjiào.", "french": "Dès qu'il lit, il s'endort."},
+      {"chinese": "天一黑就回家。", "pinyin": "tiān yì hēi jiù huí jiā.", "french": "Dès qu'il fait nuit, il rentre."}
+    ]
+  }
 ]

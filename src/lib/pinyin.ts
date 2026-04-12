@@ -95,7 +95,6 @@ const VALID_SYLLABLES: string[] = [
   'yao', 'you', 'yan', 'yin', 'yue', 'yun',
   'wai', 'wei', 'wan', 'wen',
   'ang', 'eng',
-  'ong',
   // 2-letter syllables
   'ba', 'bo', 'bi', 'bu',
   'pa', 'po', 'pi', 'pu',

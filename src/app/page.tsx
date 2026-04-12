@@ -5,6 +5,25 @@ import Navigation from "@/components/Navigation";
 import DailyGoal from "@/components/DailyGoal";
 import StreakCalendar from "@/components/StreakCalendar";
 import Link from "next/link";
+import { getHskProgress, isReadyForTest } from "@/lib/progression";
+
+import hsk1Data from "@/data/hsk1.json";
+import hsk2Data from "@/data/hsk2.json";
+import hsk3Data from "@/data/hsk3.json";
+import hsk4Data from "@/data/hsk4.json";
+
+interface HskWord {
+  simplified: string;
+  hsk_level: number;
+  [key: string]: unknown;
+}
+
+const allHskWords: HskWord[] = [
+  ...(hsk1Data as HskWord[]),
+  ...(hsk2Data as HskWord[]),
+  ...(hsk3Data as HskWord[]),
+  ...(hsk4Data as HskWord[]),
+];
 
 interface Stats {
   words_mastered: number;
@@ -58,6 +77,8 @@ export default function Dashboard() {
   const [urgentCount, setUrgentCount] = useState(0);
   const [consolidateCount, setConsolidateCount] = useState(0);
   const [newWordsCount] = useState(3);
+  const [hskProgress, setHskProgress] = useState({ total: 0, mastered: 0, percentage: 0 });
+  const [readyForTest, setReadyForTest] = useState(false);
   const [dailyPlan, setDailyPlan] = useState<DailyPlan>({
     date: todayKey(),
     urgent_review: false,
@@ -149,6 +170,24 @@ export default function Dashboard() {
 
     // Update words_to_review in stats
     currentStats.words_to_review = urgent + consolidate;
+
+    // Calculate HSK progression
+    try {
+      const srsRaw = localStorage.getItem("srs_progress");
+      const srsObj = srsRaw ? JSON.parse(srsRaw) : {};
+      // Normalize: ensure box_level exists
+      const normalizedSrs: Record<string, { box_level: number }> = {};
+      for (const [key, val] of Object.entries(srsObj)) {
+        const v = val as Record<string, unknown>;
+        normalizedSrs[key] = { box_level: (v.box_level as number) ?? (v.box as number) ?? 0 };
+      }
+      const hskLevel = currentStats.current_hsk_level || 1;
+      const prog = getHskProgress(hskLevel, normalizedSrs, allHskWords);
+      setHskProgress(prog);
+      setReadyForTest(isReadyForTest(hskLevel, normalizedSrs, allHskWords));
+    } catch {
+      /* ignore */
+    }
 
     // Load daily plan
     const savedPlan = localStorage.getItem("daily_plan");
@@ -482,6 +521,63 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* HSK Progression */}
+        <div className="bg-white rounded-2xl p-5 border border-[#E5E7EB] shadow-card animate-fade-in animate-delay-2">
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="font-bold text-xs text-[#6B7280] uppercase tracking-widest">
+              Progression HSK
+            </h2>
+            <span className="text-xs font-bold text-[#FF9600] bg-[#FF9600]/10 px-2.5 py-1 rounded-full">
+              HSK {stats.current_hsk_level}
+            </span>
+          </div>
+
+          {stats.current_hsk_level >= 4 && hskProgress.percentage >= 80 ? (
+            <div className="text-center py-3">
+              <div className="text-3xl mb-2">🏆</div>
+              <p className="text-sm font-semibold text-[#1A1A1A]">
+                Tu maitrises tous les niveaux disponibles !
+              </p>
+            </div>
+          ) : (
+            <>
+              {/* Progress bar */}
+              <div className="mb-2">
+                <div className="flex items-center justify-between mb-1.5">
+                  <span className="text-sm font-semibold text-[#1A1A1A]">
+                    {hskProgress.mastered}/{hskProgress.total} mots maitrises
+                  </span>
+                  <span className="text-sm font-bold text-[#FF9600]">{hskProgress.percentage}%</span>
+                </div>
+                <div className="w-full h-3 bg-[#E5E7EB] rounded-full overflow-hidden">
+                  <div
+                    className="h-full rounded-full transition-all duration-700"
+                    style={{
+                      width: `${hskProgress.percentage}%`,
+                      background: hskProgress.percentage >= 80
+                        ? "linear-gradient(90deg, #58CC02, #1CB0F6)"
+                        : "linear-gradient(90deg, #FF9600, #FFD700)",
+                    }}
+                  />
+                </div>
+              </div>
+
+              {readyForTest ? (
+                <Link
+                  href="/test"
+                  className="block w-full bg-gradient-to-r from-[#58CC02] to-[#1CB0F6] text-white text-center font-bold text-sm py-3 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all mt-3"
+                >
+                  🎯 Passer le test HSK {stats.current_hsk_level}
+                </Link>
+              ) : (
+                <p className="text-xs text-[#6B7280] mt-2">
+                  Continue a apprendre pour debloquer le test (80% requis)
+                </p>
+              )}
+            </>
+          )}
         </div>
 
         {/* Daily Goal Ring */}

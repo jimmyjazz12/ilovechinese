@@ -133,6 +133,7 @@ export default function ReviewPage() {
   const [grammarAnswered, setGrammarAnswered] = useState(false);
 
   useEffect(() => {
+    // Load SRS progress
     const saved = localStorage.getItem("srs_progress");
     if (saved) {
       const parsed = JSON.parse(saved);
@@ -146,6 +147,15 @@ export default function ReviewPage() {
         migrated[key] = p;
       }
       setProgress(migrated);
+    }
+
+    // Auto-set HSK level from user_stats
+    try {
+      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+      const level = stats.current_hsk_level || 1;
+      setCurrentHsk(level);
+    } catch {
+      /* ignore */
     }
   }, []);
 
@@ -168,11 +178,16 @@ export default function ReviewPage() {
     const dueWords: Word[] = [];
     const newWords: Word[] = [];
 
+    // Due reviews can come from any level <= currentHsk
+    // New words only come from the current HSK level
     for (const word of hskWords) {
       const key = word.simplified;
       const prog = progress[key];
       if (!prog) {
-        newWords.push(word);
+        // Only introduce new words from the current level
+        if (word.hsk_level === currentHsk) {
+          newWords.push(word);
+        }
       } else if (prog.next_review <= now) {
         dueWords.push(word);
       }
@@ -553,12 +568,17 @@ export default function ReviewPage() {
   // Auto-play audio for audio quiz
   useEffect(() => {
     if (quizData?.autoPlay && currentItem?.word) {
-      const utterance = new SpeechSynthesisUtterance(currentItem.word.simplified);
-      utterance.lang = "zh-CN";
-      utterance.rate = 0.8;
-      speechSynthesis.speak(utterance);
+      speechSynthesis.cancel();
+      // Small delay to ensure cancel completes
+      const timer = setTimeout(() => {
+        const utterance = new SpeechSynthesisUtterance(currentItem.word!.simplified);
+        utterance.lang = "zh-CN";
+        utterance.rate = 0.7;
+        speechSynthesis.speak(utterance);
+      }, 200);
+      return () => clearTimeout(timer);
     }
-  }, [quizData, currentItem]);
+  }, [currentIndex]);
 
   // Grammar quiz data
   const grammarQuizData = useMemo(() => {
@@ -655,24 +675,29 @@ export default function ReviewPage() {
             </div>
           )}
 
-          {/* HSK Level selector */}
+          {/* HSK Level indicator */}
           <div className="space-y-2">
-            <label className="text-sm text-[#6B7280] font-medium">Niveau maximum</label>
+            <label className="text-sm text-[#6B7280] font-medium">Niveau actuel</label>
             <div className="flex gap-2 justify-center">
               {[1, 2, 3, 4].map((level) => (
-                <button
+                <div
                   key={level}
-                  onClick={() => setCurrentHsk(level)}
-                  className={`px-4 py-2 rounded-xl font-bold transition-all text-sm ${
-                    currentHsk === level
+                  className={`px-4 py-2 rounded-xl font-bold text-sm ${
+                    level === currentHsk
                       ? "bg-[#58CC02] text-white shadow-md"
-                      : "bg-white text-[#6B7280] border border-[#E5E7EB] hover:border-[#58CC02]"
+                      : level < currentHsk
+                      ? "bg-[#58CC02]/20 text-[#58CC02] border border-[#58CC02]/30"
+                      : "bg-[#E5E7EB]/50 text-[#6B7280]/40 border border-[#E5E7EB]"
                   }`}
                 >
                   HSK {level}
-                </button>
+                  {level < currentHsk && " ✓"}
+                </div>
               ))}
             </div>
+            <p className="text-xs text-[#6B7280] text-center">
+              Nouveaux mots : HSK {currentHsk} | Revisions : HSK 1-{currentHsk}
+            </p>
           </div>
 
           {/* Session type selector */}
@@ -860,6 +885,7 @@ export default function ReviewPage() {
         {currentItem?.type === "vocabulary" && currentItem.quizType !== "pronunciation" && quizData && (
           <>
             <QuizCard
+              key={`quiz-${currentIndex}`}
               question={quizData.question}
               questionLabel={quizData.questionLabel}
               options={quizData.options}
@@ -870,9 +896,10 @@ export default function ReviewPage() {
             {currentItem.quizType === "audio_to_char" && currentItem.word && (
               <button
                 onClick={() => {
+                  speechSynthesis.cancel();
                   const u = new SpeechSynthesisUtterance(currentItem.word!.simplified);
                   u.lang = "zh-CN";
-                  u.rate = 0.8;
+                  u.rate = 0.7;
                   speechSynthesis.speak(u);
                 }}
                 className="mx-auto mt-4 bg-[#1CB0F6] text-white font-bold px-6 py-2 rounded-xl flex items-center gap-2 hover:bg-[#0D9FE5] transition-all"

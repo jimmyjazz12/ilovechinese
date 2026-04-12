@@ -52,11 +52,24 @@ function generateSentence(maxHsk: number): Sentence {
 export default function TranslatePage() {
   const [direction, setDirection] = useState<"fr_to_cn" | "cn_to_fr">("fr_to_cn");
   const [maxHsk, setMaxHsk] = useState(1);
+  const [userHskLevel, setUserHskLevel] = useState(1);
   const [currentSentence, setCurrentSentence] = useState<Sentence | null>(null);
   const [userInput, setUserInput] = useState("");
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
+
+  // Load user's HSK level on mount
+  useEffect(() => {
+    try {
+      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+      const level = stats.current_hsk_level || 1;
+      setUserHskLevel(level);
+      setMaxHsk(level);
+    } catch {
+      /* ignore */
+    }
+  }, []);
 
   const newSentence = () => {
     setCurrentSentence(generateSentence(maxHsk));

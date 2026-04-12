@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import Navigation from "@/components/Navigation";
 import FlashCard from "@/components/FlashCard";
 import ToneDisplay from "@/components/ToneDisplay";
+import { removeTones } from "@/lib/pinyin";
 import Link from "next/link";
 
 import hsk1Data from "@/data/hsk1.json";
@@ -28,6 +29,13 @@ const hskData: Record<number, Word[]> = {
   4: hsk4Data as Word[],
 };
 
+const allWords: Word[] = [
+  ...(hsk1Data as Word[]),
+  ...(hsk2Data as Word[]),
+  ...(hsk3Data as Word[]),
+  ...(hsk4Data as Word[]),
+];
+
 const hskColors: Record<number, string> = {
   1: "#58CC02",
   2: "#1CB0F6",
@@ -50,12 +58,16 @@ export default function VocabularyPage() {
   }, [words]);
 
   const filteredWords = useMemo(() => {
-    return words.filter((w) => {
+    // When searching, search across ALL levels; otherwise show selected HSK level
+    const searchBase = searchQuery.trim() ? allWords : words;
+    const query = searchQuery.trim().toLowerCase();
+    return searchBase.filter((w) => {
       const matchesSearch =
-        !searchQuery ||
-        w.simplified.includes(searchQuery) ||
-        w.pinyin.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        w.french.toLowerCase().includes(searchQuery.toLowerCase());
+        !query ||
+        w.simplified.includes(query) ||
+        removeTones(w.pinyin).toLowerCase().includes(query) ||
+        w.pinyin.toLowerCase().includes(query) ||
+        w.french.toLowerCase().includes(query);
       const matchesCategory = selectedCategory === "all" || w.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });

@@ -79,17 +79,16 @@ export default function PronunciationRecorder({
     <div className={`flex flex-col items-center gap-5 ${className}`}>
       {/* Expected text */}
       <div className="text-center">
-        <p className="text-sm text-[var(--color-text-secondary)] mb-1.5 font-medium">
+        <p className="text-sm text-[#6B7280] mb-1.5 font-medium">
           Prononcez :
         </p>
         <p
-          className="chinese-char text-4xl font-bold text-white"
-          style={{ textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)" }}
+          className="chinese-char text-4xl font-bold text-[#1A1A1A]"
         >
           {displayText}
         </p>
         {targetPinyin && (
-          <p className="text-[var(--color-text-secondary)] text-lg mt-1.5 font-medium">
+          <p className="text-[#6B7280] text-lg mt-1.5 font-medium">
             {targetPinyin}
           </p>
         )}
@@ -106,10 +105,10 @@ export default function PronunciationRecorder({
         style={
           recording
             ? {
-                background: "linear-gradient(135deg, var(--color-red), #FF6B6B)",
+                background: "linear-gradient(135deg, #FF4B4B, #FF6B6B)",
               }
             : {
-                background: "linear-gradient(135deg, var(--color-purple), #A855F7)",
+                background: "linear-gradient(135deg, #CE82FF, #A855F7)",
                 boxShadow: "0 4px 16px rgba(206, 130, 255, 0.25)",
               }
         }
@@ -146,7 +145,7 @@ export default function PronunciationRecorder({
         </svg>
       </button>
 
-      <p className="text-xs text-[var(--color-text-secondary)] font-medium">
+      <p className="text-xs text-[#6B7280] font-medium">
         {recording ? "Enregistrement en cours..." : "Appuyez pour parler"}
       </p>
 
@@ -159,7 +158,7 @@ export default function PronunciationRecorder({
               className="w-1.5 rounded-full animate-waveform-bar"
               style={{
                 height: "100%",
-                background: `linear-gradient(to top, var(--color-purple), #A855F7, #C084FC)`,
+                background: `linear-gradient(to top, #CE82FF, #A855F7, #C084FC)`,
                 animationDuration: `${0.4 + Math.random() * 0.5}s`,
                 animationDelay: `${i * 0.04}s`,
                 opacity: 0.6 + Math.random() * 0.4,
@@ -174,29 +173,27 @@ export default function PronunciationRecorder({
         <div
           className="flex flex-col items-center gap-3 mt-2 p-4 rounded-2xl w-full max-w-xs animate-result-pop"
           style={{
-            background: "rgba(26, 44, 52, 0.8)",
-            backdropFilter: "blur(16px)",
-            WebkitBackdropFilter: "blur(16px)",
+            background: "#FFFFFF",
             border: isMatch
-              ? "1px solid rgba(88, 204, 2, 0.3)"
-              : "1px solid rgba(255, 75, 75, 0.3)",
+              ? "1px solid rgba(88, 204, 2, 0.4)"
+              : "1px solid rgba(255, 75, 75, 0.4)",
             boxShadow: isMatch
-              ? "0 0 20px rgba(88, 204, 2, 0.1)"
-              : "0 0 20px rgba(255, 75, 75, 0.1)",
+              ? "0 0 20px rgba(88, 204, 2, 0.08)"
+              : "0 0 20px rgba(255, 75, 75, 0.08)",
           }}
         >
           <div className="flex items-center gap-2.5">
             {isMatch ? (
               <div
                 className="w-8 h-8 rounded-full flex items-center justify-center animate-scale-in"
-                style={{ background: "rgba(88, 204, 2, 0.2)" }}
+                style={{ background: "rgba(88, 204, 2, 0.12)" }}
               >
                 <svg
                   width="20"
                   height="20"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="var(--color-green)"
+                  stroke="#58CC02"
                   strokeWidth="3"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -207,14 +204,14 @@ export default function PronunciationRecorder({
             ) : (
               <div
                 className="w-8 h-8 rounded-full flex items-center justify-center animate-shake"
-                style={{ background: "rgba(255, 75, 75, 0.2)" }}
+                style={{ background: "rgba(255, 75, 75, 0.12)" }}
               >
                 <svg
                   width="20"
                   height="20"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="var(--color-red)"
+                  stroke="#FF4B4B"
                   strokeWidth="3"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -226,14 +223,14 @@ export default function PronunciationRecorder({
             )}
             <span
               className={`text-lg font-bold ${
-                isMatch ? "text-[var(--color-green)]" : "text-[var(--color-red)]"
+                isMatch ? "text-[#58CC02]" : "text-[#FF4B4B]"
               }`}
             >
               {isMatch ? "Correct !" : "Essayez encore"}
             </span>
           </div>
-          <p className="chinese-char text-lg text-[var(--color-text-secondary)]">
-            Reconnu : <span className="text-white">{recognizedText}</span>
+          <p className="chinese-char text-lg text-[#6B7280]">
+            Reconnu : <span className="text-[#1A1A1A]">{recognizedText}</span>
           </p>
         </div>
       )}

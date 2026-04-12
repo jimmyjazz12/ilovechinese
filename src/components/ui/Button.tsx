@@ -19,15 +19,15 @@ const variantStyles: Record<ButtonVariant, string> = {
     "shadow-[0_2px_8px_rgba(88,204,2,0.25)]",
     "hover:brightness-110 hover:scale-[1.02] hover:shadow-[0_4px_20px_rgba(88,204,2,0.4)]",
     "active:border-b-0 active:translate-y-[4px] active:shadow-[0_1px_4px_rgba(88,204,2,0.2)]",
-    "focus-visible:ring-2 focus-visible:ring-[var(--color-green)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-bg)]",
+    "focus-visible:ring-2 focus-visible:ring-[#58CC02] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F7F7F5]",
   ].join(" "),
   secondary: [
     "bg-gradient-to-b from-[#2DC3FF] to-[#1899D6] text-white",
-    "border-b-4 border-[var(--color-blue-dark)]",
+    "border-b-4 border-[#1280B3]",
     "shadow-[0_2px_8px_rgba(28,176,246,0.25)]",
     "hover:brightness-110 hover:scale-[1.02] hover:shadow-[0_4px_20px_rgba(28,176,246,0.4)]",
     "active:border-b-0 active:translate-y-[4px] active:shadow-[0_1px_4px_rgba(28,176,246,0.2)]",
-    "focus-visible:ring-2 focus-visible:ring-[var(--color-blue)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-bg)]",
+    "focus-visible:ring-2 focus-visible:ring-[#1CB0F6] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F7F7F5]",
   ].join(" "),
   danger: [
     "bg-gradient-to-b from-[#FF6B6B] to-[#E03E3E] text-white",
@@ -35,14 +35,14 @@ const variantStyles: Record<ButtonVariant, string> = {
     "shadow-[0_2px_8px_rgba(255,75,75,0.25)]",
     "hover:brightness-110 hover:scale-[1.02] hover:shadow-[0_4px_20px_rgba(255,75,75,0.4)]",
     "active:border-b-0 active:translate-y-[4px] active:shadow-[0_1px_4px_rgba(255,75,75,0.2)]",
-    "focus-visible:ring-2 focus-visible:ring-[var(--color-red)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-bg)]",
+    "focus-visible:ring-2 focus-visible:ring-[#FF4B4B] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F7F7F5]",
   ].join(" "),
   ghost: [
-    "bg-transparent text-[var(--color-text-secondary)]",
-    "border-2 border-[var(--color-border)]",
-    "hover:bg-[var(--color-card)] hover:text-[var(--color-text)] hover:border-[var(--color-card-hover)] hover:scale-[1.02]",
+    "bg-transparent text-[#6B7280]",
+    "border-2 border-[#E5E7EB]",
+    "hover:bg-white hover:text-[#1A1A1A] hover:border-[#D1D5DB] hover:scale-[1.02]",
     "active:translate-y-[1px] active:scale-100",
-    "focus-visible:ring-2 focus-visible:ring-[var(--color-border)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-bg)]",
+    "focus-visible:ring-2 focus-visible:ring-[#E5E7EB] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F7F7F5]",
   ].join(" "),
 };
 

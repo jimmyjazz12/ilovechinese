@@ -51,8 +51,8 @@ export default function ProgressBar({
       <div
         className="relative w-full h-4 rounded-full overflow-hidden"
         style={{
-          backgroundColor: "var(--color-border)",
-          boxShadow: "inset 0 2px 4px rgba(0,0,0,0.3)",
+          backgroundColor: "#E5E7EB",
+          boxShadow: "inset 0 1px 2px rgba(0,0,0,0.06)",
         }}
       >
         <div
@@ -60,7 +60,7 @@ export default function ProgressBar({
           style={{
             width: animated ? `${percent}%` : "0%",
             background: `linear-gradient(90deg, ${fillColor}, ${fillColorLight})`,
-            boxShadow: `0 0 12px ${fillColor}40, 0 0 4px ${fillColor}30`,
+            boxShadow: `0 0 8px ${fillColor}30, 0 0 3px ${fillColor}20`,
             transition: "width 0.8s cubic-bezier(0.4, 0, 0.2, 1)",
           }}
         >

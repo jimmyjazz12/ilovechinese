@@ -17,19 +17,19 @@ interface HskColorConfig {
 }
 
 const hskColors: Record<number, HskColorConfig> = {
-  1: { bg: "var(--color-green)", border: "var(--color-green-dark)", glow: "rgba(88,204,2,0.4)", text: "#fff" },
-  2: { bg: "var(--color-blue)", border: "var(--color-blue-dark)", glow: "rgba(28,176,246,0.4)", text: "#fff" },
-  3: { bg: "var(--color-orange)", border: "#d67e00", glow: "rgba(255,150,0,0.4)", text: "#fff" },
-  4: { bg: "var(--color-purple)", border: "#a95ee6", glow: "rgba(206,130,255,0.4)", text: "#fff" },
-  5: { bg: "#e04998", border: "#c03080", glow: "rgba(224,73,152,0.4)", text: "#fff" },
-  6: { bg: "#cc3c3c", border: "#a82e2e", glow: "rgba(204,60,60,0.4)", text: "#fff" },
-  7: { bg: "#6b7280", border: "#4b5563", glow: "rgba(107,114,128,0.4)", text: "#fff" },
-  8: { bg: "#4b5563", border: "#374151", glow: "rgba(75,85,99,0.4)", text: "#fff" },
-  9: { bg: "#374151", border: "#1f2937", glow: "rgba(55,65,81,0.4)", text: "#fff" },
+  1: { bg: "#58CC02", border: "#4CAD00", glow: "rgba(88,204,2,0.3)", text: "#fff" },
+  2: { bg: "#1CB0F6", border: "#1899D6", glow: "rgba(28,176,246,0.3)", text: "#fff" },
+  3: { bg: "#FF9600", border: "#d67e00", glow: "rgba(255,150,0,0.3)", text: "#fff" },
+  4: { bg: "#CE82FF", border: "#a95ee6", glow: "rgba(206,130,255,0.3)", text: "#fff" },
+  5: { bg: "#e04998", border: "#c03080", glow: "rgba(224,73,152,0.3)", text: "#fff" },
+  6: { bg: "#cc3c3c", border: "#a82e2e", glow: "rgba(204,60,60,0.3)", text: "#fff" },
+  7: { bg: "#6b7280", border: "#4b5563", glow: "rgba(107,114,128,0.3)", text: "#fff" },
+  8: { bg: "#4b5563", border: "#374151", glow: "rgba(75,85,99,0.3)", text: "#fff" },
+  9: { bg: "#374151", border: "#1f2937", glow: "rgba(55,65,81,0.3)", text: "#fff" },
 };
 
 const fallbackColor: HskColorConfig = {
-  bg: "#6b7280", border: "#4b5563", glow: "rgba(107,114,128,0.4)", text: "#fff",
+  bg: "#6b7280", border: "#4b5563", glow: "rgba(107,114,128,0.3)", text: "#fff",
 };
 
 export default function Badge({
@@ -54,7 +54,7 @@ export default function Badge({
         return {
           background: color.bg,
           color: color.text,
-          boxShadow: `0 0 12px ${color.glow}, 0 0 24px ${color.glow.replace("0.4", "0.15")}`,
+          boxShadow: `0 0 12px ${color.glow}, 0 0 24px ${color.glow.replace("0.3", "0.1")}`,
         };
       case "outline":
         return {
@@ -67,7 +67,7 @@ export default function Badge({
         return {
           background: color.bg,
           color: color.text,
-          boxShadow: `0 2px 8px ${color.glow.replace("0.4", "0.2")}`,
+          boxShadow: `0 2px 6px ${color.glow.replace("0.3", "0.2")}`,
         };
     }
   })();

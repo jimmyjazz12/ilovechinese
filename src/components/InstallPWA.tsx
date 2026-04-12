@@ -75,23 +75,25 @@ export default function InstallPWA() {
   return (
     <div className="fixed top-0 left-0 right-0 z-[100] animate-slide-up">
       <div
-        className="mx-3 mt-3 rounded-2xl p-4 border border-white/10 shadow-card-hover"
+        className="mx-3 mt-3 rounded-2xl p-4"
         style={{
-          background: "rgba(19, 31, 36, 0.95)",
+          background: "rgba(255, 255, 255, 0.95)",
           backdropFilter: "blur(20px)",
           WebkitBackdropFilter: "blur(20px)",
+          border: "1px solid #E5E7EB",
+          boxShadow: "0 4px 16px rgba(0, 0, 0, 0.1)",
         }}
       >
         <div className="flex items-start gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-[#FF4B4B] via-[#FF9600] to-[#58CC02] rounded-xl flex items-center justify-center text-xl shadow-card shrink-0">
+          <div className="w-12 h-12 bg-gradient-to-br from-[#FF4B4B] via-[#FF9600] to-[#58CC02] rounded-xl flex items-center justify-center text-xl shadow-sm shrink-0">
             🐉
           </div>
           <div className="flex-1 min-w-0">
-            <h3 className="font-extrabold text-sm">Installer I Love Chinese</h3>
+            <h3 className="font-extrabold text-sm text-[#1A1A1A]">Installer I Love Chinese</h3>
             {isIOS ? (
-              <p className="text-xs text-[#9EAAB4] mt-1 leading-relaxed">
+              <p className="text-xs text-[#6B7280] mt-1 leading-relaxed">
                 Appuyez sur{" "}
-                <span className="inline-flex items-center bg-[#223A44] px-1.5 py-0.5 rounded text-white font-semibold">
+                <span className="inline-flex items-center bg-[#F3F4F6] px-1.5 py-0.5 rounded text-[#1A1A1A] font-semibold">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="mr-0.5">
                     <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
                     <polyline points="16 6 12 2 8 6" />
@@ -99,17 +101,17 @@ export default function InstallPWA() {
                   </svg>
                   Partager
                 </span>{" "}
-                puis <span className="text-white font-semibold">"Sur l'écran d'accueil"</span>
+                puis <span className="text-[#1A1A1A] font-semibold">"Sur l'écran d'accueil"</span>
               </p>
             ) : (
-              <p className="text-xs text-[#9EAAB4] mt-1">
+              <p className="text-xs text-[#6B7280] mt-1">
                 Accédez à l'app directement depuis votre écran d'accueil
               </p>
             )}
           </div>
           <button
             onClick={handleDismiss}
-            className="text-[#9EAAB4] hover:text-white p-1 shrink-0"
+            className="text-[#6B7280] hover:text-[#1A1A1A] p-1 shrink-0"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <line x1="18" y1="6" x2="6" y2="18" />

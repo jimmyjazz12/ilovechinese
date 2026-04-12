@@ -15,22 +15,21 @@ interface CardProps {
 
 const variantStyles: Record<CardVariant, string> = {
   default: [
-    "bg-[var(--color-card)] border border-[var(--color-border)]",
-    "shadow-[0_2px_12px_rgba(0,0,0,0.2)]",
-    "hover:shadow-[0_8px_30px_rgba(0,0,0,0.3)] hover:-translate-y-[3px]",
+    "bg-white border border-[#E5E7EB]",
+    "shadow-[0_2px_8px_rgba(0,0,0,0.06)]",
+    "hover:shadow-[0_8px_24px_rgba(0,0,0,0.1)] hover:-translate-y-[3px]",
   ].join(" "),
   glass: [
-    "bg-[rgba(26,44,52,0.6)] backdrop-blur-xl",
-    "border border-[rgba(255,255,255,0.08)]",
-    "shadow-[0_4px_16px_rgba(0,0,0,0.2)]",
-    "hover:bg-[rgba(26,44,52,0.75)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.35)] hover:-translate-y-[3px]",
-    "hover:border-[rgba(255,255,255,0.12)]",
+    "bg-[rgba(255,255,255,0.8)] backdrop-blur-xl",
+    "border border-[#E5E7EB]",
+    "shadow-[0_2px_8px_rgba(0,0,0,0.06)]",
+    "hover:bg-[rgba(255,255,255,0.95)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.1)] hover:-translate-y-[3px]",
   ].join(" "),
   gradient: [
-    "bg-[var(--color-card)]",
+    "bg-white",
     "border border-transparent",
-    "shadow-[0_2px_12px_rgba(0,0,0,0.2)]",
-    "hover:shadow-[0_8px_30px_rgba(0,0,0,0.3)] hover:-translate-y-[3px]",
+    "shadow-[0_2px_8px_rgba(0,0,0,0.06)]",
+    "hover:shadow-[0_8px_24px_rgba(0,0,0,0.1)] hover:-translate-y-[3px]",
   ].join(" "),
 };
 
@@ -43,7 +42,7 @@ export default function Card({
   className = "",
 }: CardProps) {
   const glowStyle = glowColor
-    ? { boxShadow: `0 0 20px ${glowColor}20, 0 0 40px ${glowColor}10` }
+    ? { boxShadow: `0 0 20px ${glowColor}15, 0 0 40px ${glowColor}08` }
     : undefined;
 
   const isGradient = variant === "gradient";
@@ -59,13 +58,13 @@ export default function Card({
       style={glowStyle}
     >
       {header && (
-        <div className="px-5 py-3 border-b border-[rgba(255,255,255,0.06)]">
+        <div className="px-5 py-3 border-b border-[#E5E7EB]">
           {header}
         </div>
       )}
       <div className="p-5">{children}</div>
       {footer && (
-        <div className="px-5 py-3 border-t border-[rgba(255,255,255,0.06)]">
+        <div className="px-5 py-3 border-t border-[#E5E7EB]">
           {footer}
         </div>
       )}
@@ -75,7 +74,7 @@ export default function Card({
   if (isGradient) {
     return (
       <div
-        className="p-[1px] rounded-2xl bg-gradient-to-br from-[var(--color-green)] via-[var(--color-blue)] to-[var(--color-purple)] transition-all duration-300 ease-out"
+        className="p-[1px] rounded-2xl bg-gradient-to-br from-[#58CC02] via-[#1CB0F6] to-[#CE82FF] transition-all duration-300 ease-out"
       >
         {cardContent}
       </div>

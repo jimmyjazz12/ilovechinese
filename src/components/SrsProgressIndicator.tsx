@@ -18,11 +18,11 @@ const labels = [
 ];
 
 const segmentColors = [
-  "var(--color-red)",
-  "var(--color-orange)",
+  "#FF4B4B",
+  "#FF9600",
   "#EAB308",
-  "var(--color-blue)",
-  "var(--color-green)",
+  "#1CB0F6",
+  "#58CC02",
 ];
 
 export default function SrsProgressIndicator({
@@ -40,7 +40,7 @@ export default function SrsProgressIndicator({
         {Array.from({ length: 5 }, (_, i) => {
           const filled = i < clamped;
           const isCurrent = i === clamped - 1;
-          const color = filled ? segmentColors[i] : "var(--color-border)";
+          const color = filled ? segmentColors[i] : "#E5E7EB";
 
           return (
             <div
@@ -53,9 +53,7 @@ export default function SrsProgressIndicator({
                 className="h-2.5 transition-all duration-500 ease-out"
                 style={{
                   width: "20px",
-                  background: filled
-                    ? color
-                    : "var(--color-border)",
+                  background: color,
                   borderRadius:
                     i === 0
                       ? "4px 0 0 4px"
@@ -70,9 +68,10 @@ export default function SrsProgressIndicator({
               {/* Tooltip on hover */}
               {hoveredSeg === i && (
                 <span
-                  className="absolute -top-7 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded text-[10px] font-semibold text-white whitespace-nowrap animate-fade-in z-10"
+                  className="absolute -top-7 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded text-[10px] font-semibold whitespace-nowrap animate-fade-in z-10"
                   style={{
-                    background: "rgba(19, 31, 36, 0.95)",
+                    background: "#1A1A1A",
+                    color: "#FFFFFF",
                     border: `1px solid ${segmentColors[i]}50`,
                   }}
                 >
@@ -90,10 +89,10 @@ export default function SrsProgressIndicator({
           style={{
             color:
               clamped <= 1
-                ? "var(--color-red)"
+                ? "#FF4B4B"
                 : clamped <= 3
-                ? "var(--color-orange)"
-                : "var(--color-green)",
+                ? "#FF9600"
+                : "#58CC02",
           }}
         >
           {labels[clamped]}

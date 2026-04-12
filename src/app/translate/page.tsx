@@ -269,6 +269,7 @@ export default function TranslatePage() {
   const [direction, setDirection] = useState<"fr_to_cn" | "cn_to_fr">(
     "fr_to_cn"
   );
+  const [mode, setMode] = useState<"all" | "word" | "sentence">("all");
   const [maxHsk, setMaxHsk] = useState(1);
   const [userHskLevel, setUserHskLevel] = useState(1);
   const [currentItem, setCurrentItem] = useState<TranslationItem | null>(null);
@@ -306,15 +307,19 @@ export default function TranslatePage() {
     if (poolRef.current.length === 0) {
       poolRef.current = buildPool(maxHsk);
     }
-    setCurrentItem(pickItem(poolRef.current));
+    let pool = poolRef.current;
+    if (mode === "word") pool = pool.filter(p => p.type === "word");
+    else if (mode === "sentence") pool = pool.filter(p => p.type === "sentence");
+    if (pool.length === 0) pool = poolRef.current; // fallback
+    setCurrentItem(pool[Math.floor(Math.random() * pool.length)]);
     setUserInput("");
     setShowResult(false);
-  }, [maxHsk]);
+  }, [maxHsk, mode]);
 
   useEffect(() => {
     poolRef.current = buildPool(maxHsk);
     newItem();
-  }, [maxHsk, direction, newItem]);
+  }, [maxHsk, direction, mode, newItem]);
 
   // ── Voice dictation ──
 
@@ -449,6 +454,23 @@ export default function TranslatePage() {
           ))}
         </div>
 
+        {/* Mode selector: Tout / Mots / Phrases */}
+        <div className="flex gap-2 justify-center">
+          {([["all", "Tout"], ["word", "Mots"], ["sentence", "Phrases"]] as const).map(([m, label]) => (
+            <button
+              key={m}
+              onClick={() => setMode(m)}
+              className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
+                mode === m
+                  ? "bg-[#CE82FF] text-white shadow-sm"
+                  : "bg-white text-[#6B7280] border border-[#E5E7EB] hover:border-[#CE82FF]"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
         {/* Score */}
         <div className="text-center text-sm text-[#6B7280] font-medium">
           Score : {score.correct}/{score.total}
@@ -567,7 +589,7 @@ export default function TranslatePage() {
               <button
                 onClick={checkAnswer}
                 disabled={!userInput.trim()}
-                className="w-full bg-[#58CC02] hover:bg-[#46A302] disabled:bg-[#E5E7EB] disabled:text-[#9CA3AF] text-white font-bold py-3 rounded-xl transition-all shadow-sm"
+                className="w-full bg-[#58CC02] hover:bg-[#46A302] disabled:opacity-40 text-white font-bold py-3.5 rounded-xl transition-all shadow-md text-lg btn-3d"
               >
                 V\u00e9rifier
               </button>
@@ -653,7 +675,7 @@ export default function TranslatePage() {
                 {/* Next button */}
                 <button
                   onClick={newItem}
-                  className="w-full bg-[#1CB0F6] hover:bg-[#1899D6] text-white font-bold py-3 rounded-xl transition-all shadow-sm"
+                  className="w-full bg-[#1CB0F6] hover:bg-[#1899D6] text-white font-bold py-3.5 rounded-xl transition-all shadow-md text-lg btn-3d"
                 >
                   Suivant &rarr;
                 </button>

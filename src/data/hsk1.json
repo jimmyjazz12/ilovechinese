@@ -1,204 +1,2875 @@
 [
-  {"simplified": "我", "traditional": "我", "pinyin": "wǒ", "french": "je, moi", "hsk_level": 1, "category": "pronoms", "components": ["我"]},
-  {"simplified": "你", "traditional": "你", "pinyin": "nǐ", "french": "tu, toi", "hsk_level": 1, "category": "pronoms", "components": ["你"]},
-  {"simplified": "他", "traditional": "他", "pinyin": "tā", "french": "il, lui", "hsk_level": 1, "category": "pronoms", "components": ["他"]},
-  {"simplified": "她", "traditional": "她", "pinyin": "tā", "french": "elle", "hsk_level": 1, "category": "pronoms", "components": ["她"]},
-  {"simplified": "它", "traditional": "它", "pinyin": "tā", "french": "il/elle (animal, objet)", "hsk_level": 1, "category": "pronoms", "components": ["它"]},
-  {"simplified": "我们", "traditional": "我們", "pinyin": "wǒmen", "french": "nous", "hsk_level": 1, "category": "pronoms", "components": ["我", "们"]},
-  {"simplified": "你们", "traditional": "你們", "pinyin": "nǐmen", "french": "vous", "hsk_level": 1, "category": "pronoms", "components": ["你", "们"]},
-  {"simplified": "他们", "traditional": "他們", "pinyin": "tāmen", "french": "ils, eux", "hsk_level": 1, "category": "pronoms", "components": ["他", "们"]},
-  {"simplified": "这", "traditional": "這", "pinyin": "zhè", "french": "ce, ceci", "hsk_level": 1, "category": "pronoms", "components": ["这"]},
-  {"simplified": "那", "traditional": "那", "pinyin": "nà", "french": "ce, cela", "hsk_level": 1, "category": "pronoms", "components": ["那"]},
-  {"simplified": "哪", "traditional": "哪", "pinyin": "nǎ", "french": "quel, lequel", "hsk_level": 1, "category": "pronoms", "components": ["哪"]},
-  {"simplified": "什么", "traditional": "什麼", "pinyin": "shénme", "french": "quoi, quel", "hsk_level": 1, "category": "pronoms", "components": ["什", "么"]},
-  {"simplified": "谁", "traditional": "誰", "pinyin": "shéi", "french": "qui", "hsk_level": 1, "category": "pronoms", "components": ["谁"]},
-  {"simplified": "多少", "traditional": "多少", "pinyin": "duōshao", "french": "combien", "hsk_level": 1, "category": "pronoms", "components": ["多", "少"]},
-  {"simplified": "几", "traditional": "幾", "pinyin": "jǐ", "french": "combien (petit nombre)", "hsk_level": 1, "category": "pronoms", "components": ["几"]},
-  {"simplified": "是", "traditional": "是", "pinyin": "shì", "french": "être", "hsk_level": 1, "category": "verbes", "components": ["是"]},
-  {"simplified": "有", "traditional": "有", "pinyin": "yǒu", "french": "avoir, il y a", "hsk_level": 1, "category": "verbes", "components": ["有"]},
-  {"simplified": "在", "traditional": "在", "pinyin": "zài", "french": "être à, se trouver", "hsk_level": 1, "category": "verbes", "components": ["在"]},
-  {"simplified": "做", "traditional": "做", "pinyin": "zuò", "french": "faire", "hsk_level": 1, "category": "verbes", "components": ["做"]},
-  {"simplified": "去", "traditional": "去", "pinyin": "qù", "french": "aller", "hsk_level": 1, "category": "verbes", "components": ["去"]},
-  {"simplified": "来", "traditional": "來", "pinyin": "lái", "french": "venir", "hsk_level": 1, "category": "verbes", "components": ["来"]},
-  {"simplified": "吃", "traditional": "吃", "pinyin": "chī", "french": "manger", "hsk_level": 1, "category": "verbes", "components": ["吃"]},
-  {"simplified": "喝", "traditional": "喝", "pinyin": "hē", "french": "boire", "hsk_level": 1, "category": "verbes", "components": ["喝"]},
-  {"simplified": "看", "traditional": "看", "pinyin": "kàn", "french": "regarder, voir", "hsk_level": 1, "category": "verbes", "components": ["看"]},
-  {"simplified": "听", "traditional": "聽", "pinyin": "tīng", "french": "écouter, entendre", "hsk_level": 1, "category": "verbes", "components": ["听"]},
-  {"simplified": "说", "traditional": "說", "pinyin": "shuō", "french": "dire, parler", "hsk_level": 1, "category": "verbes", "components": ["说"]},
-  {"simplified": "读", "traditional": "讀", "pinyin": "dú", "french": "lire", "hsk_level": 1, "category": "verbes", "components": ["读"]},
-  {"simplified": "写", "traditional": "寫", "pinyin": "xiě", "french": "écrire", "hsk_level": 1, "category": "verbes", "components": ["写"]},
-  {"simplified": "学", "traditional": "學", "pinyin": "xué", "french": "étudier, apprendre", "hsk_level": 1, "category": "verbes", "components": ["学"]},
-  {"simplified": "工作", "traditional": "工作", "pinyin": "gōngzuò", "french": "travailler, travail", "hsk_level": 1, "category": "verbes", "components": ["工", "作"]},
-  {"simplified": "住", "traditional": "住", "pinyin": "zhù", "french": "habiter", "hsk_level": 1, "category": "verbes", "components": ["住"]},
-  {"simplified": "买", "traditional": "買", "pinyin": "mǎi", "french": "acheter", "hsk_level": 1, "category": "verbes", "components": ["买"]},
-  {"simplified": "叫", "traditional": "叫", "pinyin": "jiào", "french": "s'appeler, appeler", "hsk_level": 1, "category": "verbes", "components": ["叫"]},
-  {"simplified": "想", "traditional": "想", "pinyin": "xiǎng", "french": "penser, vouloir", "hsk_level": 1, "category": "verbes", "components": ["想"]},
-  {"simplified": "喜欢", "traditional": "喜歡", "pinyin": "xǐhuan", "french": "aimer, apprécier", "hsk_level": 1, "category": "verbes", "components": ["喜", "欢"]},
-  {"simplified": "会", "traditional": "會", "pinyin": "huì", "french": "savoir faire, pouvoir", "hsk_level": 1, "category": "verbes", "components": ["会"]},
-  {"simplified": "能", "traditional": "能", "pinyin": "néng", "french": "pouvoir, être capable", "hsk_level": 1, "category": "verbes", "components": ["能"]},
-  {"simplified": "认识", "traditional": "認識", "pinyin": "rènshi", "french": "connaître (une personne)", "hsk_level": 1, "category": "verbes", "components": ["认", "识"]},
-  {"simplified": "知道", "traditional": "知道", "pinyin": "zhīdào", "french": "savoir", "hsk_level": 1, "category": "verbes", "components": ["知", "道"]},
-  {"simplified": "睡觉", "traditional": "睡覺", "pinyin": "shuìjiào", "french": "dormir", "hsk_level": 1, "category": "verbes", "components": ["睡", "觉"]},
-  {"simplified": "坐", "traditional": "坐", "pinyin": "zuò", "french": "s'asseoir, prendre (transport)", "hsk_level": 1, "category": "verbes", "components": ["坐"]},
-  {"simplified": "开", "traditional": "開", "pinyin": "kāi", "french": "ouvrir, conduire", "hsk_level": 1, "category": "verbes", "components": ["开"]},
-  {"simplified": "回", "traditional": "回", "pinyin": "huí", "french": "retourner, revenir", "hsk_level": 1, "category": "verbes", "components": ["回"]},
-  {"simplified": "打电话", "traditional": "打電話", "pinyin": "dǎ diànhuà", "french": "téléphoner", "hsk_level": 1, "category": "verbes", "components": ["打", "电", "话"]},
-  {"simplified": "请", "traditional": "請", "pinyin": "qǐng", "french": "s'il vous plaît, inviter", "hsk_level": 1, "category": "verbes", "components": ["请"]},
-  {"simplified": "给", "traditional": "給", "pinyin": "gěi", "french": "donner, pour", "hsk_level": 1, "category": "verbes", "components": ["给"]},
-  {"simplified": "人", "traditional": "人", "pinyin": "rén", "french": "personne, homme", "hsk_level": 1, "category": "noms", "components": ["人"]},
-  {"simplified": "名字", "traditional": "名字", "pinyin": "míngzi", "french": "nom, prénom", "hsk_level": 1, "category": "noms", "components": ["名", "字"]},
-  {"simplified": "朋友", "traditional": "朋友", "pinyin": "péngyou", "french": "ami", "hsk_level": 1, "category": "noms", "components": ["朋", "友"]},
-  {"simplified": "同学", "traditional": "同學", "pinyin": "tóngxué", "french": "camarade de classe", "hsk_level": 1, "category": "noms", "components": ["同", "学"]},
-  {"simplified": "老师", "traditional": "老師", "pinyin": "lǎoshī", "french": "professeur", "hsk_level": 1, "category": "noms", "components": ["老", "师"]},
-  {"simplified": "学生", "traditional": "學生", "pinyin": "xuéshēng", "french": "étudiant, élève", "hsk_level": 1, "category": "noms", "components": ["学", "生"]},
-  {"simplified": "医生", "traditional": "醫生", "pinyin": "yīshēng", "french": "médecin", "hsk_level": 1, "category": "noms", "components": ["医", "生"]},
-  {"simplified": "书", "traditional": "書", "pinyin": "shū", "french": "livre", "hsk_level": 1, "category": "noms", "components": ["书"]},
-  {"simplified": "汉语", "traditional": "漢語", "pinyin": "hànyǔ", "french": "chinois (langue)", "hsk_level": 1, "category": "noms", "components": ["汉", "语"]},
-  {"simplified": "字", "traditional": "字", "pinyin": "zì", "french": "caractère, mot", "hsk_level": 1, "category": "noms", "components": ["字"]},
-  {"simplified": "中国", "traditional": "中國", "pinyin": "Zhōngguó", "french": "Chine", "hsk_level": 1, "category": "noms", "components": ["中", "国"]},
-  {"simplified": "北京", "traditional": "北京", "pinyin": "Běijīng", "french": "Pékin", "hsk_level": 1, "category": "noms", "components": ["北", "京"]},
-  {"simplified": "钱", "traditional": "錢", "pinyin": "qián", "french": "argent", "hsk_level": 1, "category": "noms", "components": ["钱"]},
-  {"simplified": "东西", "traditional": "東西", "pinyin": "dōngxi", "french": "chose, objet", "hsk_level": 1, "category": "noms", "components": ["东", "西"]},
-  {"simplified": "电脑", "traditional": "電腦", "pinyin": "diànnǎo", "french": "ordinateur", "hsk_level": 1, "category": "noms", "components": ["电", "脑"]},
-  {"simplified": "电话", "traditional": "電話", "pinyin": "diànhuà", "french": "téléphone", "hsk_level": 1, "category": "noms", "components": ["电", "话"]},
-  {"simplified": "电视", "traditional": "電視", "pinyin": "diànshì", "french": "télévision", "hsk_level": 1, "category": "noms", "components": ["电", "视"]},
-  {"simplified": "电影", "traditional": "電影", "pinyin": "diànyǐng", "french": "film", "hsk_level": 1, "category": "noms", "components": ["电", "影"]},
-  {"simplified": "天气", "traditional": "天氣", "pinyin": "tiānqì", "french": "temps (météo)", "hsk_level": 1, "category": "noms", "components": ["天", "气"]},
-  {"simplified": "猫", "traditional": "貓", "pinyin": "māo", "french": "chat", "hsk_level": 1, "category": "noms", "components": ["猫"]},
-  {"simplified": "狗", "traditional": "狗", "pinyin": "gǒu", "french": "chien", "hsk_level": 1, "category": "noms", "components": ["狗"]},
-  {"simplified": "衣服", "traditional": "衣服", "pinyin": "yīfu", "french": "vêtement", "hsk_level": 1, "category": "noms", "components": ["衣", "服"]},
-  {"simplified": "车", "traditional": "車", "pinyin": "chē", "french": "voiture, véhicule", "hsk_level": 1, "category": "noms", "components": ["车"]},
-  {"simplified": "飞机", "traditional": "飛機", "pinyin": "fēijī", "french": "avion", "hsk_level": 1, "category": "noms", "components": ["飞", "机"]},
-  {"simplified": "出租车", "traditional": "出租車", "pinyin": "chūzūchē", "french": "taxi", "hsk_level": 1, "category": "noms", "components": ["出", "租", "车"]},
-  {"simplified": "爸爸", "traditional": "爸爸", "pinyin": "bàba", "french": "papa", "hsk_level": 1, "category": "famille", "components": ["爸"]},
-  {"simplified": "妈妈", "traditional": "媽媽", "pinyin": "māma", "french": "maman", "hsk_level": 1, "category": "famille", "components": ["妈"]},
-  {"simplified": "儿子", "traditional": "兒子", "pinyin": "érzi", "french": "fils", "hsk_level": 1, "category": "famille", "components": ["儿", "子"]},
-  {"simplified": "女儿", "traditional": "女兒", "pinyin": "nǚér", "french": "fille (enfant)", "hsk_level": 1, "category": "famille", "components": ["女", "儿"]},
-  {"simplified": "家", "traditional": "家", "pinyin": "jiā", "french": "famille, maison", "hsk_level": 1, "category": "famille", "components": ["家"]},
-  {"simplified": "水", "traditional": "水", "pinyin": "shuǐ", "french": "eau", "hsk_level": 1, "category": "nourriture", "components": ["水"]},
-  {"simplified": "茶", "traditional": "茶", "pinyin": "chá", "french": "thé", "hsk_level": 1, "category": "nourriture", "components": ["茶"]},
-  {"simplified": "米饭", "traditional": "米飯", "pinyin": "mǐfàn", "french": "riz cuit", "hsk_level": 1, "category": "nourriture", "components": ["米", "饭"]},
-  {"simplified": "菜", "traditional": "菜", "pinyin": "cài", "french": "plat, légume", "hsk_level": 1, "category": "nourriture", "components": ["菜"]},
-  {"simplified": "苹果", "traditional": "蘋果", "pinyin": "píngguǒ", "french": "pomme", "hsk_level": 1, "category": "nourriture", "components": ["苹", "果"]},
-  {"simplified": "水果", "traditional": "水果", "pinyin": "shuǐguǒ", "french": "fruit", "hsk_level": 1, "category": "nourriture", "components": ["水", "果"]},
-  {"simplified": "杯子", "traditional": "杯子", "pinyin": "bēizi", "french": "tasse, verre", "hsk_level": 1, "category": "nourriture", "components": ["杯", "子"]},
-  {"simplified": "饭店", "traditional": "飯店", "pinyin": "fàndiàn", "french": "restaurant, hôtel", "hsk_level": 1, "category": "lieux", "components": ["饭", "店"]},
-  {"simplified": "商店", "traditional": "商店", "pinyin": "shāngdiàn", "french": "magasin", "hsk_level": 1, "category": "lieux", "components": ["商", "店"]},
-  {"simplified": "医院", "traditional": "醫院", "pinyin": "yīyuàn", "french": "hôpital", "hsk_level": 1, "category": "lieux", "components": ["医", "院"]},
-  {"simplified": "学校", "traditional": "學校", "pinyin": "xuéxiào", "french": "école", "hsk_level": 1, "category": "lieux", "components": ["学", "校"]},
-  {"simplified": "前面", "traditional": "前面", "pinyin": "qiánmiàn", "french": "devant", "hsk_level": 1, "category": "lieux", "components": ["前", "面"]},
-  {"simplified": "后面", "traditional": "後面", "pinyin": "hòumiàn", "french": "derrière", "hsk_level": 1, "category": "lieux", "components": ["后", "面"]},
-  {"simplified": "上面", "traditional": "上面", "pinyin": "shàngmiàn", "french": "dessus, sur", "hsk_level": 1, "category": "lieux", "components": ["上", "面"]},
-  {"simplified": "下面", "traditional": "下面", "pinyin": "xiàmiàn", "french": "dessous, sous", "hsk_level": 1, "category": "lieux", "components": ["下", "面"]},
-  {"simplified": "里面", "traditional": "裡面", "pinyin": "lǐmiàn", "french": "dedans, à l'intérieur", "hsk_level": 1, "category": "lieux", "components": ["里", "面"]},
-  {"simplified": "旁边", "traditional": "旁邊", "pinyin": "pángbiān", "french": "à côté", "hsk_level": 1, "category": "lieux", "components": ["旁", "边"]},
-  {"simplified": "一", "traditional": "一", "pinyin": "yī", "french": "un", "hsk_level": 1, "category": "nombres", "components": ["一"]},
-  {"simplified": "二", "traditional": "二", "pinyin": "èr", "french": "deux", "hsk_level": 1, "category": "nombres", "components": ["二"]},
-  {"simplified": "三", "traditional": "三", "pinyin": "sān", "french": "trois", "hsk_level": 1, "category": "nombres", "components": ["三"]},
-  {"simplified": "四", "traditional": "四", "pinyin": "sì", "french": "quatre", "hsk_level": 1, "category": "nombres", "components": ["四"]},
-  {"simplified": "五", "traditional": "五", "pinyin": "wǔ", "french": "cinq", "hsk_level": 1, "category": "nombres", "components": ["五"]},
-  {"simplified": "六", "traditional": "六", "pinyin": "liù", "french": "six", "hsk_level": 1, "category": "nombres", "components": ["六"]},
-  {"simplified": "七", "traditional": "七", "pinyin": "qī", "french": "sept", "hsk_level": 1, "category": "nombres", "components": ["七"]},
-  {"simplified": "八", "traditional": "八", "pinyin": "bā", "french": "huit", "hsk_level": 1, "category": "nombres", "components": ["八"]},
-  {"simplified": "九", "traditional": "九", "pinyin": "jiǔ", "french": "neuf", "hsk_level": 1, "category": "nombres", "components": ["九"]},
-  {"simplified": "十", "traditional": "十", "pinyin": "shí", "french": "dix", "hsk_level": 1, "category": "nombres", "components": ["十"]},
-  {"simplified": "百", "traditional": "百", "pinyin": "bǎi", "french": "cent", "hsk_level": 1, "category": "nombres", "components": ["百"]},
-  {"simplified": "千", "traditional": "千", "pinyin": "qiān", "french": "mille", "hsk_level": 1, "category": "nombres", "components": ["千"]},
-  {"simplified": "两", "traditional": "兩", "pinyin": "liǎng", "french": "deux (avec classificateur)", "hsk_level": 1, "category": "nombres", "components": ["两"]},
-  {"simplified": "零", "traditional": "零", "pinyin": "líng", "french": "zéro", "hsk_level": 1, "category": "nombres", "components": ["零"]},
-  {"simplified": "个", "traditional": "個", "pinyin": "gè", "french": "classificateur général", "hsk_level": 1, "category": "classificateurs", "components": ["个"]},
-  {"simplified": "岁", "traditional": "歲", "pinyin": "suì", "french": "an (âge)", "hsk_level": 1, "category": "classificateurs", "components": ["岁"]},
-  {"simplified": "块", "traditional": "塊", "pinyin": "kuài", "french": "yuan (monnaie), morceau", "hsk_level": 1, "category": "classificateurs", "components": ["块"]},
-  {"simplified": "本", "traditional": "本", "pinyin": "běn", "french": "classificateur pour livres", "hsk_level": 1, "category": "classificateurs", "components": ["本"]},
-  {"simplified": "些", "traditional": "些", "pinyin": "xiē", "french": "quelques, un peu", "hsk_level": 1, "category": "classificateurs", "components": ["些"]},
-  {"simplified": "今天", "traditional": "今天", "pinyin": "jīntiān", "french": "aujourd'hui", "hsk_level": 1, "category": "temps", "components": ["今", "天"]},
-  {"simplified": "明天", "traditional": "明天", "pinyin": "míngtiān", "french": "demain", "hsk_level": 1, "category": "temps", "components": ["明", "天"]},
-  {"simplified": "昨天", "traditional": "昨天", "pinyin": "zuótiān", "french": "hier", "hsk_level": 1, "category": "temps", "components": ["昨", "天"]},
-  {"simplified": "现在", "traditional": "現在", "pinyin": "xiànzài", "french": "maintenant", "hsk_level": 1, "category": "temps", "components": ["现", "在"]},
-  {"simplified": "时候", "traditional": "時候", "pinyin": "shíhou", "french": "moment, quand", "hsk_level": 1, "category": "temps", "components": ["时", "候"]},
-  {"simplified": "年", "traditional": "年", "pinyin": "nián", "french": "année", "hsk_level": 1, "category": "temps", "components": ["年"]},
-  {"simplified": "月", "traditional": "月", "pinyin": "yuè", "french": "mois", "hsk_level": 1, "category": "temps", "components": ["月"]},
-  {"simplified": "日", "traditional": "日", "pinyin": "rì", "french": "jour, soleil", "hsk_level": 1, "category": "temps", "components": ["日"]},
-  {"simplified": "星期", "traditional": "星期", "pinyin": "xīngqī", "french": "semaine", "hsk_level": 1, "category": "temps", "components": ["星", "期"]},
-  {"simplified": "点", "traditional": "點", "pinyin": "diǎn", "french": "heure (horaire), point", "hsk_level": 1, "category": "temps", "components": ["点"]},
-  {"simplified": "分钟", "traditional": "分鐘", "pinyin": "fēnzhōng", "french": "minute", "hsk_level": 1, "category": "temps", "components": ["分", "钟"]},
-  {"simplified": "上午", "traditional": "上午", "pinyin": "shàngwǔ", "french": "matin", "hsk_level": 1, "category": "temps", "components": ["上", "午"]},
-  {"simplified": "下午", "traditional": "下午", "pinyin": "xiàwǔ", "french": "après-midi", "hsk_level": 1, "category": "temps", "components": ["下", "午"]},
-  {"simplified": "好", "traditional": "好", "pinyin": "hǎo", "french": "bon, bien", "hsk_level": 1, "category": "adjectifs", "components": ["好"]},
-  {"simplified": "大", "traditional": "大", "pinyin": "dà", "french": "grand", "hsk_level": 1, "category": "adjectifs", "components": ["大"]},
-  {"simplified": "小", "traditional": "小", "pinyin": "xiǎo", "french": "petit", "hsk_level": 1, "category": "adjectifs", "components": ["小"]},
-  {"simplified": "多", "traditional": "多", "pinyin": "duō", "french": "beaucoup, nombreux", "hsk_level": 1, "category": "adjectifs", "components": ["多"]},
-  {"simplified": "少", "traditional": "少", "pinyin": "shǎo", "french": "peu", "hsk_level": 1, "category": "adjectifs", "components": ["少"]},
-  {"simplified": "冷", "traditional": "冷", "pinyin": "lěng", "french": "froid", "hsk_level": 1, "category": "adjectifs", "components": ["冷"]},
-  {"simplified": "热", "traditional": "熱", "pinyin": "rè", "french": "chaud", "hsk_level": 1, "category": "adjectifs", "components": ["热"]},
-  {"simplified": "高兴", "traditional": "高興", "pinyin": "gāoxìng", "french": "content, joyeux", "hsk_level": 1, "category": "adjectifs", "components": ["高", "兴"]},
-  {"simplified": "漂亮", "traditional": "漂亮", "pinyin": "piàoliang", "french": "joli, beau", "hsk_level": 1, "category": "adjectifs", "components": ["漂", "亮"]},
-  {"simplified": "快", "traditional": "快", "pinyin": "kuài", "french": "rapide", "hsk_level": 1, "category": "adjectifs", "components": ["快"]},
-  {"simplified": "慢", "traditional": "慢", "pinyin": "màn", "french": "lent", "hsk_level": 1, "category": "adjectifs", "components": ["慢"]},
-  {"simplified": "忙", "traditional": "忙", "pinyin": "máng", "french": "occupé", "hsk_level": 1, "category": "adjectifs", "components": ["忙"]},
-  {"simplified": "长", "traditional": "長", "pinyin": "cháng", "french": "long", "hsk_level": 1, "category": "adjectifs", "components": ["长"]},
-  {"simplified": "远", "traditional": "遠", "pinyin": "yuǎn", "french": "loin", "hsk_level": 1, "category": "adjectifs", "components": ["远"]},
-  {"simplified": "近", "traditional": "近", "pinyin": "jìn", "french": "proche", "hsk_level": 1, "category": "adjectifs", "components": ["近"]},
-  {"simplified": "贵", "traditional": "貴", "pinyin": "guì", "french": "cher (prix)", "hsk_level": 1, "category": "adjectifs", "components": ["贵"]},
-  {"simplified": "便宜", "traditional": "便宜", "pinyin": "piányi", "french": "bon marché, pas cher", "hsk_level": 1, "category": "adjectifs", "components": ["便", "宜"]},
-  {"simplified": "新", "traditional": "新", "pinyin": "xīn", "french": "nouveau", "hsk_level": 1, "category": "adjectifs", "components": ["新"]},
-  {"simplified": "对", "traditional": "對", "pinyin": "duì", "french": "correct, juste", "hsk_level": 1, "category": "adjectifs", "components": ["对"]},
-  {"simplified": "不", "traditional": "不", "pinyin": "bù", "french": "ne...pas (négation)", "hsk_level": 1, "category": "adverbes", "components": ["不"]},
-  {"simplified": "没", "traditional": "沒", "pinyin": "méi", "french": "ne...pas (passé), pas de", "hsk_level": 1, "category": "adverbes", "components": ["没"]},
-  {"simplified": "很", "traditional": "很", "pinyin": "hěn", "french": "très", "hsk_level": 1, "category": "adverbes", "components": ["很"]},
-  {"simplified": "太", "traditional": "太", "pinyin": "tài", "french": "trop", "hsk_level": 1, "category": "adverbes", "components": ["太"]},
-  {"simplified": "都", "traditional": "都", "pinyin": "dōu", "french": "tous, tout", "hsk_level": 1, "category": "adverbes", "components": ["都"]},
-  {"simplified": "也", "traditional": "也", "pinyin": "yě", "french": "aussi", "hsk_level": 1, "category": "adverbes", "components": ["也"]},
-  {"simplified": "还", "traditional": "還", "pinyin": "hái", "french": "encore, aussi", "hsk_level": 1, "category": "adverbes", "components": ["还"]},
-  {"simplified": "已经", "traditional": "已經", "pinyin": "yǐjīng", "french": "déjà", "hsk_level": 1, "category": "adverbes", "components": ["已", "经"]},
-  {"simplified": "正在", "traditional": "正在", "pinyin": "zhèngzài", "french": "en train de", "hsk_level": 1, "category": "adverbes", "components": ["正", "在"]},
-  {"simplified": "非常", "traditional": "非常", "pinyin": "fēicháng", "french": "extrêmement, très", "hsk_level": 1, "category": "adverbes", "components": ["非", "常"]},
-  {"simplified": "和", "traditional": "和", "pinyin": "hé", "french": "et, avec", "hsk_level": 1, "category": "conjonctions", "components": ["和"]},
-  {"simplified": "的", "traditional": "的", "pinyin": "de", "french": "particule possessive/descriptive", "hsk_level": 1, "category": "particules", "components": ["的"]},
-  {"simplified": "了", "traditional": "了", "pinyin": "le", "french": "particule d'accomplissement", "hsk_level": 1, "category": "particules", "components": ["了"]},
-  {"simplified": "吗", "traditional": "嗎", "pinyin": "ma", "french": "particule interrogative", "hsk_level": 1, "category": "particules", "components": ["吗"]},
-  {"simplified": "呢", "traditional": "呢", "pinyin": "ne", "french": "particule interrogative (et toi ?)", "hsk_level": 1, "category": "particules", "components": ["呢"]},
-  {"simplified": "吧", "traditional": "吧", "pinyin": "ba", "french": "particule de suggestion", "hsk_level": 1, "category": "particules", "components": ["吧"]},
-  {"simplified": "过", "traditional": "過", "pinyin": "guò", "french": "particule d'expérience passée", "hsk_level": 1, "category": "particules", "components": ["过"]},
-  {"simplified": "着", "traditional": "著", "pinyin": "zhe", "french": "particule de durée", "hsk_level": 1, "category": "particules", "components": ["着"]},
-  {"simplified": "得", "traditional": "得", "pinyin": "de", "french": "particule de complément", "hsk_level": 1, "category": "particules", "components": ["得"]},
-  {"simplified": "地", "traditional": "地", "pinyin": "de", "french": "particule adverbiale", "hsk_level": 1, "category": "particules", "components": ["地"]},
-  {"simplified": "对不起", "traditional": "對不起", "pinyin": "duìbuqǐ", "french": "pardon, excusez-moi", "hsk_level": 1, "category": "expressions", "components": ["对", "不", "起"]},
-  {"simplified": "谢谢", "traditional": "謝謝", "pinyin": "xièxie", "french": "merci", "hsk_level": 1, "category": "expressions", "components": ["谢"]},
-  {"simplified": "不客气", "traditional": "不客氣", "pinyin": "bú kèqi", "french": "de rien", "hsk_level": 1, "category": "expressions", "components": ["不", "客", "气"]},
-  {"simplified": "再见", "traditional": "再見", "pinyin": "zàijiàn", "french": "au revoir", "hsk_level": 1, "category": "expressions", "components": ["再", "见"]},
-  {"simplified": "你好", "traditional": "你好", "pinyin": "nǐ hǎo", "french": "bonjour", "hsk_level": 1, "category": "expressions", "components": ["你", "好"]},
-  {"simplified": "没关系", "traditional": "沒關係", "pinyin": "méi guānxi", "french": "ce n'est rien, pas grave", "hsk_level": 1, "category": "expressions", "components": ["没", "关", "系"]},
-  {"simplified": "怎么", "traditional": "怎麼", "pinyin": "zěnme", "french": "comment", "hsk_level": 1, "category": "expressions", "components": ["怎", "么"]},
-  {"simplified": "怎么样", "traditional": "怎麼樣", "pinyin": "zěnmeyàng", "french": "comment est-ce", "hsk_level": 1, "category": "expressions", "components": ["怎", "么", "样"]},
-  {"simplified": "为什么", "traditional": "為什麼", "pinyin": "wèishénme", "french": "pourquoi", "hsk_level": 1, "category": "expressions", "components": ["为", "什", "么"]},
-  {"simplified": "哪儿", "traditional": "哪兒", "pinyin": "nǎr", "french": "où", "hsk_level": 1, "category": "expressions", "components": ["哪", "儿"]},
-  {"simplified": "桌子", "traditional": "桌子", "pinyin": "zhuōzi", "french": "table", "hsk_level": 1, "category": "noms", "components": ["桌", "子"]},
-  {"simplified": "椅子", "traditional": "椅子", "pinyin": "yǐzi", "french": "chaise", "hsk_level": 1, "category": "noms", "components": ["椅", "子"]},
-  {"simplified": "下雨", "traditional": "下雨", "pinyin": "xià yǔ", "french": "pleuvoir", "hsk_level": 1, "category": "verbes", "components": ["下", "雨"]},
-  {"simplified": "走", "traditional": "走", "pinyin": "zǒu", "french": "marcher, partir", "hsk_level": 1, "category": "verbes", "components": ["走"]},
-  {"simplified": "跑", "traditional": "跑", "pinyin": "pǎo", "french": "courir", "hsk_level": 1, "category": "verbes", "components": ["跑"]},
-  {"simplified": "穿", "traditional": "穿", "pinyin": "chuān", "french": "porter (vêtement)", "hsk_level": 1, "category": "verbes", "components": ["穿"]},
-  {"simplified": "玩", "traditional": "玩", "pinyin": "wán", "french": "jouer, s'amuser", "hsk_level": 1, "category": "verbes", "components": ["玩"]},
-  {"simplified": "送", "traditional": "送", "pinyin": "sòng", "french": "offrir, accompagner", "hsk_level": 1, "category": "verbes", "components": ["送"]},
-  {"simplified": "等", "traditional": "等", "pinyin": "děng", "french": "attendre", "hsk_level": 1, "category": "verbes", "components": ["等"]},
-  {"simplified": "找", "traditional": "找", "pinyin": "zhǎo", "french": "chercher", "hsk_level": 1, "category": "verbes", "components": ["找"]},
-  {"simplified": "到", "traditional": "到", "pinyin": "dào", "french": "arriver à", "hsk_level": 1, "category": "verbes", "components": ["到"]},
-  {"simplified": "进", "traditional": "進", "pinyin": "jìn", "french": "entrer", "hsk_level": 1, "category": "verbes", "components": ["进"]},
-  {"simplified": "出", "traditional": "出", "pinyin": "chū", "french": "sortir", "hsk_level": 1, "category": "verbes", "components": ["出"]},
-  {"simplified": "问", "traditional": "問", "pinyin": "wèn", "french": "demander, questionner", "hsk_level": 1, "category": "verbes", "components": ["问"]},
-  {"simplified": "笑", "traditional": "笑", "pinyin": "xiào", "french": "rire, sourire", "hsk_level": 1, "category": "verbes", "components": ["笑"]},
-  {"simplified": "哭", "traditional": "哭", "pinyin": "kū", "french": "pleurer", "hsk_level": 1, "category": "verbes", "components": ["哭"]},
-  {"simplified": "用", "traditional": "用", "pinyin": "yòng", "french": "utiliser", "hsk_level": 1, "category": "verbes", "components": ["用"]},
-  {"simplified": "手机", "traditional": "手機", "pinyin": "shǒujī", "french": "téléphone portable", "hsk_level": 1, "category": "noms", "components": ["手", "机"]},
-  {"simplified": "身体", "traditional": "身體", "pinyin": "shēntǐ", "french": "corps, santé", "hsk_level": 1, "category": "noms", "components": ["身", "体"]},
-  {"simplified": "眼睛", "traditional": "眼睛", "pinyin": "yǎnjing", "french": "yeux", "hsk_level": 1, "category": "noms", "components": ["眼", "睛"]},
-  {"simplified": "头", "traditional": "頭", "pinyin": "tóu", "french": "tête", "hsk_level": 1, "category": "noms", "components": ["头"]},
-  {"simplified": "手", "traditional": "手", "pinyin": "shǒu", "french": "main", "hsk_level": 1, "category": "noms", "components": ["手"]},
-  {"simplified": "脚", "traditional": "腳", "pinyin": "jiǎo", "french": "pied", "hsk_level": 1, "category": "noms", "components": ["脚"]},
-  {"simplified": "路", "traditional": "路", "pinyin": "lù", "french": "route, chemin", "hsk_level": 1, "category": "noms", "components": ["路"]},
-  {"simplified": "门", "traditional": "門", "pinyin": "mén", "french": "porte", "hsk_level": 1, "category": "noms", "components": ["门"]},
-  {"simplified": "房间", "traditional": "房間", "pinyin": "fángjiān", "french": "chambre, pièce", "hsk_level": 1, "category": "noms", "components": ["房", "间"]},
-  {"simplified": "左", "traditional": "左", "pinyin": "zuǒ", "french": "gauche", "hsk_level": 1, "category": "lieux", "components": ["左"]},
-  {"simplified": "右", "traditional": "右", "pinyin": "yòu", "french": "droite", "hsk_level": 1, "category": "lieux", "components": ["右"]}
+  {
+    "simplified": "我",
+    "traditional": "我",
+    "pinyin": "wǒ",
+    "french": "je, moi",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["我"],
+    "examples": [
+      {"chinese": "我是学生。", "pinyin": "wǒ shì xuéshēng.", "french": "Je suis étudiant."},
+      {"chinese": "我喜欢中国。", "pinyin": "wǒ xǐhuān Zhōngguó.", "french": "J'aime la Chine."}
+    ]
+  },
+  {
+    "simplified": "你",
+    "traditional": "你",
+    "pinyin": "nǐ",
+    "french": "tu, toi",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["你"],
+    "examples": [
+      {"chinese": "你叫什么名字？", "pinyin": "nǐ jiào shénme míngzì?", "french": "Comment t'appelles-tu ?"},
+      {"chinese": "你是中国人吗？", "pinyin": "nǐ shì Zhōngguó rén ma?", "french": "Es-tu chinois ?"}
+    ]
+  },
+  {
+    "simplified": "他",
+    "traditional": "他",
+    "pinyin": "tā",
+    "french": "il, lui",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["他"],
+    "examples": [
+      {"chinese": "他是我的朋友。", "pinyin": "tā shì wǒ de péngyǒu.", "french": "Il est mon ami."},
+      {"chinese": "他在学校。", "pinyin": "tā zài xuéxiào.", "french": "Il est à l'école."}
+    ]
+  },
+  {
+    "simplified": "她",
+    "traditional": "她",
+    "pinyin": "tā",
+    "french": "elle",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["她"],
+    "examples": [
+      {"chinese": "她很漂亮。", "pinyin": "tā hěn piàoliang.", "french": "Elle est très belle."},
+      {"chinese": "她是老师。", "pinyin": "tā shì lǎoshī.", "french": "Elle est professeur."}
+    ]
+  },
+  {
+    "simplified": "它",
+    "traditional": "它",
+    "pinyin": "tā",
+    "french": "il/elle (animal, objet)",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["它"],
+    "examples": [
+      {"chinese": "它是一只猫。", "pinyin": "tā shì yì zhī māo.", "french": "C'est un chat."},
+      {"chinese": "它很小。", "pinyin": "tā hěn xiǎo.", "french": "Il/elle est petit(e)."}
+    ]
+  },
+  {
+    "simplified": "我们",
+    "traditional": "我們",
+    "pinyin": "wǒmen",
+    "french": "nous",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["我", "们"],
+    "examples": [
+      {"chinese": "我们是同学。", "pinyin": "wǒmen shì tóngxué.", "french": "Nous sommes camarades de classe."},
+      {"chinese": "我们去吃饭吧。", "pinyin": "wǒmen qù chīfàn ba.", "french": "Allons manger."}
+    ]
+  },
+  {
+    "simplified": "你们",
+    "traditional": "你們",
+    "pinyin": "nǐmen",
+    "french": "vous",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["你", "们"],
+    "examples": [
+      {"chinese": "你们好！", "pinyin": "nǐmen hǎo!", "french": "Bonjour à vous !"},
+      {"chinese": "你们是哪国人？", "pinyin": "nǐmen shì nǎ guó rén?", "french": "De quel pays êtes-vous ?"}
+    ]
+  },
+  {
+    "simplified": "他们",
+    "traditional": "他們",
+    "pinyin": "tāmen",
+    "french": "ils, eux",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["他", "们"],
+    "examples": [
+      {"chinese": "他们都是学生。", "pinyin": "tāmen dōu shì xuéshēng.", "french": "Ils sont tous étudiants."},
+      {"chinese": "他们在家。", "pinyin": "tāmen zài jiā.", "french": "Ils sont à la maison."}
+    ]
+  },
+  {
+    "simplified": "这",
+    "traditional": "這",
+    "pinyin": "zhè",
+    "french": "ce, ceci",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["这"],
+    "examples": [
+      {"chinese": "这是我的书。", "pinyin": "zhè shì wǒ de shū.", "french": "C'est mon livre."},
+      {"chinese": "这个多少钱？", "pinyin": "zhège duōshao qián?", "french": "Combien coûte celui-ci ?"}
+    ]
+  },
+  {
+    "simplified": "那",
+    "traditional": "那",
+    "pinyin": "nà",
+    "french": "ce, cela",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["那"],
+    "examples": [
+      {"chinese": "那是什么？", "pinyin": "nà shì shénme?", "french": "Qu'est-ce que c'est ?"},
+      {"chinese": "那个人是谁？", "pinyin": "nàge rén shì shéi?", "french": "Qui est cette personne ?"}
+    ]
+  },
+  {
+    "simplified": "哪",
+    "traditional": "哪",
+    "pinyin": "nǎ",
+    "french": "quel, lequel",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["哪"],
+    "examples": [
+      {"chinese": "你是哪国人？", "pinyin": "nǐ shì nǎ guó rén?", "french": "De quel pays es-tu ?"},
+      {"chinese": "哪个是你的？", "pinyin": "nǎge shì nǐ de?", "french": "Lequel est le tien ?"}
+    ]
+  },
+  {
+    "simplified": "什么",
+    "traditional": "什麼",
+    "pinyin": "shénme",
+    "french": "quoi, quel",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["什", "么"],
+    "examples": [
+      {"chinese": "你要什么？", "pinyin": "nǐ yào shénme?", "french": "Que veux-tu ?"},
+      {"chinese": "这是什么？", "pinyin": "zhè shì shénme?", "french": "Qu'est-ce que c'est ?"}
+    ]
+  },
+  {
+    "simplified": "谁",
+    "traditional": "誰",
+    "pinyin": "shéi",
+    "french": "qui",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["谁"],
+    "examples": [
+      {"chinese": "你是谁？", "pinyin": "nǐ shì shéi?", "french": "Qui es-tu ?"},
+      {"chinese": "谁在那儿？", "pinyin": "shéi zài nàr?", "french": "Qui est là-bas ?"}
+    ]
+  },
+  {
+    "simplified": "多少",
+    "traditional": "多少",
+    "pinyin": "duōshao",
+    "french": "combien",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["多", "少"],
+    "examples": [
+      {"chinese": "这个多少钱？", "pinyin": "zhège duōshao qián?", "french": "Combien ça coûte ?"},
+      {"chinese": "你有多少本书？", "pinyin": "nǐ yǒu duōshao běn shū?", "french": "Combien de livres as-tu ?"}
+    ]
+  },
+  {
+    "simplified": "几",
+    "traditional": "幾",
+    "pinyin": "jǐ",
+    "french": "combien (petit nombre)",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["几"],
+    "examples": [
+      {"chinese": "现在几点？", "pinyin": "xiànzài jǐ diǎn?", "french": "Quelle heure est-il ?"},
+      {"chinese": "你有几个孩子？", "pinyin": "nǐ yǒu jǐ gè háizi?", "french": "Combien d'enfants as-tu ?"}
+    ]
+  },
+  {
+    "simplified": "是",
+    "traditional": "是",
+    "pinyin": "shì",
+    "french": "être",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["是"],
+    "examples": [
+      {"chinese": "我是中国人。", "pinyin": "wǒ shì Zhōngguó rén.", "french": "Je suis chinois."},
+      {"chinese": "这是我的家。", "pinyin": "zhè shì wǒ de jiā.", "french": "C'est ma maison."}
+    ]
+  },
+  {
+    "simplified": "有",
+    "traditional": "有",
+    "pinyin": "yǒu",
+    "french": "avoir, il y a",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["有"],
+    "examples": [
+      {"chinese": "我有一个哥哥。", "pinyin": "wǒ yǒu yí gè gēge.", "french": "J'ai un grand frère."},
+      {"chinese": "这里有很多人。", "pinyin": "zhèlǐ yǒu hěn duō rén.", "french": "Il y a beaucoup de monde ici."}
+    ]
+  },
+  {
+    "simplified": "在",
+    "traditional": "在",
+    "pinyin": "zài",
+    "french": "être à, se trouver",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["在"],
+    "examples": [
+      {"chinese": "他在家。", "pinyin": "tā zài jiā.", "french": "Il est à la maison."},
+      {"chinese": "你在哪儿？", "pinyin": "nǐ zài nǎr?", "french": "Où es-tu ?"}
+    ]
+  },
+  {
+    "simplified": "做",
+    "traditional": "做",
+    "pinyin": "zuò",
+    "french": "faire",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["做"],
+    "examples": [
+      {"chinese": "你在做什么？", "pinyin": "nǐ zài zuò shénme?", "french": "Que fais-tu ?"},
+      {"chinese": "妈妈在做饭。", "pinyin": "māma zài zuòfàn.", "french": "Maman prépare le repas."}
+    ]
+  },
+  {
+    "simplified": "去",
+    "traditional": "去",
+    "pinyin": "qù",
+    "french": "aller",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["去"],
+    "examples": [
+      {"chinese": "我去学校。", "pinyin": "wǒ qù xuéxiào.", "french": "Je vais à l'école."},
+      {"chinese": "你去哪儿？", "pinyin": "nǐ qù nǎr?", "french": "Où vas-tu ?"}
+    ]
+  },
+  {
+    "simplified": "来",
+    "traditional": "來",
+    "pinyin": "lái",
+    "french": "venir",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["来"],
+    "examples": [
+      {"chinese": "你来我家吧。", "pinyin": "nǐ lái wǒ jiā ba.", "french": "Viens chez moi."},
+      {"chinese": "他从北京来。", "pinyin": "tā cóng Běijīng lái.", "french": "Il vient de Pékin."}
+    ]
+  },
+  {
+    "simplified": "吃",
+    "traditional": "吃",
+    "pinyin": "chī",
+    "french": "manger",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["吃"],
+    "examples": [
+      {"chinese": "我们吃饭吧。", "pinyin": "wǒmen chīfàn ba.", "french": "Mangeons."},
+      {"chinese": "你想吃什么？", "pinyin": "nǐ xiǎng chī shénme?", "french": "Que veux-tu manger ?"}
+    ]
+  },
+  {
+    "simplified": "喝",
+    "traditional": "喝",
+    "pinyin": "hē",
+    "french": "boire",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["喝"],
+    "examples": [
+      {"chinese": "你喝茶吗？", "pinyin": "nǐ hē chá ma?", "french": "Tu bois du thé ?"},
+      {"chinese": "我想喝水。", "pinyin": "wǒ xiǎng hē shuǐ.", "french": "Je voudrais boire de l'eau."}
+    ]
+  },
+  {
+    "simplified": "看",
+    "traditional": "看",
+    "pinyin": "kàn",
+    "french": "regarder, voir",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["看"],
+    "examples": [
+      {"chinese": "我在看书。", "pinyin": "wǒ zài kànshū.", "french": "Je suis en train de lire."},
+      {"chinese": "你看，那是什么？", "pinyin": "nǐ kàn, nà shì shénme?", "french": "Regarde, qu'est-ce que c'est ?"}
+    ]
+  },
+  {
+    "simplified": "听",
+    "traditional": "聽",
+    "pinyin": "tīng",
+    "french": "écouter, entendre",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["听"],
+    "examples": [
+      {"chinese": "请你听我说。", "pinyin": "qǐng nǐ tīng wǒ shuō.", "french": "Écoute-moi, s'il te plaît."},
+      {"chinese": "我喜欢听音乐。", "pinyin": "wǒ xǐhuān tīng yīnyuè.", "french": "J'aime écouter de la musique."}
+    ]
+  },
+  {
+    "simplified": "说",
+    "traditional": "說",
+    "pinyin": "shuō",
+    "french": "dire, parler",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["说"],
+    "examples": [
+      {"chinese": "你说什么？", "pinyin": "nǐ shuō shénme?", "french": "Que dis-tu ?"},
+      {"chinese": "请说慢一点。", "pinyin": "qǐng shuō màn yìdiǎn.", "french": "Parle plus lentement, s'il te plaît."}
+    ]
+  },
+  {
+    "simplified": "读",
+    "traditional": "讀",
+    "pinyin": "dú",
+    "french": "lire (à voix haute)",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["读"],
+    "examples": [
+      {"chinese": "请读这个字。", "pinyin": "qǐng dú zhège zì.", "french": "Lis ce caractère, s'il te plaît."},
+      {"chinese": "我每天读中文。", "pinyin": "wǒ měitiān dú zhōngwén.", "french": "Je lis du chinois chaque jour."}
+    ]
+  },
+  {
+    "simplified": "写",
+    "traditional": "寫",
+    "pinyin": "xiě",
+    "french": "écrire",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["写"],
+    "examples": [
+      {"chinese": "我在写汉字。", "pinyin": "wǒ zài xiě hànzì.", "french": "J'écris des caractères chinois."},
+      {"chinese": "请写你的名字。", "pinyin": "qǐng xiě nǐ de míngzì.", "french": "Écris ton nom, s'il te plaît."}
+    ]
+  },
+  {
+    "simplified": "学",
+    "traditional": "學",
+    "pinyin": "xué",
+    "french": "étudier, apprendre",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["学"],
+    "examples": [
+      {"chinese": "我学中文。", "pinyin": "wǒ xué zhōngwén.", "french": "J'étudie le chinois."},
+      {"chinese": "他在学做饭。", "pinyin": "tā zài xué zuòfàn.", "french": "Il apprend à cuisiner."}
+    ]
+  },
+  {
+    "simplified": "想",
+    "traditional": "想",
+    "pinyin": "xiǎng",
+    "french": "vouloir, penser",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["想"],
+    "examples": [
+      {"chinese": "我想去中国。", "pinyin": "wǒ xiǎng qù Zhōngguó.", "french": "Je veux aller en Chine."},
+      {"chinese": "你想吃什么？", "pinyin": "nǐ xiǎng chī shénme?", "french": "Que veux-tu manger ?"}
+    ]
+  },
+  {
+    "simplified": "喜欢",
+    "traditional": "喜歡",
+    "pinyin": "xǐhuān",
+    "french": "aimer",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["喜", "欢"],
+    "examples": [
+      {"chinese": "我喜欢吃水果。", "pinyin": "wǒ xǐhuān chī shuǐguǒ.", "french": "J'aime manger des fruits."},
+      {"chinese": "你喜欢什么颜色？", "pinyin": "nǐ xǐhuān shénme yánsè?", "french": "Quelle couleur aimes-tu ?"}
+    ]
+  },
+  {
+    "simplified": "爱",
+    "traditional": "愛",
+    "pinyin": "ài",
+    "french": "aimer (fort), amour",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["爱"],
+    "examples": [
+      {"chinese": "我爱你。", "pinyin": "wǒ ài nǐ.", "french": "Je t'aime."},
+      {"chinese": "她爱她的家人。", "pinyin": "tā ài tā de jiārén.", "french": "Elle aime sa famille."}
+    ]
+  },
+  {
+    "simplified": "叫",
+    "traditional": "叫",
+    "pinyin": "jiào",
+    "french": "s'appeler, appeler",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["叫"],
+    "examples": [
+      {"chinese": "我叫小明。", "pinyin": "wǒ jiào Xiǎomíng.", "french": "Je m'appelle Xiaoming."},
+      {"chinese": "请叫我老师。", "pinyin": "qǐng jiào wǒ lǎoshī.", "french": "Appelez-moi professeur."}
+    ]
+  },
+  {
+    "simplified": "住",
+    "traditional": "住",
+    "pinyin": "zhù",
+    "french": "habiter, vivre",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["住"],
+    "examples": [
+      {"chinese": "你住在哪儿？", "pinyin": "nǐ zhù zài nǎr?", "french": "Où habites-tu ?"},
+      {"chinese": "我住在北京。", "pinyin": "wǒ zhù zài Běijīng.", "french": "J'habite à Pékin."}
+    ]
+  },
+  {
+    "simplified": "买",
+    "traditional": "買",
+    "pinyin": "mǎi",
+    "french": "acheter",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["买"],
+    "examples": [
+      {"chinese": "我要买水果。", "pinyin": "wǒ yào mǎi shuǐguǒ.", "french": "Je veux acheter des fruits."},
+      {"chinese": "你买了什么？", "pinyin": "nǐ mǎi le shénme?", "french": "Qu'as-tu acheté ?"}
+    ]
+  },
+  {
+    "simplified": "卖",
+    "traditional": "賣",
+    "pinyin": "mài",
+    "french": "vendre",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["卖"],
+    "examples": [
+      {"chinese": "这家店卖水果。", "pinyin": "zhè jiā diàn mài shuǐguǒ.", "french": "Ce magasin vend des fruits."},
+      {"chinese": "他卖东西。", "pinyin": "tā mài dōngxi.", "french": "Il vend des choses."}
+    ]
+  },
+  {
+    "simplified": "工作",
+    "traditional": "工作",
+    "pinyin": "gōngzuò",
+    "french": "travailler, travail",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["工", "作"],
+    "examples": [
+      {"chinese": "你在哪儿工作？", "pinyin": "nǐ zài nǎr gōngzuò?", "french": "Où travailles-tu ?"},
+      {"chinese": "我的工作很忙。", "pinyin": "wǒ de gōngzuò hěn máng.", "french": "Mon travail est très chargé."}
+    ]
+  },
+  {
+    "simplified": "睡觉",
+    "traditional": "睡覺",
+    "pinyin": "shuìjiào",
+    "french": "dormir",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["睡", "觉"],
+    "examples": [
+      {"chinese": "我要睡觉了。", "pinyin": "wǒ yào shuìjiào le.", "french": "Je vais dormir."},
+      {"chinese": "你几点睡觉？", "pinyin": "nǐ jǐ diǎn shuìjiào?", "french": "À quelle heure dors-tu ?"}
+    ]
+  },
+  {
+    "simplified": "起床",
+    "traditional": "起床",
+    "pinyin": "qǐchuáng",
+    "french": "se lever",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["起", "床"],
+    "examples": [
+      {"chinese": "我早上六点起床。", "pinyin": "wǒ zǎoshang liù diǎn qǐchuáng.", "french": "Je me lève à six heures du matin."},
+      {"chinese": "快起床！", "pinyin": "kuài qǐchuáng!", "french": "Lève-toi vite !"}
+    ]
+  },
+  {
+    "simplified": "走",
+    "traditional": "走",
+    "pinyin": "zǒu",
+    "french": "marcher, partir",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["走"],
+    "examples": [
+      {"chinese": "我们走吧。", "pinyin": "wǒmen zǒu ba.", "french": "Allons-y."},
+      {"chinese": "他走了。", "pinyin": "tā zǒu le.", "french": "Il est parti."}
+    ]
+  },
+  {
+    "simplified": "坐",
+    "traditional": "坐",
+    "pinyin": "zuò",
+    "french": "s'asseoir, prendre (transport)",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["坐"],
+    "examples": [
+      {"chinese": "请坐。", "pinyin": "qǐng zuò.", "french": "Asseyez-vous, s'il vous plaît."},
+      {"chinese": "我坐公共汽车去。", "pinyin": "wǒ zuò gōnggòng qìchē qù.", "french": "J'y vais en bus."}
+    ]
+  },
+  {
+    "simplified": "开",
+    "traditional": "開",
+    "pinyin": "kāi",
+    "french": "ouvrir, conduire",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["开"],
+    "examples": [
+      {"chinese": "请开门。", "pinyin": "qǐng kāi mén.", "french": "Ouvrez la porte, s'il vous plaît."},
+      {"chinese": "他会开车。", "pinyin": "tā huì kāichē.", "french": "Il sait conduire."}
+    ]
+  },
+  {
+    "simplified": "关",
+    "traditional": "關",
+    "pinyin": "guān",
+    "french": "fermer",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["关"],
+    "examples": [
+      {"chinese": "请关门。", "pinyin": "qǐng guān mén.", "french": "Fermez la porte, s'il vous plaît."},
+      {"chinese": "关灯吧。", "pinyin": "guān dēng ba.", "french": "Éteins la lumière."}
+    ]
+  },
+  {
+    "simplified": "给",
+    "traditional": "給",
+    "pinyin": "gěi",
+    "french": "donner, pour",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["给"],
+    "examples": [
+      {"chinese": "请给我一杯水。", "pinyin": "qǐng gěi wǒ yì bēi shuǐ.", "french": "Donnez-moi un verre d'eau, s'il vous plaît."},
+      {"chinese": "我给你打电话。", "pinyin": "wǒ gěi nǐ dǎ diànhuà.", "french": "Je t'appelle au téléphone."}
+    ]
+  },
+  {
+    "simplified": "回",
+    "traditional": "回",
+    "pinyin": "huí",
+    "french": "retourner, rentrer",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["回"],
+    "examples": [
+      {"chinese": "我要回家。", "pinyin": "wǒ yào huí jiā.", "french": "Je vais rentrer à la maison."},
+      {"chinese": "他回中国了。", "pinyin": "tā huí Zhōngguó le.", "french": "Il est retourné en Chine."}
+    ]
+  },
+  {
+    "simplified": "打电话",
+    "traditional": "打電話",
+    "pinyin": "dǎ diànhuà",
+    "french": "téléphoner",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["打", "电", "话"],
+    "examples": [
+      {"chinese": "我给妈妈打电话。", "pinyin": "wǒ gěi māma dǎ diànhuà.", "french": "J'appelle maman."},
+      {"chinese": "你能打电话给我吗？", "pinyin": "nǐ néng dǎ diànhuà gěi wǒ ma?", "french": "Peux-tu m'appeler ?"}
+    ]
+  },
+  {
+    "simplified": "会",
+    "traditional": "會",
+    "pinyin": "huì",
+    "french": "savoir, pouvoir (capacité)",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["会"],
+    "examples": [
+      {"chinese": "你会说中文吗？", "pinyin": "nǐ huì shuō zhōngwén ma?", "french": "Sais-tu parler chinois ?"},
+      {"chinese": "我不会游泳。", "pinyin": "wǒ bú huì yóuyǒng.", "french": "Je ne sais pas nager."}
+    ]
+  },
+  {
+    "simplified": "能",
+    "traditional": "能",
+    "pinyin": "néng",
+    "french": "pouvoir",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["能"],
+    "examples": [
+      {"chinese": "你能帮我吗？", "pinyin": "nǐ néng bāng wǒ ma?", "french": "Peux-tu m'aider ?"},
+      {"chinese": "我不能去。", "pinyin": "wǒ bù néng qù.", "french": "Je ne peux pas y aller."}
+    ]
+  },
+  {
+    "simplified": "要",
+    "traditional": "要",
+    "pinyin": "yào",
+    "french": "vouloir, avoir besoin de",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["要"],
+    "examples": [
+      {"chinese": "我要一杯咖啡。", "pinyin": "wǒ yào yì bēi kāfēi.", "french": "Je veux un café."},
+      {"chinese": "明天要下雨。", "pinyin": "míngtiān yào xiàyǔ.", "french": "Il va pleuvoir demain."}
+    ]
+  },
+  {
+    "simplified": "可以",
+    "traditional": "可以",
+    "pinyin": "kěyǐ",
+    "french": "pouvoir, être permis",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["可", "以"],
+    "examples": [
+      {"chinese": "我可以进来吗？", "pinyin": "wǒ kěyǐ jìnlái ma?", "french": "Puis-je entrer ?"},
+      {"chinese": "这里可以吃饭。", "pinyin": "zhèlǐ kěyǐ chīfàn.", "french": "On peut manger ici."}
+    ]
+  },
+  {
+    "simplified": "认识",
+    "traditional": "認識",
+    "pinyin": "rènshi",
+    "french": "connaître, reconnaître",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["认", "识"],
+    "examples": [
+      {"chinese": "很高兴认识你。", "pinyin": "hěn gāoxìng rènshi nǐ.", "french": "Enchanté de te connaître."},
+      {"chinese": "你认识他吗？", "pinyin": "nǐ rènshi tā ma?", "french": "Tu le connais ?"}
+    ]
+  },
+  {
+    "simplified": "知道",
+    "traditional": "知道",
+    "pinyin": "zhīdào",
+    "french": "savoir",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["知", "道"],
+    "examples": [
+      {"chinese": "我知道了。", "pinyin": "wǒ zhīdào le.", "french": "J'ai compris."},
+      {"chinese": "你知道他在哪儿吗？", "pinyin": "nǐ zhīdào tā zài nǎr ma?", "french": "Sais-tu où il est ?"}
+    ]
+  },
+  {
+    "simplified": "觉得",
+    "traditional": "覺得",
+    "pinyin": "juéde",
+    "french": "penser, trouver",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["觉", "得"],
+    "examples": [
+      {"chinese": "我觉得很好。", "pinyin": "wǒ juéde hěn hǎo.", "french": "Je trouve ça bien."},
+      {"chinese": "你觉得怎么样？", "pinyin": "nǐ juéde zěnmeyàng?", "french": "Qu'en penses-tu ?"}
+    ]
+  },
+  {
+    "simplified": "人",
+    "traditional": "人",
+    "pinyin": "rén",
+    "french": "personne, homme",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["人"],
+    "examples": [
+      {"chinese": "这个人是谁？", "pinyin": "zhège rén shì shéi?", "french": "Qui est cette personne ?"},
+      {"chinese": "中国人很多。", "pinyin": "Zhōngguó rén hěn duō.", "french": "Il y a beaucoup de Chinois."}
+    ]
+  },
+  {
+    "simplified": "名字",
+    "traditional": "名字",
+    "pinyin": "míngzì",
+    "french": "nom, prénom",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["名", "字"],
+    "examples": [
+      {"chinese": "你的名字是什么？", "pinyin": "nǐ de míngzì shì shénme?", "french": "Quel est ton nom ?"},
+      {"chinese": "请写你的名字。", "pinyin": "qǐng xiě nǐ de míngzì.", "french": "Écris ton nom, s'il te plaît."}
+    ]
+  },
+  {
+    "simplified": "家",
+    "traditional": "家",
+    "pinyin": "jiā",
+    "french": "maison, famille",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["家"],
+    "examples": [
+      {"chinese": "我的家在北京。", "pinyin": "wǒ de jiā zài Běijīng.", "french": "Ma maison est à Pékin."},
+      {"chinese": "欢迎来我家。", "pinyin": "huānyíng lái wǒ jiā.", "french": "Bienvenue chez moi."}
+    ]
+  },
+  {
+    "simplified": "学校",
+    "traditional": "學校",
+    "pinyin": "xuéxiào",
+    "french": "école",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["学", "校"],
+    "examples": [
+      {"chinese": "我在学校学习。", "pinyin": "wǒ zài xuéxiào xuéxí.", "french": "J'étudie à l'école."},
+      {"chinese": "这个学校很大。", "pinyin": "zhège xuéxiào hěn dà.", "french": "Cette école est grande."}
+    ]
+  },
+  {
+    "simplified": "老师",
+    "traditional": "老師",
+    "pinyin": "lǎoshī",
+    "french": "professeur, enseignant",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["老", "师"],
+    "examples": [
+      {"chinese": "她是我的老师。", "pinyin": "tā shì wǒ de lǎoshī.", "french": "Elle est mon professeur."},
+      {"chinese": "老师好！", "pinyin": "lǎoshī hǎo!", "french": "Bonjour, professeur !"}
+    ]
+  },
+  {
+    "simplified": "学生",
+    "traditional": "學生",
+    "pinyin": "xuéshēng",
+    "french": "étudiant, élève",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["学", "生"],
+    "examples": [
+      {"chinese": "我是学生。", "pinyin": "wǒ shì xuéshēng.", "french": "Je suis étudiant."},
+      {"chinese": "这里有很多学生。", "pinyin": "zhèlǐ yǒu hěn duō xuéshēng.", "french": "Il y a beaucoup d'étudiants ici."}
+    ]
+  },
+  {
+    "simplified": "朋友",
+    "traditional": "朋友",
+    "pinyin": "péngyǒu",
+    "french": "ami",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["朋", "友"],
+    "examples": [
+      {"chinese": "他是我的好朋友。", "pinyin": "tā shì wǒ de hǎo péngyǒu.", "french": "Il est mon bon ami."},
+      {"chinese": "我有很多朋友。", "pinyin": "wǒ yǒu hěn duō péngyǒu.", "french": "J'ai beaucoup d'amis."}
+    ]
+  },
+  {
+    "simplified": "爸爸",
+    "traditional": "爸爸",
+    "pinyin": "bàba",
+    "french": "papa",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["爸", "爸"],
+    "examples": [
+      {"chinese": "爸爸在工作。", "pinyin": "bàba zài gōngzuò.", "french": "Papa travaille."},
+      {"chinese": "我爸爸是医生。", "pinyin": "wǒ bàba shì yīshēng.", "french": "Mon papa est médecin."}
+    ]
+  },
+  {
+    "simplified": "妈妈",
+    "traditional": "媽媽",
+    "pinyin": "māma",
+    "french": "maman",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["妈", "妈"],
+    "examples": [
+      {"chinese": "妈妈在做饭。", "pinyin": "māma zài zuòfàn.", "french": "Maman prépare le repas."},
+      {"chinese": "我爱妈妈。", "pinyin": "wǒ ài māma.", "french": "J'aime maman."}
+    ]
+  },
+  {
+    "simplified": "哥哥",
+    "traditional": "哥哥",
+    "pinyin": "gēge",
+    "french": "grand frère",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["哥", "哥"],
+    "examples": [
+      {"chinese": "我有一个哥哥。", "pinyin": "wǒ yǒu yí gè gēge.", "french": "J'ai un grand frère."},
+      {"chinese": "哥哥比我大三岁。", "pinyin": "gēge bǐ wǒ dà sān suì.", "french": "Mon grand frère a trois ans de plus que moi."}
+    ]
+  },
+  {
+    "simplified": "姐姐",
+    "traditional": "姐姐",
+    "pinyin": "jiějie",
+    "french": "grande soeur",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["姐", "姐"],
+    "examples": [
+      {"chinese": "姐姐在上大学。", "pinyin": "jiějie zài shàng dàxué.", "french": "Ma grande soeur est à l'université."},
+      {"chinese": "我的姐姐很漂亮。", "pinyin": "wǒ de jiějie hěn piàoliang.", "french": "Ma grande soeur est très belle."}
+    ]
+  },
+  {
+    "simplified": "弟弟",
+    "traditional": "弟弟",
+    "pinyin": "dìdi",
+    "french": "petit frère",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["弟", "弟"],
+    "examples": [
+      {"chinese": "弟弟在上学。", "pinyin": "dìdi zài shàngxué.", "french": "Mon petit frère va à l'école."},
+      {"chinese": "我弟弟很小。", "pinyin": "wǒ dìdi hěn xiǎo.", "french": "Mon petit frère est très jeune."}
+    ]
+  },
+  {
+    "simplified": "妹妹",
+    "traditional": "妹妹",
+    "pinyin": "mèimei",
+    "french": "petite soeur",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["妹", "妹"],
+    "examples": [
+      {"chinese": "妹妹今年五岁。", "pinyin": "mèimei jīnnián wǔ suì.", "french": "Ma petite soeur a cinq ans cette année."},
+      {"chinese": "我有一个妹妹。", "pinyin": "wǒ yǒu yí gè mèimei.", "french": "J'ai une petite soeur."}
+    ]
+  },
+  {
+    "simplified": "儿子",
+    "traditional": "兒子",
+    "pinyin": "érzi",
+    "french": "fils",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["儿", "子"],
+    "examples": [
+      {"chinese": "他的儿子很高。", "pinyin": "tā de érzi hěn gāo.", "french": "Son fils est très grand."},
+      {"chinese": "我有一个儿子。", "pinyin": "wǒ yǒu yí gè érzi.", "french": "J'ai un fils."}
+    ]
+  },
+  {
+    "simplified": "女儿",
+    "traditional": "女兒",
+    "pinyin": "nǚér",
+    "french": "fille (descendante)",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["女", "儿"],
+    "examples": [
+      {"chinese": "她的女儿很可爱。", "pinyin": "tā de nǚér hěn kěài.", "french": "Sa fille est très mignonne."},
+      {"chinese": "我女儿喜欢画画。", "pinyin": "wǒ nǚér xǐhuān huàhuà.", "french": "Ma fille aime dessiner."}
+    ]
+  },
+  {
+    "simplified": "孩子",
+    "traditional": "孩子",
+    "pinyin": "háizi",
+    "french": "enfant",
+    "hsk_level": 1,
+    "category": "famille",
+    "components": ["孩", "子"],
+    "examples": [
+      {"chinese": "孩子们在玩。", "pinyin": "háizimen zài wán.", "french": "Les enfants jouent."},
+      {"chinese": "你有几个孩子？", "pinyin": "nǐ yǒu jǐ gè háizi?", "french": "Combien d'enfants as-tu ?"}
+    ]
+  },
+  {
+    "simplified": "先生",
+    "traditional": "先生",
+    "pinyin": "xiānshēng",
+    "french": "monsieur, mari",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["先", "生"],
+    "examples": [
+      {"chinese": "王先生，你好！", "pinyin": "Wáng xiānshēng, nǐ hǎo!", "french": "Bonjour, Monsieur Wang !"},
+      {"chinese": "她的先生是老师。", "pinyin": "tā de xiānshēng shì lǎoshī.", "french": "Son mari est professeur."}
+    ]
+  },
+  {
+    "simplified": "小姐",
+    "traditional": "小姐",
+    "pinyin": "xiǎojiě",
+    "french": "mademoiselle",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["小", "姐"],
+    "examples": [
+      {"chinese": "李小姐，请坐。", "pinyin": "Lǐ xiǎojiě, qǐng zuò.", "french": "Mademoiselle Li, asseyez-vous."},
+      {"chinese": "这位小姐是我朋友。", "pinyin": "zhè wèi xiǎojiě shì wǒ péngyǒu.", "french": "Cette demoiselle est mon amie."}
+    ]
+  },
+  {
+    "simplified": "书",
+    "traditional": "書",
+    "pinyin": "shū",
+    "french": "livre",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["书"],
+    "examples": [
+      {"chinese": "这本书很好看。", "pinyin": "zhè běn shū hěn hǎokàn.", "french": "Ce livre est très intéressant."},
+      {"chinese": "我喜欢看书。", "pinyin": "wǒ xǐhuān kànshū.", "french": "J'aime lire."}
+    ]
+  },
+  {
+    "simplified": "字",
+    "traditional": "字",
+    "pinyin": "zì",
+    "french": "caractère, mot",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["字"],
+    "examples": [
+      {"chinese": "这个字怎么读？", "pinyin": "zhège zì zěnme dú?", "french": "Comment lit-on ce caractère ?"},
+      {"chinese": "请写这个字。", "pinyin": "qǐng xiě zhège zì.", "french": "Écris ce caractère, s'il te plaît."}
+    ]
+  },
+  {
+    "simplified": "中文",
+    "traditional": "中文",
+    "pinyin": "zhōngwén",
+    "french": "chinois (langue)",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["中", "文"],
+    "examples": [
+      {"chinese": "我在学中文。", "pinyin": "wǒ zài xué zhōngwén.", "french": "J'apprends le chinois."},
+      {"chinese": "你的中文很好。", "pinyin": "nǐ de zhōngwén hěn hǎo.", "french": "Ton chinois est bon."}
+    ]
+  },
+  {
+    "simplified": "汉语",
+    "traditional": "漢語",
+    "pinyin": "hànyǔ",
+    "french": "langue chinoise",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["汉", "语"],
+    "examples": [
+      {"chinese": "我学汉语。", "pinyin": "wǒ xué hànyǔ.", "french": "J'étudie le chinois."},
+      {"chinese": "汉语很有意思。", "pinyin": "hànyǔ hěn yǒu yìsi.", "french": "Le chinois est très intéressant."}
+    ]
+  },
+  {
+    "simplified": "东西",
+    "traditional": "東西",
+    "pinyin": "dōngxi",
+    "french": "chose, objet",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["东", "西"],
+    "examples": [
+      {"chinese": "你要买什么东西？", "pinyin": "nǐ yào mǎi shénme dōngxi?", "french": "Que veux-tu acheter ?"},
+      {"chinese": "这个东西多少钱？", "pinyin": "zhège dōngxi duōshao qián?", "french": "Combien coûte cette chose ?"}
+    ]
+  },
+  {
+    "simplified": "水",
+    "traditional": "水",
+    "pinyin": "shuǐ",
+    "french": "eau",
+    "hsk_level": 1,
+    "category": "nourriture",
+    "components": ["水"],
+    "examples": [
+      {"chinese": "我想喝水。", "pinyin": "wǒ xiǎng hē shuǐ.", "french": "Je voudrais boire de l'eau."},
+      {"chinese": "请给我一杯水。", "pinyin": "qǐng gěi wǒ yì bēi shuǐ.", "french": "Un verre d'eau, s'il vous plaît."}
+    ]
+  },
+  {
+    "simplified": "茶",
+    "traditional": "茶",
+    "pinyin": "chá",
+    "french": "thé",
+    "hsk_level": 1,
+    "category": "nourriture",
+    "components": ["茶"],
+    "examples": [
+      {"chinese": "你喝茶还是咖啡？", "pinyin": "nǐ hē chá háishi kāfēi?", "french": "Tu bois du thé ou du café ?"},
+      {"chinese": "中国人喜欢喝茶。", "pinyin": "Zhōngguó rén xǐhuān hē chá.", "french": "Les Chinois aiment boire du thé."}
+    ]
+  },
+  {
+    "simplified": "咖啡",
+    "traditional": "咖啡",
+    "pinyin": "kāfēi",
+    "french": "café",
+    "hsk_level": 1,
+    "category": "nourriture",
+    "components": ["咖", "啡"],
+    "examples": [
+      {"chinese": "我每天喝咖啡。", "pinyin": "wǒ měitiān hē kāfēi.", "french": "Je bois du café chaque jour."},
+      {"chinese": "你要一杯咖啡吗？", "pinyin": "nǐ yào yì bēi kāfēi ma?", "french": "Veux-tu un café ?"}
+    ]
+  },
+  {
+    "simplified": "米饭",
+    "traditional": "米飯",
+    "pinyin": "mǐfàn",
+    "french": "riz (cuit)",
+    "hsk_level": 1,
+    "category": "nourriture",
+    "components": ["米", "饭"],
+    "examples": [
+      {"chinese": "我们吃米饭吧。", "pinyin": "wǒmen chī mǐfàn ba.", "french": "Mangeons du riz."},
+      {"chinese": "中国人喜欢吃米饭。", "pinyin": "Zhōngguó rén xǐhuān chī mǐfàn.", "french": "Les Chinois aiment manger du riz."}
+    ]
+  },
+  {
+    "simplified": "菜",
+    "traditional": "菜",
+    "pinyin": "cài",
+    "french": "légume, plat",
+    "hsk_level": 1,
+    "category": "nourriture",
+    "components": ["菜"],
+    "examples": [
+      {"chinese": "这个菜很好吃。", "pinyin": "zhège cài hěn hǎochī.", "french": "Ce plat est très bon."},
+      {"chinese": "你想吃什么菜？", "pinyin": "nǐ xiǎng chī shénme cài?", "french": "Quel plat veux-tu manger ?"}
+    ]
+  },
+  {
+    "simplified": "水果",
+    "traditional": "水果",
+    "pinyin": "shuǐguǒ",
+    "french": "fruit",
+    "hsk_level": 1,
+    "category": "nourriture",
+    "components": ["水", "果"],
+    "examples": [
+      {"chinese": "我喜欢吃水果。", "pinyin": "wǒ xǐhuān chī shuǐguǒ.", "french": "J'aime manger des fruits."},
+      {"chinese": "你要买水果吗？", "pinyin": "nǐ yào mǎi shuǐguǒ ma?", "french": "Veux-tu acheter des fruits ?"}
+    ]
+  },
+  {
+    "simplified": "苹果",
+    "traditional": "蘋果",
+    "pinyin": "píngguǒ",
+    "french": "pomme",
+    "hsk_level": 1,
+    "category": "nourriture",
+    "components": ["苹", "果"],
+    "examples": [
+      {"chinese": "我想吃苹果。", "pinyin": "wǒ xiǎng chī píngguǒ.", "french": "Je veux manger une pomme."},
+      {"chinese": "这个苹果很好吃。", "pinyin": "zhège píngguǒ hěn hǎochī.", "french": "Cette pomme est très bonne."}
+    ]
+  },
+  {
+    "simplified": "钱",
+    "traditional": "錢",
+    "pinyin": "qián",
+    "french": "argent",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["钱"],
+    "examples": [
+      {"chinese": "这个多少钱？", "pinyin": "zhège duōshao qián?", "french": "Combien ça coûte ?"},
+      {"chinese": "我没有钱。", "pinyin": "wǒ méiyǒu qián.", "french": "Je n'ai pas d'argent."}
+    ]
+  },
+  {
+    "simplified": "块",
+    "traditional": "塊",
+    "pinyin": "kuài",
+    "french": "yuan (unité monétaire)",
+    "hsk_level": 1,
+    "category": "classificateurs",
+    "components": ["块"],
+    "examples": [
+      {"chinese": "这个十块钱。", "pinyin": "zhège shí kuài qián.", "french": "Ceci coûte dix yuans."},
+      {"chinese": "一块钱不够。", "pinyin": "yí kuài qián bú gòu.", "french": "Un yuan ne suffit pas."}
+    ]
+  },
+  {
+    "simplified": "天",
+    "traditional": "天",
+    "pinyin": "tiān",
+    "french": "jour, ciel",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["天"],
+    "examples": [
+      {"chinese": "今天天气很好。", "pinyin": "jīntiān tiānqì hěn hǎo.", "french": "Il fait beau aujourd'hui."},
+      {"chinese": "一个星期有七天。", "pinyin": "yí gè xīngqī yǒu qī tiān.", "french": "Il y a sept jours dans une semaine."}
+    ]
+  },
+  {
+    "simplified": "今天",
+    "traditional": "今天",
+    "pinyin": "jīntiān",
+    "french": "aujourd'hui",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["今", "天"],
+    "examples": [
+      {"chinese": "今天是星期一。", "pinyin": "jīntiān shì xīngqī yī.", "french": "Aujourd'hui c'est lundi."},
+      {"chinese": "你今天忙吗？", "pinyin": "nǐ jīntiān máng ma?", "french": "Es-tu occupé aujourd'hui ?"}
+    ]
+  },
+  {
+    "simplified": "明天",
+    "traditional": "明天",
+    "pinyin": "míngtiān",
+    "french": "demain",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["明", "天"],
+    "examples": [
+      {"chinese": "明天见！", "pinyin": "míngtiān jiàn!", "french": "À demain !"},
+      {"chinese": "明天你去哪儿？", "pinyin": "míngtiān nǐ qù nǎr?", "french": "Où vas-tu demain ?"}
+    ]
+  },
+  {
+    "simplified": "昨天",
+    "traditional": "昨天",
+    "pinyin": "zuótiān",
+    "french": "hier",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["昨", "天"],
+    "examples": [
+      {"chinese": "昨天我去了学校。", "pinyin": "zuótiān wǒ qù le xuéxiào.", "french": "Hier je suis allé à l'école."},
+      {"chinese": "昨天下雨了。", "pinyin": "zuótiān xiàyǔ le.", "french": "Il a plu hier."}
+    ]
+  },
+  {
+    "simplified": "现在",
+    "traditional": "現在",
+    "pinyin": "xiànzài",
+    "french": "maintenant",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["现", "在"],
+    "examples": [
+      {"chinese": "现在几点了？", "pinyin": "xiànzài jǐ diǎn le?", "french": "Quelle heure est-il maintenant ?"},
+      {"chinese": "我现在很忙。", "pinyin": "wǒ xiànzài hěn máng.", "french": "Je suis occupé maintenant."}
+    ]
+  },
+  {
+    "simplified": "时候",
+    "traditional": "時候",
+    "pinyin": "shíhòu",
+    "french": "moment, quand",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["时", "候"],
+    "examples": [
+      {"chinese": "你什么时候来？", "pinyin": "nǐ shénme shíhòu lái?", "french": "Quand viens-tu ?"},
+      {"chinese": "吃饭的时候不要说话。", "pinyin": "chīfàn de shíhòu bú yào shuōhuà.", "french": "Ne parle pas en mangeant."}
+    ]
+  },
+  {
+    "simplified": "年",
+    "traditional": "年",
+    "pinyin": "nián",
+    "french": "année",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["年"],
+    "examples": [
+      {"chinese": "今年是二〇二六年。", "pinyin": "jīnnián shì èr líng èr liù nián.", "french": "Cette année c'est 2026."},
+      {"chinese": "我学了两年中文。", "pinyin": "wǒ xué le liǎng nián zhōngwén.", "french": "J'ai étudié le chinois pendant deux ans."}
+    ]
+  },
+  {
+    "simplified": "月",
+    "traditional": "月",
+    "pinyin": "yuè",
+    "french": "mois, lune",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["月"],
+    "examples": [
+      {"chinese": "一月很冷。", "pinyin": "yī yuè hěn lěng.", "french": "Janvier est très froid."},
+      {"chinese": "一年有十二个月。", "pinyin": "yì nián yǒu shí'èr gè yuè.", "french": "Il y a douze mois dans une année."}
+    ]
+  },
+  {
+    "simplified": "日",
+    "traditional": "日",
+    "pinyin": "rì",
+    "french": "jour, soleil",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["日"],
+    "examples": [
+      {"chinese": "今天是几月几日？", "pinyin": "jīntiān shì jǐ yuè jǐ rì?", "french": "Quelle est la date aujourd'hui ?"},
+      {"chinese": "三月八日是妇女节。", "pinyin": "sān yuè bā rì shì fùnǚ jié.", "french": "Le 8 mars est la Journée de la femme."}
+    ]
+  },
+  {
+    "simplified": "星期",
+    "traditional": "星期",
+    "pinyin": "xīngqī",
+    "french": "semaine",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["星", "期"],
+    "examples": [
+      {"chinese": "今天星期几？", "pinyin": "jīntiān xīngqī jǐ?", "french": "Quel jour sommes-nous ?"},
+      {"chinese": "下个星期我去北京。", "pinyin": "xià gè xīngqī wǒ qù Běijīng.", "french": "La semaine prochaine je vais à Pékin."}
+    ]
+  },
+  {
+    "simplified": "点",
+    "traditional": "點",
+    "pinyin": "diǎn",
+    "french": "heure (horloge), point",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["点"],
+    "examples": [
+      {"chinese": "现在三点了。", "pinyin": "xiànzài sān diǎn le.", "french": "Il est trois heures."},
+      {"chinese": "我八点上课。", "pinyin": "wǒ bā diǎn shàngkè.", "french": "J'ai cours à huit heures."}
+    ]
+  },
+  {
+    "simplified": "分",
+    "traditional": "分",
+    "pinyin": "fēn",
+    "french": "minute",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["分"],
+    "examples": [
+      {"chinese": "现在八点十分。", "pinyin": "xiànzài bā diǎn shí fēn.", "french": "Il est huit heures dix."},
+      {"chinese": "再等五分钟。", "pinyin": "zài děng wǔ fēnzhōng.", "french": "Attends encore cinq minutes."}
+    ]
+  },
+  {
+    "simplified": "早上",
+    "traditional": "早上",
+    "pinyin": "zǎoshang",
+    "french": "matin",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["早", "上"],
+    "examples": [
+      {"chinese": "早上好！", "pinyin": "zǎoshang hǎo!", "french": "Bonjour ! (le matin)"},
+      {"chinese": "我早上六点起床。", "pinyin": "wǒ zǎoshang liù diǎn qǐchuáng.", "french": "Je me lève à six heures du matin."}
+    ]
+  },
+  {
+    "simplified": "下午",
+    "traditional": "下午",
+    "pinyin": "xiàwǔ",
+    "french": "après-midi",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["下", "午"],
+    "examples": [
+      {"chinese": "下午我去买东西。", "pinyin": "xiàwǔ wǒ qù mǎi dōngxi.", "french": "Je vais faire des courses cet après-midi."},
+      {"chinese": "下午两点上课。", "pinyin": "xiàwǔ liǎng diǎn shàngkè.", "french": "Le cours est à deux heures de l'après-midi."}
+    ]
+  },
+  {
+    "simplified": "晚上",
+    "traditional": "晚上",
+    "pinyin": "wǎnshang",
+    "french": "soir",
+    "hsk_level": 1,
+    "category": "temps",
+    "components": ["晚", "上"],
+    "examples": [
+      {"chinese": "晚上好！", "pinyin": "wǎnshang hǎo!", "french": "Bonsoir !"},
+      {"chinese": "晚上我看电视。", "pinyin": "wǎnshang wǒ kàn diànshì.", "french": "Le soir je regarde la télé."}
+    ]
+  },
+  {
+    "simplified": "上",
+    "traditional": "上",
+    "pinyin": "shàng",
+    "french": "sur, dessus, monter",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["上"],
+    "examples": [
+      {"chinese": "书在桌子上。", "pinyin": "shū zài zhuōzi shàng.", "french": "Le livre est sur la table."},
+      {"chinese": "我们上楼吧。", "pinyin": "wǒmen shàng lóu ba.", "french": "Montons à l'étage."}
+    ]
+  },
+  {
+    "simplified": "下",
+    "traditional": "下",
+    "pinyin": "xià",
+    "french": "sous, dessous, descendre",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["下"],
+    "examples": [
+      {"chinese": "猫在桌子下面。", "pinyin": "māo zài zhuōzi xiàmiàn.", "french": "Le chat est sous la table."},
+      {"chinese": "下雨了。", "pinyin": "xiàyǔ le.", "french": "Il pleut."}
+    ]
+  },
+  {
+    "simplified": "前面",
+    "traditional": "前面",
+    "pinyin": "qiánmiàn",
+    "french": "devant",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["前", "面"],
+    "examples": [
+      {"chinese": "学校在前面。", "pinyin": "xuéxiào zài qiánmiàn.", "french": "L'école est devant."},
+      {"chinese": "你前面有一个人。", "pinyin": "nǐ qiánmiàn yǒu yí gè rén.", "french": "Il y a une personne devant toi."}
+    ]
+  },
+  {
+    "simplified": "后面",
+    "traditional": "後面",
+    "pinyin": "hòumiàn",
+    "french": "derrière",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["后", "面"],
+    "examples": [
+      {"chinese": "他在我后面。", "pinyin": "tā zài wǒ hòumiàn.", "french": "Il est derrière moi."},
+      {"chinese": "商店后面有一棵树。", "pinyin": "shāngdiàn hòumiàn yǒu yì kē shù.", "french": "Il y a un arbre derrière le magasin."}
+    ]
+  },
+  {
+    "simplified": "里面",
+    "traditional": "裡面",
+    "pinyin": "lǐmiàn",
+    "french": "à l'intérieur",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["里", "面"],
+    "examples": [
+      {"chinese": "房间里面有人。", "pinyin": "fángjiān lǐmiàn yǒu rén.", "french": "Il y a quelqu'un à l'intérieur de la chambre."},
+      {"chinese": "请进里面坐。", "pinyin": "qǐng jìn lǐmiàn zuò.", "french": "Entrez et asseyez-vous."}
+    ]
+  },
+  {
+    "simplified": "中国",
+    "traditional": "中國",
+    "pinyin": "Zhōngguó",
+    "french": "Chine",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["中", "国"],
+    "examples": [
+      {"chinese": "我想去中国。", "pinyin": "wǒ xiǎng qù Zhōngguó.", "french": "Je veux aller en Chine."},
+      {"chinese": "中国很大。", "pinyin": "Zhōngguó hěn dà.", "french": "La Chine est grande."}
+    ]
+  },
+  {
+    "simplified": "北京",
+    "traditional": "北京",
+    "pinyin": "Běijīng",
+    "french": "Pékin",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["北", "京"],
+    "examples": [
+      {"chinese": "北京是中国的首都。", "pinyin": "Běijīng shì Zhōngguó de shǒudū.", "french": "Pékin est la capitale de la Chine."},
+      {"chinese": "我住在北京。", "pinyin": "wǒ zhù zài Běijīng.", "french": "J'habite à Pékin."}
+    ]
+  },
+  {
+    "simplified": "医院",
+    "traditional": "醫院",
+    "pinyin": "yīyuàn",
+    "french": "hôpital",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["医", "院"],
+    "examples": [
+      {"chinese": "他在医院工作。", "pinyin": "tā zài yīyuàn gōngzuò.", "french": "Il travaille à l'hôpital."},
+      {"chinese": "医院在哪儿？", "pinyin": "yīyuàn zài nǎr?", "french": "Où est l'hôpital ?"}
+    ]
+  },
+  {
+    "simplified": "商店",
+    "traditional": "商店",
+    "pinyin": "shāngdiàn",
+    "french": "magasin",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["商", "店"],
+    "examples": [
+      {"chinese": "我去商店买东西。", "pinyin": "wǒ qù shāngdiàn mǎi dōngxi.", "french": "Je vais au magasin acheter des choses."},
+      {"chinese": "这个商店很大。", "pinyin": "zhège shāngdiàn hěn dà.", "french": "Ce magasin est grand."}
+    ]
+  },
+  {
+    "simplified": "饭店",
+    "traditional": "飯店",
+    "pinyin": "fàndiàn",
+    "french": "restaurant, hôtel",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["饭", "店"],
+    "examples": [
+      {"chinese": "我们去饭店吃饭吧。", "pinyin": "wǒmen qù fàndiàn chīfàn ba.", "french": "Allons manger au restaurant."},
+      {"chinese": "这家饭店的菜很好吃。", "pinyin": "zhè jiā fàndiàn de cài hěn hǎochī.", "french": "La cuisine de ce restaurant est très bonne."}
+    ]
+  },
+  {
+    "simplified": "好",
+    "traditional": "好",
+    "pinyin": "hǎo",
+    "french": "bon, bien",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["好"],
+    "examples": [
+      {"chinese": "你好！", "pinyin": "nǐ hǎo!", "french": "Bonjour !"},
+      {"chinese": "这个很好。", "pinyin": "zhège hěn hǎo.", "french": "C'est très bien."}
+    ]
+  },
+  {
+    "simplified": "大",
+    "traditional": "大",
+    "pinyin": "dà",
+    "french": "grand",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["大"],
+    "examples": [
+      {"chinese": "中国很大。", "pinyin": "Zhōngguó hěn dà.", "french": "La Chine est grande."},
+      {"chinese": "这个房间太大了。", "pinyin": "zhège fángjiān tài dà le.", "french": "Cette chambre est trop grande."}
+    ]
+  },
+  {
+    "simplified": "小",
+    "traditional": "小",
+    "pinyin": "xiǎo",
+    "french": "petit",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["小"],
+    "examples": [
+      {"chinese": "我的猫很小。", "pinyin": "wǒ de māo hěn xiǎo.", "french": "Mon chat est très petit."},
+      {"chinese": "这个房间太小了。", "pinyin": "zhège fángjiān tài xiǎo le.", "french": "Cette chambre est trop petite."}
+    ]
+  },
+  {
+    "simplified": "多",
+    "traditional": "多",
+    "pinyin": "duō",
+    "french": "beaucoup, nombreux",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["多"],
+    "examples": [
+      {"chinese": "这里人很多。", "pinyin": "zhèlǐ rén hěn duō.", "french": "Il y a beaucoup de monde ici."},
+      {"chinese": "你有多少书？", "pinyin": "nǐ yǒu duōshao shū?", "french": "Combien de livres as-tu ?"}
+    ]
+  },
+  {
+    "simplified": "少",
+    "traditional": "少",
+    "pinyin": "shǎo",
+    "french": "peu",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["少"],
+    "examples": [
+      {"chinese": "这里人很少。", "pinyin": "zhèlǐ rén hěn shǎo.", "french": "Il y a peu de monde ici."},
+      {"chinese": "我的时间很少。", "pinyin": "wǒ de shíjiān hěn shǎo.", "french": "J'ai peu de temps."}
+    ]
+  },
+  {
+    "simplified": "冷",
+    "traditional": "冷",
+    "pinyin": "lěng",
+    "french": "froid",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["冷"],
+    "examples": [
+      {"chinese": "今天很冷。", "pinyin": "jīntiān hěn lěng.", "french": "Il fait froid aujourd'hui."},
+      {"chinese": "北京的冬天很冷。", "pinyin": "Běijīng de dōngtiān hěn lěng.", "french": "L'hiver à Pékin est très froid."}
+    ]
+  },
+  {
+    "simplified": "热",
+    "traditional": "熱",
+    "pinyin": "rè",
+    "french": "chaud",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["热"],
+    "examples": [
+      {"chinese": "今天很热。", "pinyin": "jīntiān hěn rè.", "french": "Il fait chaud aujourd'hui."},
+      {"chinese": "水太热了。", "pinyin": "shuǐ tài rè le.", "french": "L'eau est trop chaude."}
+    ]
+  },
+  {
+    "simplified": "高兴",
+    "traditional": "高興",
+    "pinyin": "gāoxìng",
+    "french": "content, heureux",
+    "hsk_level": 1,
+    "category": "émotions",
+    "components": ["高", "兴"],
+    "examples": [
+      {"chinese": "我很高兴认识你。", "pinyin": "wǒ hěn gāoxìng rènshi nǐ.", "french": "Je suis très content de te connaître."},
+      {"chinese": "他今天很高兴。", "pinyin": "tā jīntiān hěn gāoxìng.", "french": "Il est très content aujourd'hui."}
+    ]
+  },
+  {
+    "simplified": "漂亮",
+    "traditional": "漂亮",
+    "pinyin": "piàoliang",
+    "french": "beau, joli",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["漂", "亮"],
+    "examples": [
+      {"chinese": "她很漂亮。", "pinyin": "tā hěn piàoliang.", "french": "Elle est très belle."},
+      {"chinese": "这个地方很漂亮。", "pinyin": "zhège dìfang hěn piàoliang.", "french": "Cet endroit est très beau."}
+    ]
+  },
+  {
+    "simplified": "快",
+    "traditional": "快",
+    "pinyin": "kuài",
+    "french": "rapide, vite",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["快"],
+    "examples": [
+      {"chinese": "你走得太快了。", "pinyin": "nǐ zǒu de tài kuài le.", "french": "Tu marches trop vite."},
+      {"chinese": "快来！", "pinyin": "kuài lái!", "french": "Viens vite !"}
+    ]
+  },
+  {
+    "simplified": "慢",
+    "traditional": "慢",
+    "pinyin": "màn",
+    "french": "lent",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["慢"],
+    "examples": [
+      {"chinese": "请说慢一点。", "pinyin": "qǐng shuō màn yìdiǎn.", "french": "Parle plus lentement, s'il te plaît."},
+      {"chinese": "他走路很慢。", "pinyin": "tā zǒulù hěn màn.", "french": "Il marche lentement."}
+    ]
+  },
+  {
+    "simplified": "忙",
+    "traditional": "忙",
+    "pinyin": "máng",
+    "french": "occupé",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["忙"],
+    "examples": [
+      {"chinese": "你忙吗？", "pinyin": "nǐ máng ma?", "french": "Es-tu occupé ?"},
+      {"chinese": "我今天很忙。", "pinyin": "wǒ jīntiān hěn máng.", "french": "Je suis très occupé aujourd'hui."}
+    ]
+  },
+  {
+    "simplified": "新",
+    "traditional": "新",
+    "pinyin": "xīn",
+    "french": "nouveau, neuf",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["新"],
+    "examples": [
+      {"chinese": "这是新的。", "pinyin": "zhè shì xīn de.", "french": "C'est nouveau."},
+      {"chinese": "你的新衣服很好看。", "pinyin": "nǐ de xīn yīfu hěn hǎokàn.", "french": "Tes nouveaux vêtements sont jolis."}
+    ]
+  },
+  {
+    "simplified": "老",
+    "traditional": "老",
+    "pinyin": "lǎo",
+    "french": "vieux, âgé",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["老"],
+    "examples": [
+      {"chinese": "他很老了。", "pinyin": "tā hěn lǎo le.", "french": "Il est très vieux."},
+      {"chinese": "这是一个老房子。", "pinyin": "zhè shì yí gè lǎo fángzi.", "french": "C'est une vieille maison."}
+    ]
+  },
+  {
+    "simplified": "长",
+    "traditional": "長",
+    "pinyin": "cháng",
+    "french": "long",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["长"],
+    "examples": [
+      {"chinese": "这条路很长。", "pinyin": "zhè tiáo lù hěn cháng.", "french": "Cette route est très longue."},
+      {"chinese": "她的头发很长。", "pinyin": "tā de tóufa hěn cháng.", "french": "Ses cheveux sont très longs."}
+    ]
+  },
+  {
+    "simplified": "高",
+    "traditional": "高",
+    "pinyin": "gāo",
+    "french": "grand (taille), haut",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["高"],
+    "examples": [
+      {"chinese": "他很高。", "pinyin": "tā hěn gāo.", "french": "Il est très grand."},
+      {"chinese": "这座山很高。", "pinyin": "zhè zuò shān hěn gāo.", "french": "Cette montagne est très haute."}
+    ]
+  },
+  {
+    "simplified": "贵",
+    "traditional": "貴",
+    "pinyin": "guì",
+    "french": "cher (prix)",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["贵"],
+    "examples": [
+      {"chinese": "这个太贵了。", "pinyin": "zhège tài guì le.", "french": "C'est trop cher."},
+      {"chinese": "北京的房子很贵。", "pinyin": "Běijīng de fángzi hěn guì.", "french": "Les maisons à Pékin sont chères."}
+    ]
+  },
+  {
+    "simplified": "便宜",
+    "traditional": "便宜",
+    "pinyin": "piányi",
+    "french": "bon marché, pas cher",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["便", "宜"],
+    "examples": [
+      {"chinese": "这个很便宜。", "pinyin": "zhège hěn piányi.", "french": "C'est bon marché."},
+      {"chinese": "能便宜一点吗？", "pinyin": "néng piányi yìdiǎn ma?", "french": "Pouvez-vous baisser le prix un peu ?"}
+    ]
+  },
+  {
+    "simplified": "对",
+    "traditional": "對",
+    "pinyin": "duì",
+    "french": "correct, juste",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["对"],
+    "examples": [
+      {"chinese": "你说得对。", "pinyin": "nǐ shuō de duì.", "french": "Tu as raison."},
+      {"chinese": "对不起。", "pinyin": "duìbuqǐ.", "french": "Pardon."}
+    ]
+  },
+  {
+    "simplified": "错",
+    "traditional": "錯",
+    "pinyin": "cuò",
+    "french": "faux, erreur",
+    "hsk_level": 1,
+    "category": "adjectifs",
+    "components": ["错"],
+    "examples": [
+      {"chinese": "你说错了。", "pinyin": "nǐ shuō cuò le.", "french": "Tu t'es trompé."},
+      {"chinese": "这个答案是错的。", "pinyin": "zhège dá'àn shì cuò de.", "french": "Cette réponse est fausse."}
+    ]
+  },
+  {
+    "simplified": "一",
+    "traditional": "一",
+    "pinyin": "yī",
+    "french": "un",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["一"],
+    "examples": [
+      {"chinese": "我有一本书。", "pinyin": "wǒ yǒu yì běn shū.", "french": "J'ai un livre."},
+      {"chinese": "一加一等于二。", "pinyin": "yī jiā yī děngyú èr.", "french": "Un plus un égale deux."}
+    ]
+  },
+  {
+    "simplified": "二",
+    "traditional": "二",
+    "pinyin": "èr",
+    "french": "deux",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["二"],
+    "examples": [
+      {"chinese": "我有二十块钱。", "pinyin": "wǒ yǒu èrshí kuài qián.", "french": "J'ai vingt yuans."},
+      {"chinese": "二楼在上面。", "pinyin": "èr lóu zài shàngmiàn.", "french": "Le deuxième étage est en haut."}
+    ]
+  },
+  {
+    "simplified": "三",
+    "traditional": "三",
+    "pinyin": "sān",
+    "french": "trois",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["三"],
+    "examples": [
+      {"chinese": "我有三个朋友。", "pinyin": "wǒ yǒu sān gè péngyǒu.", "french": "J'ai trois amis."},
+      {"chinese": "三月天气很好。", "pinyin": "sān yuè tiānqì hěn hǎo.", "french": "En mars le temps est beau."}
+    ]
+  },
+  {
+    "simplified": "四",
+    "traditional": "四",
+    "pinyin": "sì",
+    "french": "quatre",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["四"],
+    "examples": [
+      {"chinese": "一年有四个季节。", "pinyin": "yì nián yǒu sì gè jìjié.", "french": "Il y a quatre saisons dans une année."},
+      {"chinese": "我家有四口人。", "pinyin": "wǒ jiā yǒu sì kǒu rén.", "french": "Ma famille a quatre personnes."}
+    ]
+  },
+  {
+    "simplified": "五",
+    "traditional": "五",
+    "pinyin": "wǔ",
+    "french": "cinq",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["五"],
+    "examples": [
+      {"chinese": "现在五点了。", "pinyin": "xiànzài wǔ diǎn le.", "french": "Il est cinq heures."},
+      {"chinese": "我有五本书。", "pinyin": "wǒ yǒu wǔ běn shū.", "french": "J'ai cinq livres."}
+    ]
+  },
+  {
+    "simplified": "六",
+    "traditional": "六",
+    "pinyin": "liù",
+    "french": "six",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["六"],
+    "examples": [
+      {"chinese": "我六点起床。", "pinyin": "wǒ liù diǎn qǐchuáng.", "french": "Je me lève à six heures."},
+      {"chinese": "六月很热。", "pinyin": "liù yuè hěn rè.", "french": "En juin il fait chaud."}
+    ]
+  },
+  {
+    "simplified": "七",
+    "traditional": "七",
+    "pinyin": "qī",
+    "french": "sept",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["七"],
+    "examples": [
+      {"chinese": "一个星期有七天。", "pinyin": "yí gè xīngqī yǒu qī tiān.", "french": "Il y a sept jours dans une semaine."},
+      {"chinese": "七月是暑假。", "pinyin": "qī yuè shì shǔjià.", "french": "Juillet c'est les vacances d'été."}
+    ]
+  },
+  {
+    "simplified": "八",
+    "traditional": "八",
+    "pinyin": "bā",
+    "french": "huit",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["八"],
+    "examples": [
+      {"chinese": "我八点上课。", "pinyin": "wǒ bā diǎn shàngkè.", "french": "J'ai cours à huit heures."},
+      {"chinese": "八月很热。", "pinyin": "bā yuè hěn rè.", "french": "En août il fait très chaud."}
+    ]
+  },
+  {
+    "simplified": "九",
+    "traditional": "九",
+    "pinyin": "jiǔ",
+    "french": "neuf",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["九"],
+    "examples": [
+      {"chinese": "现在九点了。", "pinyin": "xiànzài jiǔ diǎn le.", "french": "Il est neuf heures."},
+      {"chinese": "九月开学。", "pinyin": "jiǔ yuè kāixué.", "french": "L'école commence en septembre."}
+    ]
+  },
+  {
+    "simplified": "十",
+    "traditional": "十",
+    "pinyin": "shí",
+    "french": "dix",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["十"],
+    "examples": [
+      {"chinese": "这个十块钱。", "pinyin": "zhège shí kuài qián.", "french": "Ça coûte dix yuans."},
+      {"chinese": "十月是秋天。", "pinyin": "shí yuè shì qiūtiān.", "french": "Octobre c'est l'automne."}
+    ]
+  },
+  {
+    "simplified": "零",
+    "traditional": "零",
+    "pinyin": "líng",
+    "french": "zéro",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["零"],
+    "examples": [
+      {"chinese": "今天零下五度。", "pinyin": "jīntiān líng xià wǔ dù.", "french": "Aujourd'hui il fait moins cinq degrés."},
+      {"chinese": "我的电话号码里有两个零。", "pinyin": "wǒ de diànhuà hàomǎ lǐ yǒu liǎng gè líng.", "french": "Il y a deux zéros dans mon numéro de téléphone."}
+    ]
+  },
+  {
+    "simplified": "百",
+    "traditional": "百",
+    "pinyin": "bǎi",
+    "french": "cent",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["百"],
+    "examples": [
+      {"chinese": "一百块钱。", "pinyin": "yì bǎi kuài qián.", "french": "Cent yuans."},
+      {"chinese": "这本书一百页。", "pinyin": "zhè běn shū yì bǎi yè.", "french": "Ce livre a cent pages."}
+    ]
+  },
+  {
+    "simplified": "千",
+    "traditional": "千",
+    "pinyin": "qiān",
+    "french": "mille",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["千"],
+    "examples": [
+      {"chinese": "这个一千块钱。", "pinyin": "zhège yì qiān kuài qián.", "french": "Ça coûte mille yuans."},
+      {"chinese": "三千个学生。", "pinyin": "sān qiān gè xuéshēng.", "french": "Trois mille étudiants."}
+    ]
+  },
+  {
+    "simplified": "两",
+    "traditional": "兩",
+    "pinyin": "liǎng",
+    "french": "deux (devant classificateur)",
+    "hsk_level": 1,
+    "category": "nombres",
+    "components": ["两"],
+    "examples": [
+      {"chinese": "我有两个孩子。", "pinyin": "wǒ yǒu liǎng gè háizi.", "french": "J'ai deux enfants."},
+      {"chinese": "两杯咖啡。", "pinyin": "liǎng bēi kāfēi.", "french": "Deux cafés."}
+    ]
+  },
+  {
+    "simplified": "个",
+    "traditional": "個",
+    "pinyin": "gè",
+    "french": "classificateur général",
+    "hsk_level": 1,
+    "category": "classificateurs",
+    "components": ["个"],
+    "examples": [
+      {"chinese": "一个人。", "pinyin": "yí gè rén.", "french": "Une personne."},
+      {"chinese": "三个苹果。", "pinyin": "sān gè píngguǒ.", "french": "Trois pommes."}
+    ]
+  },
+  {
+    "simplified": "本",
+    "traditional": "本",
+    "pinyin": "běn",
+    "french": "classificateur pour livres",
+    "hsk_level": 1,
+    "category": "classificateurs",
+    "components": ["本"],
+    "examples": [
+      {"chinese": "一本书。", "pinyin": "yì běn shū.", "french": "Un livre."},
+      {"chinese": "我买了三本书。", "pinyin": "wǒ mǎi le sān běn shū.", "french": "J'ai acheté trois livres."}
+    ]
+  },
+  {
+    "simplified": "杯",
+    "traditional": "杯",
+    "pinyin": "bēi",
+    "french": "classificateur pour verres/tasses",
+    "hsk_level": 1,
+    "category": "classificateurs",
+    "components": ["杯"],
+    "examples": [
+      {"chinese": "一杯水。", "pinyin": "yì bēi shuǐ.", "french": "Un verre d'eau."},
+      {"chinese": "请给我一杯茶。", "pinyin": "qǐng gěi wǒ yì bēi chá.", "french": "Un thé, s'il vous plaît."}
+    ]
+  },
+  {
+    "simplified": "些",
+    "traditional": "些",
+    "pinyin": "xiē",
+    "french": "quelques, un peu de",
+    "hsk_level": 1,
+    "category": "classificateurs",
+    "components": ["些"],
+    "examples": [
+      {"chinese": "我买了一些水果。", "pinyin": "wǒ mǎi le yìxiē shuǐguǒ.", "french": "J'ai acheté quelques fruits."},
+      {"chinese": "这些是你的吗？", "pinyin": "zhèxiē shì nǐ de ma?", "french": "Est-ce que ceux-ci sont à toi ?"}
+    ]
+  },
+  {
+    "simplified": "岁",
+    "traditional": "歲",
+    "pinyin": "suì",
+    "french": "an (âge)",
+    "hsk_level": 1,
+    "category": "classificateurs",
+    "components": ["岁"],
+    "examples": [
+      {"chinese": "你几岁了？", "pinyin": "nǐ jǐ suì le?", "french": "Quel âge as-tu ?"},
+      {"chinese": "我二十五岁。", "pinyin": "wǒ èrshíwǔ suì.", "french": "J'ai vingt-cinq ans."}
+    ]
+  },
+  {
+    "simplified": "不",
+    "traditional": "不",
+    "pinyin": "bù",
+    "french": "ne...pas",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["不"],
+    "examples": [
+      {"chinese": "我不知道。", "pinyin": "wǒ bù zhīdào.", "french": "Je ne sais pas."},
+      {"chinese": "他不在家。", "pinyin": "tā bú zài jiā.", "french": "Il n'est pas à la maison."}
+    ]
+  },
+  {
+    "simplified": "没",
+    "traditional": "沒",
+    "pinyin": "méi",
+    "french": "ne...pas (passé)",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["没"],
+    "examples": [
+      {"chinese": "我没有钱。", "pinyin": "wǒ méiyǒu qián.", "french": "Je n'ai pas d'argent."},
+      {"chinese": "他没来。", "pinyin": "tā méi lái.", "french": "Il n'est pas venu."}
+    ]
+  },
+  {
+    "simplified": "很",
+    "traditional": "很",
+    "pinyin": "hěn",
+    "french": "très",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["很"],
+    "examples": [
+      {"chinese": "她很漂亮。", "pinyin": "tā hěn piàoliang.", "french": "Elle est très belle."},
+      {"chinese": "我很高兴。", "pinyin": "wǒ hěn gāoxìng.", "french": "Je suis très content."}
+    ]
+  },
+  {
+    "simplified": "太",
+    "traditional": "太",
+    "pinyin": "tài",
+    "french": "trop",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["太"],
+    "examples": [
+      {"chinese": "太好了！", "pinyin": "tài hǎo le!", "french": "Génial !"},
+      {"chinese": "这个太贵了。", "pinyin": "zhège tài guì le.", "french": "C'est trop cher."}
+    ]
+  },
+  {
+    "simplified": "都",
+    "traditional": "都",
+    "pinyin": "dōu",
+    "french": "tous, tout",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["都"],
+    "examples": [
+      {"chinese": "我们都是学生。", "pinyin": "wǒmen dōu shì xuéshēng.", "french": "Nous sommes tous étudiants."},
+      {"chinese": "他什么都喜欢。", "pinyin": "tā shénme dōu xǐhuān.", "french": "Il aime tout."}
+    ]
+  },
+  {
+    "simplified": "也",
+    "traditional": "也",
+    "pinyin": "yě",
+    "french": "aussi",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["也"],
+    "examples": [
+      {"chinese": "我也是学生。", "pinyin": "wǒ yě shì xuéshēng.", "french": "Je suis aussi étudiant."},
+      {"chinese": "她也喜欢看书。", "pinyin": "tā yě xǐhuān kànshū.", "french": "Elle aime aussi lire."}
+    ]
+  },
+  {
+    "simplified": "还",
+    "traditional": "還",
+    "pinyin": "hái",
+    "french": "encore, aussi",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["还"],
+    "examples": [
+      {"chinese": "你还要吗？", "pinyin": "nǐ hái yào ma?", "french": "Tu en veux encore ?"},
+      {"chinese": "他还没来。", "pinyin": "tā hái méi lái.", "french": "Il n'est pas encore venu."}
+    ]
+  },
+  {
+    "simplified": "已经",
+    "traditional": "已經",
+    "pinyin": "yǐjīng",
+    "french": "déjà",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["已", "经"],
+    "examples": [
+      {"chinese": "我已经吃了。", "pinyin": "wǒ yǐjīng chī le.", "french": "J'ai déjà mangé."},
+      {"chinese": "他已经回家了。", "pinyin": "tā yǐjīng huí jiā le.", "french": "Il est déjà rentré chez lui."}
+    ]
+  },
+  {
+    "simplified": "真",
+    "traditional": "真",
+    "pinyin": "zhēn",
+    "french": "vraiment",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["真"],
+    "examples": [
+      {"chinese": "真的吗？", "pinyin": "zhēn de ma?", "french": "Vraiment ?"},
+      {"chinese": "你真好！", "pinyin": "nǐ zhēn hǎo!", "french": "Tu es vraiment gentil !"}
+    ]
+  },
+  {
+    "simplified": "非常",
+    "traditional": "非常",
+    "pinyin": "fēicháng",
+    "french": "extrêmement, très",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["非", "常"],
+    "examples": [
+      {"chinese": "非常感谢！", "pinyin": "fēicháng gǎnxiè!", "french": "Merci beaucoup !"},
+      {"chinese": "我非常喜欢。", "pinyin": "wǒ fēicháng xǐhuān.", "french": "J'aime énormément."}
+    ]
+  },
+  {
+    "simplified": "的",
+    "traditional": "的",
+    "pinyin": "de",
+    "french": "particule possessive/descriptive",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["的"],
+    "examples": [
+      {"chinese": "我的书。", "pinyin": "wǒ de shū.", "french": "Mon livre."},
+      {"chinese": "红色的花。", "pinyin": "hóngsè de huā.", "french": "Une fleur rouge."}
+    ]
+  },
+  {
+    "simplified": "了",
+    "traditional": "了",
+    "pinyin": "le",
+    "french": "particule d'achèvement/changement",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["了"],
+    "examples": [
+      {"chinese": "我吃了饭。", "pinyin": "wǒ chī le fàn.", "french": "J'ai mangé."},
+      {"chinese": "下雨了。", "pinyin": "xiàyǔ le.", "french": "Il pleut. (changement)"}
+    ]
+  },
+  {
+    "simplified": "吗",
+    "traditional": "嗎",
+    "pinyin": "ma",
+    "french": "particule interrogative",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["吗"],
+    "examples": [
+      {"chinese": "你好吗？", "pinyin": "nǐ hǎo ma?", "french": "Comment vas-tu ?"},
+      {"chinese": "你是学生吗？", "pinyin": "nǐ shì xuéshēng ma?", "french": "Es-tu étudiant ?"}
+    ]
+  },
+  {
+    "simplified": "呢",
+    "traditional": "呢",
+    "pinyin": "ne",
+    "french": "particule (et toi ?)",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["呢"],
+    "examples": [
+      {"chinese": "你呢？", "pinyin": "nǐ ne?", "french": "Et toi ?"},
+      {"chinese": "他在看书呢。", "pinyin": "tā zài kànshū ne.", "french": "Il est en train de lire."}
+    ]
+  },
+  {
+    "simplified": "吧",
+    "traditional": "吧",
+    "pinyin": "ba",
+    "french": "particule de suggestion",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["吧"],
+    "examples": [
+      {"chinese": "我们走吧。", "pinyin": "wǒmen zǒu ba.", "french": "Allons-y."},
+      {"chinese": "吃吧！", "pinyin": "chī ba!", "french": "Mange !"}
+    ]
+  },
+  {
+    "simplified": "过",
+    "traditional": "過",
+    "pinyin": "guò",
+    "french": "particule d'expérience passée",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["过"],
+    "examples": [
+      {"chinese": "我去过中国。", "pinyin": "wǒ qù guò Zhōngguó.", "french": "Je suis déjà allé en Chine."},
+      {"chinese": "你吃过北京烤鸭吗？", "pinyin": "nǐ chī guò Běijīng kǎoyā ma?", "french": "As-tu déjà mangé du canard laqué de Pékin ?"}
+    ]
+  },
+  {
+    "simplified": "着",
+    "traditional": "著",
+    "pinyin": "zhe",
+    "french": "particule d'état continu",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["着"],
+    "examples": [
+      {"chinese": "门开着。", "pinyin": "mén kāi zhe.", "french": "La porte est ouverte."},
+      {"chinese": "他穿着白色的衣服。", "pinyin": "tā chuān zhe báisè de yīfu.", "french": "Il porte des vêtements blancs."}
+    ]
+  },
+  {
+    "simplified": "和",
+    "traditional": "和",
+    "pinyin": "hé",
+    "french": "et, avec",
+    "hsk_level": 1,
+    "category": "conjonctions",
+    "components": ["和"],
+    "examples": [
+      {"chinese": "我和你。", "pinyin": "wǒ hé nǐ.", "french": "Toi et moi."},
+      {"chinese": "我喜欢茶和咖啡。", "pinyin": "wǒ xǐhuān chá hé kāfēi.", "french": "J'aime le thé et le café."}
+    ]
+  },
+  {
+    "simplified": "但是",
+    "traditional": "但是",
+    "pinyin": "dànshì",
+    "french": "mais",
+    "hsk_level": 1,
+    "category": "conjonctions",
+    "components": ["但", "是"],
+    "examples": [
+      {"chinese": "我想去，但是没时间。", "pinyin": "wǒ xiǎng qù, dànshì méi shíjiān.", "french": "Je voudrais y aller, mais je n'ai pas le temps."},
+      {"chinese": "这个很好看，但是太贵了。", "pinyin": "zhège hěn hǎokàn, dànshì tài guì le.", "french": "C'est joli, mais trop cher."}
+    ]
+  },
+  {
+    "simplified": "因为",
+    "traditional": "因為",
+    "pinyin": "yīnwèi",
+    "french": "parce que",
+    "hsk_level": 1,
+    "category": "conjonctions",
+    "components": ["因", "为"],
+    "examples": [
+      {"chinese": "因为下雨，我不去了。", "pinyin": "yīnwèi xiàyǔ, wǒ bú qù le.", "french": "Parce qu'il pleut, je n'y vais pas."},
+      {"chinese": "我喜欢中国，因为中国很大。", "pinyin": "wǒ xǐhuān Zhōngguó, yīnwèi Zhōngguó hěn dà.", "french": "J'aime la Chine parce qu'elle est grande."}
+    ]
+  },
+  {
+    "simplified": "所以",
+    "traditional": "所以",
+    "pinyin": "suǒyǐ",
+    "french": "donc",
+    "hsk_level": 1,
+    "category": "conjonctions",
+    "components": ["所", "以"],
+    "examples": [
+      {"chinese": "下雨了，所以我不去了。", "pinyin": "xiàyǔ le, suǒyǐ wǒ bú qù le.", "french": "Il pleut, donc je n'y vais pas."},
+      {"chinese": "他很忙，所以没来。", "pinyin": "tā hěn máng, suǒyǐ méi lái.", "french": "Il est très occupé, donc il n'est pas venu."}
+    ]
+  },
+  {
+    "simplified": "如果",
+    "traditional": "如果",
+    "pinyin": "rúguǒ",
+    "french": "si (condition)",
+    "hsk_level": 1,
+    "category": "conjonctions",
+    "components": ["如", "果"],
+    "examples": [
+      {"chinese": "如果你来，我很高兴。", "pinyin": "rúguǒ nǐ lái, wǒ hěn gāoxìng.", "french": "Si tu viens, je serai très content."},
+      {"chinese": "如果下雨，我们不去。", "pinyin": "rúguǒ xiàyǔ, wǒmen bú qù.", "french": "S'il pleut, nous n'y allons pas."}
+    ]
+  },
+  {
+    "simplified": "你好",
+    "traditional": "你好",
+    "pinyin": "nǐhǎo",
+    "french": "bonjour",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["你", "好"],
+    "examples": [
+      {"chinese": "你好，我叫小明。", "pinyin": "nǐhǎo, wǒ jiào Xiǎomíng.", "french": "Bonjour, je m'appelle Xiaoming."},
+      {"chinese": "你好吗？", "pinyin": "nǐ hǎo ma?", "french": "Comment vas-tu ?"}
+    ]
+  },
+  {
+    "simplified": "谢谢",
+    "traditional": "謝謝",
+    "pinyin": "xièxie",
+    "french": "merci",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["谢", "谢"],
+    "examples": [
+      {"chinese": "谢谢你！", "pinyin": "xièxie nǐ!", "french": "Merci !"},
+      {"chinese": "谢谢你的帮助。", "pinyin": "xièxie nǐ de bāngzhù.", "french": "Merci pour ton aide."}
+    ]
+  },
+  {
+    "simplified": "不客气",
+    "traditional": "不客氣",
+    "pinyin": "bú kèqi",
+    "french": "de rien, je vous en prie",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["不", "客", "气"],
+    "examples": [
+      {"chinese": "不客气！", "pinyin": "bú kèqi!", "french": "De rien !"},
+      {"chinese": "谢谢！——不客气。", "pinyin": "xièxie! —— bú kèqi.", "french": "Merci ! -- De rien."}
+    ]
+  },
+  {
+    "simplified": "对不起",
+    "traditional": "對不起",
+    "pinyin": "duìbuqǐ",
+    "french": "pardon, excusez-moi",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["对", "不", "起"],
+    "examples": [
+      {"chinese": "对不起，我来晚了。", "pinyin": "duìbuqǐ, wǒ lái wǎn le.", "french": "Pardon, je suis arrivé en retard."},
+      {"chinese": "对不起，请再说一次。", "pinyin": "duìbuqǐ, qǐng zài shuō yí cì.", "french": "Excusez-moi, répétez s'il vous plaît."}
+    ]
+  },
+  {
+    "simplified": "没关系",
+    "traditional": "沒關係",
+    "pinyin": "méi guānxi",
+    "french": "ce n'est rien, pas grave",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["没", "关", "系"],
+    "examples": [
+      {"chinese": "没关系，不要着急。", "pinyin": "méi guānxi, bú yào zhāojí.", "french": "Ce n'est rien, ne t'inquiète pas."},
+      {"chinese": "对不起。——没关系。", "pinyin": "duìbuqǐ. —— méi guānxi.", "french": "Pardon. -- Ce n'est rien."}
+    ]
+  },
+  {
+    "simplified": "再见",
+    "traditional": "再見",
+    "pinyin": "zàijiàn",
+    "french": "au revoir",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["再", "见"],
+    "examples": [
+      {"chinese": "老师再见！", "pinyin": "lǎoshī zàijiàn!", "french": "Au revoir, professeur !"},
+      {"chinese": "明天见，再见！", "pinyin": "míngtiān jiàn, zàijiàn!", "french": "À demain, au revoir !"}
+    ]
+  },
+  {
+    "simplified": "请",
+    "traditional": "請",
+    "pinyin": "qǐng",
+    "french": "s'il vous plaît, inviter",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["请"],
+    "examples": [
+      {"chinese": "请坐。", "pinyin": "qǐng zuò.", "french": "Asseyez-vous, s'il vous plaît."},
+      {"chinese": "请问，这是哪儿？", "pinyin": "qǐngwèn, zhè shì nǎr?", "french": "Excusez-moi, où sommes-nous ?"}
+    ]
+  },
+  {
+    "simplified": "欢迎",
+    "traditional": "歡迎",
+    "pinyin": "huānyíng",
+    "french": "bienvenue",
+    "hsk_level": 1,
+    "category": "expressions",
+    "components": ["欢", "迎"],
+    "examples": [
+      {"chinese": "欢迎来中国！", "pinyin": "huānyíng lái Zhōngguó!", "french": "Bienvenue en Chine !"},
+      {"chinese": "欢迎你来我家。", "pinyin": "huānyíng nǐ lái wǒ jiā.", "french": "Tu es le bienvenu chez moi."}
+    ]
+  },
+  {
+    "simplified": "天气",
+    "traditional": "天氣",
+    "pinyin": "tiānqì",
+    "french": "temps, météo",
+    "hsk_level": 1,
+    "category": "météo",
+    "components": ["天", "气"],
+    "examples": [
+      {"chinese": "今天天气很好。", "pinyin": "jīntiān tiānqì hěn hǎo.", "french": "Il fait beau aujourd'hui."},
+      {"chinese": "明天天气怎么样？", "pinyin": "míngtiān tiānqì zěnmeyàng?", "french": "Comment sera le temps demain ?"}
+    ]
+  },
+  {
+    "simplified": "下雨",
+    "traditional": "下雨",
+    "pinyin": "xiàyǔ",
+    "french": "pleuvoir",
+    "hsk_level": 1,
+    "category": "météo",
+    "components": ["下", "雨"],
+    "examples": [
+      {"chinese": "下雨了，带伞吧。", "pinyin": "xiàyǔ le, dài sǎn ba.", "french": "Il pleut, prends un parapluie."},
+      {"chinese": "明天会下雨吗？", "pinyin": "míngtiān huì xiàyǔ ma?", "french": "Va-t-il pleuvoir demain ?"}
+    ]
+  },
+  {
+    "simplified": "电脑",
+    "traditional": "電腦",
+    "pinyin": "diànnǎo",
+    "french": "ordinateur",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["电", "脑"],
+    "examples": [
+      {"chinese": "我用电脑工作。", "pinyin": "wǒ yòng diànnǎo gōngzuò.", "french": "Je travaille avec un ordinateur."},
+      {"chinese": "这个电脑很快。", "pinyin": "zhège diànnǎo hěn kuài.", "french": "Cet ordinateur est rapide."}
+    ]
+  },
+  {
+    "simplified": "电话",
+    "traditional": "電話",
+    "pinyin": "diànhuà",
+    "french": "téléphone",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["电", "话"],
+    "examples": [
+      {"chinese": "你的电话号码是多少？", "pinyin": "nǐ de diànhuà hàomǎ shì duōshao?", "french": "Quel est ton numéro de téléphone ?"},
+      {"chinese": "我在打电话。", "pinyin": "wǒ zài dǎ diànhuà.", "french": "Je suis au téléphone."}
+    ]
+  },
+  {
+    "simplified": "电视",
+    "traditional": "電視",
+    "pinyin": "diànshì",
+    "french": "télévision",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["电", "视"],
+    "examples": [
+      {"chinese": "我在看电视。", "pinyin": "wǒ zài kàn diànshì.", "french": "Je regarde la télé."},
+      {"chinese": "不要看太多电视。", "pinyin": "bú yào kàn tài duō diànshì.", "french": "Ne regarde pas trop la télé."}
+    ]
+  },
+  {
+    "simplified": "衣服",
+    "traditional": "衣服",
+    "pinyin": "yīfu",
+    "french": "vêtements",
+    "hsk_level": 1,
+    "category": "vêtements",
+    "components": ["衣", "服"],
+    "examples": [
+      {"chinese": "这件衣服很好看。", "pinyin": "zhè jiàn yīfu hěn hǎokàn.", "french": "Ce vêtement est joli."},
+      {"chinese": "我要买新衣服。", "pinyin": "wǒ yào mǎi xīn yīfu.", "french": "Je veux acheter de nouveaux vêtements."}
+    ]
+  },
+  {
+    "simplified": "医生",
+    "traditional": "醫生",
+    "pinyin": "yīshēng",
+    "french": "médecin",
+    "hsk_level": 1,
+    "category": "travail",
+    "components": ["医", "生"],
+    "examples": [
+      {"chinese": "他是医生。", "pinyin": "tā shì yīshēng.", "french": "Il est médecin."},
+      {"chinese": "我要去看医生。", "pinyin": "wǒ yào qù kàn yīshēng.", "french": "Je dois aller voir le médecin."}
+    ]
+  },
+  {
+    "simplified": "同学",
+    "traditional": "同學",
+    "pinyin": "tóngxué",
+    "french": "camarade de classe",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["同", "学"],
+    "examples": [
+      {"chinese": "他是我的同学。", "pinyin": "tā shì wǒ de tóngxué.", "french": "Il est mon camarade de classe."},
+      {"chinese": "同学们好！", "pinyin": "tóngxuémen hǎo!", "french": "Bonjour, chers camarades !"}
+    ]
+  },
+  {
+    "simplified": "怎么",
+    "traditional": "怎麼",
+    "pinyin": "zěnme",
+    "french": "comment",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["怎", "么"],
+    "examples": [
+      {"chinese": "这个字怎么读？", "pinyin": "zhège zì zěnme dú?", "french": "Comment lit-on ce caractère ?"},
+      {"chinese": "你怎么去学校？", "pinyin": "nǐ zěnme qù xuéxiào?", "french": "Comment vas-tu à l'école ?"}
+    ]
+  },
+  {
+    "simplified": "怎么样",
+    "traditional": "怎麼樣",
+    "pinyin": "zěnmeyàng",
+    "french": "comment (évaluation)",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["怎", "么", "样"],
+    "examples": [
+      {"chinese": "你觉得怎么样？", "pinyin": "nǐ juéde zěnmeyàng?", "french": "Qu'en penses-tu ?"},
+      {"chinese": "天气怎么样？", "pinyin": "tiānqì zěnmeyàng?", "french": "Comment est le temps ?"}
+    ]
+  },
+  {
+    "simplified": "为什么",
+    "traditional": "為什麼",
+    "pinyin": "wèishénme",
+    "french": "pourquoi",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["为", "什", "么"],
+    "examples": [
+      {"chinese": "你为什么不去？", "pinyin": "nǐ wèishénme bú qù?", "french": "Pourquoi n'y vas-tu pas ?"},
+      {"chinese": "为什么他没来？", "pinyin": "wèishénme tā méi lái?", "french": "Pourquoi n'est-il pas venu ?"}
+    ]
+  },
+  {
+    "simplified": "哪儿",
+    "traditional": "哪兒",
+    "pinyin": "nǎr",
+    "french": "où",
+    "hsk_level": 1,
+    "category": "pronoms",
+    "components": ["哪", "儿"],
+    "examples": [
+      {"chinese": "你去哪儿？", "pinyin": "nǐ qù nǎr?", "french": "Où vas-tu ?"},
+      {"chinese": "你住在哪儿？", "pinyin": "nǐ zhù zài nǎr?", "french": "Où habites-tu ?"}
+    ]
+  },
+  {
+    "simplified": "这儿",
+    "traditional": "這兒",
+    "pinyin": "zhèr",
+    "french": "ici",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["这", "儿"],
+    "examples": [
+      {"chinese": "请在这儿等。", "pinyin": "qǐng zài zhèr děng.", "french": "Attendez ici, s'il vous plaît."},
+      {"chinese": "这儿有一家饭店。", "pinyin": "zhèr yǒu yì jiā fàndiàn.", "french": "Il y a un restaurant ici."}
+    ]
+  },
+  {
+    "simplified": "那儿",
+    "traditional": "那兒",
+    "pinyin": "nàr",
+    "french": "là-bas",
+    "hsk_level": 1,
+    "category": "lieux",
+    "components": ["那", "儿"],
+    "examples": [
+      {"chinese": "他在那儿。", "pinyin": "tā zài nàr.", "french": "Il est là-bas."},
+      {"chinese": "那儿有一棵大树。", "pinyin": "nàr yǒu yì kē dà shù.", "french": "Il y a un grand arbre là-bas."}
+    ]
+  },
+  {
+    "simplified": "每",
+    "traditional": "每",
+    "pinyin": "měi",
+    "french": "chaque",
+    "hsk_level": 1,
+    "category": "adverbes",
+    "components": ["每"],
+    "examples": [
+      {"chinese": "我每天学中文。", "pinyin": "wǒ měitiān xué zhōngwén.", "french": "J'étudie le chinois chaque jour."},
+      {"chinese": "每个人都来了。", "pinyin": "měi gè rén dōu lái le.", "french": "Tout le monde est venu."}
+    ]
+  },
+  {
+    "simplified": "从",
+    "traditional": "從",
+    "pinyin": "cóng",
+    "french": "de, depuis",
+    "hsk_level": 1,
+    "category": "particules",
+    "components": ["从"],
+    "examples": [
+      {"chinese": "我从中国来。", "pinyin": "wǒ cóng Zhōngguó lái.", "french": "Je viens de Chine."},
+      {"chinese": "从这儿到学校很近。", "pinyin": "cóng zhèr dào xuéxiào hěn jìn.", "french": "D'ici à l'école c'est proche."}
+    ]
+  },
+  {
+    "simplified": "到",
+    "traditional": "到",
+    "pinyin": "dào",
+    "french": "arriver, jusqu'à",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["到"],
+    "examples": [
+      {"chinese": "我到家了。", "pinyin": "wǒ dào jiā le.", "french": "Je suis arrivé à la maison."},
+      {"chinese": "从北京到上海很远。", "pinyin": "cóng Běijīng dào Shànghǎi hěn yuǎn.", "french": "De Pékin à Shanghai c'est loin."}
+    ]
+  },
+  {
+    "simplified": "用",
+    "traditional": "用",
+    "pinyin": "yòng",
+    "french": "utiliser",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["用"],
+    "examples": [
+      {"chinese": "你用什么写字？", "pinyin": "nǐ yòng shénme xiězì?", "french": "Avec quoi écris-tu ?"},
+      {"chinese": "我用电脑工作。", "pinyin": "wǒ yòng diànnǎo gōngzuò.", "french": "Je travaille avec un ordinateur."}
+    ]
+  },
+  {
+    "simplified": "送",
+    "traditional": "送",
+    "pinyin": "sòng",
+    "french": "offrir, accompagner",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["送"],
+    "examples": [
+      {"chinese": "我送你一个礼物。", "pinyin": "wǒ sòng nǐ yí gè lǐwù.", "french": "Je t'offre un cadeau."},
+      {"chinese": "他送我回家。", "pinyin": "tā sòng wǒ huí jiā.", "french": "Il m'a raccompagné à la maison."}
+    ]
+  },
+  {
+    "simplified": "等",
+    "traditional": "等",
+    "pinyin": "děng",
+    "french": "attendre",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["等"],
+    "examples": [
+      {"chinese": "请等一下。", "pinyin": "qǐng děng yíxià.", "french": "Attendez un instant."},
+      {"chinese": "我在等你。", "pinyin": "wǒ zài děng nǐ.", "french": "Je t'attends."}
+    ]
+  },
+  {
+    "simplified": "帮",
+    "traditional": "幫",
+    "pinyin": "bāng",
+    "french": "aider",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["帮"],
+    "examples": [
+      {"chinese": "你能帮我吗？", "pinyin": "nǐ néng bāng wǒ ma?", "french": "Peux-tu m'aider ?"},
+      {"chinese": "谢谢你帮我。", "pinyin": "xièxie nǐ bāng wǒ.", "french": "Merci de m'aider."}
+    ]
+  },
+  {
+    "simplified": "玩",
+    "traditional": "玩",
+    "pinyin": "wán",
+    "french": "jouer, s'amuser",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["玩"],
+    "examples": [
+      {"chinese": "孩子们在玩。", "pinyin": "háizimen zài wán.", "french": "Les enfants jouent."},
+      {"chinese": "我们去玩吧！", "pinyin": "wǒmen qù wán ba!", "french": "Allons nous amuser !"}
+    ]
+  },
+  {
+    "simplified": "穿",
+    "traditional": "穿",
+    "pinyin": "chuān",
+    "french": "porter (vêtement)",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["穿"],
+    "examples": [
+      {"chinese": "今天穿什么衣服？", "pinyin": "jīntiān chuān shénme yīfu?", "french": "Que portes-tu aujourd'hui ?"},
+      {"chinese": "她穿着红色的裙子。", "pinyin": "tā chuān zhe hóngsè de qúnzi.", "french": "Elle porte une jupe rouge."}
+    ]
+  },
+  {
+    "simplified": "桌子",
+    "traditional": "桌子",
+    "pinyin": "zhuōzi",
+    "french": "table",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["桌", "子"],
+    "examples": [
+      {"chinese": "书在桌子上。", "pinyin": "shū zài zhuōzi shàng.", "french": "Le livre est sur la table."},
+      {"chinese": "这张桌子很大。", "pinyin": "zhè zhāng zhuōzi hěn dà.", "french": "Cette table est grande."}
+    ]
+  },
+  {
+    "simplified": "椅子",
+    "traditional": "椅子",
+    "pinyin": "yǐzi",
+    "french": "chaise",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["椅", "子"],
+    "examples": [
+      {"chinese": "请坐这把椅子。", "pinyin": "qǐng zuò zhè bǎ yǐzi.", "french": "Assieds-toi sur cette chaise."},
+      {"chinese": "这把椅子很舒服。", "pinyin": "zhè bǎ yǐzi hěn shūfu.", "french": "Cette chaise est confortable."}
+    ]
+  },
+  {
+    "simplified": "猫",
+    "traditional": "貓",
+    "pinyin": "māo",
+    "french": "chat",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["猫"],
+    "examples": [
+      {"chinese": "我喜欢猫。", "pinyin": "wǒ xǐhuān māo.", "french": "J'aime les chats."},
+      {"chinese": "这只猫很可爱。", "pinyin": "zhè zhī māo hěn kěài.", "french": "Ce chat est mignon."}
+    ]
+  },
+  {
+    "simplified": "狗",
+    "traditional": "狗",
+    "pinyin": "gǒu",
+    "french": "chien",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["狗"],
+    "examples": [
+      {"chinese": "他有一只狗。", "pinyin": "tā yǒu yì zhī gǒu.", "french": "Il a un chien."},
+      {"chinese": "我怕狗。", "pinyin": "wǒ pà gǒu.", "french": "J'ai peur des chiens."}
+    ]
+  },
+  {
+    "simplified": "车",
+    "traditional": "車",
+    "pinyin": "chē",
+    "french": "voiture, véhicule",
+    "hsk_level": 1,
+    "category": "transport",
+    "components": ["车"],
+    "examples": [
+      {"chinese": "你有车吗？", "pinyin": "nǐ yǒu chē ma?", "french": "As-tu une voiture ?"},
+      {"chinese": "这辆车很快。", "pinyin": "zhè liàng chē hěn kuài.", "french": "Cette voiture est rapide."}
+    ]
+  },
+  {
+    "simplified": "路",
+    "traditional": "路",
+    "pinyin": "lù",
+    "french": "route, chemin",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["路"],
+    "examples": [
+      {"chinese": "这条路很长。", "pinyin": "zhè tiáo lù hěn cháng.", "french": "Cette route est très longue."},
+      {"chinese": "你知道去学校的路吗？", "pinyin": "nǐ zhīdào qù xuéxiào de lù ma?", "french": "Tu connais le chemin de l'école ?"}
+    ]
+  },
+  {
+    "simplified": "房间",
+    "traditional": "房間",
+    "pinyin": "fángjiān",
+    "french": "chambre, pièce",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["房", "间"],
+    "examples": [
+      {"chinese": "我的房间很小。", "pinyin": "wǒ de fángjiān hěn xiǎo.", "french": "Ma chambre est petite."},
+      {"chinese": "这个房间有两张床。", "pinyin": "zhège fángjiān yǒu liǎng zhāng chuáng.", "french": "Cette chambre a deux lits."}
+    ]
+  },
+  {
+    "simplified": "门",
+    "traditional": "門",
+    "pinyin": "mén",
+    "french": "porte",
+    "hsk_level": 1,
+    "category": "noms",
+    "components": ["门"],
+    "examples": [
+      {"chinese": "请开门。", "pinyin": "qǐng kāi mén.", "french": "Ouvrez la porte, s'il vous plaît."},
+      {"chinese": "门关着。", "pinyin": "mén guān zhe.", "french": "La porte est fermée."}
+    ]
+  },
+  {
+    "simplified": "课",
+    "traditional": "課",
+    "pinyin": "kè",
+    "french": "cours, leçon",
+    "hsk_level": 1,
+    "category": "education",
+    "components": ["课"],
+    "examples": [
+      {"chinese": "今天有三节课。", "pinyin": "jīntiān yǒu sān jié kè.", "french": "Il y a trois cours aujourd'hui."},
+      {"chinese": "我们上课吧。", "pinyin": "wǒmen shàngkè ba.", "french": "Commençons le cours."}
+    ]
+  },
+  {
+    "simplified": "考试",
+    "traditional": "考試",
+    "pinyin": "kǎoshì",
+    "french": "examen",
+    "hsk_level": 1,
+    "category": "education",
+    "components": ["考", "试"],
+    "examples": [
+      {"chinese": "明天有考试。", "pinyin": "míngtiān yǒu kǎoshì.", "french": "Il y a un examen demain."},
+      {"chinese": "考试难吗？", "pinyin": "kǎoshì nán ma?", "french": "L'examen est difficile ?"}
+    ]
+  },
+  {
+    "simplified": "问",
+    "traditional": "問",
+    "pinyin": "wèn",
+    "french": "demander, poser une question",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["问"],
+    "examples": [
+      {"chinese": "我想问你一个问题。", "pinyin": "wǒ xiǎng wèn nǐ yí gè wèntí.", "french": "Je voudrais te poser une question."},
+      {"chinese": "请问，这是什么？", "pinyin": "qǐngwèn, zhè shì shénme?", "french": "Excusez-moi, qu'est-ce que c'est ?"}
+    ]
+  },
+  {
+    "simplified": "回答",
+    "traditional": "回答",
+    "pinyin": "huídá",
+    "french": "répondre",
+    "hsk_level": 1,
+    "category": "verbes",
+    "components": ["回", "答"],
+    "examples": [
+      {"chinese": "请回答这个问题。", "pinyin": "qǐng huídá zhège wèntí.", "french": "Répondez à cette question, s'il vous plaît."},
+      {"chinese": "他没有回答我。", "pinyin": "tā méiyǒu huídá wǒ.", "french": "Il ne m'a pas répondu."}
+    ]
+  },
+  {
+    "simplified": "身体",
+    "traditional": "身體",
+    "pinyin": "shēntǐ",
+    "french": "corps, santé",
+    "hsk_level": 1,
+    "category": "santé",
+    "components": ["身", "体"],
+    "examples": [
+      {"chinese": "你身体好吗？", "pinyin": "nǐ shēntǐ hǎo ma?", "french": "Es-tu en bonne santé ?"},
+      {"chinese": "身体很重要。", "pinyin": "shēntǐ hěn zhòngyào.", "french": "La santé est très importante."}
+    ]
+  },
+  {
+    "simplified": "眼睛",
+    "traditional": "眼睛",
+    "pinyin": "yǎnjing",
+    "french": "yeux",
+    "hsk_level": 1,
+    "category": "corps",
+    "components": ["眼", "睛"],
+    "examples": [
+      {"chinese": "她的眼睛很大。", "pinyin": "tā de yǎnjing hěn dà.", "french": "Ses yeux sont grands."},
+      {"chinese": "我的眼睛不舒服。", "pinyin": "wǒ de yǎnjing bù shūfu.", "french": "Mes yeux sont inconfortables."}
+    ]
+  },
+  {
+    "simplified": "手",
+    "traditional": "手",
+    "pinyin": "shǒu",
+    "french": "main",
+    "hsk_level": 1,
+    "category": "corps",
+    "components": ["手"],
+    "examples": [
+      {"chinese": "请洗手。", "pinyin": "qǐng xǐ shǒu.", "french": "Lave-toi les mains, s'il te plaît."},
+      {"chinese": "他的手很大。", "pinyin": "tā de shǒu hěn dà.", "french": "Ses mains sont grandes."}
+    ]
+  },
+  {
+    "simplified": "头",
+    "traditional": "頭",
+    "pinyin": "tóu",
+    "french": "tête",
+    "hsk_level": 1,
+    "category": "corps",
+    "components": ["头"],
+    "examples": [
+      {"chinese": "我头疼。", "pinyin": "wǒ tóu téng.", "french": "J'ai mal à la tête."},
+      {"chinese": "他的头很大。", "pinyin": "tā de tóu hěn dà.", "french": "Sa tête est grosse."}
+    ]
+  },
+  {
+    "simplified": "红",
+    "traditional": "紅",
+    "pinyin": "hóng",
+    "french": "rouge",
+    "hsk_level": 1,
+    "category": "couleurs",
+    "components": ["红"],
+    "examples": [
+      {"chinese": "她穿红色的衣服。", "pinyin": "tā chuān hóngsè de yīfu.", "french": "Elle porte des vêtements rouges."},
+      {"chinese": "中国人喜欢红色。", "pinyin": "Zhōngguó rén xǐhuān hóngsè.", "french": "Les Chinois aiment le rouge."}
+    ]
+  },
+  {
+    "simplified": "白",
+    "traditional": "白",
+    "pinyin": "bái",
+    "french": "blanc",
+    "hsk_level": 1,
+    "category": "couleurs",
+    "components": ["白"],
+    "examples": [
+      {"chinese": "雪是白色的。", "pinyin": "xuě shì báisè de.", "french": "La neige est blanche."},
+      {"chinese": "他喜欢白色。", "pinyin": "tā xǐhuān báisè.", "french": "Il aime le blanc."}
+    ]
+  },
+  {
+    "simplified": "黑",
+    "traditional": "黑",
+    "pinyin": "hēi",
+    "french": "noir",
+    "hsk_level": 1,
+    "category": "couleurs",
+    "components": ["黑"],
+    "examples": [
+      {"chinese": "天黑了。", "pinyin": "tiān hēi le.", "french": "Il fait nuit."},
+      {"chinese": "我喜欢黑色。", "pinyin": "wǒ xǐhuān hēisè.", "french": "J'aime le noir."}
+    ]
+  }
 ]

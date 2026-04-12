@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "type": "culture",
+    "title": "Le chiffre 4, symbole de mort",
+    "content": "En chinois, le chiffre 4 (四, sì) est considere comme le nombre le plus malchanceux car sa prononciation est presque identique a celle du mot \"mort\" (死, sǐ). Cette superstition est si profondement ancree que de nombreux immeubles en Chine n'ont pas de 4e etage, passant directement du 3e au 5e.\n\nCette phobie du 4 s'appelle la tetraphobie. Elle influence aussi les numeros de telephone, les plaques d'immatriculation et meme les prix des produits. Un numero contenant plusieurs 4 sera vendu beaucoup moins cher.",
+    "chinese_term": "四",
+    "pinyin": "sì",
+    "category": "nombres",
+    "fun_fact": "Certains hopitaux chinois n'ont ni chambre 4, ni etage 4, ni batiment 4."
+  },
+  {
+    "id": 2,
+    "type": "culture",
+    "title": "Le 8, chiffre de la fortune",
+    "content": "Le chiffre 8 (八, bā) est le nombre le plus chanceux en Chine car il ressemble phonetiquement au mot \"prosperer\" (发, fā). Les Chinois sont prets a payer des fortunes pour avoir des numeros de telephone ou des plaques contenant des 8.\n\nLes Jeux Olympiques de Pekin ont commence le 08/08/2008 a 8h08 et 8 secondes, ce qui n'est absolument pas un hasard. Le gouvernement chinois a deliberement choisi cette date pour maximiser la chance.",
+    "chinese_term": "八",
+    "pinyin": "bā",
+    "category": "nombres",
+    "fun_fact": "Un numero de telephone avec tous des 8 s'est vendu pour plus de 2 millions de yuans aux encheres."
+  },
+  {
+    "id": 3,
+    "type": "culture",
+    "title": "520 : Je t'aime en chiffres",
+    "content": "En Chine, les chiffres sont souvent utilises pour former des codes secrets bases sur la prononciation. Le plus celebre est 520 (五二零, wǔ èr líng) qui ressemble a \"je t'aime\" (我爱你, wǒ ài nǐ). Le 20 mai (5/20) est donc devenu une sorte de Saint-Valentin chinoise moderne.\n\nD'autres codes numeriques existent : 1314 signifie \"pour toute la vie\", 88 veut dire \"au revoir\" (bye bye), et 666 signifie \"genial\" ou \"impressionnant\" (rien a voir avec l'Occident).",
+    "chinese_term": "五二零",
+    "pinyin": "wǔ èr líng",
+    "category": "nombres",
+    "fun_fact": "Le 20 mai, les transferts d'argent de 5,20 yuan explosent sur WeChat entre amoureux."
+  },
+  {
+    "id": 4,
+    "type": "culture",
+    "title": "Le rouge, couleur de la chance",
+    "content": "Le rouge (红, hóng) est LA couleur la plus importante en Chine. Elle symbolise la chance, la joie, la prosperite et la vitalite. On la retrouve partout : lors des mariages, du Nouvel An, des naissances et de toutes les celebrations.\n\nLes enveloppes rouges (红包, hóngbāo) contenant de l'argent sont offertes lors du Nouvel An chinois, des mariages et des anniversaires. Aujourd'hui, les hongbao numeriques sur WeChat ont revolutionne cette tradition.",
+    "chinese_term": "红色",
+    "pinyin": "hóng sè",
+    "category": "couleurs",
+    "fun_fact": "Porter du rouge le jour de son annee zodiacale protege contre la malchance selon la tradition."
+  },
+  {
+    "id": 5,
+    "type": "culture",
+    "title": "Le blanc, couleur du deuil",
+    "content": "Contrairement a l'Occident ou le blanc symbolise la purete et les mariages, en Chine le blanc (白, bái) est associe au deuil et a la mort. Lors des funerailles chinoises, les participants portent du blanc et des chrysanthemes blancs.\n\nC'est pourquoi offrir des fleurs blanches ou emballer un cadeau dans du papier blanc est considere comme un terrible faux pas en Chine. Il faut toujours privilegier le rouge ou le dore pour les cadeaux.",
+    "chinese_term": "白色",
+    "pinyin": "bái sè",
+    "category": "couleurs",
+    "fun_fact": "Ne jamais offrir une horloge emballee dans du papier blanc : cela symbolise doublement la mort."
+  },
+  {
+    "id": 6,
+    "type": "culture",
+    "title": "Le jaune, couleur imperiale",
+    "content": "Le jaune (黄, huáng) etait historiquement reserve a l'empereur de Chine. Seul le Fils du Ciel pouvait porter des vetements jaunes et les toits de la Cite Interdite sont couverts de tuiles jaunes dorees. Toute personne qui osait porter du jaune sans autorisation risquait la peine de mort.\n\nAujourd'hui encore, le jaune reste une couleur symbolique de pouvoir et de noblesse en Chine, meme si son usage n'est plus restreint.",
+    "chinese_term": "黄色",
+    "pinyin": "huáng sè",
+    "category": "couleurs",
+    "fun_fact": "Le fleuve Jaune (黄河) est considere comme le berceau de la civilisation chinoise."
+  },
+  {
+    "id": 7,
+    "type": "culture",
+    "title": "Le vert et l'infidelite",
+    "content": "En Chine, porter un chapeau vert (戴绿帽子, dài lǜ màozi) signifie que votre conjoint vous trompe. Cette expression vient d'une ancienne loi de la dynastie Yuan qui obligeait les familles de prostituees a porter des coiffes vertes.\n\nAujourd'hui, il est fortement deconseille d'offrir un chapeau vert a quelqu'un en Chine. Meme les casquettes vertes peuvent provoquer des rires genes. Les marques internationales l'apprennent parfois a leurs depens.",
+    "chinese_term": "绿帽子",
+    "pinyin": "lǜ mào zi",
+    "category": "couleurs",
+    "fun_fact": "Une marque de mode a du retirer toute une collection de casquettes vertes du marche chinois."
+  },
+  {
+    "id": 8,
+    "type": "histoire",
+    "title": "Confucius, le sage des sages",
+    "content": "Confucius (孔子, Kǒngzǐ, 551-479 av. J.-C.) est le philosophe le plus influent de l'histoire chinoise. Sa pensee, le confucianisme, a faconne la societe chinoise pendant plus de 2500 ans. Il pronait le respect des aines, la piete filiale, l'education et l'harmonie sociale.\n\nSes enseignements sont compiles dans les Entretiens (论语, Lúnyǔ). L'une de ses citations les plus celebres : \"N'impose pas aux autres ce que tu ne voudrais pas qu'on t'impose.\" Cette regle d'or a precede la version occidentale de plusieurs siecles.",
+    "chinese_term": "孔子",
+    "pinyin": "Kǒng zǐ",
+    "category": "philosophie",
+    "fun_fact": "Il existe aujourd'hui plus de 500 Instituts Confucius dans le monde pour enseigner le chinois."
+  },
+  {
+    "id": 9,
+    "type": "histoire",
+    "title": "Laozi et le taoisme",
+    "content": "Laozi (老子, Lǎozǐ) est le fondateur legendaire du taoisme et l'auteur presume du Tao Te King (道德经, Dàodéjīng), l'un des textes les plus traduits au monde apres la Bible. Le taoisme enseigne l'harmonie avec la nature et le concept du wu wei (无为), l'action par la non-action.\n\nLe symbole du yin et du yang (阴阳) vient du taoisme. Il represente la dualite complementaire de toute chose : lumiere/obscurite, chaud/froid, masculin/feminin. Rien n'existe sans son oppose.",
+    "chinese_term": "老子",
+    "pinyin": "Lǎo zǐ",
+    "category": "philosophie",
+    "fun_fact": "Personne ne sait si Laozi a vraiment existe ou s'il est un personnage legendaire."
+  },
+  {
+    "id": 10,
+    "type": "histoire",
+    "title": "Sun Tzu et L'Art de la Guerre",
+    "content": "Sun Tzu (孙子, Sūnzǐ) est l'auteur de L'Art de la Guerre (孙子兵法, Sūnzǐ Bīngfǎ), ecrit vers 500 av. J.-C. Ce traite militaire de 13 chapitres est devenu l'un des livres de strategie les plus etudies au monde, bien au-dela du domaine militaire.\n\nAujourd'hui, L'Art de la Guerre est un best-seller dans le monde des affaires. Des PDG, des coaches sportifs et des entrepreneurs du monde entier l'etudient pour ses lecons sur la strategie, le leadership et la prise de decision.",
+    "chinese_term": "孙子兵法",
+    "pinyin": "Sūn zǐ Bīng fǎ",
+    "category": "philosophie",
+    "fun_fact": "Le livre est lecture obligatoire a l'ecole de guerre de West Point aux Etats-Unis."
+  },
+  {
+    "id": 11,
+    "type": "histoire",
+    "title": "La Grande Muraille de Chine",
+    "content": "La Grande Muraille (长城, Chángchéng, litteralement \"longue muraille\") s'etend sur plus de 21 000 km. Sa construction a commence au 7e siecle av. J.-C. et s'est poursuivie pendant plus de 2000 ans, mobilisant des millions de travailleurs.\n\nContrairement a la legende urbaine, la Grande Muraille n'est PAS visible depuis l'espace a l'oeil nu. L'astronaute chinois Yang Liwei l'a confirme en 2003. En revanche, elle reste la plus longue structure construite par l'homme.",
+    "chinese_term": "长城",
+    "pinyin": "Cháng chéng",
+    "category": "géographie",
+    "fun_fact": "On estime qu'environ 400 000 personnes sont mortes durant sa construction."
+  },
+  {
+    "id": 12,
+    "type": "histoire",
+    "title": "La Cite Interdite",
+    "content": "La Cite Interdite (紫禁城, Zǐjìnchéng) a Pekin est le plus grand palais du monde. Construite entre 1406 et 1420, elle a ete la residence de 24 empereurs des dynasties Ming et Qing pendant 500 ans. Elle contient 9 999 pieces (le 9 etant le chiffre de l'empereur).\n\nElle s'appelle \"interdite\" car le peuple n'avait pas le droit d'y entrer. Aujourd'hui transformee en musee, elle recoit plus de 15 millions de visiteurs par an, ce qui en fait le musee le plus visite au monde.",
+    "chinese_term": "紫禁城",
+    "pinyin": "Zǐ jìn chéng",
+    "category": "géographie",
+    "fun_fact": "Le palais possede 9 999 pieces car seul le paradis pouvait en avoir 10 000."
+  },
+  {
+    "id": 13,
+    "type": "histoire",
+    "title": "L'Armee de terre cuite",
+    "content": "L'Armee de terre cuite (兵马俑, Bīngmǎyǒng) a ete decouverte en 1974 par des paysans qui creusaient un puits pres de Xi'an. Ce sont environ 8 000 soldats, 130 chars et 670 chevaux en terre cuite, grandeur nature, enterres pour proteger l'empereur Qin Shi Huang dans l'au-dela.\n\nChaque soldat est unique : visage, coiffure, expression, posture. Les artisans ont cree des milliers de variations individuelles. A l'origine, toutes les statues etaient peintes de couleurs vives qui se sont estompees apres l'exposition a l'air.",
+    "chinese_term": "兵马俑",
+    "pinyin": "Bīng mǎ yǒng",
+    "category": "histoire",
+    "fun_fact": "Le tombeau principal de l'empereur n'a toujours pas ete ouvert par les archeologues."
+  },
+  {
+    "id": 14,
+    "type": "culture",
+    "title": "Le Nouvel An chinois",
+    "content": "Le Nouvel An chinois (春节, Chūnjié, litteralement \"fete du printemps\") est la fete la plus importante en Chine. Elle dure 15 jours et se termine par la Fete des Lanternes. La date change chaque annee car elle suit le calendrier lunaire, tombant generalement entre fin janvier et mi-fevrier.\n\nLes traditions incluent le nettoyage de la maison (chasser les mauvais esprits), les petards (effrayer le monstre Nian), les enveloppes rouges, le repas familial du reveillon et les danses du lion et du dragon.",
+    "chinese_term": "春节",
+    "pinyin": "Chūn jié",
+    "category": "fêtes",
+    "fun_fact": "Le Chunyun (migration du Nouvel An) est la plus grande migration humaine annuelle au monde."
+  },
+  {
+    "id": 15,
+    "type": "culture",
+    "title": "La Fete de la Mi-Automne",
+    "content": "La Fete de la Mi-Automne (中秋节, Zhōngqiūjié) celebre la pleine lune du 15e jour du 8e mois lunaire. C'est une fete de reunion familiale ou l'on deguste des gateaux de lune (月饼, yuèbing) en contemplant la lune.\n\nLa legende raconte que Chang'e (嫦娥) a avale un elixir d'immortalite et s'est envolee vers la lune, ou elle vit pour l'eternite avec un lapin de jade. C'est pourquoi la mission lunaire chinoise s'appelle Chang'e.",
+    "chinese_term": "中秋节",
+    "pinyin": "Zhōng qiū jié",
+    "category": "fêtes",
+    "fun_fact": "Les Chinois consomment environ 2 milliards de gateaux de lune chaque annee pendant cette fete."
+  },
+  {
+    "id": 16,
+    "type": "culture",
+    "title": "La Fete des Bateaux-Dragons",
+    "content": "La Fete des Bateaux-Dragons (端午节, Duānwǔjié) a lieu le 5e jour du 5e mois lunaire. Elle commemore le poete Qu Yuan (屈原), qui s'est noye dans la riviere Miluo par desespoir politique en 278 av. J.-C.\n\nLes villageois ont lance des boulettes de riz gluant (粽子, zòngzi) dans l'eau pour empecher les poissons de manger son corps, et ont rame dans des bateaux-dragons pour tenter de le sauver. Ces traditions perdurent aujourd'hui avec les courses de bateaux-dragons.",
+    "chinese_term": "端午节",
+    "pinyin": "Duān wǔ jié",
+    "category": "fêtes",
+    "fun_fact": "Les courses de bateaux-dragons sont aujourd'hui un sport international avec des competitions mondiales."
+  },
+  {
+    "id": 17,
+    "type": "culture",
+    "title": "Le zodiaque chinois",
+    "content": "Le zodiaque chinois (生肖, shēngxiào) est un cycle de 12 animaux qui se repetent tous les 12 ans : Rat, Boeuf, Tigre, Lapin, Dragon, Serpent, Cheval, Chevre, Singe, Coq, Chien, Cochon. Votre annee de naissance determine votre animal.\n\nLa legende raconte que l'Empereur de Jade a organise une course pour choisir les 12 animaux. Le rat, malin, a grimpe sur le dos du boeuf et a saute au dernier moment pour arriver premier. Le chat, oublie par le rat, n'a pas participe, d'ou la haine ancestrale entre chats et rats.",
+    "chinese_term": "生肖",
+    "pinyin": "shēng xiào",
+    "category": "traditions",
+    "fun_fact": "L'annee de votre propre signe zodiacal est consideree comme malchanceuse, pas chanceuse."
+  },
+  {
+    "id": 18,
+    "type": "culture",
+    "title": "La face : Mianzi",
+    "content": "Le concept de \"face\" (面子, miànzi) est fondamental dans la culture chinoise. Avoir de la face signifie avoir du prestige, de la dignite et de la reputation sociale. Perdre la face est l'une des pires choses qui puisse arriver.\n\nCe concept influence profondement les interactions sociales et les affaires en Chine. On evitera toujours de critiquer quelqu'un en public, de refuser directement une demande ou de mettre quelqu'un dans l'embarras. Comprendre le mianzi est essentiel pour reussir en Chine.",
+    "chinese_term": "面子",
+    "pinyin": "miàn zi",
+    "category": "société",
+    "fun_fact": "Donner de la face a quelqu'un (给面子) est l'un des plus grands cadeaux sociaux en Chine."
+  },
+  {
+    "id": 19,
+    "type": "culture",
+    "title": "Guanxi : l'art des relations",
+    "content": "Le guanxi (关系, guānxì) designe le reseau de relations personnelles et sociales en Chine. C'est bien plus que du simple \"reseautage\" : c'est un systeme de reciprocite, de confiance et d'obligations mutuelles qui regit la societe chinoise.\n\nEn affaires, le guanxi est souvent plus important que les contrats ecrits. Construire un bon guanxi demande du temps, de la patience et de la generosite. Un bon repas partage, un cadeau bien choisi ou un service rendu sont des moyens classiques de renforcer le guanxi.",
+    "chinese_term": "关系",
+    "pinyin": "guān xì",
+    "category": "société",
+    "fun_fact": "Beaucoup d'accords commerciaux en Chine se concluent autour d'un banquet, pas dans une salle de reunion."
+  },
+  {
+    "id": 20,
+    "type": "culture",
+    "title": "L'etiquette des baguettes",
+    "content": "Les baguettes (筷子, kuàizi) ont leurs propres regles d'etiquette en Chine. La regle la plus importante : ne JAMAIS planter ses baguettes verticalement dans un bol de riz. Cela ressemble aux batons d'encens brules pour les morts et est considere comme un tres mauvais presage.\n\nAutres regles : ne pas pointer les baguettes vers quelqu'un, ne pas taper sur le bol avec (c'est ce que font les mendiants), ne pas croiser les baguettes sur la table et ne pas fouiller dans un plat pour chercher les meilleurs morceaux.",
+    "chinese_term": "筷子",
+    "pinyin": "kuài zi",
+    "category": "traditions",
+    "fun_fact": "Les Chinois utilisent environ 80 milliards de paires de baguettes jetables par an."
+  },
+  {
+    "id": 21,
+    "type": "culture",
+    "title": "La culture du the",
+    "content": "La Chine est le berceau du the (茶, chá). La legende attribue sa decouverte a l'empereur Shennong en 2737 av. J.-C., quand des feuilles de the sont tombees dans son eau chaude par hasard. Le the est bien plus qu'une boisson : c'est un art de vivre.\n\nLa ceremonie du the chinoise (茶道, chádào) est un rituel de preparation et de degustation qui met l'accent sur la qualite de l'eau, la temperature, le temps d'infusion et le type de theiere. Il existe six grandes categories de the chinois : vert, noir, blanc, jaune, oolong et pu-erh.",
+    "chinese_term": "茶",
+    "pinyin": "chá",
+    "category": "gastronomie",
+    "fun_fact": "Le mot \"the\" dans presque toutes les langues du monde vient du chinois : \"cha\" ou \"te\" selon le dialecte."
+  },
+  {
+    "id": 22,
+    "type": "culture",
+    "title": "Le dim sum, art culinaire cantonais",
+    "content": "Le dim sum (点心, diǎnxīn, litteralement \"toucher le coeur\") est une tradition culinaire cantonaise ou l'on deguste de petites bouchees variees accompagnees de the. C'est un repas social par excellence, souvent pris en famille le week-end.\n\nLes classiques incluent les ha gow (raviolis aux crevettes), les siu mai (bouchees au porc), les cheung fun (rouleaux de riz) et les bao (brioches farcies). La tradition de \"yum cha\" (boire du the avec des dim sum) remonte a la dynastie Tang.",
+    "chinese_term": "点心",
+    "pinyin": "diǎn xīn",
+    "category": "gastronomie",
+    "fun_fact": "Dans les restaurants de dim sum traditionnels, les serveurs poussent des chariots et vous choisissez en direct."
+  },
+  {
+    "id": 23,
+    "type": "histoire",
+    "title": "L'invention du papier",
+    "content": "Le papier (纸, zhǐ) a ete invente en Chine par Cai Lun (蔡伦) en 105 ap. J.-C., sous la dynastie Han. Avant cela, on ecrivait sur du bambou, de la soie ou des os d'animaux, ce qui etait extremement couteux et peu pratique.\n\nCai Lun a perfectionne un processus utilisant de l'ecorce d'arbre, du chanvre, des chiffons et des filets de peche. Cette invention a revolutionne la diffusion du savoir dans le monde entier. Le papier est considere comme l'une des quatre grandes inventions chinoises.",
+    "chinese_term": "纸",
+    "pinyin": "zhǐ",
+    "category": "histoire",
+    "fun_fact": "Le papier-monnaie a aussi ete invente en Chine, sous la dynastie Song au 10e siecle."
+  },
+  {
+    "id": 24,
+    "type": "histoire",
+    "title": "L'invention de la boussole",
+    "content": "La boussole (指南针, zhǐnánzhēn, litteralement \"aiguille pointant vers le sud\") a ete inventee en Chine sous la dynastie Han, vers le 2e siecle av. J.-C. A l'origine, elle n'etait pas utilisee pour la navigation mais pour le feng shui.\n\nLes premieres boussoles etaient des cuilleres en magnetite posees sur des plateaux en bronze. Ce n'est que sous la dynastie Song (11e siecle) que la boussole a commence a etre utilisee pour la navigation maritime, revolutionnant l'exploration du monde.",
+    "chinese_term": "指南针",
+    "pinyin": "zhǐ nán zhēn",
+    "category": "histoire",
+    "fun_fact": "En chinois, la boussole pointe vers le sud, pas le nord comme en Occident."
+  },
+  {
+    "id": 25,
+    "type": "histoire",
+    "title": "L'invention de la poudre a canon",
+    "content": "La poudre a canon (火药, huǒyào, litteralement \"medecine de feu\") a ete decouverte accidentellement par des alchimistes chinois de la dynastie Tang (9e siecle) qui cherchaient... l'elixir d'immortalite. Ironiquement, ils ont cree l'une des substances les plus destructrices de l'histoire.\n\nLes Chinois ont d'abord utilise la poudre a canon pour des feux d'artifice et des signaux, avant de developper des armes a feu. La technologie a ensuite ete transmise au monde arabe puis a l'Europe, changeant a jamais l'art de la guerre.",
+    "chinese_term": "火药",
+    "pinyin": "huǒ yào",
+    "category": "histoire",
+    "fun_fact": "Les alchimistes cherchaient la vie eternelle et ont invente une poudre qui tue."
+  },
+  {
+    "id": 26,
+    "type": "histoire",
+    "title": "L'invention de l'imprimerie",
+    "content": "L'imprimerie a caracteres mobiles (活字印刷, huózì yìnshuā) a ete inventee par Bi Sheng (毕昇) sous la dynastie Song, vers 1040, soit environ 400 ans avant Gutenberg. Il utilisait des caracteres en ceramique qu'il assemblait sur une plaque de fer.\n\nAvant les caracteres mobiles, la Chine avait deja invente l'impression par xylographie (gravure sur bois) sous la dynastie Tang. Le plus ancien livre imprime connu est le Sutra du Diamant, date de 868 ap. J.-C.",
+    "chinese_term": "活字印刷",
+    "pinyin": "huó zì yìn shuā",
+    "category": "histoire",
+    "fun_fact": "Bi Sheng a invente les caracteres mobiles 400 ans avant Gutenberg, mais en ceramique, pas en metal."
+  },
+  {
+    "id": 27,
+    "type": "culture",
+    "title": "La calligraphie chinoise",
+    "content": "La calligraphie (书法, shūfǎ) est consideree comme la forme d'art la plus elevee en Chine, au-dessus meme de la peinture. Elle necessite les \"quatre tresors du lettré\" : le pinceau, l'encre, le papier et la pierre a encre.\n\nIl existe cinq styles principaux : le style sigillaire (篆书), le style officiel (隶书), le style regulier (楷书), le style courant (行书) et le style cursif (草书). La calligraphie est une pratique meditative qui demande des annees de maitrise.",
+    "chinese_term": "书法",
+    "pinyin": "shū fǎ",
+    "category": "arts",
+    "fun_fact": "Une calligraphie de Wang Xizhi s'est vendue aux encheres pour plus de 46 millions de dollars."
+  },
+  {
+    "id": 28,
+    "type": "culture",
+    "title": "La peinture traditionnelle chinoise",
+    "content": "La peinture chinoise (国画, guóhuà) utilise l'encre et l'aquarelle sur papier de riz ou soie. Contrairement a l'art occidental qui cherche le realisme, la peinture chinoise traditionnelle vise a capturer l'essence et l'esprit du sujet (写意, xiěyì).\n\nLes sujets classiques sont les \"quatre gentilshommes\" : le prunier (hiver), l'orchidee (printemps), le bambou (ete) et le chrysantheme (automne). Le vide (留白, liúbái) est aussi important que le trait, representant l'infini et la meditation.",
+    "chinese_term": "国画",
+    "pinyin": "guó huà",
+    "category": "arts",
+    "fun_fact": "Le rouleau 'Le long de la riviere pendant le festival Qingming' fait plus de 5 metres de long."
+  },
+  {
+    "id": 29,
+    "type": "histoire",
+    "title": "La dynastie Tang, age d'or",
+    "content": "La dynastie Tang (唐朝, Tángcháo, 618-907) est consideree comme l'age d'or de la civilisation chinoise. Sa capitale Chang'an (aujourd'hui Xi'an) etait la plus grande ville du monde avec plus d'un million d'habitants, et un carrefour cosmopolite de cultures.\n\nSous les Tang, la poesie, les arts, la musique et le commerce ont atteint des sommets inegales. La Route de la Soie etait a son apogee. De grands poetes comme Li Bai et Du Fu ont ecrit leurs oeuvres immortelles durant cette periode.",
+    "chinese_term": "唐朝",
+    "pinyin": "Táng cháo",
+    "category": "histoire",
+    "fun_fact": "Les quartiers chinois dans le monde s'appellent souvent 'Tangrenjie' (rue des Tang) en chinois."
+  },
+  {
+    "id": 30,
+    "type": "histoire",
+    "title": "La dynastie Song et l'innovation",
+    "content": "La dynastie Song (宋朝, Sòngcháo, 960-1279) est souvent sous-estimee mais fut l'une des plus innovantes de l'histoire mondiale. C'est sous les Song que la Chine a invente les caracteres mobiles, la boussole maritime, la poudre a canon militaire et le papier-monnaie.\n\nLa population a depasse 100 millions d'habitants pour la premiere fois. Les villes Song avaient des restaurants, des theatres, des clubs et des marches nocturnes. Le niveau de vie etait probablement le plus eleve du monde a cette epoque.",
+    "chinese_term": "宋朝",
+    "pinyin": "Sòng cháo",
+    "category": "histoire",
+    "fun_fact": "La dynastie Song avait deja des livraisons de repas a domicile dans ses grandes villes."
+  },
+  {
+    "id": 31,
+    "type": "histoire",
+    "title": "La dynastie Ming et les explorations",
+    "content": "La dynastie Ming (明朝, Míngcháo, 1368-1644) est celebre pour la construction de la Cite Interdite, la restauration de la Grande Muraille et les expeditions maritimes de l'amiral Zheng He. Les Ming ont aussi produit la celebre porcelaine bleu et blanc.\n\nZheng He (郑和) a commande une flotte de centaines de navires geants (les \"bateaux-tresors\") qui ont explore l'Asie du Sud-Est, l'Inde, le golfe Persique et meme l'Afrique de l'Est, des decennies avant les explorations europeennes.",
+    "chinese_term": "明朝",
+    "pinyin": "Míng cháo",
+    "category": "histoire",
+    "fun_fact": "Les navires de Zheng He faisaient environ 120 metres de long, cinq fois la taille de ceux de Colomb."
+  },
+  {
+    "id": 32,
+    "type": "histoire",
+    "title": "La dynastie Qing, la derniere",
+    "content": "La dynastie Qing (清朝, Qīngcháo, 1644-1912) fut la derniere dynastie imperiale de Chine. Fondee par les Mandchous, elle a etendu le territoire chinois a sa plus grande superficie historique, incluant le Tibet, la Mongolie et le Xinjiang.\n\nLes empereurs Kangxi et Qianlong comptent parmi les plus longs regnes de l'histoire. La dynastie a decline au 19e siecle face aux puissances occidentales et aux revoltes internes, aboutissant a la Revolution de 1911 et la fin de 2000 ans d'empire.",
+    "chinese_term": "清朝",
+    "pinyin": "Qīng cháo",
+    "category": "histoire",
+    "fun_fact": "La natte (queue de cheval) obligatoire etait un symbole de soumission aux Mandchous."
+  },
+  {
+    "id": 33,
+    "type": "culture",
+    "title": "WeChat, l'app qui fait tout",
+    "content": "WeChat (微信, Wēixìn, litteralement \"micro-message\") est bien plus qu'une application de messagerie. C'est un veritable ecosysteme numerique utilise par plus d'un milliard de personnes en Chine pour presque tout : communiquer, payer, commander un taxi, reserver un medecin, etc.\n\nAvec WeChat Pay, les Chinois peuvent payer partout en scannant un QR code, meme chez les vendeurs ambulants. L'argent liquide a presque disparu dans les grandes villes chinoises. Les hongbao (enveloppes rouges) numeriques sont devenues un phenomene social.",
+    "chinese_term": "微信",
+    "pinyin": "Wēi xìn",
+    "category": "société",
+    "fun_fact": "Pendant le Nouvel An 2024, des milliards de hongbao numeriques ont ete echanges sur WeChat."
+  },
+  {
+    "id": 34,
+    "type": "culture",
+    "title": "Le mahjong, roi des jeux",
+    "content": "Le mahjong (麻将, májiàng) est un jeu de tuiles pour quatre joueurs invente sous la dynastie Qing. C'est le jeu le plus populaire en Chine, joue dans les parcs, les salons de the et en famille. Il melange strategie, memoire et chance.\n\nLe jeu utilise 144 tuiles decorees de caracteres chinois, de bambous et de cercles. Au-dela du divertissement, le mahjong est un veritable lien social. Le son des tuiles qui s'entrechoquent est un bruit familier dans tous les quartiers chinois du monde.",
+    "chinese_term": "麻将",
+    "pinyin": "má jiàng",
+    "category": "traditions",
+    "fun_fact": "Il existe des competitions mondiales de mahjong avec des regles standardisees."
+  },
+  {
+    "id": 35,
+    "type": "culture",
+    "title": "La medecine traditionnelle chinoise",
+    "content": "La medecine traditionnelle chinoise (中医, zhōngyī) est un systeme medical vieux de plus de 3000 ans, base sur l'equilibre du qi (气, energie vitale) et la theorie du yin et du yang. Elle comprend l'acupuncture, la phytotherapie, le massage tui na et le qi gong.\n\nL'acupuncture (针灸, zhēnjiǔ) utilise des aiguilles inserees en des points specifiques du corps pour retablir la circulation du qi. En 2010, l'acupuncture a ete inscrite au patrimoine culturel immateriel de l'UNESCO.",
+    "chinese_term": "中医",
+    "pinyin": "zhōng yī",
+    "category": "traditions",
+    "fun_fact": "Le plus ancien traite de medecine chinoise, le Huangdi Neijing, date d'environ 200 av. J.-C."
+  },
+  {
+    "id": 36,
+    "type": "culture",
+    "title": "Les arts martiaux chinois",
+    "content": "Les arts martiaux chinois (武术, wǔshù), souvent appeles kung-fu (功夫, gōngfū, qui signifie en realite \"maitrise acquise par le travail\"), englobent des centaines de styles differents. Les plus celebres sont le tai-chi, le wing chun, le shaolin et le wudang.\n\nLe temple Shaolin (少林寺) dans la province du Henan est le berceau legendaire du kung-fu. Les moines Shaolin combinent pratique martiale et meditation bouddhiste. Le tai-chi (太极拳, tàijíquán) est pratique chaque matin dans les parcs par des millions de Chinois.",
+    "chinese_term": "武术",
+    "pinyin": "wǔ shù",
+    "category": "arts",
+    "fun_fact": "Bruce Lee a popularise le kung-fu dans le monde entier grace a ses films des annees 1970."
+  },
+  {
+    "id": 37,
+    "type": "histoire",
+    "title": "L'Opera de Pekin",
+    "content": "L'Opera de Pekin (京剧, jīngjù) est ne en 1790 et combine chant, dialogue, mime, acrobaties et arts martiaux. Les acteurs portent des maquillages elabores ou chaque couleur a une signification : rouge pour la loyaute, noir pour l'honnetete, blanc pour la traîtrise.\n\nLes roles sont divises en quatre categories : sheng (homme), dan (femme), jing (visage peint) et chou (clown). Historiquement, tous les roles feminins etaient joues par des hommes. Mei Lanfang, le plus celebre interprete de roles feminins, a meme impressionne Charlie Chaplin.",
+    "chinese_term": "京剧",
+    "pinyin": "jīng jù",
+    "category": "arts",
+    "fun_fact": "Les maquillages de l'opera de Pekin sont si codifies qu'on peut deviner le personnage juste en voyant les couleurs."
+  },
+  {
+    "id": 38,
+    "type": "culture",
+    "title": "Le mariage chinois traditionnel",
+    "content": "Le mariage chinois (婚礼, hūnlǐ) est riche en symboles et traditions. La couleur dominante est le rouge (chance), jamais le blanc (deuil). La mariee porte traditionnellement un qipao rouge borde de phoenix, et le marie un costume avec des dragons.\n\nLa ceremonie du the est un moment cle : les maries servent le the a leurs parents et beaux-parents en signe de respect. En retour, les parents offrent des enveloppes rouges et des bijoux en or. Le chiffre pair est prefere pour la date, surtout le 8.",
+    "chinese_term": "婚礼",
+    "pinyin": "hūn lǐ",
+    "category": "traditions",
+    "fun_fact": "Le futur mari doit souvent passer des epreuves imposees par les demoiselles d'honneur avant d'acceder a sa fiancee."
+  },
+  {
+    "id": 39,
+    "type": "culture",
+    "title": "Le mois des fantomes",
+    "content": "Le mois des fantomes (鬼月, guǐyuè) est le 7e mois du calendrier lunaire. Selon la croyance, les portes de l'enfer s'ouvrent et les esprits des morts errent parmi les vivants pendant tout le mois.\n\nDurant cette periode, les Chinois brulent de l'argent factice en papier et des objets en carton (voitures, maisons, telephones) pour que leurs ancetres puissent les utiliser dans l'au-dela. Il est deconseille de se marier, de demenager ou de commencer un nouveau projet pendant ce mois.",
+    "chinese_term": "鬼月",
+    "pinyin": "guǐ yuè",
+    "category": "traditions",
+    "fun_fact": "On brule desormais des iPhone et des voitures de luxe en papier pour les ancetres modernes."
+  },
+  {
+    "id": 40,
+    "type": "culture",
+    "title": "Pourquoi 250 est une insulte",
+    "content": "En chinois, traiter quelqu'un de \"250\" (二百五, èrbǎiwǔ) signifie qu'il est un imbecile ou un idiot. Cette insulte courante a plusieurs origines possibles, la plus populaire etant liee a une ancienne unite monetaire.\n\nA l'epoque, une liasse complete de pieces valait 500 wen. Quelqu'un qui n'avait que 250, soit une demi-liasse, etait considere comme \"pas complet\" mentalement. Aujourd'hui, il vaut mieux eviter de donner exactement 250 yuans en cadeau.",
+    "chinese_term": "二百五",
+    "pinyin": "èr bǎi wǔ",
+    "category": "nombres",
+    "fun_fact": "Les prix en Chine evitent souvent le chiffre 250, passant directement a 249 ou 251."
+  },
+  {
+    "id": 41,
+    "type": "culture",
+    "title": "Le Double 11, fete du shopping",
+    "content": "Le Double 11 (双十一, shuāng shíyī) ou \"Journee des celibataires\" le 11 novembre (11/11, quatre \"1\" pour les celibataires) est devenu le plus grand evenement de shopping en ligne au monde, lance par Alibaba en 2009.\n\nEn une seule journee, les ventes depassent celles du Black Friday et du Cyber Monday combines. En 2023, les ventes ont depasse 150 milliards de dollars. Des stars, des influenceurs et des spectacles en direct accompagnent cet evenement devenu un phenomene culturel.",
+    "chinese_term": "双十一",
+    "pinyin": "shuāng shí yī",
+    "category": "société",
+    "fun_fact": "Le record de transactions par seconde lors du Double 11 depasse 500 000 commandes."
+  },
+  {
+    "id": 42,
+    "type": "culture",
+    "title": "Le nom de famille en premier",
+    "content": "En Chine, on ecrit et dit le nom de famille (姓, xìng) AVANT le prenom (名, míng). Ainsi, le president Xi Jinping s'appelle Xi (nom de famille) Jinping (prenom). C'est l'inverse de l'usage occidental.\n\nIl n'existe qu'environ 100 noms de famille courants en Chine pour 1,4 milliard de personnes. Les trois plus communs sont Wang (王), Li (李) et Zhang (张), qui representent a eux seuls plus de 270 millions de personnes. Le livre des Cent Noms de Famille date de la dynastie Song.",
+    "chinese_term": "姓名",
+    "pinyin": "xìng míng",
+    "category": "société",
+    "fun_fact": "Environ 85% de la population chinoise partage seulement 100 noms de famille."
+  },
+  {
+    "id": 43,
+    "type": "histoire",
+    "title": "L'origine des caracteres chinois",
+    "content": "Les caracteres chinois (汉字, hànzì) sont le plus ancien systeme d'ecriture encore utilise aujourd'hui. Les plus anciens connus sont les inscriptions oraculaires (甲骨文, jiǎgǔwén) gravees sur des carapaces de tortues et des os d'animaux il y a plus de 3000 ans.\n\nA l'origine, de nombreux caracteres etaient des pictogrammes : 山 (montagne) ressemble a trois pics, 水 (eau) a des vagues, 木 (arbre) a un arbre avec des racines, et 日 (soleil) etait un cercle avec un point. Au fil des millenaires, ils se sont simplifies et stylises.",
+    "chinese_term": "汉字",
+    "pinyin": "hàn zì",
+    "category": "écriture",
+    "fun_fact": "Le dictionnaire le plus complet contient environ 85 000 caracteres, mais 3 500 suffisent au quotidien."
+  },
+  {
+    "id": 44,
+    "type": "culture",
+    "title": "Les radicaux, cles des caracteres",
+    "content": "Les radicaux (部首, bùshǒu) sont les composants de base des caracteres chinois. Il en existe 214 dans le systeme classique. Ils donnent souvent un indice sur le sens du caractere.\n\nPar exemple, le radical 氵(eau) apparait dans 河 (riviere), 海 (mer), 湖 (lac). Le radical 女 (femme) est dans 妈 (maman), 姐 (grande soeur), 好 (bon, compose de femme + enfant). Connaitre les radicaux est la cle pour deviner le sens des caracteres inconnus.",
+    "chinese_term": "部首",
+    "pinyin": "bù shǒu",
+    "category": "écriture",
+    "fun_fact": "Le caractere avec le plus de traits est 'biang' (un type de nouilles) avec 58 traits."
+  },
+  {
+    "id": 45,
+    "type": "histoire",
+    "title": "La Route de la Soie",
+    "content": "La Route de la Soie (丝绸之路, Sīchóu zhī Lù) etait un reseau de routes commerciales reliant la Chine a la Mediterranee, actif pendant plus de 1500 ans. Elle doit son nom a la soie, le produit chinois le plus convoite en Occident.\n\nBien plus que la soie, ces routes transportaient des epices, des metaux precieux, des pierres, du papier, de la poudre a canon et des idees. Le bouddhisme, l'islam et le christianisme se sont propages le long de ces routes. Aujourd'hui, la Chine a lance la \"Nouvelle Route de la Soie\" (一带一路).",
+    "chinese_term": "丝绸之路",
+    "pinyin": "Sī chóu zhī Lù",
+    "category": "histoire",
+    "fun_fact": "Le nom 'Route de la Soie' n'a ete invente qu'en 1877 par un geographe allemand."
+  },
+  {
+    "id": 46,
+    "type": "culture",
+    "title": "Le feng shui, l'art du placement",
+    "content": "Le feng shui (风水, fēngshuǐ, litteralement \"vent et eau\") est l'art chinois ancien d'harmoniser l'energie d'un espace. Il influence l'architecture, l'urbanisme et la decoration interieure en Chine depuis des millenaires.\n\nLes principes du feng shui sont pris tres au serieux, meme dans le monde moderne. De nombreux gratte-ciels a Hong Kong ont un trou au milieu pour laisser passer le dragon (energie). Les entreprises consultent des maitres feng shui avant de choisir l'emplacement de leurs bureaux.",
+    "chinese_term": "风水",
+    "pinyin": "fēng shuǐ",
+    "category": "traditions",
+    "fun_fact": "Plusieurs gratte-ciels de Hong Kong ont un trou en leur centre pour laisser passer les dragons de montagne."
+  },
+  {
+    "id": 47,
+    "type": "culture",
+    "title": "Le chiffre 6, tout roule",
+    "content": "Le chiffre 6 (六, liù) est considere comme chanceux en Chine car il est homophone du mot \"couler doucement\" (流, liú), impliquant que tout se passe bien, sans obstacle. Sur internet, \"666\" est un compliment signifiant \"impressionnant\" ou \"genial\".\n\nLes Chinois aiment les dates contenant des 6 pour les mariages et les ouvertures de commerces. Combine au 8, le 6 forme des combinaisons tres recherchees dans les numeros de telephone et les plaques d'immatriculation.",
+    "chinese_term": "六",
+    "pinyin": "liù",
+    "category": "nombres",
+    "fun_fact": "En Chine, taper 666 dans un chat est un compliment, a l'exact oppose de sa signification occidentale."
+  },
+  {
+    "id": 48,
+    "type": "culture",
+    "title": "Le chiffre 9 et la longevite",
+    "content": "Le chiffre 9 (九, jiǔ) est homophone du mot \"long, durable\" (久, jiǔ) et symbolise donc la longevite et l'eternite. C'etait le chiffre de l'empereur, associe au pouvoir supreme.\n\nLa Cite Interdite a 9 999 pieces, les portes imperiales ont 9 rangees de 9 clous dores, et les murs des Neuf Dragons sont celebres. Le 9e jour du 9e mois lunaire est la Fete du Double Neuf (重阳节), dediee au respect des personnes agees.",
+    "chinese_term": "九",
+    "pinyin": "jiǔ",
+    "category": "nombres",
+    "fun_fact": "Offrir 99 ou 999 roses est un geste romantique signifiant 'amour eternel'."
+  },
+  {
+    "id": 49,
+    "type": "histoire",
+    "title": "Qin Shi Huang, premier empereur",
+    "content": "Qin Shi Huang (秦始皇, Qín Shǐ Huáng) a unifie la Chine en 221 av. J.-C. et est devenu le premier empereur. Il a standardise l'ecriture, les poids, les mesures et la monnaie, et a commence la construction de la Grande Muraille.\n\nMalgre ses accomplissements, il etait un tyran cruel qui a brule des livres et enterre vivants des intellectuels. Obsede par l'immortalite, il a envoye des expeditions a la recherche de l'elixir de vie eternelle et s'est fait construire un mausolee gigantesque garde par l'armee de terre cuite.",
+    "chinese_term": "秦始皇",
+    "pinyin": "Qín Shǐ Huáng",
+    "category": "histoire",
+    "fun_fact": "Le nom meme de la Chine (China en anglais) vient probablement de 'Qin' (prononce 'Tchin')."
+  },
+  {
+    "id": 50,
+    "type": "culture",
+    "title": "La Fete des Lanternes",
+    "content": "La Fete des Lanternes (元宵节, Yuánxiāojié) marque la fin des celebrations du Nouvel An chinois, le 15e jour du premier mois lunaire. Des milliers de lanternes illuminent les rues, les parcs et les temples.\n\nLa tradition veut que l'on mange des tangyuan (汤圆), des boulettes de riz gluant farcies, dont la forme ronde symbolise la reunion familiale. Des enigmes sont souvent collees sur les lanternes, et les deviner est un jeu populaire.",
+    "chinese_term": "元宵节",
+    "pinyin": "Yuán xiāo jié",
+    "category": "fêtes",
+    "fun_fact": "A Pingxi (Taiwan), on lache des milliers de lanternes volantes avec des voeux ecrits dessus."
+  },
+  {
+    "id": 51,
+    "type": "histoire",
+    "title": "La soie, secret d'Etat",
+    "content": "La soie (丝绸, sīchóu) a ete inventee en Chine il y a environ 5000 ans. Selon la legende, l'imperatrice Leizu a decouvert le secret du ver a soie quand un cocon est tombe dans sa tasse de the chaud.\n\nLa production de soie etait un secret d'Etat si bien garde que sa divulgation etait punie de mort. Ce monopole a dure des siecles. La legende raconte que le secret a finalement quitte la Chine cache dans la coiffure d'une princesse ou dans le baton d'un moine.",
+    "chinese_term": "丝绸",
+    "pinyin": "sī chóu",
+    "category": "histoire",
+    "fun_fact": "Il faut environ 2 500 vers a soie pour produire 500 grammes de soie."
+  },
+  {
+    "id": 52,
+    "type": "culture",
+    "title": "Ne jamais offrir d'horloge",
+    "content": "En Chine, offrir une horloge (送钟, sòng zhōng) est l'un des pires cadeaux possibles car l'expression est homophone de \"accompagner a la mort\" (送终, sòng zhōng). C'est un tabou absolu.\n\nAutres cadeaux a eviter : les parapluies (伞, sǎn, homophone de \"se separer\"), les poires qu'on ne doit pas partager (分梨, fēn lí, homophone de \"se separer\"), les chaussures (qui symbolisent le fait de chasser quelqu'un) et tout objet en nombre de 4.",
+    "chinese_term": "送钟",
+    "pinyin": "sòng zhōng",
+    "category": "traditions",
+    "fun_fact": "Les montres sont acceptables car le mot est different (手表, shǒubiǎo), seules les horloges posent probleme."
+  },
+  {
+    "id": 53,
+    "type": "culture",
+    "title": "Le hotpot, repas convivial",
+    "content": "Le hotpot ou fondue chinoise (火锅, huǒguō, litteralement \"marmite de feu\") est l'un des repas les plus populaires et sociaux en Chine. Un bouillon frémissant est place au centre de la table et chacun y fait cuire viandes, legumes, tofu et nouilles.\n\nLe hotpot du Sichuan est celebre pour son bouillon rouge extremement piquant au poivre de Sichuan (花椒, huājiāo), qui provoque une sensation unique d'engourdissement (麻辣, málà). Le hotpot est souvent accompagne de biere et de conversations animees.",
+    "chinese_term": "火锅",
+    "pinyin": "huǒ guō",
+    "category": "gastronomie",
+    "fun_fact": "La chaine Haidilao est celebre pour son service extraordinaire : manucure et spectacle de nouilles en attendant sa table."
+  },
+  {
+    "id": 54,
+    "type": "histoire",
+    "title": "Le systeme d'examen imperial",
+    "content": "Le systeme d'examen imperial (科举, kējǔ) a ete le moyen de selection des fonctionnaires en Chine pendant plus de 1300 ans (605-1905). C'etait le premier systeme meritocratique au monde : n'importe qui, quelle que soit sa naissance, pouvait devenir mandarin en reussissant les examens.\n\nLes examens etaient extremement difficiles, portant sur les classiques confuceens, la poesie et la calligraphie. Les candidats etaient enfermes dans de minuscules cellules pendant trois jours. Le taux de reussite etait d'environ 1-2%.",
+    "chinese_term": "科举",
+    "pinyin": "kē jǔ",
+    "category": "histoire",
+    "fun_fact": "Des candidats passaient parfois l'examen toute leur vie sans jamais reussir, meme a 80 ans."
+  },
+  {
+    "id": 55,
+    "type": "culture",
+    "title": "La lecture verticale et de droite a gauche",
+    "content": "Traditionnellement, le chinois s'ecrit en colonnes verticales, lues de haut en bas et de droite a gauche. Les livres anciens s'ouvrent donc de ce qui serait la \"derniere page\" pour un Occidental.\n\nAujourd'hui, le chinois moderne s'ecrit le plus souvent horizontalement de gauche a droite, a l'occidentale, surtout dans les contextes numeriques. Mais l'ecriture verticale traditionnelle est encore utilisee pour la calligraphie, les couplets du Nouvel An et certains journaux taiwanais.",
+    "chinese_term": "竖排",
+    "pinyin": "shù pái",
+    "category": "écriture",
+    "fun_fact": "Le passage a l'ecriture horizontale s'est fait progressivement au 20e siecle sous l'influence occidentale."
+  },
+  {
+    "id": 56,
+    "type": "histoire",
+    "title": "L'empereur de Jade, roi du ciel",
+    "content": "L'Empereur de Jade (玉皇大帝, Yù Huáng Dàdì) est la divinite supreme de la mythologie chinoise et du taoisme. Il regne sur le ciel et la terre depuis son palais celeste, un peu comme Zeus dans la mythologie grecque.\n\nSelon la tradition, l'Empereur de Jade a organise la course qui a determine les 12 animaux du zodiaque. C'est aussi lui qui envoie le Dieu du Foyer (灶神, Zàoshén) espionner les familles et rapporter leur comportement avant le Nouvel An.",
+    "chinese_term": "玉皇大帝",
+    "pinyin": "Yù Huáng Dà dì",
+    "category": "traditions",
+    "fun_fact": "Avant le Nouvel An, on offre des sucreries au Dieu du Foyer pour qu'il fasse un rapport favorable."
+  },
+  {
+    "id": 57,
+    "type": "culture",
+    "title": "Les caracteres simplifies vs traditionnels",
+    "content": "Dans les annees 1950, le gouvernement chinois a simplifie des milliers de caracteres pour augmenter l'alphabetisation. La Chine continentale utilise les caracteres simplifies (简体字, jiǎntǐzì), tandis que Taiwan, Hong Kong et Macao conservent les caracteres traditionnels (繁体字, fántǐzì).\n\nPar exemple, le caractere traditionnel 龍 (dragon) est devenu 龙 en simplifie, et 學 (etudier) est devenu 学. Le debat entre simplifies et traditionnels reste un sujet sensible lié a l'identite culturelle.",
+    "chinese_term": "简体字",
+    "pinyin": "jiǎn tǐ zì",
+    "category": "écriture",
+    "fun_fact": "Certains caracteres ont ete simplifies en reduisant leurs traits de 20+ a seulement 3-4."
+  },
+  {
+    "id": 58,
+    "type": "culture",
+    "title": "Le Qingming, fete des morts",
+    "content": "Le festival Qingming (清明节, Qīngmíngjié), ou \"Fete de la purete et de la clarte\", a lieu debut avril. C'est le jour ou les Chinois visitent les tombes de leurs ancetres pour les nettoyer, deposer des offrandes et bruler de l'encens.\n\nC'est l'equivalent de la Toussaint en France, mais avec des rituels tres differents. On brule du papier-monnaie et des objets en papier pour que les ancetres puissent les utiliser dans l'au-dela. Des banquets sont parfois organises directement au cimetiere.",
+    "chinese_term": "清明节",
+    "pinyin": "Qīng míng jié",
+    "category": "fêtes",
+    "fun_fact": "Le celebre rouleau peint 'Le long de la riviere pendant Qingming' illustre cette fete sous les Song."
+  },
+  {
+    "id": 59,
+    "type": "culture",
+    "title": "Le the au beurre de yak tibetain",
+    "content": "Le the au beurre de yak (酥油茶, sūyóuchá) est la boisson nationale du Tibet. Prepare avec du the noir, du beurre de yak et du sel, il est baratte vigoureusement pour creer une boisson energetique et reconstituante adaptee a l'altitude extreme.\n\nLes Tibetains en boivent des dizaines de tasses par jour. C'est aussi un element essentiel de l'hospitalite : refuser une tasse serait extremement impoli. Le visiteur doit au minimum tremper ses levres, et l'hote remplit constamment la tasse.",
+    "chinese_term": "酥油茶",
+    "pinyin": "sū yóu chá",
+    "category": "gastronomie",
+    "fun_fact": "Les Tibetains consomment en moyenne 40 tasses de the au beurre de yak par jour."
+  },
+  {
+    "id": 60,
+    "type": "histoire",
+    "title": "Les pieds bandes, coutume abolie",
+    "content": "La pratique des pieds bandes (缠足, chánzú) a persiste en Chine pendant environ 1000 ans, de la dynastie Song au debut du 20e siecle. Les pieds des jeunes filles etaient bandes pour les empecher de grandir, creant le \"lotus dore\" de 7-10 cm considere comme un ideal de beaute.\n\nCette pratique douloureuse a touche des milliards de femmes chinoises a travers l'histoire. Elle a ete interdite au debut de la Republique de Chine (1912) et a progressivement disparu. Les dernieres femmes aux pieds bandes vivent encore aujourd'hui.",
+    "chinese_term": "缠足",
+    "pinyin": "chán zú",
+    "category": "histoire",
+    "fun_fact": "Les pieds bandes etaient appeles 'lotus dore' quand ils mesuraient moins de 8 cm."
+  },
+  {
+    "id": 61,
+    "type": "culture",
+    "title": "La fete du Double Neuf",
+    "content": "La Fete du Double Neuf (重阳节, Chóngyángjié) a lieu le 9e jour du 9e mois lunaire. Comme le 9 symbolise la longevite, cette fete est dediee au respect des personnes agees et a la gratitude envers les aines.\n\nLes traditions incluent l'escalade de montagnes ou de hauteurs (登高, dēnggāo), la degustation de gateaux de chrysantheme et la consommation de vin de chrysantheme. Depuis 1989, c'est officiellement la \"Journee des seniors\" en Chine.",
+    "chinese_term": "重阳节",
+    "pinyin": "Chóng yáng jié",
+    "category": "fêtes",
+    "fun_fact": "Le Double Neuf est aussi lie a un ancien recit ou grimper en hauteur protege des catastrophes."
+  },
+  {
+    "id": 62,
+    "type": "culture",
+    "title": "Le canard laque de Pekin",
+    "content": "Le canard laque de Pekin (北京烤鸭, Běijīng kǎoyā) est l'un des plats les plus celebres de la cuisine chinoise. Sa preparation remonte a la dynastie Yuan (13e siecle) et a ete perfectionnee sous les Ming. La peau croustillante et doree est la partie la plus prisee.\n\nDans les restaurants traditionnels, le canard est decoupe a table par un chef specialise qui en tire exactement 108 tranches fines. Chaque tranche contient de la peau et de la chair, et se deguste enroulee dans une crepe avec de la sauce hoisin et de la ciboule.",
+    "chinese_term": "北京烤鸭",
+    "pinyin": "Běi jīng kǎo yā",
+    "category": "gastronomie",
+    "fun_fact": "Le restaurant Quanjude, specialise dans le canard laque, a servi plus de 200 millions de canards depuis 1864."
+  },
+  {
+    "id": 63,
+    "type": "histoire",
+    "title": "Le Grand Canal de Chine",
+    "content": "Le Grand Canal (大运河, Dà Yùnhé) est la plus longue voie navigable artificielle du monde, s'etendant sur 1 776 km de Pekin a Hangzhou. Sa construction a debute au 5e siecle av. J.-C. et s'est achevee sous la dynastie Sui au 7e siecle.\n\nCe canal a ete vital pour le transport du riz du sud fertile vers le nord politique, unifiant economiquement les deux moities de la Chine. Des millions de travailleurs forcerent ont participe a sa construction sous l'empereur Sui Yangdi, dont le regne a ete bref mais transformateur.",
+    "chinese_term": "大运河",
+    "pinyin": "Dà Yùn hé",
+    "category": "géographie",
+    "fun_fact": "Le Grand Canal est inscrit au patrimoine mondial de l'UNESCO depuis 2014."
+  },
+  {
+    "id": 64,
+    "type": "culture",
+    "title": "Le pinyin, passerelle vers le chinois",
+    "content": "Le pinyin (拼音, pīnyīn, litteralement \"assembler les sons\") est le systeme de romanisation officiel du chinois mandarin, adopte en 1958. Il permet d'ecrire la prononciation des caracteres chinois avec l'alphabet latin et des marques de tons.\n\nLe pinyin a ete concu par Zhou Youguang, souvent appele le \"pere du pinyin\". Aujourd'hui, c'est l'outil indispensable pour taper du chinois sur les telephones et ordinateurs. Les Chinois tapent le pinyin et selectionnent le bon caractere parmi les suggestions.",
+    "chinese_term": "拼音",
+    "pinyin": "pīn yīn",
+    "category": "langue",
+    "fun_fact": "Zhou Youguang a vecu jusqu'a 111 ans et a vu sa creation devenir universelle."
+  },
+  {
+    "id": 65,
+    "type": "culture",
+    "title": "Les quatre tons du mandarin",
+    "content": "Le mandarin est une langue tonale avec quatre tons principaux plus un ton neutre. Le meme son \"ma\" peut signifier maman (妈, ton 1), chanvre (麻, ton 2), cheval (马, ton 3) ou insulter (骂, ton 4) selon le ton utilise.\n\nLa phrase classique pour illustrer les tons est : 妈妈骂马 (māma mà mǎ, \"maman insulte le cheval\"). Se tromper de ton peut creer des malentendus hilarants ou embarrassants. C'est souvent le plus grand defi pour les apprenants du chinois.",
+    "chinese_term": "四声",
+    "pinyin": "sì shēng",
+    "category": "langue",
+    "fun_fact": "Il existe un poeme entier de 92 caracteres qui se prononce entierement 'shi' : Le poete mangeur de lion."
+  },
+  {
+    "id": 66,
+    "type": "histoire",
+    "title": "Zheng He, l'amiral eunuque",
+    "content": "Zheng He (郑和, Zhèng Hé, 1371-1433) etait un amiral musulman et eunuque qui a commande sept expeditions maritimes colossales sous la dynastie Ming. Sa flotte comptait jusqu'a 300 navires et 28 000 hommes.\n\nSes voyages l'ont mene en Asie du Sud-Est, en Inde, dans le golfe Persique, en Afrique de l'Est et peut-etre plus loin. Il ramenait des cadeaux exotiques, dont une girafe que la cour Ming prit pour un qilin, creature mythique de bon augure.",
+    "chinese_term": "郑和",
+    "pinyin": "Zhèng Hé",
+    "category": "histoire",
+    "fun_fact": "Zheng He a ramene une girafe d'Afrique que les Chinois ont prise pour une creature mythique."
+  },
+  {
+    "id": 67,
+    "type": "culture",
+    "title": "Le jeu de go, strategie millenaire",
+    "content": "Le jeu de go (围棋, wéiqí, litteralement \"jeu d'encerclement\") a ete invente en Chine il y a plus de 4000 ans, ce qui en fait le plus ancien jeu de strategie encore joue. Il se joue avec des pierres noires et blanches sur un plateau de 19x19 lignes.\n\nMalgre des regles simples, le go est d'une complexite mathematique inouie : le nombre de parties possibles depasse le nombre d'atomes dans l'univers. En 2016, l'IA AlphaGo de Google a battu le champion mondial Lee Sedol, un evenement historique pour l'intelligence artificielle.",
+    "chinese_term": "围棋",
+    "pinyin": "wéi qí",
+    "category": "arts",
+    "fun_fact": "Le nombre de positions legales au go est d'environ 2,1 x 10^170, un chiffre inimaginable."
+  },
+  {
+    "id": 68,
+    "type": "culture",
+    "title": "La piete filiale, vertu supreme",
+    "content": "La piete filiale (孝, xiào) est la vertu la plus importante du confucianisme. Elle designe le respect, l'obeissance et le devouement des enfants envers leurs parents et ancetres. C'est le fondement de la structure familiale chinoise.\n\nEn Chine, il est courant que les enfants adultes vivent avec leurs parents, prennent soin d'eux financierement et suivent leurs conseils pour les decisions importantes comme le mariage. La piete filiale est inscrite dans la loi chinoise : les enfants sont legalement tenus de rendre visite a leurs parents ages.",
+    "chinese_term": "孝",
+    "pinyin": "xiào",
+    "category": "philosophie",
+    "fun_fact": "Une loi chinoise de 2013 oblige les enfants adultes a rendre visite a leurs parents ages regulierement."
+  },
+  {
+    "id": 69,
+    "type": "histoire",
+    "title": "Le Palais d'Ete de Pekin",
+    "content": "Le Palais d'Ete (颐和园, Yíhéyuán) est un vaste ensemble de lacs, jardins et palais au nord-ouest de Pekin. Construit a partir de 1750, c'etait la residence d'ete de la famille imperiale pour echapper a la chaleur de la Cite Interdite.\n\nL'imperatrice douairiere Cixi l'a fait restaurer en 1886 en utilisant les fonds destines a la marine de guerre, ce qui a contribue a la defaite de la Chine dans la premiere guerre sino-japonaise. Le Long Corridor, une galerie couverte de 728 metres, contient plus de 14 000 peintures.",
+    "chinese_term": "颐和园",
+    "pinyin": "Yí hé yuán",
+    "category": "géographie",
+    "fun_fact": "Cixi a detourne le budget de la marine pour restaurer le palais, contribuant a une defaite militaire."
+  },
+  {
+    "id": 70,
+    "type": "culture",
+    "title": "Le Nouvel An et le monstre Nian",
+    "content": "Selon la legende, Nian (年, nián) etait un monstre feroce qui sortait de sa cachette chaque veille du Nouvel An pour devorer les villageois. Un jour, un vieillard mysterieux decouvrit que Nian avait peur de trois choses : le rouge, le feu et le bruit.\n\nC'est pourquoi, chaque Nouvel An chinois, on decore en rouge, on allume des petards et des feux d'artifice, et on fait un maximum de bruit. Le mot \"passer le Nouvel An\" en chinois se dit 过年 (guònián), litteralement \"surmonter Nian\".",
+    "chinese_term": "年",
+    "pinyin": "nián",
+    "category": "fêtes",
+    "fun_fact": "Le caractere 年 (annee) viendrait a l'origine du nom de ce monstre legendaire."
+  }
+]

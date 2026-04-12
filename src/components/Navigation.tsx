@@ -75,6 +75,22 @@ const tabs: NavTab[] = [
     ),
   },
   {
+    id: "civilization",
+    label: "Civilisation",
+    href: "/civilization",
+    icon: (
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M3 21h18" />
+        <path d="M5 21V7l7-4 7 4v14" />
+        <path d="M9 21v-4h6v4" />
+        <path d="M9 10h1" />
+        <path d="M14 10h1" />
+        <path d="M9 14h1" />
+        <path d="M14 14h1" />
+      </svg>
+    ),
+  },
+  {
     id: "chat",
     label: "Prof",
     href: "/chat",

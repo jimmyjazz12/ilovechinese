@@ -1,105 +1,1302 @@
 [
-  {"simplified": "政府", "traditional": "政府", "pinyin": "zhèngfǔ", "french": "gouvernement", "hsk_level": 4, "category": "noms", "components": ["政", "府"]},
-  {"simplified": "法律", "traditional": "法律", "pinyin": "fǎlǜ", "french": "loi", "hsk_level": 4, "category": "noms", "components": ["法", "律"]},
-  {"simplified": "制度", "traditional": "制度", "pinyin": "zhìdù", "french": "système, régime", "hsk_level": 4, "category": "noms", "components": ["制", "度"]},
-  {"simplified": "政策", "traditional": "政策", "pinyin": "zhèngcè", "french": "politique (mesure)", "hsk_level": 4, "category": "noms", "components": ["政", "策"]},
-  {"simplified": "民族", "traditional": "民族", "pinyin": "mínzú", "french": "ethnie, nation", "hsk_level": 4, "category": "noms", "components": ["民", "族"]},
-  {"simplified": "人口", "traditional": "人口", "pinyin": "rénkǒu", "french": "population", "hsk_level": 4, "category": "noms", "components": ["人", "口"]},
-  {"simplified": "贸易", "traditional": "貿易", "pinyin": "màoyì", "french": "commerce", "hsk_level": 4, "category": "noms", "components": ["贸", "易"]},
-  {"simplified": "市场", "traditional": "市場", "pinyin": "shìchǎng", "french": "marché", "hsk_level": 4, "category": "noms", "components": ["市", "场"]},
-  {"simplified": "产品", "traditional": "產品", "pinyin": "chǎnpǐn", "french": "produit", "hsk_level": 4, "category": "noms", "components": ["产", "品"]},
-  {"simplified": "质量", "traditional": "質量", "pinyin": "zhìliàng", "french": "qualité", "hsk_level": 4, "category": "noms", "components": ["质", "量"]},
-  {"simplified": "价格", "traditional": "價格", "pinyin": "jiàgé", "french": "prix", "hsk_level": 4, "category": "noms", "components": ["价", "格"]},
-  {"simplified": "收入", "traditional": "收入", "pinyin": "shōurù", "french": "revenu", "hsk_level": 4, "category": "noms", "components": ["收", "入"]},
-  {"simplified": "广告", "traditional": "廣告", "pinyin": "guǎnggào", "french": "publicité", "hsk_level": 4, "category": "noms", "components": ["广", "告"]},
-  {"simplified": "材料", "traditional": "材料", "pinyin": "cáiliào", "french": "matériau, document", "hsk_level": 4, "category": "noms", "components": ["材", "料"]},
-  {"simplified": "效果", "traditional": "效果", "pinyin": "xiàoguǒ", "french": "effet, résultat", "hsk_level": 4, "category": "noms", "components": ["效", "果"]},
-  {"simplified": "现象", "traditional": "現象", "pinyin": "xiànxiàng", "french": "phénomène", "hsk_level": 4, "category": "noms", "components": ["现", "象"]},
-  {"simplified": "观点", "traditional": "觀點", "pinyin": "guāndiǎn", "french": "point de vue", "hsk_level": 4, "category": "noms", "components": ["观", "点"]},
-  {"simplified": "标准", "traditional": "標準", "pinyin": "biāozhǔn", "french": "norme, standard", "hsk_level": 4, "category": "noms", "components": ["标", "准"]},
-  {"simplified": "规定", "traditional": "規定", "pinyin": "guīdìng", "french": "règlement, stipuler", "hsk_level": 4, "category": "noms", "components": ["规", "定"]},
-  {"simplified": "任务", "traditional": "任務", "pinyin": "rènwu", "french": "tâche, mission", "hsk_level": 4, "category": "noms", "components": ["任", "务"]},
-  {"simplified": "责任", "traditional": "責任", "pinyin": "zérèn", "french": "responsabilité", "hsk_level": 4, "category": "noms", "components": ["责", "任"]},
-  {"simplified": "能力", "traditional": "能力", "pinyin": "nénglì", "french": "capacité, compétence", "hsk_level": 4, "category": "noms", "components": ["能", "力"]},
-  {"simplified": "水平", "traditional": "水平", "pinyin": "shuǐpíng", "french": "niveau", "hsk_level": 4, "category": "noms", "components": ["水", "平"]},
-  {"simplified": "知识", "traditional": "知識", "pinyin": "zhīshi", "french": "connaissance, savoir", "hsk_level": 4, "category": "noms", "components": ["知", "识"]},
-  {"simplified": "教育", "traditional": "教育", "pinyin": "jiàoyù", "french": "éducation", "hsk_level": 4, "category": "noms", "components": ["教", "育"]},
-  {"simplified": "学术", "traditional": "學術", "pinyin": "xuéshù", "french": "académique", "hsk_level": 4, "category": "noms", "components": ["学", "术"]},
-  {"simplified": "专业", "traditional": "專業", "pinyin": "zhuānyè", "french": "spécialité, professionnel", "hsk_level": 4, "category": "noms", "components": ["专", "业"]},
-  {"simplified": "理想", "traditional": "理想", "pinyin": "lǐxiǎng", "french": "idéal", "hsk_level": 4, "category": "noms", "components": ["理", "想"]},
-  {"simplified": "压力", "traditional": "壓力", "pinyin": "yālì", "french": "pression, stress", "hsk_level": 4, "category": "noms", "components": ["压", "力"]},
-  {"simplified": "困难", "traditional": "困難", "pinyin": "kùnnan", "french": "difficulté", "hsk_level": 4, "category": "noms", "components": ["困", "难"]},
-  {"simplified": "优点", "traditional": "優點", "pinyin": "yōudiǎn", "french": "avantage, qualité", "hsk_level": 4, "category": "noms", "components": ["优", "点"]},
-  {"simplified": "缺点", "traditional": "缺點", "pinyin": "quēdiǎn", "french": "défaut", "hsk_level": 4, "category": "noms", "components": ["缺", "点"]},
-  {"simplified": "印象", "traditional": "印象", "pinyin": "yìnxiàng", "french": "impression", "hsk_level": 4, "category": "noms", "components": ["印", "象"]},
-  {"simplified": "内容", "traditional": "內容", "pinyin": "nèiróng", "french": "contenu", "hsk_level": 4, "category": "noms", "components": ["内", "容"]},
-  {"simplified": "方面", "traditional": "方面", "pinyin": "fāngmiàn", "french": "aspect, côté", "hsk_level": 4, "category": "noms", "components": ["方", "面"]},
-  {"simplified": "情况", "traditional": "情況", "pinyin": "qíngkuàng", "french": "situation, circonstance", "hsk_level": 4, "category": "noms", "components": ["情", "况"]},
-  {"simplified": "条件", "traditional": "條件", "pinyin": "tiáojiàn", "french": "condition", "hsk_level": 4, "category": "noms", "components": ["条", "件"]},
-  {"simplified": "方式", "traditional": "方式", "pinyin": "fāngshì", "french": "manière, mode", "hsk_level": 4, "category": "noms", "components": ["方", "式"]},
-  {"simplified": "道理", "traditional": "道理", "pinyin": "dàolǐ", "french": "raison, logique", "hsk_level": 4, "category": "noms", "components": ["道", "理"]},
-  {"simplified": "根据", "traditional": "根據", "pinyin": "gēnjù", "french": "selon, d'après", "hsk_level": 4, "category": "prépositions", "components": ["根", "据"]},
-  {"simplified": "实现", "traditional": "實現", "pinyin": "shíxiàn", "french": "réaliser, accomplir", "hsk_level": 4, "category": "verbes", "components": ["实", "现"]},
-  {"simplified": "组织", "traditional": "組織", "pinyin": "zǔzhī", "french": "organiser, organisation", "hsk_level": 4, "category": "verbes", "components": ["组", "织"]},
-  {"simplified": "管理", "traditional": "管理", "pinyin": "guǎnlǐ", "french": "gérer, administrer", "hsk_level": 4, "category": "verbes", "components": ["管", "理"]},
-  {"simplified": "设计", "traditional": "設計", "pinyin": "shèjì", "french": "concevoir, design", "hsk_level": 4, "category": "verbes", "components": ["设", "计"]},
-  {"simplified": "建设", "traditional": "建設", "pinyin": "jiànshè", "french": "construire, bâtir", "hsk_level": 4, "category": "verbes", "components": ["建", "设"]},
-  {"simplified": "生产", "traditional": "生產", "pinyin": "shēngchǎn", "french": "produire", "hsk_level": 4, "category": "verbes", "components": ["生", "产"]},
-  {"simplified": "创造", "traditional": "創造", "pinyin": "chuàngzào", "french": "créer, inventer", "hsk_level": 4, "category": "verbes", "components": ["创", "造"]},
-  {"simplified": "研究", "traditional": "研究", "pinyin": "yánjiū", "french": "étudier, rechercher", "hsk_level": 4, "category": "verbes", "components": ["研", "究"]},
-  {"simplified": "分析", "traditional": "分析", "pinyin": "fēnxī", "french": "analyser", "hsk_level": 4, "category": "verbes", "components": ["分", "析"]},
-  {"simplified": "总结", "traditional": "總結", "pinyin": "zǒngjié", "french": "résumer, conclure", "hsk_level": 4, "category": "verbes", "components": ["总", "结"]},
-  {"simplified": "证明", "traditional": "證明", "pinyin": "zhèngmíng", "french": "prouver, certifier", "hsk_level": 4, "category": "verbes", "components": ["证", "明"]},
-  {"simplified": "支持", "traditional": "支持", "pinyin": "zhīchí", "french": "soutenir", "hsk_level": 4, "category": "verbes", "components": ["支", "持"]},
-  {"simplified": "反对", "traditional": "反對", "pinyin": "fǎnduì", "french": "s'opposer", "hsk_level": 4, "category": "verbes", "components": ["反", "对"]},
-  {"simplified": "批评", "traditional": "批評", "pinyin": "pīpíng", "french": "critiquer", "hsk_level": 4, "category": "verbes", "components": ["批", "评"]},
-  {"simplified": "赞成", "traditional": "贊成", "pinyin": "zànchéng", "french": "approuver", "hsk_level": 4, "category": "verbes", "components": ["赞", "成"]},
-  {"simplified": "坚持", "traditional": "堅持", "pinyin": "jiānchí", "french": "persévérer, insister", "hsk_level": 4, "category": "verbes", "components": ["坚", "持"]},
-  {"simplified": "放弃", "traditional": "放棄", "pinyin": "fàngqì", "french": "abandonner, renoncer", "hsk_level": 4, "category": "verbes", "components": ["放", "弃"]},
-  {"simplified": "承认", "traditional": "承認", "pinyin": "chéngrèn", "french": "admettre, reconnaître", "hsk_level": 4, "category": "verbes", "components": ["承", "认"]},
-  {"simplified": "考虑", "traditional": "考慮", "pinyin": "kǎolǜ", "french": "réfléchir, considérer", "hsk_level": 4, "category": "verbes", "components": ["考", "虑"]},
-  {"simplified": "判断", "traditional": "判斷", "pinyin": "pànduàn", "french": "juger, évaluer", "hsk_level": 4, "category": "verbes", "components": ["判", "断"]},
-  {"simplified": "估计", "traditional": "估計", "pinyin": "gūjì", "french": "estimer", "hsk_level": 4, "category": "verbes", "components": ["估", "计"]},
-  {"simplified": "预习", "traditional": "預習", "pinyin": "yùxí", "french": "préparer (une leçon)", "hsk_level": 4, "category": "verbes", "components": ["预", "习"]},
-  {"simplified": "提供", "traditional": "提供", "pinyin": "tígōng", "french": "fournir", "hsk_level": 4, "category": "verbes", "components": ["提", "供"]},
-  {"simplified": "保证", "traditional": "保證", "pinyin": "bǎozhèng", "french": "garantir", "hsk_level": 4, "category": "verbes", "components": ["保", "证"]},
-  {"simplified": "道歉", "traditional": "道歉", "pinyin": "dàoqiàn", "french": "s'excuser", "hsk_level": 4, "category": "verbes", "components": ["道", "歉"]},
-  {"simplified": "感谢", "traditional": "感謝", "pinyin": "gǎnxiè", "french": "remercier", "hsk_level": 4, "category": "verbes", "components": ["感", "谢"]},
-  {"simplified": "值得", "traditional": "值得", "pinyin": "zhíde", "french": "valoir la peine", "hsk_level": 4, "category": "verbes", "components": ["值", "得"]},
-  {"simplified": "合适", "traditional": "合適", "pinyin": "héshì", "french": "approprié, convenable", "hsk_level": 4, "category": "adjectifs", "components": ["合", "适"]},
-  {"simplified": "完美", "traditional": "完美", "pinyin": "wánměi", "french": "parfait", "hsk_level": 4, "category": "adjectifs", "components": ["完", "美"]},
-  {"simplified": "具体", "traditional": "具體", "pinyin": "jùtǐ", "french": "concret, spécifique", "hsk_level": 4, "category": "adjectifs", "components": ["具", "体"]},
-  {"simplified": "明显", "traditional": "明顯", "pinyin": "míngxiǎn", "french": "évident, manifeste", "hsk_level": 4, "category": "adjectifs", "components": ["明", "显"]},
-  {"simplified": "深", "traditional": "深", "pinyin": "shēn", "french": "profond", "hsk_level": 4, "category": "adjectifs", "components": ["深"]},
-  {"simplified": "浅", "traditional": "淺", "pinyin": "qiǎn", "french": "peu profond, superficiel", "hsk_level": 4, "category": "adjectifs", "components": ["浅"]},
-  {"simplified": "厚", "traditional": "厚", "pinyin": "hòu", "french": "épais", "hsk_level": 4, "category": "adjectifs", "components": ["厚"]},
-  {"simplified": "薄", "traditional": "薄", "pinyin": "báo", "french": "mince, fin", "hsk_level": 4, "category": "adjectifs", "components": ["薄"]},
-  {"simplified": "积极", "traditional": "積極", "pinyin": "jījí", "french": "positif, actif", "hsk_level": 4, "category": "adjectifs", "components": ["积", "极"]},
-  {"simplified": "消极", "traditional": "消極", "pinyin": "xiāojí", "french": "négatif, passif", "hsk_level": 4, "category": "adjectifs", "components": ["消", "极"]},
-  {"simplified": "独立", "traditional": "獨立", "pinyin": "dúlì", "french": "indépendant", "hsk_level": 4, "category": "adjectifs", "components": ["独", "立"]},
-  {"simplified": "主要", "traditional": "主要", "pinyin": "zhǔyào", "french": "principal", "hsk_level": 4, "category": "adjectifs", "components": ["主", "要"]},
-  {"simplified": "基本", "traditional": "基本", "pinyin": "jīběn", "french": "fondamental, basique", "hsk_level": 4, "category": "adjectifs", "components": ["基", "本"]},
-  {"simplified": "实际", "traditional": "實際", "pinyin": "shíjì", "french": "réel, pratique", "hsk_level": 4, "category": "adjectifs", "components": ["实", "际"]},
-  {"simplified": "合理", "traditional": "合理", "pinyin": "hélǐ", "french": "raisonnable", "hsk_level": 4, "category": "adjectifs", "components": ["合", "理"]},
-  {"simplified": "成功", "traditional": "成功", "pinyin": "chénggōng", "french": "réussir, succès", "hsk_level": 4, "category": "adjectifs", "components": ["成", "功"]},
-  {"simplified": "失败", "traditional": "失敗", "pinyin": "shībài", "french": "échouer, échec", "hsk_level": 4, "category": "adjectifs", "components": ["失", "败"]},
-  {"simplified": "丰富", "traditional": "豐富", "pinyin": "fēngfù", "french": "riche, abondant", "hsk_level": 4, "category": "adjectifs", "components": ["丰", "富"]},
-  {"simplified": "及时", "traditional": "及時", "pinyin": "jíshí", "french": "à temps, opportun", "hsk_level": 4, "category": "adverbes", "components": ["及", "时"]},
-  {"simplified": "逐渐", "traditional": "逐漸", "pinyin": "zhújiàn", "french": "progressivement", "hsk_level": 4, "category": "adverbes", "components": ["逐", "渐"]},
-  {"simplified": "纷纷", "traditional": "紛紛", "pinyin": "fēnfēn", "french": "les uns après les autres", "hsk_level": 4, "category": "adverbes", "components": ["纷"]},
-  {"simplified": "分别", "traditional": "分別", "pinyin": "fēnbié", "french": "séparément, respectivement", "hsk_level": 4, "category": "adverbes", "components": ["分", "别"]},
-  {"simplified": "并", "traditional": "並", "pinyin": "bìng", "french": "et (formel), pas du tout", "hsk_level": 4, "category": "adverbes", "components": ["并"]},
-  {"simplified": "果然", "traditional": "果然", "pinyin": "guǒrán", "french": "effectivement, comme prévu", "hsk_level": 4, "category": "adverbes", "components": ["果", "然"]},
-  {"simplified": "尽管", "traditional": "儘管", "pinyin": "jǐnguǎn", "french": "malgré, bien que", "hsk_level": 4, "category": "conjonctions", "components": ["尽", "管"]},
-  {"simplified": "然而", "traditional": "然而", "pinyin": "rán'ér", "french": "cependant, pourtant", "hsk_level": 4, "category": "conjonctions", "components": ["然", "而"]},
-  {"simplified": "因此", "traditional": "因此", "pinyin": "yīncǐ", "french": "par conséquent", "hsk_level": 4, "category": "conjonctions", "components": ["因", "此"]},
-  {"simplified": "于是", "traditional": "於是", "pinyin": "yúshì", "french": "alors, du coup", "hsk_level": 4, "category": "conjonctions", "components": ["于", "是"]},
-  {"simplified": "一方面", "traditional": "一方面", "pinyin": "yì fāngmiàn", "french": "d'un côté", "hsk_level": 4, "category": "conjonctions", "components": ["一", "方", "面"]},
-  {"simplified": "不仅", "traditional": "不僅", "pinyin": "bùjǐn", "french": "non seulement", "hsk_level": 4, "category": "conjonctions", "components": ["不", "仅"]},
-  {"simplified": "总之", "traditional": "總之", "pinyin": "zǒngzhī", "french": "en bref, bref", "hsk_level": 4, "category": "conjonctions", "components": ["总", "之"]},
-  {"simplified": "教授", "traditional": "教授", "pinyin": "jiàoshòu", "french": "professeur (université)", "hsk_level": 4, "category": "noms", "components": ["教", "授"]},
-  {"simplified": "博士", "traditional": "博士", "pinyin": "bóshì", "french": "docteur (titre)", "hsk_level": 4, "category": "noms", "components": ["博", "士"]},
-  {"simplified": "硕士", "traditional": "碩士", "pinyin": "shuòshì", "french": "master (diplôme)", "hsk_level": 4, "category": "noms", "components": ["硕", "士"]},
-  {"simplified": "论文", "traditional": "論文", "pinyin": "lùnwén", "french": "thèse, mémoire", "hsk_level": 4, "category": "noms", "components": ["论", "文"]},
-  {"simplified": "交通", "traditional": "交通", "pinyin": "jiāotōng", "french": "transport, circulation", "hsk_level": 4, "category": "noms", "components": ["交", "通"]}
+  {
+    "simplified": "法律",
+    "traditional": "法律",
+    "pinyin": "fǎlǜ",
+    "french": "loi",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["法", "律"],
+    "examples": [
+      {"chinese": "我们要遵守法律。", "pinyin": "wǒmen yào zūnshǒu fǎlǜ.", "french": "Nous devons respecter la loi."},
+      {"chinese": "他学的是法律。", "pinyin": "tā xué de shì fǎlǜ.", "french": "Il étudie le droit."}
+    ]
+  },
+  {
+    "simplified": "制度",
+    "traditional": "制度",
+    "pinyin": "zhìdù",
+    "french": "système, régime",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["制", "度"],
+    "examples": [
+      {"chinese": "这个制度很合理。", "pinyin": "zhège zhìdù hěn hélǐ.", "french": "Ce système est raisonnable."},
+      {"chinese": "我们需要改变制度。", "pinyin": "wǒmen xūyào gǎibiàn zhìdù.", "french": "Nous devons changer le système."}
+    ]
+  },
+  {
+    "simplified": "政策",
+    "traditional": "政策",
+    "pinyin": "zhèngcè",
+    "french": "politique (mesure)",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["政", "策"],
+    "examples": [
+      {"chinese": "新政策很受欢迎。", "pinyin": "xīn zhèngcè hěn shòu huānyíng.", "french": "La nouvelle politique est populaire."},
+      {"chinese": "政府出台了新的政策。", "pinyin": "zhèngfǔ chūtái le xīn de zhèngcè.", "french": "Le gouvernement a lancé une nouvelle politique."}
+    ]
+  },
+  {
+    "simplified": "权利",
+    "traditional": "權利",
+    "pinyin": "quánlì",
+    "french": "droit (juridique)",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["权", "利"],
+    "examples": [
+      {"chinese": "每个人都有受教育的权利。", "pinyin": "měi gè rén dōu yǒu shòu jiàoyù de quánlì.", "french": "Chacun a le droit à l'éducation."},
+      {"chinese": "我们要保护人民的权利。", "pinyin": "wǒmen yào bǎohù rénmín de quánlì.", "french": "Nous devons protéger les droits du peuple."}
+    ]
+  },
+  {
+    "simplified": "责任",
+    "traditional": "責任",
+    "pinyin": "zérèn",
+    "french": "responsabilité",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["责", "任"],
+    "examples": [
+      {"chinese": "这是我的责任。", "pinyin": "zhè shì wǒ de zérèn.", "french": "C'est ma responsabilité."},
+      {"chinese": "每个人都有责任保护环境。", "pinyin": "měi gè rén dōu yǒu zérèn bǎohù huánjìng.", "french": "Chacun a la responsabilité de protéger l'environnement."}
+    ]
+  },
+  {
+    "simplified": "规定",
+    "traditional": "規定",
+    "pinyin": "guīdìng",
+    "french": "règlement, stipuler",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["规", "定"],
+    "examples": [
+      {"chinese": "学校有很多规定。", "pinyin": "xuéxiào yǒu hěn duō guīdìng.", "french": "L'école a beaucoup de règlements."},
+      {"chinese": "按照规定，你不能这样做。", "pinyin": "ànzhào guīdìng, nǐ bù néng zhèyàng zuò.", "french": "Selon le règlement, tu ne peux pas faire ça."}
+    ]
+  },
+  {
+    "simplified": "组织",
+    "traditional": "組織",
+    "pinyin": "zǔzhī",
+    "french": "organiser, organisation",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["组", "织"],
+    "examples": [
+      {"chinese": "谁组织这个活动？", "pinyin": "shéi zǔzhī zhège huódòng?", "french": "Qui organise cette activité ?"},
+      {"chinese": "这个组织很大。", "pinyin": "zhège zǔzhī hěn dà.", "french": "Cette organisation est grande."}
+    ]
+  },
+  {
+    "simplified": "管理",
+    "traditional": "管理",
+    "pinyin": "guǎnlǐ",
+    "french": "gérer, gestion",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["管", "理"],
+    "examples": [
+      {"chinese": "他管理这家公司。", "pinyin": "tā guǎnlǐ zhè jiā gōngsī.", "french": "Il gère cette entreprise."},
+      {"chinese": "管理工作不容易。", "pinyin": "guǎnlǐ gōngzuò bù róngyì.", "french": "Le travail de gestion n'est pas facile."}
+    ]
+  },
+  {
+    "simplified": "合作",
+    "traditional": "合作",
+    "pinyin": "hézuò",
+    "french": "coopérer, coopération",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["合", "作"],
+    "examples": [
+      {"chinese": "我们可以合作。", "pinyin": "wǒmen kěyǐ hézuò.", "french": "Nous pouvons coopérer."},
+      {"chinese": "合作很愉快。", "pinyin": "hézuò hěn yúkuài.", "french": "La coopération est agréable."}
+    ]
+  },
+  {
+    "simplified": "竞争",
+    "traditional": "競爭",
+    "pinyin": "jìngzhēng",
+    "french": "compétition, rivaliser",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["竞", "争"],
+    "examples": [
+      {"chinese": "竞争越来越大了。", "pinyin": "jìngzhēng yuèláiyuè dà le.", "french": "La compétition est de plus en plus forte."},
+      {"chinese": "他们在竞争这个职位。", "pinyin": "tāmen zài jìngzhēng zhège zhíwèi.", "french": "Ils sont en compétition pour ce poste."}
+    ]
+  },
+  {
+    "simplified": "创造",
+    "traditional": "創造",
+    "pinyin": "chuàngzào",
+    "french": "créer, création",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["创", "造"],
+    "examples": [
+      {"chinese": "我们要创造更好的未来。", "pinyin": "wǒmen yào chuàngzào gèng hǎo de wèilái.", "french": "Nous devons créer un meilleur avenir."},
+      {"chinese": "他创造了一个新记录。", "pinyin": "tā chuàngzào le yí gè xīn jìlù.", "french": "Il a créé un nouveau record."}
+    ]
+  },
+  {
+    "simplified": "实现",
+    "traditional": "實現",
+    "pinyin": "shíxiàn",
+    "french": "réaliser, accomplir",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["实", "现"],
+    "examples": [
+      {"chinese": "他实现了自己的梦想。", "pinyin": "tā shíxiàn le zìjǐ de mèngxiǎng.", "french": "Il a réalisé son rêve."},
+      {"chinese": "这个目标很难实现。", "pinyin": "zhège mùbiāo hěn nán shíxiàn.", "french": "Cet objectif est difficile à réaliser."}
+    ]
+  },
+  {
+    "simplified": "获得",
+    "traditional": "獲得",
+    "pinyin": "huòdé",
+    "french": "obtenir, acquérir",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["获", "得"],
+    "examples": [
+      {"chinese": "他获得了第一名。", "pinyin": "tā huòdé le dì-yī míng.", "french": "Il a obtenu la première place."},
+      {"chinese": "我们获得了很多经验。", "pinyin": "wǒmen huòdé le hěn duō jīngyàn.", "french": "Nous avons acquis beaucoup d'expérience."}
+    ]
+  },
+  {
+    "simplified": "具有",
+    "traditional": "具有",
+    "pinyin": "jùyǒu",
+    "french": "posséder, disposer de",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["具", "有"],
+    "examples": [
+      {"chinese": "他具有很强的能力。", "pinyin": "tā jùyǒu hěn qiáng de nénglì.", "french": "Il possède de grandes compétences."},
+      {"chinese": "这个产品具有很高的质量。", "pinyin": "zhège chǎnpǐn jùyǒu hěn gāo de zhìliàng.", "french": "Ce produit est d'une qualité élevée."}
+    ]
+  },
+  {
+    "simplified": "包括",
+    "traditional": "包括",
+    "pinyin": "bāokuò",
+    "french": "inclure, comprendre",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["包", "括"],
+    "examples": [
+      {"chinese": "价格包括早餐。", "pinyin": "jiàgé bāokuò zǎocān.", "french": "Le prix comprend le petit-déjeuner."},
+      {"chinese": "这包括所有的费用。", "pinyin": "zhè bāokuò suǒyǒu de fèiyòng.", "french": "Cela inclut tous les frais."}
+    ]
+  },
+  {
+    "simplified": "代替",
+    "traditional": "代替",
+    "pinyin": "dàitì",
+    "french": "remplacer",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["代", "替"],
+    "examples": [
+      {"chinese": "谁来代替他？", "pinyin": "shéi lái dàitì tā?", "french": "Qui le remplace ?"},
+      {"chinese": "没有人能代替你。", "pinyin": "méiyǒu rén néng dàitì nǐ.", "french": "Personne ne peut te remplacer."}
+    ]
+  },
+  {
+    "simplified": "推迟",
+    "traditional": "推遲",
+    "pinyin": "tuīchí",
+    "french": "reporter, retarder",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["推", "迟"],
+    "examples": [
+      {"chinese": "会议推迟了。", "pinyin": "huìyì tuīchí le.", "french": "La réunion a été reportée."},
+      {"chinese": "我们不能再推迟了。", "pinyin": "wǒmen bù néng zài tuīchí le.", "french": "Nous ne pouvons plus reporter."}
+    ]
+  },
+  {
+    "simplified": "取消",
+    "traditional": "取消",
+    "pinyin": "qǔxiāo",
+    "french": "annuler",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["取", "消"],
+    "examples": [
+      {"chinese": "活动取消了。", "pinyin": "huódòng qǔxiāo le.", "french": "L'activité a été annulée."},
+      {"chinese": "我想取消预订。", "pinyin": "wǒ xiǎng qǔxiāo yùdìng.", "french": "Je voudrais annuler la réservation."}
+    ]
+  },
+  {
+    "simplified": "承认",
+    "traditional": "承認",
+    "pinyin": "chéngrèn",
+    "french": "admettre, reconnaître",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["承", "认"],
+    "examples": [
+      {"chinese": "他承认了自己的错误。", "pinyin": "tā chéngrèn le zìjǐ de cuòwù.", "french": "Il a admis son erreur."},
+      {"chinese": "你承认吗？", "pinyin": "nǐ chéngrèn ma?", "french": "Tu admets ?"}
+    ]
+  },
+  {
+    "simplified": "证明",
+    "traditional": "證明",
+    "pinyin": "zhèngmíng",
+    "french": "prouver, certificat",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["证", "明"],
+    "examples": [
+      {"chinese": "你能证明吗？", "pinyin": "nǐ néng zhèngmíng ma?", "french": "Peux-tu le prouver ?"},
+      {"chinese": "事实证明他是对的。", "pinyin": "shìshí zhèngmíng tā shì duì de.", "french": "Les faits prouvent qu'il avait raison."}
+    ]
+  },
+  {
+    "simplified": "否则",
+    "traditional": "否則",
+    "pinyin": "fǒuzé",
+    "french": "sinon, autrement",
+    "hsk_level": 4,
+    "category": "conjonctions",
+    "components": ["否", "则"],
+    "examples": [
+      {"chinese": "你要快点，否则会迟到。", "pinyin": "nǐ yào kuài diǎn, fǒuzé huì chídào.", "french": "Dépêche-toi, sinon tu seras en retard."},
+      {"chinese": "多穿点衣服，否则会感冒。", "pinyin": "duō chuān diǎn yīfu, fǒuzé huì gǎnmào.", "french": "Habille-toi plus chaudement, sinon tu auras un rhume."}
+    ]
+  },
+  {
+    "simplified": "即使",
+    "traditional": "即使",
+    "pinyin": "jíshǐ",
+    "french": "même si",
+    "hsk_level": 4,
+    "category": "conjonctions",
+    "components": ["即", "使"],
+    "examples": [
+      {"chinese": "即使下雨，我也要去。", "pinyin": "jíshǐ xiàyǔ, wǒ yě yào qù.", "french": "Même s'il pleut, j'irai."},
+      {"chinese": "即使很难，也要坚持。", "pinyin": "jíshǐ hěn nán, yě yào jiānchí.", "french": "Même si c'est difficile, il faut persévérer."}
+    ]
+  },
+  {
+    "simplified": "尽管",
+    "traditional": "儘管",
+    "pinyin": "jǐnguǎn",
+    "french": "malgré, bien que",
+    "hsk_level": 4,
+    "category": "conjonctions",
+    "components": ["尽", "管"],
+    "examples": [
+      {"chinese": "尽管很累，他还在工作。", "pinyin": "jǐnguǎn hěn lèi, tā hái zài gōngzuò.", "french": "Bien qu'il soit fatigué, il travaille encore."},
+      {"chinese": "尽管天气不好，我们还是去了。", "pinyin": "jǐnguǎn tiānqì bù hǎo, wǒmen háishi qù le.", "french": "Malgré le mauvais temps, nous y sommes allés."}
+    ]
+  },
+  {
+    "simplified": "由于",
+    "traditional": "由於",
+    "pinyin": "yóuyú",
+    "french": "en raison de, à cause de",
+    "hsk_level": 4,
+    "category": "conjonctions",
+    "components": ["由", "于"],
+    "examples": [
+      {"chinese": "由于天气原因，航班取消了。", "pinyin": "yóuyú tiānqì yuányīn, hángbān qǔxiāo le.", "french": "En raison du temps, le vol a été annulé."},
+      {"chinese": "由于他的努力，项目成功了。", "pinyin": "yóuyú tā de nǔlì, xiàngmù chénggōng le.", "french": "Grâce à ses efforts, le projet a réussi."}
+    ]
+  },
+  {
+    "simplified": "按照",
+    "traditional": "按照",
+    "pinyin": "ànzhào",
+    "french": "selon, conformément à",
+    "hsk_level": 4,
+    "category": "particules",
+    "components": ["按", "照"],
+    "examples": [
+      {"chinese": "请按照说明使用。", "pinyin": "qǐng ànzhào shuōmíng shǐyòng.", "french": "Utilisez selon les instructions."},
+      {"chinese": "按照计划进行。", "pinyin": "ànzhào jìhuà jìnxíng.", "french": "Procédons selon le plan."}
+    ]
+  },
+  {
+    "simplified": "针对",
+    "traditional": "針對",
+    "pinyin": "zhēnduì",
+    "french": "viser, cibler",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["针", "对"],
+    "examples": [
+      {"chinese": "这个计划针对年轻人。", "pinyin": "zhège jìhuà zhēnduì niánqīngrén.", "french": "Ce plan cible les jeunes."},
+      {"chinese": "他针对这个问题提出了建议。", "pinyin": "tā zhēnduì zhège wèntí tíchū le jiànyì.", "french": "Il a fait des suggestions concernant ce problème."}
+    ]
+  },
+  {
+    "simplified": "属于",
+    "traditional": "屬於",
+    "pinyin": "shǔyú",
+    "french": "appartenir à",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["属", "于"],
+    "examples": [
+      {"chinese": "这属于你的。", "pinyin": "zhè shǔyú nǐ de.", "french": "Cela t'appartient."},
+      {"chinese": "这个问题属于技术问题。", "pinyin": "zhège wèntí shǔyú jìshù wèntí.", "french": "Ce problème relève de la technique."}
+    ]
+  },
+  {
+    "simplified": "存在",
+    "traditional": "存在",
+    "pinyin": "cúnzài",
+    "french": "exister",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["存", "在"],
+    "examples": [
+      {"chinese": "这个问题一直存在。", "pinyin": "zhège wèntí yìzhí cúnzài.", "french": "Ce problème existe depuis toujours."},
+      {"chinese": "他们之间存在分歧。", "pinyin": "tāmen zhījiān cúnzài fēnqí.", "french": "Il y a des divergences entre eux."}
+    ]
+  },
+  {
+    "simplified": "产生",
+    "traditional": "產生",
+    "pinyin": "chǎnshēng",
+    "french": "produire, engendrer",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["产", "生"],
+    "examples": [
+      {"chinese": "这产生了很大的影响。", "pinyin": "zhè chǎnshēng le hěn dà de yǐngxiǎng.", "french": "Cela a produit un grand impact."},
+      {"chinese": "新技术产生了新问题。", "pinyin": "xīn jìshù chǎnshēng le xīn wèntí.", "french": "Les nouvelles technologies engendrent de nouveaux problèmes."}
+    ]
+  },
+  {
+    "simplified": "导致",
+    "traditional": "導致",
+    "pinyin": "dǎozhì",
+    "french": "entraîner, causer",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["导", "致"],
+    "examples": [
+      {"chinese": "这导致了很多问题。", "pinyin": "zhè dǎozhì le hěn duō wèntí.", "french": "Cela a causé beaucoup de problèmes."},
+      {"chinese": "污染导致了健康问题。", "pinyin": "wūrǎn dǎozhì le jiànkāng wèntí.", "french": "La pollution a entraîné des problèmes de santé."}
+    ]
+  },
+  {
+    "simplified": "促进",
+    "traditional": "促進",
+    "pinyin": "cùjìn",
+    "french": "promouvoir, favoriser",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["促", "进"],
+    "examples": [
+      {"chinese": "我们要促进经济发展。", "pinyin": "wǒmen yào cùjìn jīngjì fāzhǎn.", "french": "Nous devons promouvoir le développement économique."},
+      {"chinese": "交流可以促进了解。", "pinyin": "jiāoliú kěyǐ cùjìn liǎojiě.", "french": "Les échanges favorisent la compréhension."}
+    ]
+  },
+  {
+    "simplified": "推动",
+    "traditional": "推動",
+    "pinyin": "tuīdòng",
+    "french": "promouvoir, pousser",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["推", "动"],
+    "examples": [
+      {"chinese": "科技推动社会进步。", "pinyin": "kējì tuīdòng shèhuì jìnbù.", "french": "La technologie fait avancer la société."},
+      {"chinese": "我们要推动改革。", "pinyin": "wǒmen yào tuīdòng gǎigé.", "french": "Nous devons promouvoir les réformes."}
+    ]
+  },
+  {
+    "simplified": "支持",
+    "traditional": "支持",
+    "pinyin": "zhīchí",
+    "french": "soutenir, soutien",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["支", "持"],
+    "examples": [
+      {"chinese": "我支持你的决定。", "pinyin": "wǒ zhīchí nǐ de juédìng.", "french": "Je soutiens ta décision."},
+      {"chinese": "谢谢你的支持。", "pinyin": "xièxie nǐ de zhīchí.", "french": "Merci pour ton soutien."}
+    ]
+  },
+  {
+    "simplified": "反映",
+    "traditional": "反映",
+    "pinyin": "fǎnyìng",
+    "french": "refléter, signaler",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["反", "映"],
+    "examples": [
+      {"chinese": "这反映了社会的变化。", "pinyin": "zhè fǎnyìng le shèhuì de biànhuà.", "french": "Cela reflète les changements de la société."},
+      {"chinese": "他向领导反映了情况。", "pinyin": "tā xiàng lǐngdǎo fǎnyìng le qíngkuàng.", "french": "Il a signalé la situation au dirigeant."}
+    ]
+  },
+  {
+    "simplified": "强调",
+    "traditional": "強調",
+    "pinyin": "qiángdiào",
+    "french": "souligner, insister",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["强", "调"],
+    "examples": [
+      {"chinese": "他强调了这个问题的重要性。", "pinyin": "tā qiángdiào le zhège wèntí de zhòngyàoxìng.", "french": "Il a souligné l'importance de ce problème."},
+      {"chinese": "我要强调一点。", "pinyin": "wǒ yào qiángdiào yì diǎn.", "french": "Je voudrais souligner un point."}
+    ]
+  },
+  {
+    "simplified": "维护",
+    "traditional": "維護",
+    "pinyin": "wéihù",
+    "french": "maintenir, défendre",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["维", "护"],
+    "examples": [
+      {"chinese": "我们要维护社会秩序。", "pinyin": "wǒmen yào wéihù shèhuì zhìxù.", "french": "Nous devons maintenir l'ordre social."},
+      {"chinese": "维护和平很重要。", "pinyin": "wéihù hépíng hěn zhòngyào.", "french": "Maintenir la paix est important."}
+    ]
+  },
+  {
+    "simplified": "克服",
+    "traditional": "克服",
+    "pinyin": "kèfú",
+    "french": "surmonter, vaincre",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["克", "服"],
+    "examples": [
+      {"chinese": "我们要克服困难。", "pinyin": "wǒmen yào kèfú kùnnan.", "french": "Nous devons surmonter les difficultés."},
+      {"chinese": "他克服了很多问题。", "pinyin": "tā kèfú le hěn duō wèntí.", "french": "Il a surmonté beaucoup de problèmes."}
+    ]
+  },
+  {
+    "simplified": "遵守",
+    "traditional": "遵守",
+    "pinyin": "zūnshǒu",
+    "french": "respecter, observer (règle)",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["遵", "守"],
+    "examples": [
+      {"chinese": "请遵守交通规则。", "pinyin": "qǐng zūnshǒu jiāotōng guīzé.", "french": "Respectez le code de la route."},
+      {"chinese": "我们要遵守学校的规定。", "pinyin": "wǒmen yào zūnshǒu xuéxiào de guīdìng.", "french": "Nous devons respecter les règlements de l'école."}
+    ]
+  },
+  {
+    "simplified": "预测",
+    "traditional": "預測",
+    "pinyin": "yùcè",
+    "french": "prévoir, prédire",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["预", "测"],
+    "examples": [
+      {"chinese": "很难预测未来。", "pinyin": "hěn nán yùcè wèilái.", "french": "Il est difficile de prédire l'avenir."},
+      {"chinese": "专家预测明年经济会好转。", "pinyin": "zhuānjiā yùcè míngnián jīngjì huì hǎozhuǎn.", "french": "Les experts prévoient une amélioration de l'économie l'année prochaine."}
+    ]
+  },
+  {
+    "simplified": "分析",
+    "traditional": "分析",
+    "pinyin": "fēnxī",
+    "french": "analyser, analyse",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["分", "析"],
+    "examples": [
+      {"chinese": "我们来分析一下这个问题。", "pinyin": "wǒmen lái fēnxī yíxià zhège wèntí.", "french": "Analysons ce problème."},
+      {"chinese": "他的分析很有道理。", "pinyin": "tā de fēnxī hěn yǒu dàolǐ.", "french": "Son analyse est très logique."}
+    ]
+  },
+  {
+    "simplified": "判断",
+    "traditional": "判斷",
+    "pinyin": "pànduàn",
+    "french": "juger, jugement",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["判", "断"],
+    "examples": [
+      {"chinese": "你怎么判断？", "pinyin": "nǐ zěnme pànduàn?", "french": "Comment juges-tu ?"},
+      {"chinese": "不要太快做出判断。", "pinyin": "bú yào tài kuài zuòchū pànduàn.", "french": "Ne juge pas trop vite."}
+    ]
+  },
+  {
+    "simplified": "掌握",
+    "traditional": "掌握",
+    "pinyin": "zhǎngwò",
+    "french": "maîtriser",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["掌", "握"],
+    "examples": [
+      {"chinese": "你掌握了多少汉字？", "pinyin": "nǐ zhǎngwò le duōshao hànzì?", "french": "Combien de caractères maîtrises-tu ?"},
+      {"chinese": "掌握一门外语很有用。", "pinyin": "zhǎngwò yì mén wàiyǔ hěn yǒuyòng.", "french": "Maîtriser une langue étrangère est très utile."}
+    ]
+  },
+  {
+    "simplified": "培养",
+    "traditional": "培養",
+    "pinyin": "péiyǎng",
+    "french": "former, cultiver",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["培", "养"],
+    "examples": [
+      {"chinese": "我们要培养孩子的兴趣。", "pinyin": "wǒmen yào péiyǎng háizi de xìngqù.", "french": "Nous devons cultiver l'intérêt des enfants."},
+      {"chinese": "学校培养了很多人才。", "pinyin": "xuéxiào péiyǎng le hěn duō réncái.", "french": "L'école a formé beaucoup de talents."}
+    ]
+  },
+  {
+    "simplified": "教育",
+    "traditional": "教育",
+    "pinyin": "jiàoyù",
+    "french": "éducation, éduquer",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["教", "育"],
+    "examples": [
+      {"chinese": "教育很重要。", "pinyin": "jiàoyù hěn zhòngyào.", "french": "L'éducation est très importante."},
+      {"chinese": "他在教育方面有很多经验。", "pinyin": "tā zài jiàoyù fāngmiàn yǒu hěn duō jīngyàn.", "french": "Il a beaucoup d'expérience dans l'éducation."}
+    ]
+  },
+  {
+    "simplified": "专业",
+    "traditional": "專業",
+    "pinyin": "zhuānyè",
+    "french": "spécialité, professionnel",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["专", "业"],
+    "examples": [
+      {"chinese": "你学的是什么专业？", "pinyin": "nǐ xué de shì shénme zhuānyè?", "french": "Quelle est ta spécialité ?"},
+      {"chinese": "他是一位专业的翻译。", "pinyin": "tā shì yí wèi zhuānyè de fānyì.", "french": "Il est un traducteur professionnel."}
+    ]
+  },
+  {
+    "simplified": "职业",
+    "traditional": "職業",
+    "pinyin": "zhíyè",
+    "french": "profession, métier",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["职", "业"],
+    "examples": [
+      {"chinese": "你的职业是什么？", "pinyin": "nǐ de zhíyè shì shénme?", "french": "Quelle est ta profession ?"},
+      {"chinese": "选择职业很重要。", "pinyin": "xuǎnzé zhíyè hěn zhòngyào.", "french": "Choisir une profession est important."}
+    ]
+  },
+  {
+    "simplified": "公司",
+    "traditional": "公司",
+    "pinyin": "gōngsī",
+    "french": "entreprise, société",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["公", "司"],
+    "examples": [
+      {"chinese": "他在一家大公司工作。", "pinyin": "tā zài yì jiā dà gōngsī gōngzuò.", "french": "Il travaille dans une grande entreprise."},
+      {"chinese": "这家公司很有名。", "pinyin": "zhè jiā gōngsī hěn yǒumíng.", "french": "Cette entreprise est très connue."}
+    ]
+  },
+  {
+    "simplified": "产品",
+    "traditional": "產品",
+    "pinyin": "chǎnpǐn",
+    "french": "produit",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["产", "品"],
+    "examples": [
+      {"chinese": "这个产品质量很好。", "pinyin": "zhège chǎnpǐn zhìliàng hěn hǎo.", "french": "Ce produit est de bonne qualité."},
+      {"chinese": "我们开发了新产品。", "pinyin": "wǒmen kāifā le xīn chǎnpǐn.", "french": "Nous avons développé de nouveaux produits."}
+    ]
+  },
+  {
+    "simplified": "市场",
+    "traditional": "市場",
+    "pinyin": "shìchǎng",
+    "french": "marché",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["市", "场"],
+    "examples": [
+      {"chinese": "中国市场很大。", "pinyin": "Zhōngguó shìchǎng hěn dà.", "french": "Le marché chinois est grand."},
+      {"chinese": "我们要了解市场需求。", "pinyin": "wǒmen yào liǎojiě shìchǎng xūqiú.", "french": "Nous devons comprendre les besoins du marché."}
+    ]
+  },
+  {
+    "simplified": "投资",
+    "traditional": "投資",
+    "pinyin": "tóuzī",
+    "french": "investir, investissement",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["投", "资"],
+    "examples": [
+      {"chinese": "他投资了很多钱。", "pinyin": "tā tóuzī le hěn duō qián.", "french": "Il a investi beaucoup d'argent."},
+      {"chinese": "这是一项好的投资。", "pinyin": "zhè shì yí xiàng hǎo de tóuzī.", "french": "C'est un bon investissement."}
+    ]
+  },
+  {
+    "simplified": "利润",
+    "traditional": "利潤",
+    "pinyin": "lìrùn",
+    "french": "bénéfice, profit",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["利", "润"],
+    "examples": [
+      {"chinese": "今年的利润增加了。", "pinyin": "jīnnián de lìrùn zēngjiā le.", "french": "Les bénéfices ont augmenté cette année."},
+      {"chinese": "公司的利润不高。", "pinyin": "gōngsī de lìrùn bù gāo.", "french": "Les profits de l'entreprise ne sont pas élevés."}
+    ]
+  },
+  {
+    "simplified": "广告",
+    "traditional": "廣告",
+    "pinyin": "guǎnggào",
+    "french": "publicité",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["广", "告"],
+    "examples": [
+      {"chinese": "这个广告很有趣。", "pinyin": "zhège guǎnggào hěn yǒuqù.", "french": "Cette publicité est intéressante."},
+      {"chinese": "不要相信所有的广告。", "pinyin": "bú yào xiāngxìn suǒyǒu de guǎnggào.", "french": "Ne crois pas toutes les publicités."}
+    ]
+  },
+  {
+    "simplified": "消费",
+    "traditional": "消費",
+    "pinyin": "xiāofèi",
+    "french": "consommer, consommation",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["消", "费"],
+    "examples": [
+      {"chinese": "消费水平越来越高。", "pinyin": "xiāofèi shuǐpíng yuèláiyuè gāo.", "french": "Le niveau de consommation est de plus en plus élevé."},
+      {"chinese": "年轻人的消费习惯在变化。", "pinyin": "niánqīngrén de xiāofèi xíguàn zài biànhuà.", "french": "Les habitudes de consommation des jeunes changent."}
+    ]
+  },
+  {
+    "simplified": "合同",
+    "traditional": "合同",
+    "pinyin": "hétong",
+    "french": "contrat",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["合", "同"],
+    "examples": [
+      {"chinese": "请签这个合同。", "pinyin": "qǐng qiān zhège hétong.", "french": "Signe ce contrat, s'il te plaît."},
+      {"chinese": "合同的条件你同意吗？", "pinyin": "hétong de tiáojiàn nǐ tóngyì ma?", "french": "Es-tu d'accord avec les conditions du contrat ?"}
+    ]
+  },
+  {
+    "simplified": "项目",
+    "traditional": "項目",
+    "pinyin": "xiàngmù",
+    "french": "projet",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["项", "目"],
+    "examples": [
+      {"chinese": "这个项目很重要。", "pinyin": "zhège xiàngmù hěn zhòngyào.", "french": "Ce projet est très important."},
+      {"chinese": "他负责这个项目。", "pinyin": "tā fùzé zhège xiàngmù.", "french": "Il est responsable de ce projet."}
+    ]
+  },
+  {
+    "simplified": "任务",
+    "traditional": "任務",
+    "pinyin": "rènwu",
+    "french": "tâche, mission",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["任", "务"],
+    "examples": [
+      {"chinese": "我完成了任务。", "pinyin": "wǒ wánchéng le rènwu.", "french": "J'ai accompli la tâche."},
+      {"chinese": "这是一个很难的任务。", "pinyin": "zhè shì yí gè hěn nán de rènwu.", "french": "C'est une tâche très difficile."}
+    ]
+  },
+  {
+    "simplified": "过程",
+    "traditional": "過程",
+    "pinyin": "guòchéng",
+    "french": "processus, parcours",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["过", "程"],
+    "examples": [
+      {"chinese": "学习是一个漫长的过程。", "pinyin": "xuéxí shì yí gè mànchéng de guòchéng.", "french": "L'apprentissage est un long processus."},
+      {"chinese": "在这个过程中，我学到了很多。", "pinyin": "zài zhège guòchéng zhōng, wǒ xué dào le hěn duō.", "french": "Au cours de ce processus, j'ai beaucoup appris."}
+    ]
+  },
+  {
+    "simplified": "效果",
+    "traditional": "效果",
+    "pinyin": "xiàoguǒ",
+    "french": "effet, résultat",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["效", "果"],
+    "examples": [
+      {"chinese": "效果很好。", "pinyin": "xiàoguǒ hěn hǎo.", "french": "L'effet est bon."},
+      {"chinese": "这个方法的效果不明显。", "pinyin": "zhège fāngfǎ de xiàoguǒ bù míngxiǎn.", "french": "L'effet de cette méthode n'est pas évident."}
+    ]
+  },
+  {
+    "simplified": "标准",
+    "traditional": "標準",
+    "pinyin": "biāozhǔn",
+    "french": "standard, critère",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["标", "准"],
+    "examples": [
+      {"chinese": "这个标准太高了。", "pinyin": "zhège biāozhǔn tài gāo le.", "french": "Ce standard est trop élevé."},
+      {"chinese": "你的发音很标准。", "pinyin": "nǐ de fāyīn hěn biāozhǔn.", "french": "Ta prononciation est standard."}
+    ]
+  },
+  {
+    "simplified": "基础",
+    "traditional": "基礎",
+    "pinyin": "jīchǔ",
+    "french": "base, fondement",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["基", "础"],
+    "examples": [
+      {"chinese": "基础很重要。", "pinyin": "jīchǔ hěn zhòngyào.", "french": "Les bases sont importantes."},
+      {"chinese": "他的中文基础很好。", "pinyin": "tā de zhōngwén jīchǔ hěn hǎo.", "french": "Ses bases en chinois sont bonnes."}
+    ]
+  },
+  {
+    "simplified": "优点",
+    "traditional": "優點",
+    "pinyin": "yōudiǎn",
+    "french": "avantage, qualité",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["优", "点"],
+    "examples": [
+      {"chinese": "每个人都有优点。", "pinyin": "měi gè rén dōu yǒu yōudiǎn.", "french": "Tout le monde a des qualités."},
+      {"chinese": "这个方法的优点是简单。", "pinyin": "zhège fāngfǎ de yōudiǎn shì jiǎndān.", "french": "L'avantage de cette méthode est sa simplicité."}
+    ]
+  },
+  {
+    "simplified": "缺点",
+    "traditional": "缺點",
+    "pinyin": "quēdiǎn",
+    "french": "défaut, inconvénient",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["缺", "点"],
+    "examples": [
+      {"chinese": "他的缺点是太着急。", "pinyin": "tā de quēdiǎn shì tài zhāojí.", "french": "Son défaut est d'être trop pressé."},
+      {"chinese": "每个人都有缺点。", "pinyin": "měi gè rén dōu yǒu quēdiǎn.", "french": "Tout le monde a des défauts."}
+    ]
+  },
+  {
+    "simplified": "特点",
+    "traditional": "特點",
+    "pinyin": "tèdiǎn",
+    "french": "caractéristique",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["特", "点"],
+    "examples": [
+      {"chinese": "中国文化的特点是什么？", "pinyin": "Zhōngguó wénhuà de tèdiǎn shì shénme?", "french": "Quelles sont les caractéristiques de la culture chinoise ?"},
+      {"chinese": "这个产品的特点是什么？", "pinyin": "zhège chǎnpǐn de tèdiǎn shì shénme?", "french": "Quelles sont les caractéristiques de ce produit ?"}
+    ]
+  },
+  {
+    "simplified": "优秀",
+    "traditional": "優秀",
+    "pinyin": "yōuxiù",
+    "french": "excellent",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["优", "秀"],
+    "examples": [
+      {"chinese": "她是一位优秀的老师。", "pinyin": "tā shì yí wèi yōuxiù de lǎoshī.", "french": "Elle est un excellent professeur."},
+      {"chinese": "你的成绩很优秀。", "pinyin": "nǐ de chéngjì hěn yōuxiù.", "french": "Tes résultats sont excellents."}
+    ]
+  },
+  {
+    "simplified": "积极",
+    "traditional": "積極",
+    "pinyin": "jījí",
+    "french": "positif, actif",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["积", "极"],
+    "examples": [
+      {"chinese": "他很积极。", "pinyin": "tā hěn jījí.", "french": "Il est très actif."},
+      {"chinese": "我们要保持积极的态度。", "pinyin": "wǒmen yào bǎochí jījí de tàidu.", "french": "Nous devons garder une attitude positive."}
+    ]
+  },
+  {
+    "simplified": "消极",
+    "traditional": "消極",
+    "pinyin": "xiāojí",
+    "french": "négatif, passif",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["消", "极"],
+    "examples": [
+      {"chinese": "不要太消极。", "pinyin": "bú yào tài xiāojí.", "french": "Ne sois pas trop négatif."},
+      {"chinese": "消极的态度不好。", "pinyin": "xiāojí de tàidu bù hǎo.", "french": "Une attitude négative n'est pas bonne."}
+    ]
+  },
+  {
+    "simplified": "明显",
+    "traditional": "明顯",
+    "pinyin": "míngxiǎn",
+    "french": "évident, manifeste",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["明", "显"],
+    "examples": [
+      {"chinese": "进步很明显。", "pinyin": "jìnbù hěn míngxiǎn.", "french": "Les progrès sont évidents."},
+      {"chinese": "这个问题很明显。", "pinyin": "zhège wèntí hěn míngxiǎn.", "french": "Ce problème est évident."}
+    ]
+  },
+  {
+    "simplified": "具体",
+    "traditional": "具體",
+    "pinyin": "jùtǐ",
+    "french": "concret, spécifique",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["具", "体"],
+    "examples": [
+      {"chinese": "请说得具体一点。", "pinyin": "qǐng shuō de jùtǐ yìdiǎn.", "french": "Sois plus précis."},
+      {"chinese": "你有什么具体的计划？", "pinyin": "nǐ yǒu shénme jùtǐ de jìhuà?", "french": "As-tu un plan concret ?"}
+    ]
+  },
+  {
+    "simplified": "彻底",
+    "traditional": "徹底",
+    "pinyin": "chèdǐ",
+    "french": "complet, à fond",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["彻", "底"],
+    "examples": [
+      {"chinese": "问题要彻底解决。", "pinyin": "wèntí yào chèdǐ jiějué.", "french": "Le problème doit être résolu complètement."},
+      {"chinese": "他彻底改变了。", "pinyin": "tā chèdǐ gǎibiàn le.", "french": "Il a complètement changé."}
+    ]
+  },
+  {
+    "simplified": "灵活",
+    "traditional": "靈活",
+    "pinyin": "línghuó",
+    "french": "flexible, souple",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["灵", "活"],
+    "examples": [
+      {"chinese": "他的头脑很灵活。", "pinyin": "tā de tóunǎo hěn línghuó.", "french": "Son esprit est très vif."},
+      {"chinese": "我们要灵活处理问题。", "pinyin": "wǒmen yào línghuó chǔlǐ wèntí.", "french": "Nous devons traiter les problèmes avec souplesse."}
+    ]
+  },
+  {
+    "simplified": "独立",
+    "traditional": "獨立",
+    "pinyin": "dúlì",
+    "french": "indépendant",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["独", "立"],
+    "examples": [
+      {"chinese": "孩子要学会独立。", "pinyin": "háizi yào xuéhuì dúlì.", "french": "Les enfants doivent apprendre à être indépendants."},
+      {"chinese": "她很独立。", "pinyin": "tā hěn dúlì.", "french": "Elle est très indépendante."}
+    ]
+  },
+  {
+    "simplified": "勇敢",
+    "traditional": "勇敢",
+    "pinyin": "yǒnggǎn",
+    "french": "courageux, brave",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["勇", "敢"],
+    "examples": [
+      {"chinese": "他很勇敢。", "pinyin": "tā hěn yǒnggǎn.", "french": "Il est très courageux."},
+      {"chinese": "你要勇敢面对困难。", "pinyin": "nǐ yào yǒnggǎn miànduì kùnnan.", "french": "Tu dois affronter les difficultés avec courage."}
+    ]
+  },
+  {
+    "simplified": "诚实",
+    "traditional": "誠實",
+    "pinyin": "chéngshí",
+    "french": "honnête",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["诚", "实"],
+    "examples": [
+      {"chinese": "他是一个诚实的人。", "pinyin": "tā shì yí gè chéngshí de rén.", "french": "Il est une personne honnête."},
+      {"chinese": "请你诚实回答。", "pinyin": "qǐng nǐ chéngshí huídá.", "french": "Réponds honnêtement, s'il te plaît."}
+    ]
+  },
+  {
+    "simplified": "谦虚",
+    "traditional": "謙虛",
+    "pinyin": "qiānxū",
+    "french": "modeste, humble",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["谦", "虚"],
+    "examples": [
+      {"chinese": "他很谦虚。", "pinyin": "tā hěn qiānxū.", "french": "Il est très modeste."},
+      {"chinese": "谦虚使人进步。", "pinyin": "qiānxū shǐ rén jìnbù.", "french": "La modestie fait progresser."}
+    ]
+  },
+  {
+    "simplified": "耐心",
+    "traditional": "耐心",
+    "pinyin": "nàixīn",
+    "french": "patient, patience",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["耐", "心"],
+    "examples": [
+      {"chinese": "请耐心等一下。", "pinyin": "qǐng nàixīn děng yíxià.", "french": "Attends patiemment un instant."},
+      {"chinese": "老师对学生很有耐心。", "pinyin": "lǎoshī duì xuéshēng hěn yǒu nàixīn.", "french": "Le professeur est très patient avec les élèves."}
+    ]
+  },
+  {
+    "simplified": "成熟",
+    "traditional": "成熟",
+    "pinyin": "chéngshú",
+    "french": "mature, mûr",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["成", "熟"],
+    "examples": [
+      {"chinese": "他比以前成熟多了。", "pinyin": "tā bǐ yǐqián chéngshú duō le.", "french": "Il est beaucoup plus mature qu'avant."},
+      {"chinese": "这个想法还不够成熟。", "pinyin": "zhège xiǎngfǎ hái bú gòu chéngshú.", "french": "Cette idée n'est pas encore assez mûre."}
+    ]
+  },
+  {
+    "simplified": "合理",
+    "traditional": "合理",
+    "pinyin": "hélǐ",
+    "french": "raisonnable, rationnel",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["合", "理"],
+    "examples": [
+      {"chinese": "这个价格很合理。", "pinyin": "zhège jiàgé hěn hélǐ.", "french": "Ce prix est raisonnable."},
+      {"chinese": "你的建议很合理。", "pinyin": "nǐ de jiànyì hěn hélǐ.", "french": "Ta suggestion est raisonnable."}
+    ]
+  },
+  {
+    "simplified": "有效",
+    "traditional": "有效",
+    "pinyin": "yǒuxiào",
+    "french": "efficace, valide",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["有", "效"],
+    "examples": [
+      {"chinese": "这个方法很有效。", "pinyin": "zhège fāngfǎ hěn yǒuxiào.", "french": "Cette méthode est très efficace."},
+      {"chinese": "你的护照还有效吗？", "pinyin": "nǐ de hùzhào hái yǒuxiào ma?", "french": "Ton passeport est-il encore valide ?"}
+    ]
+  },
+  {
+    "simplified": "主要",
+    "traditional": "主要",
+    "pinyin": "zhǔyào",
+    "french": "principal, majeur",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["主", "要"],
+    "examples": [
+      {"chinese": "主要原因是什么？", "pinyin": "zhǔyào yuányīn shì shénme?", "french": "Quelle est la raison principale ?"},
+      {"chinese": "这是主要的问题。", "pinyin": "zhè shì zhǔyào de wèntí.", "french": "C'est le problème principal."}
+    ]
+  },
+  {
+    "simplified": "必要",
+    "traditional": "必要",
+    "pinyin": "bìyào",
+    "french": "nécessaire",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["必", "要"],
+    "examples": [
+      {"chinese": "这是必要的。", "pinyin": "zhè shì bìyào de.", "french": "C'est nécessaire."},
+      {"chinese": "有必要讨论一下。", "pinyin": "yǒu bìyào tǎolùn yíxià.", "french": "Il est nécessaire d'en discuter."}
+    ]
+  },
+  {
+    "simplified": "及时",
+    "traditional": "及時",
+    "pinyin": "jíshí",
+    "french": "à temps, en temps voulu",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["及", "时"],
+    "examples": [
+      {"chinese": "他及时到了。", "pinyin": "tā jíshí dào le.", "french": "Il est arrivé à temps."},
+      {"chinese": "请及时通知我。", "pinyin": "qǐng jíshí tōngzhī wǒ.", "french": "Informe-moi en temps voulu."}
+    ]
+  },
+  {
+    "simplified": "全面",
+    "traditional": "全面",
+    "pinyin": "quánmiàn",
+    "french": "complet, global",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["全", "面"],
+    "examples": [
+      {"chinese": "我们要全面考虑这个问题。", "pinyin": "wǒmen yào quánmiàn kǎolǜ zhège wèntí.", "french": "Nous devons considérer ce problème globalement."},
+      {"chinese": "他的能力很全面。", "pinyin": "tā de nénglì hěn quánmiàn.", "french": "Ses compétences sont complètes."}
+    ]
+  },
+  {
+    "simplified": "幸福",
+    "traditional": "幸福",
+    "pinyin": "xìngfú",
+    "french": "bonheur, heureux",
+    "hsk_level": 4,
+    "category": "émotions",
+    "components": ["幸", "福"],
+    "examples": [
+      {"chinese": "祝你幸福！", "pinyin": "zhù nǐ xìngfú!", "french": "Je te souhaite du bonheur !"},
+      {"chinese": "他们过着幸福的生活。", "pinyin": "tāmen guò zhe xìngfú de shēnghuó.", "french": "Ils vivent une vie heureuse."}
+    ]
+  },
+  {
+    "simplified": "痛苦",
+    "traditional": "痛苦",
+    "pinyin": "tòngkǔ",
+    "french": "douleur, souffrance",
+    "hsk_level": 4,
+    "category": "émotions",
+    "components": ["痛", "苦"],
+    "examples": [
+      {"chinese": "他经历了很多痛苦。", "pinyin": "tā jīnglì le hěn duō tòngkǔ.", "french": "Il a connu beaucoup de souffrances."},
+      {"chinese": "失败是痛苦的，但也是有用的。", "pinyin": "shībài shì tòngkǔ de, dàn yě shì yǒuyòng de.", "french": "L'échec est douloureux, mais aussi utile."}
+    ]
+  },
+  {
+    "simplified": "感动",
+    "traditional": "感動",
+    "pinyin": "gǎndòng",
+    "french": "émouvoir, être ému",
+    "hsk_level": 4,
+    "category": "émotions",
+    "components": ["感", "动"],
+    "examples": [
+      {"chinese": "这个故事很感动。", "pinyin": "zhège gùshi hěn gǎndòng.", "french": "Cette histoire est très émouvante."},
+      {"chinese": "我被他的话感动了。", "pinyin": "wǒ bèi tā de huà gǎndòng le.", "french": "J'ai été ému par ses paroles."}
+    ]
+  },
+  {
+    "simplified": "梦想",
+    "traditional": "夢想",
+    "pinyin": "mèngxiǎng",
+    "french": "rêve, idéal",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["梦", "想"],
+    "examples": [
+      {"chinese": "你的梦想是什么？", "pinyin": "nǐ de mèngxiǎng shì shénme?", "french": "Quel est ton rêve ?"},
+      {"chinese": "我要实现自己的梦想。", "pinyin": "wǒ yào shíxiàn zìjǐ de mèngxiǎng.", "french": "Je veux réaliser mon rêve."}
+    ]
+  },
+  {
+    "simplified": "未来",
+    "traditional": "未來",
+    "pinyin": "wèilái",
+    "french": "avenir, futur",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["未", "来"],
+    "examples": [
+      {"chinese": "未来会更好。", "pinyin": "wèilái huì gèng hǎo.", "french": "L'avenir sera meilleur."},
+      {"chinese": "你对未来有什么计划？", "pinyin": "nǐ duì wèilái yǒu shénme jìhuà?", "french": "Quels sont tes plans pour l'avenir ?"}
+    ]
+  },
+  {
+    "simplified": "传统",
+    "traditional": "傳統",
+    "pinyin": "chuántǒng",
+    "french": "tradition, traditionnel",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["传", "统"],
+    "examples": [
+      {"chinese": "这是中国的传统文化。", "pinyin": "zhè shì Zhōngguó de chuántǒng wénhuà.", "french": "C'est la culture traditionnelle chinoise."},
+      {"chinese": "我们要保护传统。", "pinyin": "wǒmen yào bǎohù chuántǒng.", "french": "Nous devons protéger les traditions."}
+    ]
+  },
+  {
+    "simplified": "现代",
+    "traditional": "現代",
+    "pinyin": "xiàndài",
+    "french": "moderne, contemporain",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["现", "代"],
+    "examples": [
+      {"chinese": "现代科技发展很快。", "pinyin": "xiàndài kējì fāzhǎn hěn kuài.", "french": "La technologie moderne se développe rapidement."},
+      {"chinese": "这是一个现代城市。", "pinyin": "zhè shì yí gè xiàndài chéngshì.", "french": "C'est une ville moderne."}
+    ]
+  },
+  {
+    "simplified": "总结",
+    "traditional": "總結",
+    "pinyin": "zǒngjié",
+    "french": "résumer, bilan",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["总", "结"],
+    "examples": [
+      {"chinese": "让我总结一下。", "pinyin": "ràng wǒ zǒngjié yíxià.", "french": "Laisse-moi résumer."},
+      {"chinese": "我们来做一个总结。", "pinyin": "wǒmen lái zuò yí gè zǒngjié.", "french": "Faisons un bilan."}
+    ]
+  },
+  {
+    "simplified": "承担",
+    "traditional": "承擔",
+    "pinyin": "chéngdān",
+    "french": "assumer, prendre en charge",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["承", "担"],
+    "examples": [
+      {"chinese": "我愿意承担这个责任。", "pinyin": "wǒ yuànyì chéngdān zhège zérèn.", "french": "Je suis prêt à assumer cette responsabilité."},
+      {"chinese": "谁来承担费用？", "pinyin": "shéi lái chéngdān fèiyòng?", "french": "Qui prend en charge les frais ?"}
+    ]
+  },
+  {
+    "simplified": "面对",
+    "traditional": "面對",
+    "pinyin": "miànduì",
+    "french": "faire face à, affronter",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["面", "对"],
+    "examples": [
+      {"chinese": "我们要勇敢面对困难。", "pinyin": "wǒmen yào yǒnggǎn miànduì kùnnan.", "french": "Nous devons affronter les difficultés avec courage."},
+      {"chinese": "面对现实吧。", "pinyin": "miànduì xiànshí ba.", "french": "Fais face à la réalité."}
+    ]
+  },
+  {
+    "simplified": "处理",
+    "traditional": "處理",
+    "pinyin": "chǔlǐ",
+    "french": "traiter, gérer",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["处", "理"],
+    "examples": [
+      {"chinese": "你怎么处理这个问题？", "pinyin": "nǐ zěnme chǔlǐ zhège wèntí?", "french": "Comment traites-tu ce problème ?"},
+      {"chinese": "他处理事情很灵活。", "pinyin": "tā chǔlǐ shìqing hěn línghuó.", "french": "Il traite les affaires avec souplesse."}
+    ]
+  },
+  {
+    "simplified": "利用",
+    "traditional": "利用",
+    "pinyin": "lìyòng",
+    "french": "utiliser, tirer parti de",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["利", "用"],
+    "examples": [
+      {"chinese": "我们要利用好时间。", "pinyin": "wǒmen yào lìyòng hǎo shíjiān.", "french": "Nous devons bien utiliser notre temps."},
+      {"chinese": "他利用假期去旅游了。", "pinyin": "tā lìyòng jiàqī qù lǚyóu le.", "french": "Il a profité des vacances pour voyager."}
+    ]
+  },
+  {
+    "simplified": "发挥",
+    "traditional": "發揮",
+    "pinyin": "fāhuī",
+    "french": "déployer, mettre en oeuvre",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["发", "挥"],
+    "examples": [
+      {"chinese": "他发挥得很好。", "pinyin": "tā fāhuī de hěn hǎo.", "french": "Il a bien joué (son rôle)."},
+      {"chinese": "请发挥你的能力。", "pinyin": "qǐng fāhuī nǐ de nénglì.", "french": "Déploie tes compétences."}
+    ]
+  },
+  {
+    "simplified": "考虑",
+    "traditional": "考慮",
+    "pinyin": "kǎolǜ",
+    "french": "considérer, réfléchir",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["考", "虑"],
+    "examples": [
+      {"chinese": "让我考虑一下。", "pinyin": "ràng wǒ kǎolǜ yíxià.", "french": "Laisse-moi y réfléchir."},
+      {"chinese": "你考虑好了吗？", "pinyin": "nǐ kǎolǜ hǎo le ma?", "french": "As-tu bien réfléchi ?"}
+    ]
+  },
+  {
+    "simplified": "负责",
+    "traditional": "負責",
+    "pinyin": "fùzé",
+    "french": "être responsable de",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["负", "责"],
+    "examples": [
+      {"chinese": "谁负责这个项目？", "pinyin": "shéi fùzé zhège xiàngmù?", "french": "Qui est responsable de ce projet ?"},
+      {"chinese": "他对工作很负责。", "pinyin": "tā duì gōngzuò hěn fùzé.", "french": "Il est très responsable dans son travail."}
+    ]
+  },
+  {
+    "simplified": "沟通",
+    "traditional": "溝通",
+    "pinyin": "gōutōng",
+    "french": "communiquer, communication",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["沟", "通"],
+    "examples": [
+      {"chinese": "我们需要更多沟通。", "pinyin": "wǒmen xūyào gèng duō gōutōng.", "french": "Nous avons besoin de plus de communication."},
+      {"chinese": "沟通是解决问题的关键。", "pinyin": "gōutōng shì jiějué wèntí de guānjiàn.", "french": "La communication est la clé pour résoudre les problèmes."}
+    ]
+  },
+  {
+    "simplified": "适应",
+    "traditional": "適應",
+    "pinyin": "shìyìng",
+    "french": "s'adapter",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["适", "应"],
+    "examples": [
+      {"chinese": "你适应了这里的生活吗？", "pinyin": "nǐ shìyìng le zhèlǐ de shēnghuó ma?", "french": "Tu t'es adapté à la vie ici ?"},
+      {"chinese": "他很快就适应了新环境。", "pinyin": "tā hěn kuài jiù shìyìng le xīn huánjìng.", "french": "Il s'est rapidement adapté au nouvel environnement."}
+    ]
+  },
+  {
+    "simplified": "值得",
+    "traditional": "值得",
+    "pinyin": "zhíde",
+    "french": "valoir la peine",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["值", "得"],
+    "examples": [
+      {"chinese": "这本书值得看。", "pinyin": "zhè běn shū zhíde kàn.", "french": "Ce livre vaut la peine d'être lu."},
+      {"chinese": "这个地方值得去。", "pinyin": "zhège dìfang zhíde qù.", "french": "Cet endroit vaut le détour."}
+    ]
+  }
 ]

@@ -1,28 +1,35 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useRef } from "react";
 
 /**
- * Hook to speak Chinese text. Uses Google Translate TTS as primary
- * (works on all devices without setup), falls back to Web Speech API.
+ * Hook to speak Chinese text.
+ * Uses our own /api/tts proxy (fetches from Google Translate TTS server-side,
+ * no CORS issues). Falls back to Web Speech API.
  */
 export function useChineseAudio() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
   const speak = useCallback((text: string) => {
     if (!text) return;
 
-    // Method 1: Google Translate TTS audio (reliable, works everywhere)
-    try {
-      const encoded = encodeURIComponent(text);
-      const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=zh-CN&client=tw-ob&q=${encoded}`;
-      const audio = new Audio(audioUrl);
-      audio.volume = 1;
-      audio.play().catch(() => {
-        // Fallback to Web Speech API
-        speakWithSynthesis(text);
-      });
-    } catch {
-      speakWithSynthesis(text);
+    // Stop any currently playing audio
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
     }
+
+    // Use our API proxy to avoid CORS issues
+    const encoded = encodeURIComponent(text);
+    const audioUrl = `/api/tts?text=${encoded}&lang=zh-CN`;
+    const audio = new Audio(audioUrl);
+    audioRef.current = audio;
+    audio.volume = 1;
+
+    audio.play().catch(() => {
+      // Fallback to Web Speech API
+      speakWithSynthesis(text);
+    });
   }, []);
 
   return speak;

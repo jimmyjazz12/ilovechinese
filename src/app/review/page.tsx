@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation";
 import QuizCard from "@/components/QuizCard";
 import XpAnimation from "@/components/XpAnimation";
 import { getToneNumber, removeTones } from "@/lib/pinyin";
+import { useChineseAudio } from "@/lib/useAudio";
 import {
   calculateNextReview,
   getBoxLabel,
@@ -595,40 +596,8 @@ export default function ReviewPage() {
     }
   }, [currentItem]);
 
-  // Speak Chinese text — uses Audio element with Google TTS as primary,
-  // falls back to Web Speech API
-  const speakWord = useCallback((text: string) => {
-    // Method 1: Google Translate TTS (works on all devices, no setup needed)
-    try {
-      const encoded = encodeURIComponent(text);
-      const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=zh-CN&client=tw-ob&q=${encoded}`;
-      const audio = new Audio(audioUrl);
-      audio.volume = 1;
-      audio.play().catch(() => {
-        // Method 2: Fallback to Web Speech API
-        speakWithSynthesis(text);
-      });
-    } catch {
-      speakWithSynthesis(text);
-    }
-  }, []);
-
-  const speakWithSynthesis = (text: string) => {
-    try {
-      speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = "zh-CN";
-      u.rate = 0.7;
-      u.volume = 1;
-      const voices = speechSynthesis.getVoices();
-      const zhVoice = voices.find(v => v.lang.startsWith("zh")) ||
-                      voices.find(v => v.lang.includes("CN")) || null;
-      if (zhVoice) u.voice = zhVoice;
-      speechSynthesis.speak(u);
-    } catch (err) {
-      console.error("Speech synthesis error:", err);
-    }
-  };
+  // Use the shared audio hook
+  const speakWord = useChineseAudio();
 
   // Grammar quiz data
   const grammarQuizData = useMemo(() => {

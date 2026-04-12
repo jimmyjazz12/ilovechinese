@@ -418,80 +418,110 @@ export default function ReviewPage() {
     }, 2000);
   };
 
+  const pronRecognitionRef = useRef<any>(null);
+
   const handlePronunciation = () => {
-    const win = window as unknown as Record<string, unknown>;
-    if (!("webkitSpeechRecognition" in window) && !("SpeechRecognition" in window)) {
-      // Fallback: treat as correct since speech API not available
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const win = window as any;
+    const SpeechRecognitionCtor = win.SpeechRecognition || win.webkitSpeechRecognition;
+
+    if (!SpeechRecognitionCtor) {
+      // No speech recognition: skip and mark as correct
       setPronResult("correct");
+      setPronTranscript("(reconnaissance vocale non disponible)");
       setSessionScore((prev) => ({ correct: prev.correct + 1, total: prev.total + 1 }));
-      setSessionResults((prev) => [
-        ...prev,
-        { correct: true, oldBox: -1, newBox: -1, isNew: false },
-      ]);
+      setSessionResults((prev) => [...prev, { correct: true, oldBox: -1, newBox: -1, isNew: false }]);
       setTimeout(() => advanceToNext(), 1500);
       return;
     }
 
     setPronResult("listening");
-    const SpeechRecognitionCtor = win.SpeechRecognition || win.webkitSpeechRecognition;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const recognition = new (SpeechRecognitionCtor as any)();
+    setPronTranscript("");
+
+    const recognition = new SpeechRecognitionCtor();
     recognition.lang = "zh-CN";
     recognition.interimResults = false;
     recognition.maxAlternatives = 5;
+    recognition.continuous = false;
+    pronRecognitionRef.current = recognition;
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let hasResult = false;
+
     recognition.onresult = (event: any) => {
+      hasResult = true;
       const item = sessionItems[currentIndex];
       if (!item?.word) return;
 
       const target = item.word.simplified;
       let matched = false;
+      let bestTranscript = "";
 
-      for (let i = 0; i < event.results[0].length; i++) {
-        const transcript = event.results[0][i].transcript.trim();
-        setPronTranscript(transcript);
+      for (let i = 0; i < (event.results[0]?.length || 1); i++) {
+        const transcript = (event.results[0]?.[i]?.transcript || "").trim();
+        if (!bestTranscript) bestTranscript = transcript;
         if (transcript.includes(target) || target.includes(transcript)) {
           matched = true;
+          bestTranscript = transcript;
           break;
         }
       }
 
-      const isCorrect = matched;
-      setPronResult(isCorrect ? "correct" : "incorrect");
+      setPronTranscript(bestTranscript);
+      setPronResult(matched ? "correct" : "incorrect");
+      setSessionScore((prev) => ({ correct: prev.correct + (matched ? 1 : 0), total: prev.total + 1 }));
 
-      setSessionScore((prev) => ({
-        correct: prev.correct + (isCorrect ? 1 : 0),
-        total: prev.total + 1,
-      }));
-
-      if (isCorrect) {
-        const xp = 15;
-        setXpGained(xp);
-        setTotalXpEarned((prev) => prev + xp);
+      if (matched) {
+        setXpGained(15);
+        setTotalXpEarned((prev) => prev + 15);
         setShowXp(true);
         setTimeout(() => setShowXp(false), 1500);
       }
 
-      setSessionResults((prev) => [
-        ...prev,
-        { word: item.word?.simplified, correct: isCorrect, oldBox: -1, newBox: -1, isNew: false },
-      ]);
-
+      setSessionResults((prev) => [...prev, { word: target, correct: matched, oldBox: -1, newBox: -1, isNew: false }]);
       setTimeout(() => advanceToNext(), 2000);
     };
 
-    recognition.onerror = () => {
+    recognition.onerror = (e: any) => {
+      console.log("Speech recognition error:", e?.error);
+      if (!hasResult) {
+        setPronResult("incorrect");
+        setPronTranscript("Erreur micro - réessayez");
+        setSessionScore((prev) => ({ ...prev, total: prev.total + 1 }));
+        setSessionResults((prev) => [...prev, { correct: false, oldBox: -1, newBox: -1, isNew: false }]);
+        setTimeout(() => advanceToNext(), 2000);
+      }
+    };
+
+    recognition.onend = () => {
+      pronRecognitionRef.current = null;
+      // If no result received, timeout
+      if (!hasResult) {
+        setPronResult("incorrect");
+        setPronTranscript("Rien détecté - réessayez");
+        setSessionScore((prev) => ({ ...prev, total: prev.total + 1 }));
+        setSessionResults((prev) => [...prev, { correct: false, oldBox: -1, newBox: -1, isNew: false }]);
+        setTimeout(() => advanceToNext(), 2000);
+      }
+    };
+
+    try {
+      recognition.start();
+      // Auto-stop after 5 seconds
+      setTimeout(() => {
+        try { recognition.stop(); } catch {}
+      }, 5000);
+    } catch (err) {
       setPronResult("incorrect");
-      setSessionScore((prev) => ({ ...prev, total: prev.total + 1 }));
-      setSessionResults((prev) => [
-        ...prev,
-        { correct: false, oldBox: -1, newBox: -1, isNew: false },
-      ]);
+      setPronTranscript("Erreur : vérifiez les permissions micro");
       setTimeout(() => advanceToNext(), 2000);
-    };
+    }
+  };
 
-    recognition.start();
+  const stopPronRecording = () => {
+    if (pronRecognitionRef.current) {
+      try { pronRecognitionRef.current.stop(); } catch {}
+      pronRecognitionRef.current = null;
+    }
   };
 
   const advanceToNext = () => {
@@ -918,51 +948,65 @@ export default function ReviewPage() {
           <div className="text-center space-y-6">
             <div className="p-6 rounded-2xl bg-white border border-[#E5E7EB] shadow-sm">
               <p className="text-sm text-[#6B7280] mb-2">Prononcez ce mot</p>
-              <h2 className="text-4xl font-bold text-[#1A1A1A] mb-2">{currentItem.word.simplified}</h2>
+              <h2 className="chinese-char text-4xl font-bold text-[#1A1A1A] mb-2">{currentItem.word.simplified}</h2>
               <p className="text-lg text-[#6B7280]">{currentItem.word.pinyin}</p>
               <p className="text-sm text-[#6B7280] mt-1">{currentItem.word.french}</p>
             </div>
 
-            {/* Listen button */}
+            {/* Step 1: Listen button */}
             <button
-              onClick={() => {
-                const u = new SpeechSynthesisUtterance(currentItem.word!.simplified);
-                u.lang = "zh-CN";
-                u.rate = 0.7;
-                speechSynthesis.speak(u);
-              }}
-              className="bg-[#1CB0F6] text-white font-bold px-6 py-2.5 rounded-xl hover:bg-[#0D9FE5] transition-all"
+              onClick={() => speakWord(currentItem.word!.simplified)}
+              className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-[#1CB0F6] to-[#1899D6] flex items-center justify-center shadow-lg active:scale-95 transition-transform"
             >
-              &#x1F50A; Ecouter d&apos;abord
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+              </svg>
             </button>
+            <p className="text-xs text-[#6B7280]">Appuyez pour écouter</p>
 
-            {/* Record button */}
+            {/* Step 2: Record */}
             {pronResult === "idle" && (
               <button
                 onClick={handlePronunciation}
-                className="block mx-auto bg-[#FF4B4B] text-white font-bold px-8 py-3 rounded-xl hover:bg-[#E03E3E] transition-all animate-pulse"
+                className="block mx-auto w-16 h-16 rounded-full bg-gradient-to-br from-[#FF4B4B] to-[#E03E3E] flex items-center justify-center shadow-lg active:scale-95 transition-transform"
               >
-                &#x1F3A4; Enregistrer
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                  <line x1="12" y1="19" x2="12" y2="23" />
+                  <line x1="8" y1="23" x2="16" y2="23" />
+                </svg>
               </button>
             )}
 
             {pronResult === "listening" && (
-              <div className="text-[#FF4B4B] font-semibold animate-pulse">
-                &#x1F3A4; Ecoute en cours...
+              <div className="space-y-3">
+                <button
+                  onClick={stopPronRecording}
+                  className="block mx-auto w-16 h-16 rounded-full bg-[#FF4B4B] flex items-center justify-center shadow-lg animate-pulse active:scale-95 transition-transform"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                    <rect x="6" y="6" width="12" height="12" rx="2" />
+                  </svg>
+                </button>
+                <p className="text-[#FF4B4B] text-sm font-semibold">Parlez maintenant... (5s max)</p>
               </div>
             )}
 
-            {pronResult === "correct" && (
-              <div className="space-y-2">
-                <div className="text-[#58CC02] font-bold text-lg">Correct !</div>
-                {pronTranscript && <div className="text-sm text-[#6B7280]">Entendu : {pronTranscript}</div>}
-              </div>
-            )}
-
-            {pronResult === "incorrect" && (
-              <div className="space-y-2">
-                <div className="text-[#FF4B4B] font-bold text-lg">Essayez encore</div>
-                {pronTranscript && <div className="text-sm text-[#6B7280]">Entendu : {pronTranscript}</div>}
+            {(pronResult === "correct" || pronResult === "incorrect") && (
+              <div className={`p-4 rounded-2xl border ${
+                pronResult === "correct"
+                  ? "bg-[#58CC02]/10 border-[#58CC02]/30"
+                  : "bg-[#FF4B4B]/10 border-[#FF4B4B]/30"
+              }`}>
+                <div className={`text-lg font-bold ${pronResult === "correct" ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
+                  {pronResult === "correct" ? "✓ Correct !" : "✗ Pas tout à fait"}
+                </div>
+                {pronTranscript && (
+                  <p className="text-sm text-[#6B7280] mt-1">
+                    Reconnu : <span className="text-[#1A1A1A] font-semibold">{pronTranscript}</span>
+                  </p>
+                )}
               </div>
             )}
           </div>

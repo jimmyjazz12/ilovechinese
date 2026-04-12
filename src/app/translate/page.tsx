@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
 import { useChineseAudio } from "@/lib/useAudio";
 import { removeTones, isValidSyllable } from "@/lib/pinyin";
+import { useUser } from "@/lib/UserContext";
 
 import hsk1Data from "@/data/hsk1.json";
 import hsk2Data from "@/data/hsk2.json";
@@ -266,6 +267,7 @@ function ToneSelector({
 // ── Main page ──
 
 export default function TranslatePage() {
+  const { getUserKey } = useUser();
   const [direction, setDirection] = useState<"fr_to_cn" | "cn_to_fr">(
     "fr_to_cn"
   );
@@ -289,7 +291,7 @@ export default function TranslatePage() {
   // Load user's HSK level on mount
   useEffect(() => {
     try {
-      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+      const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
       const level = stats.current_hsk_level || 1;
       setUserHskLevel(level);
       setMaxHsk(level);
@@ -384,10 +386,10 @@ export default function TranslatePage() {
 
     if (correct) {
       try {
-        const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+        const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
         stats.xp_today = (stats.xp_today || 0) + 15;
         stats.xp_total = (stats.xp_total || 0) + 15;
-        localStorage.setItem("user_stats", JSON.stringify(stats));
+        localStorage.setItem(getUserKey("user_stats"), JSON.stringify(stats));
       } catch {
         /* ignore */
       }

@@ -6,6 +6,7 @@ import DailyGoal from "@/components/DailyGoal";
 import StreakCalendar from "@/components/StreakCalendar";
 import Link from "next/link";
 import { getHskProgress, isReadyForTest } from "@/lib/progression";
+import { useUser } from "@/lib/UserContext";
 
 import hsk1Data from "@/data/hsk1.json";
 import hsk2Data from "@/data/hsk2.json";
@@ -64,6 +65,8 @@ function todayKey(): string {
 }
 
 export default function Dashboard() {
+  const { user, getUserKey } = useUser();
+
   const [stats, setStats] = useState<Stats>({
     words_mastered: 0,
     daily_streak: 0,
@@ -122,7 +125,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     // Load user stats
-    const savedStats = localStorage.getItem("user_stats");
+    const savedStats = localStorage.getItem(getUserKey("user_stats"));
     let currentStats: Stats = {
       words_mastered: 0,
       daily_streak: 0,
@@ -143,7 +146,7 @@ export default function Dashboard() {
     // Read SRS progress to count words by box
     let urgent = 0;
     let consolidate = 0;
-    const srsData = localStorage.getItem("srs_progress");
+    const srsData = localStorage.getItem(getUserKey("srs_progress"));
     if (srsData) {
       try {
         const progress = JSON.parse(srsData);
@@ -173,7 +176,7 @@ export default function Dashboard() {
 
     // Calculate HSK progression
     try {
-      const srsRaw = localStorage.getItem("srs_progress");
+      const srsRaw = localStorage.getItem(getUserKey("srs_progress"));
       const srsObj = srsRaw ? JSON.parse(srsRaw) : {};
       // Normalize: ensure box_level exists
       const normalizedSrs: Record<string, { box_level: number }> = {};
@@ -190,7 +193,7 @@ export default function Dashboard() {
     }
 
     // Load daily plan
-    const savedPlan = localStorage.getItem("daily_plan");
+    const savedPlan = localStorage.getItem(getUserKey("daily_plan"));
     if (savedPlan) {
       try {
         const plan = JSON.parse(savedPlan);
@@ -207,7 +210,7 @@ export default function Dashboard() {
             civilization: false,
           };
           setDailyPlan(fresh);
-          localStorage.setItem("daily_plan", JSON.stringify(fresh));
+          localStorage.setItem(getUserKey("daily_plan"), JSON.stringify(fresh));
         }
       } catch {
         /* ignore */
@@ -215,7 +218,7 @@ export default function Dashboard() {
     }
 
     // Update study_calendar for today
-    const calRaw = localStorage.getItem("study_calendar");
+    const calRaw = localStorage.getItem(getUserKey("study_calendar"));
     let cal: StudyCalendar = {};
     if (calRaw) {
       try {
@@ -239,22 +242,22 @@ export default function Dashboard() {
       todayEntry.completed = allDone;
     }
     cal[tk] = todayEntry;
-    localStorage.setItem("study_calendar", JSON.stringify(cal));
+    localStorage.setItem(getUserKey("study_calendar"), JSON.stringify(cal));
 
     // Calculate and save streak
     const streak = calculateStreak(cal);
     currentStats.daily_streak = streak;
-    localStorage.setItem("user_stats", JSON.stringify(currentStats));
+    localStorage.setItem(getUserKey("user_stats"), JSON.stringify(currentStats));
     setStats(currentStats);
-  }, [calculateStreak]);
+  }, [calculateStreak, getUserKey]);
 
   const togglePlanItem = (item: keyof Omit<DailyPlan, "date">) => {
     setDailyPlan((prev) => {
       const updated = { ...prev, [item]: !prev[item] };
-      localStorage.setItem("daily_plan", JSON.stringify(updated));
+      localStorage.setItem(getUserKey("daily_plan"), JSON.stringify(updated));
 
       // Update study_calendar completion status
-      const calRaw = localStorage.getItem("study_calendar");
+      const calRaw = localStorage.getItem(getUserKey("study_calendar"));
       let cal: StudyCalendar = {};
       if (calRaw) {
         try { cal = JSON.parse(calRaw); } catch { /* */ }
@@ -268,7 +271,7 @@ export default function Dashboard() {
         updated.grammar &&
         updated.civilization;
       cal[tk] = entry;
-      localStorage.setItem("study_calendar", JSON.stringify(cal));
+      localStorage.setItem(getUserKey("study_calendar"), JSON.stringify(cal));
 
       return updated;
     });
@@ -375,7 +378,7 @@ export default function Dashboard() {
             </div>
             <div>
               <h1 className="text-base font-extrabold tracking-tight text-[#1A1A1A]">I Love Chinese</h1>
-              <p className="text-xs text-[#6B7280]">{getGreeting()} !</p>
+              <p className="text-xs text-[#6B7280]">{getGreeting()}{user ? `, ${user.displayName}` : ""} !</p>
             </div>
           </div>
           <div className="flex items-center gap-3 animate-fade-in animate-delay-1">

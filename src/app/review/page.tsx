@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import Navigation from "@/components/Navigation";
 import QuizCard from "@/components/QuizCard";
+import { useUser } from "@/lib/UserContext";
 import XpAnimation from "@/components/XpAnimation";
 import { getToneNumber, removeTones } from "@/lib/pinyin";
 import { useChineseAudio } from "@/lib/useAudio";
@@ -109,6 +110,7 @@ function formatTime(seconds: number): string {
 }
 
 export default function ReviewPage() {
+  const { getUserKey } = useUser();
   const [progress, setProgress] = useState<Record<string, Progress>>({});
   const [currentHsk, setCurrentHsk] = useState(1);
   const [sessionItems, setSessionItems] = useState<SessionItem[]>([]);
@@ -135,7 +137,7 @@ export default function ReviewPage() {
 
   useEffect(() => {
     // Load SRS progress
-    const saved = localStorage.getItem("srs_progress");
+    const saved = localStorage.getItem(getUserKey("srs_progress"));
     if (saved) {
       const parsed = JSON.parse(saved);
       // Migrate old progress entries that lack box_level
@@ -152,7 +154,7 @@ export default function ReviewPage() {
 
     // Auto-set HSK level from user_stats
     try {
-      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+      const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
       const level = stats.current_hsk_level || 1;
       setCurrentHsk(level);
     } catch {
@@ -348,7 +350,7 @@ export default function ReviewPage() {
 
     const newProgress = { ...progress, [key]: updated };
     setProgress(newProgress);
-    localStorage.setItem("srs_progress", JSON.stringify(newProgress));
+    localStorage.setItem(getUserKey("srs_progress"), JSON.stringify(newProgress));
 
     // XP
     const xp = correct ? (isNew ? 15 : 10) : 2;
@@ -359,10 +361,10 @@ export default function ReviewPage() {
       setTimeout(() => setShowXp(false), 1500);
     }
 
-    const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+    const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
     stats.xp_today = (stats.xp_today || 0) + xp;
     stats.xp_total = (stats.xp_total || 0) + xp;
-    localStorage.setItem("user_stats", JSON.stringify(stats));
+    localStorage.setItem(getUserKey("user_stats"), JSON.stringify(stats));
 
     setSessionResults((prev) => [
       ...prev,
@@ -403,10 +405,10 @@ export default function ReviewPage() {
       setShowXp(true);
       setTimeout(() => setShowXp(false), 1500);
 
-      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+      const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
       stats.xp_today = (stats.xp_today || 0) + xp;
       stats.xp_total = (stats.xp_total || 0) + xp;
-      localStorage.setItem("user_stats", JSON.stringify(stats));
+      localStorage.setItem(getUserKey("user_stats"), JSON.stringify(stats));
     }
 
     setSessionResults((prev) => [

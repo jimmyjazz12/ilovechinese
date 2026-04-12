@@ -11,6 +11,7 @@ import hsk3Data from "@/data/hsk3.json";
 import hsk4Data from "@/data/hsk4.json";
 import grammarData from "@/data/grammar.json";
 import { useChineseAudio } from "@/lib/useAudio";
+import { useUser } from "@/lib/UserContext";
 
 interface Word {
   simplified: string;
@@ -194,6 +195,7 @@ function buildTestQuestions(hskLevel: number): TestQuestion[] {
 
 export default function TestPage() {
   const speak = useChineseAudio();
+  const { getUserKey } = useUser();
   const [hskLevel, setHskLevel] = useState(1);
   const [started, setStarted] = useState(false);
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
@@ -210,7 +212,7 @@ export default function TestPage() {
   // Load HSK level from localStorage
   useEffect(() => {
     try {
-      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+      const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
       const level = stats.current_hsk_level || 1;
       setHskLevel(level);
     } catch {
@@ -269,9 +271,9 @@ export default function TestPage() {
           // Level up!
           const newLevel = hskLevel + 1;
           try {
-            const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+            const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
             stats.current_hsk_level = newLevel;
-            localStorage.setItem("user_stats", JSON.stringify(stats));
+            localStorage.setItem(getUserKey("user_stats"), JSON.stringify(stats));
           } catch {
             /* ignore */
           }
@@ -280,11 +282,11 @@ export default function TestPage() {
 
         // Award XP for taking the test
         try {
-          const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+          const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
           const xpBonus = score >= PASS_THRESHOLD ? 100 : 30;
           stats.xp_today = (stats.xp_today || 0) + xpBonus;
           stats.xp_total = (stats.xp_total || 0) + xpBonus;
-          localStorage.setItem("user_stats", JSON.stringify(stats));
+          localStorage.setItem(getUserKey("user_stats"), JSON.stringify(stats));
         } catch {
           /* ignore */
         }

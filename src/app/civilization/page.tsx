@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
+import { useUser } from "@/lib/UserContext";
 
 import civilizationData from "@/data/civilization.json";
 import { useChineseAudio } from "@/lib/useAudio";
@@ -71,6 +72,7 @@ function getDailyEntries(): [CivilizationEntry, CivilizationEntry] {
 }
 
 export default function CivilizationPage() {
+  const { getUserKey } = useUser();
   const [activeTab, setActiveTab] = useState<TabId>("aujourdhui");
   const [favorites, setFavorites] = useState<number[]>([]);
   const [expandedId, setExpandedId] = useState<number | null>(null);
@@ -78,7 +80,7 @@ export default function CivilizationPage() {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    const saved = localStorage.getItem("civilization-favorites");
+    const saved = localStorage.getItem(getUserKey("civilization-favorites"));
     if (saved) {
       try {
         setFavorites(JSON.parse(saved));
@@ -93,7 +95,7 @@ export default function CivilizationPage() {
       const next = prev.includes(id)
         ? prev.filter((f) => f !== id)
         : [...prev, id];
-      localStorage.setItem("civilization-favorites", JSON.stringify(next));
+      localStorage.setItem(getUserKey("civilization-favorites"), JSON.stringify(next));
       return next;
     });
   };

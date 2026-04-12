@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect, useMemo, useRef } from "react";
 import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
+import { useUser } from "@/lib/UserContext";
 
 import initialsData from "@/data/initials.json";
 import finalsData from "@/data/finals.json";
@@ -35,6 +36,7 @@ type TabType = "initials" | "finals" | "drill" | "words";
 const INITIALS_LIST = ["b", "p", "m", "f", "d", "t", "n", "l", "g", "k", "h", "j", "q", "x", "zh", "ch", "sh", "r", "z", "c", "s"];
 
 export default function PronunciationPage() {
+  const { getUserKey } = useUser();
   const [tab, setTab] = useState<TabType>("initials");
   const [practiceItem, setPracticeItem] = useState<PhoneticsItem | null>(null);
   const [practiceExample, setPracticeExample] = useState<string>("");
@@ -73,7 +75,7 @@ export default function PronunciationPage() {
   const [learnedWords, setLearnedWords] = useState<VocabWord[]>([]);
 
   useEffect(() => {
-    const saved = localStorage.getItem("srs_progress");
+    const saved = localStorage.getItem(getUserKey("srs_progress"));
     if (saved) {
       const progress = JSON.parse(saved);
       const knownKeys = Object.keys(progress);
@@ -86,7 +88,7 @@ export default function PronunciationPage() {
 
   // Load drill progress from localStorage
   useEffect(() => {
-    const saved = localStorage.getItem("drill_progress");
+    const saved = localStorage.getItem(getUserKey("drill_progress"));
     if (saved) {
       try { setDrillProgress(JSON.parse(saved)); } catch {}
     }
@@ -258,7 +260,7 @@ export default function PronunciationPage() {
 
   const saveDrillProgress = (newProgress: Record<string, Record<string, boolean>>) => {
     setDrillProgress(newProgress);
-    localStorage.setItem("drill_progress", JSON.stringify(newProgress));
+    localStorage.setItem(getUserKey("drill_progress"), JSON.stringify(newProgress));
   };
 
   const isInitialComplete = (initial: string): boolean => {
@@ -295,7 +297,7 @@ export default function PronunciationPage() {
         // Update drill progress
         setDrillProgress((prev) => {
           const next = { ...prev, [initial]: { ...(prev[initial] || {}), [syllable]: true } };
-          localStorage.setItem("drill_progress", JSON.stringify(next));
+          localStorage.setItem(getUserKey("drill_progress"), JSON.stringify(next));
 
           // Check if all syllables are now validated
           const syllables = getSyllablesForInitial(initial);
@@ -304,10 +306,10 @@ export default function PronunciationPage() {
             setDrillCelebration(true);
             // Award 20 XP
             try {
-              const statsRaw = localStorage.getItem("learning_stats");
+              const statsRaw = localStorage.getItem(getUserKey("learning_stats"));
               const stats = statsRaw ? JSON.parse(statsRaw) : {};
               stats.xp_total = (stats.xp_total || 0) + 20;
-              localStorage.setItem("learning_stats", JSON.stringify(stats));
+              localStorage.setItem(getUserKey("learning_stats"), JSON.stringify(stats));
             } catch {}
             setTimeout(() => setDrillCelebration(false), 3000);
           }
@@ -318,7 +320,7 @@ export default function PronunciationPage() {
         // Mark as failed (false)
         setDrillProgress((prev) => {
           const next = { ...prev, [initial]: { ...(prev[initial] || {}), [syllable]: false } };
-          localStorage.setItem("drill_progress", JSON.stringify(next));
+          localStorage.setItem(getUserKey("drill_progress"), JSON.stringify(next));
           return next;
         });
       }

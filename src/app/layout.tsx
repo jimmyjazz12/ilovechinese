@@ -3,6 +3,8 @@ import "./globals.css";
 import InstallPWA from "@/components/InstallPWA";
 import NotificationManager from "@/components/NotificationManager";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
+import { UserProvider } from "@/lib/UserContext";
+import AuthGuard from "@/components/AuthGuard";
 
 export const metadata: Metadata = {
   title: "I Love Chinese - Apprends le Mandarin",
@@ -38,10 +40,14 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
       </head>
       <body className="min-h-full flex flex-col pb-20">
-        <InstallPWA />
-        <NotificationManager />
-        {children}
-        <ServiceWorkerRegister />
+        <UserProvider>
+          <AuthGuard>
+            <InstallPWA />
+            <NotificationManager />
+            {children}
+            <ServiceWorkerRegister />
+          </AuthGuard>
+        </UserProvider>
       </body>
     </html>
   );

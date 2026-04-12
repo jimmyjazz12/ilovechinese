@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useUser } from "@/lib/UserContext";
 import Gamification, {
   LevelDisplay,
   BadgesGrid,
@@ -46,6 +48,9 @@ function getStreakCalendar(streak: number): StreakDay[] {
 const DAY_LABELS = ["L", "M", "M", "J", "V", "S", "D"];
 
 export default function ProfilePage() {
+  const { user, logout, getUserKey } = useUser();
+  const router = useRouter();
+
   const [stats, setStats] = useState<UserStats>({
     words_mastered: 0,
     daily_streak: 0,
@@ -62,12 +67,12 @@ export default function ProfilePage() {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("user_stats");
+      const saved = localStorage.getItem(getUserKey("user_stats"));
       if (saved) setStats(JSON.parse(saved));
     } catch {
       // ignore
     }
-  }, []);
+  }, [getUserKey]);
 
   const accuracy =
     stats.total_answers && stats.total_answers > 0
@@ -80,12 +85,12 @@ export default function ProfilePage() {
   const unlockedCount = badges.filter((b) => b.unlocked).length;
 
   const handleReset = useCallback(() => {
-    localStorage.removeItem("user_stats");
-    localStorage.removeItem("srs_progress");
-    localStorage.removeItem("badges");
-    localStorage.removeItem("weekly_goal");
-    localStorage.removeItem("chat_messages");
-    localStorage.removeItem("visited_sections");
+    localStorage.removeItem(getUserKey("user_stats"));
+    localStorage.removeItem(getUserKey("srs_progress"));
+    localStorage.removeItem(getUserKey("badges"));
+    localStorage.removeItem(getUserKey("weekly_goal"));
+    localStorage.removeItem(getUserKey("chat_messages"));
+    localStorage.removeItem(getUserKey("visited_sections"));
     setStats({
       words_mastered: 0,
       daily_streak: 0,
@@ -99,7 +104,7 @@ export default function ProfilePage() {
       total_answers: 0,
     });
     setShowResetConfirm(false);
-  }, []);
+  }, [getUserKey]);
 
   return (
     <div className="min-h-screen bg-[#F7F7F5]">
@@ -123,7 +128,9 @@ export default function ProfilePage() {
               <polyline points="15 18 9 12 15 6" />
             </svg>
           </Link>
-          <h1 className="text-lg font-extrabold text-[#1A1A1A]">Mon Profil</h1>
+          <h1 className="text-lg font-extrabold text-[#1A1A1A]">
+            {user ? `Profil de ${user.displayName}` : "Mon Profil"}
+          </h1>
         </div>
       </header>
 
@@ -257,6 +264,20 @@ export default function ProfilePage() {
               </div>
             </div>
           )}
+        </div>
+
+        {/* Logout */}
+        <div className="animate-fade-in animate-delay-6">
+          <button
+            onClick={() => {
+              logout();
+              router.push("/login");
+            }}
+            className="w-full py-3 rounded-2xl text-sm font-semibold text-white shadow-card transition-colors"
+            style={{ background: "linear-gradient(135deg, #6B7280, #4B5563)" }}
+          >
+            D&eacute;connexion
+          </button>
         </div>
       </main>
     </div>

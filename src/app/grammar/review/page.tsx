@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
 import XpAnimation from "@/components/XpAnimation";
+import { useUser } from "@/lib/UserContext";
 
 import grammarData from "@/data/grammar.json";
 
@@ -23,6 +24,7 @@ interface GrammarRule {
 }
 
 export default function GrammarReviewPage() {
+  const { getUserKey } = useUser();
   const [maxHsk, setMaxHsk] = useState(1);
   const [started, setStarted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,10 +77,10 @@ export default function GrammarReviewPage() {
     if (correct) {
       setShowXp(true);
       setTimeout(() => setShowXp(false), 1500);
-      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+      const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
       stats.xp_today = (stats.xp_today || 0) + 10;
       stats.xp_total = (stats.xp_total || 0) + 10;
-      localStorage.setItem("user_stats", JSON.stringify(stats));
+      localStorage.setItem(getUserKey("user_stats"), JSON.stringify(stats));
     }
 
     setTimeout(() => {

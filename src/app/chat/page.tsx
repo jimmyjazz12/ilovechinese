@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import Navigation from "@/components/Navigation";
 import ChatMessage from "@/components/ChatMessage";
+import { useUser } from "@/lib/UserContext";
 
 interface Message {
   role: "user" | "assistant";
@@ -11,6 +12,7 @@ interface Message {
 }
 
 export default function ChatPage() {
+  const { getUserKey } = useUser();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -19,7 +21,7 @@ export default function ChatPage() {
   const recognitionRef = useRef<any>(null);
 
   useEffect(() => {
-    const saved = localStorage.getItem("chat_history");
+    const saved = localStorage.getItem(getUserKey("chat_history"));
     if (saved) {
       setMessages(JSON.parse(saved));
     }
@@ -30,7 +32,7 @@ export default function ChatPage() {
   }, [messages]);
 
   const saveMessages = (msgs: Message[]) => {
-    localStorage.setItem("chat_history", JSON.stringify(msgs));
+    localStorage.setItem(getUserKey("chat_history"), JSON.stringify(msgs));
   };
 
   const sendMessage = async () => {
@@ -49,9 +51,9 @@ export default function ChatPage() {
 
     try {
       // Build rich context from localStorage for Prof Wang's memory
-      const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
-      const progress = JSON.parse(localStorage.getItem("srs_progress") || "{}");
-      const calendar = JSON.parse(localStorage.getItem("study_calendar") || "{}");
+      const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
+      const progress = JSON.parse(localStorage.getItem(getUserKey("srs_progress")) || "{}");
+      const calendar = JSON.parse(localStorage.getItem(getUserKey("study_calendar")) || "{}");
 
       const masteredWords = Object.entries(progress)
         .filter(([, p]: [string, any]) => (p.box_level ?? p.mastery_level ?? 0) >= 6)
@@ -194,7 +196,7 @@ export default function ChatPage() {
 
   const clearChat = () => {
     setMessages([]);
-    localStorage.removeItem("chat_history");
+    localStorage.removeItem(getUserKey("chat_history"));
   };
 
   return (

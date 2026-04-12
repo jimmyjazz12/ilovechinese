@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { triggerAchievementNotification } from "./NotificationManager";
+import { getUserKey } from "@/lib/auth";
 
 // ─── Level System ────────────────────────────────────────────────────────────
 

@@ -510,7 +510,7 @@ export default function Dashboard() {
               </div>
               <div className="flex-1 py-2 px-3">
                 <span className="text-sm font-semibold text-[#1A1A1A]">
-                  Objectif : {stats.xp_today}/50 XP
+                  Objectif : {stats.xp_today}/1000 XP
                 </span>
                 <div className="w-full h-1 bg-[#E5E7EB] rounded-full mt-1.5 overflow-hidden">
                   <div
@@ -582,7 +582,7 @@ export default function Dashboard() {
 
         {/* Daily Goal Ring */}
         <div className="bg-white rounded-2xl p-5 border border-[#E5E7EB] shadow-card animate-fade-in animate-delay-2">
-          <DailyGoal currentXp={stats.xp_today} goalXp={50} streak={stats.daily_streak} />
+          <DailyGoal currentXp={stats.xp_today} goalXp={1000} streak={stats.daily_streak} />
         </div>
 
         {/* Streak Calendar */}

@@ -55,14 +55,10 @@ export default function VocabularyDetailPage() {
   const prevWord = indexInLevel > 0 ? sameLevel[indexInLevel - 1] : null;
   const nextWord = indexInLevel < sameLevel.length - 1 ? sameLevel[indexInLevel + 1] : null;
 
-  // Extended associations: words from current level + previous + next
+  // All associated words from the entire database — no level restriction
   const associationWords = useMemo(() => {
     if (!word) return [];
-    const minLevel = Math.max(1, word.hsk_level - 1);
-    const maxLevel = Math.min(4, word.hsk_level + 1);
-    return allWords.filter(
-      (w) => w.hsk_level >= minLevel && w.hsk_level <= maxLevel
-    );
+    return allWords;
   }, [word]);
 
   const speak = (text: string) => {
@@ -170,7 +166,7 @@ export default function VocabularyDetailPage() {
           </div>
         )}
 
-        {/* Character associations — extended to nearby HSK levels */}
+        {/* Character associations — all words from the database */}
         <div className="animate-fade-in animate-delay-4">
           <CharacterAssociations
             groups={(() => {

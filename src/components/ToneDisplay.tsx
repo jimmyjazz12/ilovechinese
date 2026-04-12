@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { splitPinyin, getToneNumber, getToneColor, applyToneSandhi } from "@/lib/pinyin";
 
 interface ToneDisplayProps {
   pinyin: string;
   size?: "sm" | "md" | "lg";
   className?: string;
+  applySandhi?: boolean;
 }
 
 interface ToneColoredTextProps {
@@ -13,6 +15,7 @@ interface ToneColoredTextProps {
   pinyin: string;
   size?: "sm" | "md" | "lg" | "xl";
   className?: string;
+  applySandhi?: boolean;
 }
 
 const toneColors: Record<number, string> = {
@@ -45,44 +48,25 @@ const charSizeClasses: Record<string, string> = {
 };
 
 /**
- * Detect the tone number from a pinyin syllable.
+ * Re-export getToneNumber as getTone for backward compatibility.
  */
 function getTone(syllable: string): number {
-  const trimmed = syllable.trim();
-  if (!trimmed) return 5;
-
-  const lastChar = trimmed[trimmed.length - 1];
-  if (/[1-4]/.test(lastChar)) return parseInt(lastChar, 10);
-
-  if (/[\u0101\u0113\u012B\u014D\u016B\u01D6]/.test(trimmed)) return 1;
-  if (/[\u00E1\u00E9\u00ED\u00F3\u00FA\u01D8]/.test(trimmed)) return 2;
-  if (/[\u01CE\u011B\u01D0\u01D2\u01D4\u01DA]/.test(trimmed)) return 3;
-  if (/[\u00E0\u00E8\u00EC\u00F2\u00F9\u01DC]/.test(trimmed)) return 4;
-
-  return 5;
-}
-
-/**
- * Split a pinyin string into syllables.
- */
-function splitPinyin(pinyin: string): string[] {
-  if (pinyin.includes(" ")) {
-    return pinyin.split(/\s+/).filter(Boolean);
-  }
-  const parts = pinyin.match(/[a-zA-Z\u00FC\u00DC\u01D6\u01D8\u01DA\u01DC\u0101\u00E1\u01CE\u00E0\u0113\u00E9\u011B\u00E8\u012B\u00ED\u01D0\u00EC\u014D\u00F3\u01D2\u00F2\u016B\u00FA\u01D4\u00F9]+[1-5]?/g);
-  return parts ?? [pinyin];
+  return getToneNumber(syllable);
 }
 
 export { getTone, splitPinyin };
 
-export default function ToneDisplay({ pinyin, size = "md", className = "" }: ToneDisplayProps) {
-  const syllables = splitPinyin(pinyin);
+export default function ToneDisplay({ pinyin, size = "md", className = "", applySandhi = false }: ToneDisplayProps) {
+  let syllables = splitPinyin(pinyin);
+  if (applySandhi) {
+    syllables = applyToneSandhi(syllables);
+  }
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
 
   return (
     <span className={`inline-flex gap-1.5 ${sizeClasses[size]} ${className}`}>
       {syllables.map((syl, i) => {
-        const tone = getTone(syl);
+        const tone = getToneNumber(syl);
         const color = toneColors[tone];
 
         return (
@@ -127,14 +111,18 @@ export function ToneColoredText({
   pinyin,
   size = "lg",
   className = "",
+  applySandhi = false,
 }: ToneColoredTextProps) {
-  const syllables = splitPinyin(pinyin);
+  let syllables = splitPinyin(pinyin);
+  if (applySandhi) {
+    syllables = applyToneSandhi(syllables);
+  }
   const chars = Array.from(characters);
 
   return (
     <span className={`inline-flex chinese-char font-bold ${charSizeClasses[size]} ${className}`}>
       {chars.map((char, i) => {
-        const tone = i < syllables.length ? getTone(syllables[i]) : 5;
+        const tone = i < syllables.length ? getToneNumber(syllables[i]) : 5;
         const color = toneColors[tone];
 
         return (

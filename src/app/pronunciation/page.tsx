@@ -11,7 +11,7 @@ import hsk2Data from "@/data/hsk2.json";
 import hsk3Data from "@/data/hsk3.json";
 import hsk4Data from "@/data/hsk4.json";
 import { useChineseAudio } from "@/lib/useAudio";
-import { getSyllablesForInitial } from "@/lib/pinyin";
+import { getSyllablesForInitial, addTone, getToneColor } from "@/lib/pinyin";
 
 interface VocabWord {
   simplified: string;
@@ -627,24 +627,36 @@ export default function PronunciationPage() {
                     {isValidated ? "\u2713" : isFailed ? "\u2717" : "\u25CB"}
                   </div>
 
-                  {/* Syllable name */}
+                  {/* Syllable with all 4 tones */}
                   <div className="flex-1 min-w-0">
-                    <span className="text-lg font-bold text-[#1A1A1A]">{syllable}</span>
+                    <div className="flex items-baseline gap-2 flex-wrap">
+                      {[1, 2, 3, 4].map((tone) => (
+                        <span
+                          key={tone}
+                          className="text-base font-bold cursor-pointer hover:scale-110 transition-transform"
+                          style={{ color: getToneColor(tone) }}
+                          onClick={() => speak(addTone(syllable, tone))}
+                          title={`Ton ${tone}`}
+                        >
+                          {addTone(syllable, tone)}
+                        </span>
+                      ))}
+                    </div>
                     {result && !isCurrentlyRecording && (
-                      <span className={`ml-2 text-xs ${result.matched ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
+                      <span className={`text-xs ${result.matched ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
                         {result.transcript}
                       </span>
                     )}
                     {isCurrentlyRecording && (
-                      <span className="ml-2 text-xs text-[#FF4B4B] font-medium">Parlez... (4s max)</span>
+                      <span className="text-xs text-[#FF4B4B] font-medium">Parlez... (4s max)</span>
                     )}
                   </div>
 
-                  {/* Listen button */}
+                  {/* Listen button — plays 1st tone as default */}
                   <button
-                    onClick={() => speak(syllable)}
+                    onClick={() => speak(addTone(syllable, 1))}
                     className="w-10 h-10 rounded-full bg-[#1CB0F6]/10 flex items-center justify-center hover:bg-[#1CB0F6]/20 transition-all flex-shrink-0"
-                    title="Ecouter"
+                    title="Écouter"
                   >
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="#1CB0F6">
                       <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>

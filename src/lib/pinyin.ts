@@ -374,7 +374,7 @@ const TONE_VARIANTS: Record<string, string[]> = {
  * Change the tone of a pinyin syllable to a different tone number.
  * E.g., changeTone("nǐ", 2) → "ní"
  */
-function changeTone(syllable: string, newTone: number): string {
+export function changeTone(syllable: string, newTone: number): string {
   let result = ''
   let toneChanged = false
 
@@ -396,6 +396,38 @@ function changeTone(syllable: string, newTone: number): string {
   }
 
   return result
+}
+
+/**
+ * Add a tone mark to a plain syllable (no existing tone marks).
+ * E.g., addTone("ma", 1) → "mā", addTone("gong", 1) → "gōng"
+ * Follows the standard rule: tone goes on a, e, or ou, otherwise on the last vowel.
+ */
+export function addTone(syllable: string, tone: number): string {
+  if (tone < 1 || tone > 4) return syllable
+  const vowels = 'aeiouü'
+  // Rule: if 'a' or 'e' exists, put tone there
+  for (let i = 0; i < syllable.length; i++) {
+    if (syllable[i] === 'a' || syllable[i] === 'e') {
+      const variants = TONE_VARIANTS[syllable[i]]
+      if (variants) return syllable.slice(0, i) + variants[tone] + syllable.slice(i + 1)
+    }
+  }
+  // Rule: if 'ou', put tone on 'o'
+  const ouIdx = syllable.indexOf('ou')
+  if (ouIdx >= 0) {
+    const variants = TONE_VARIANTS['o']
+    if (variants) return syllable.slice(0, ouIdx) + variants[tone] + syllable.slice(ouIdx + 1)
+  }
+  // Otherwise, put tone on the last vowel
+  for (let i = syllable.length - 1; i >= 0; i--) {
+    if (vowels.includes(syllable[i])) {
+      const base = syllable[i] === 'v' ? 'ü' : syllable[i]
+      const variants = TONE_VARIANTS[base]
+      if (variants) return syllable.slice(0, i) + variants[tone] + syllable.slice(i + 1)
+    }
+  }
+  return syllable
 }
 
 /**

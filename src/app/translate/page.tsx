@@ -8,6 +8,7 @@ import hsk1Data from "@/data/hsk1.json";
 import hsk2Data from "@/data/hsk2.json";
 import hsk3Data from "@/data/hsk3.json";
 import hsk4Data from "@/data/hsk4.json";
+import { useChineseAudio } from "@/lib/useAudio";
 
 interface Word {
   simplified: string;
@@ -109,12 +110,7 @@ export default function TranslatePage() {
     }
   };
 
-  const speak = (text: string) => {
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "zh-CN";
-    u.rate = 0.8;
-    speechSynthesis.speak(u);
-  };
+  const speak = useChineseAudio();
 
   return (
     <div className="min-h-screen">

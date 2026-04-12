@@ -595,52 +595,40 @@ export default function ReviewPage() {
     }
   }, [currentItem]);
 
-  // Pre-load voices (mobile needs this)
-  const [voicesReady, setVoicesReady] = useState(false);
-  const zhVoiceRef = useRef<SpeechSynthesisVoice | null>(null);
-
-  useEffect(() => {
-    const loadVoices = () => {
-      const voices = speechSynthesis.getVoices();
-      if (voices.length > 0) {
-        zhVoiceRef.current = voices.find(v => v.lang.startsWith("zh")) ||
-                             voices.find(v => v.lang.includes("CN")) ||
-                             voices.find(v => v.lang.includes("Chinese")) ||
-                             null;
-        setVoicesReady(true);
-      }
-    };
-    loadVoices();
-    speechSynthesis.onvoiceschanged = loadVoices;
-    // Force load on some mobile browsers
-    speechSynthesis.getVoices();
-    return () => { speechSynthesis.onvoiceschanged = null; };
+  // Speak Chinese text — uses Audio element with Google TTS as primary,
+  // falls back to Web Speech API
+  const speakWord = useCallback((text: string) => {
+    // Method 1: Google Translate TTS (works on all devices, no setup needed)
+    try {
+      const encoded = encodeURIComponent(text);
+      const audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=zh-CN&client=tw-ob&q=${encoded}`;
+      const audio = new Audio(audioUrl);
+      audio.volume = 1;
+      audio.play().catch(() => {
+        // Method 2: Fallback to Web Speech API
+        speakWithSynthesis(text);
+      });
+    } catch {
+      speakWithSynthesis(text);
+    }
   }, []);
 
-  // Speak function — works on mobile when called from user tap
-  const speakWord = useCallback((text: string) => {
+  const speakWithSynthesis = (text: string) => {
     try {
-      // Cancel any ongoing speech first
       speechSynthesis.cancel();
-
       const u = new SpeechSynthesisUtterance(text);
       u.lang = "zh-CN";
       u.rate = 0.7;
-      u.pitch = 1;
       u.volume = 1;
-
-      if (zhVoiceRef.current) {
-        u.voice = zhVoiceRef.current;
-      }
-
-      // Mobile fix: some browsers need a small delay after cancel
-      setTimeout(() => {
-        speechSynthesis.speak(u);
-      }, 50);
+      const voices = speechSynthesis.getVoices();
+      const zhVoice = voices.find(v => v.lang.startsWith("zh")) ||
+                      voices.find(v => v.lang.includes("CN")) || null;
+      if (zhVoice) u.voice = zhVoice;
+      speechSynthesis.speak(u);
     } catch (err) {
       console.error("Speech synthesis error:", err);
     }
-  }, []);
+  };
 
   // Grammar quiz data
   const grammarQuizData = useMemo(() => {

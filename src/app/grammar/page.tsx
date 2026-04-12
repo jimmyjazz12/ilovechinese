@@ -6,6 +6,7 @@ import ToneDisplay from "@/components/ToneDisplay";
 import Link from "next/link";
 
 import grammarData from "@/data/grammar.json";
+import { useChineseAudio } from "@/lib/useAudio";
 
 interface GrammarExample {
   chinese: string;
@@ -37,12 +38,7 @@ export default function GrammarPage() {
     (r) => r.hsk_level === selectedHsk
   );
 
-  const speak = (text: string) => {
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "zh-CN";
-    u.rate = 0.8;
-    speechSynthesis.speak(u);
-  };
+  const speak = useChineseAudio();
 
   return (
     <div className="min-h-screen">

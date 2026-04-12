@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
 
 import civilizationData from "@/data/civilization.json";
+import { useChineseAudio } from "@/lib/useAudio";
 
 interface CivilizationEntry {
   id: number;
@@ -97,12 +98,7 @@ export default function CivilizationPage() {
     });
   };
 
-  const speak = (text: string) => {
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "zh-CN";
-    u.rate = 0.8;
-    speechSynthesis.speak(u);
-  };
+  const speak = useChineseAudio();
 
   const dailyEntries = useMemo(() => getDailyEntries(), []);
 

@@ -10,6 +10,7 @@ import hsk2Data from "@/data/hsk2.json";
 import hsk3Data from "@/data/hsk3.json";
 import hsk4Data from "@/data/hsk4.json";
 import grammarData from "@/data/grammar.json";
+import { useChineseAudio } from "@/lib/useAudio";
 
 interface Word {
   simplified: string;
@@ -192,6 +193,7 @@ function buildTestQuestions(hskLevel: number): TestQuestion[] {
 }
 
 export default function TestPage() {
+  const speak = useChineseAudio();
   const [hskLevel, setHskLevel] = useState(1);
   const [started, setStarted] = useState(false);
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
@@ -608,15 +610,10 @@ export default function TestPage() {
           )}
           {currentQ.word && currentQ.type !== "french_to_char" && (
             <button
-              onClick={() => {
-                const u = new SpeechSynthesisUtterance(currentQ.word!.simplified);
-                u.lang = "zh-CN";
-                u.rate = 0.8;
-                speechSynthesis.speak(u);
-              }}
+              onClick={() => speak(currentQ.word!.simplified)}
               className="mt-3 text-[#1CB0F6] text-sm hover:underline"
             >
-              🔊 Ecouter
+              🔊 Écouter
             </button>
           )}
         </div>

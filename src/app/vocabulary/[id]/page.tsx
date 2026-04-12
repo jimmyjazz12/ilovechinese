@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
 import CharacterAssociations from "@/components/CharacterAssociations";
+import { useChineseAudio } from "@/lib/useAudio";
 import Link from "next/link";
 
 import hsk1Data from "@/data/hsk1.json";
@@ -61,13 +62,7 @@ export default function VocabularyDetailPage() {
     return allWords;
   }, [word]);
 
-  const speak = (text: string) => {
-    speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "zh-CN";
-    u.rate = 0.8;
-    speechSynthesis.speak(u);
-  };
+  const speak = useChineseAudio();
 
   if (!word) {
     return (

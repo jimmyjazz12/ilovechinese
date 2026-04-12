@@ -10,6 +10,7 @@ import hsk1Data from "@/data/hsk1.json";
 import hsk2Data from "@/data/hsk2.json";
 import hsk3Data from "@/data/hsk3.json";
 import hsk4Data from "@/data/hsk4.json";
+import { useChineseAudio } from "@/lib/useAudio";
 
 interface VocabWord {
   simplified: string;
@@ -74,13 +75,7 @@ export default function PronunciationPage() {
   const finals = finalsData as PhoneticsItem[];
   const items = tab === "initials" ? initials : finals;
 
-  const speak = (text: string, rate = 0.6) => {
-    speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "zh-CN";
-    u.rate = rate;
-    speechSynthesis.speak(u);
-  };
+  const speak = useChineseAudio();
 
   // Extract the Chinese character(s) from example string like "bā 八 (huit)"
   const getChineseFromExample = (example: string): string => {
@@ -278,7 +273,7 @@ export default function PronunciationPage() {
             <p className="text-[#6B7280] mt-2">{wordPractice.french}</p>
             <p className="text-xs text-[#6B7280] mt-1">HSK {wordPractice.hsk_level}</p>
             <button
-              onClick={() => speak(wordPractice.simplified, 0.7)}
+              onClick={() => speak(wordPractice.simplified)}
               className="mt-4 btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-[#1A1A1A] font-bold px-6 py-2 rounded-xl"
             >
               🔊 Écouter le modèle
@@ -345,7 +340,7 @@ export default function PronunciationPage() {
               <div className="flex gap-3">
                 {!wordIsMatch && (
                   <button
-                    onClick={() => { speak(wordPractice.simplified, 0.7); setTimeout(() => startWordListening(), 1500); }}
+                    onClick={() => { speak(wordPractice.simplified); setTimeout(() => startWordListening(), 1500); }}
                     className="flex-1 btn-3d bg-[#FF9600] text-[#1A1A1A] font-bold py-3 rounded-xl"
                   >
                     🔊 Écouter + Réessayer

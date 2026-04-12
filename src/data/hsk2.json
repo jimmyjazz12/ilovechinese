@@ -14362,5 +14362,6241 @@
         "french": "Sais-tu ce que signifie \"semaine\" ?"
       }
     ]
+  },
+  {
+    "simplified": "少数",
+    "traditional": "少数",
+    "pinyin": "shǎo shù",
+    "french": "tous",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "少",
+      "数"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"少数\"这个词。",
+        "pinyin": "wǒ xuéxí \"shǎo shù\" zhège cí.",
+        "french": "J'apprends le mot \"tous\"."
+      },
+      {
+        "chinese": "你知道\"少数\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shǎo shù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"tous\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "少年",
+    "traditional": "少年",
+    "pinyin": "shào nián",
+    "french": "fils",
+    "hsk_level": 2,
+    "category": "famille",
+    "components": [
+      "少",
+      "年"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"少年\"这个词。",
+        "pinyin": "wǒ xuéxí \"shào nián\" zhège cí.",
+        "french": "J'apprends le mot \"fils\"."
+      },
+      {
+        "chinese": "你知道\"少年\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shào nián\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"fils\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "身边",
+    "traditional": "身边",
+    "pinyin": "shēn biān",
+    "french": "at one's side",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "身",
+      "边"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"身边\"这个词。",
+        "pinyin": "wǒ xuéxí \"shēn biān\" zhège cí.",
+        "french": "J'apprends le mot \"at one's side\"."
+      },
+      {
+        "chinese": "你知道\"身边\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shēn biān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"at one's side\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "什么样",
+    "traditional": "什么样",
+    "pinyin": "shén me yàng",
+    "french": "quoi",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "什",
+      "么",
+      "样"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"什么样\"这个词。",
+        "pinyin": "wǒ xuéxí \"shén me yàng\" zhège cí.",
+        "french": "J'apprends le mot \"quoi\"."
+      },
+      {
+        "chinese": "你知道\"什么样\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shén me yàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"quoi\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "生",
+    "traditional": "生",
+    "pinyin": "shēng",
+    "french": "donner",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "生"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"生\"这个词。",
+        "pinyin": "wǒ xuéxí \"shēng\" zhège cí.",
+        "french": "J'apprends le mot \"donner\"."
+      },
+      {
+        "chinese": "你知道\"生\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shēng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"donner\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "生词",
+    "traditional": "生词",
+    "pinyin": "shēng cí",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "生",
+      "词"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"生词\"这个词。",
+        "pinyin": "wǒ xuéxí \"shēng cí\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"生词\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shēng cí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "生活",
+    "traditional": "生活",
+    "pinyin": "shēnghuó",
+    "french": "Life",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "生",
+      "活"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"生活\"这个词。",
+        "pinyin": "wǒ xuéxí \"shēnghuó\" zhège cí.",
+        "french": "J'apprends le mot \"Life\"."
+      },
+      {
+        "chinese": "你知道\"生活\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shēnghuó\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Life\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "声音",
+    "traditional": "声音",
+    "pinyin": "shēngyīn",
+    "french": "voice",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "声",
+      "音"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"声音\"这个词。",
+        "pinyin": "wǒ xuéxí \"shēngyīn\" zhège cí.",
+        "french": "J'apprends le mot \"voice\"."
+      },
+      {
+        "chinese": "你知道\"声音\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shēngyīn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"voice\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "省",
+    "traditional": "省",
+    "pinyin": "shěng",
+    "french": "province",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "省"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"省\"这个词。",
+        "pinyin": "wǒ xuéxí \"shěng\" zhège cí.",
+        "french": "J'apprends le mot \"province\"."
+      },
+      {
+        "chinese": "你知道\"省\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shěng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"province\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "十分",
+    "traditional": "十分",
+    "pinyin": "shífēn",
+    "french": "très",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "十",
+      "分"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"十分\"这个词。",
+        "pinyin": "wǒ xuéxí \"shífēn\" zhège cí.",
+        "french": "J'apprends le mot \"très\"."
+      },
+      {
+        "chinese": "你知道\"十分\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shífēn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"très\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "实际",
+    "traditional": "实际",
+    "pinyin": "shíjì",
+    "french": "Actual",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "实",
+      "际"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"实际\"这个词。",
+        "pinyin": "wǒ xuéxí \"shíjì\" zhège cí.",
+        "french": "J'apprends le mot \"Actual\"."
+      },
+      {
+        "chinese": "你知道\"实际\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shíjì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Actual\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "实习",
+    "traditional": "实习",
+    "pinyin": "shíxí",
+    "french": "Internship",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "实",
+      "习"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"实习\"这个词。",
+        "pinyin": "wǒ xuéxí \"shíxí\" zhège cí.",
+        "french": "J'apprends le mot \"Internship\"."
+      },
+      {
+        "chinese": "你知道\"实习\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shíxí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Internship\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "实现",
+    "traditional": "实现",
+    "pinyin": "shíxiàn",
+    "french": "Realization",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "实",
+      "现"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"实现\"这个词。",
+        "pinyin": "wǒ xuéxí \"shíxiàn\" zhège cí.",
+        "french": "J'apprends le mot \"Realization\"."
+      },
+      {
+        "chinese": "你知道\"实现\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shíxiàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Realization\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "实在",
+    "traditional": "实在",
+    "pinyin": "shízài",
+    "french": "real; indeed",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "实",
+      "在"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"实在\"这个词。",
+        "pinyin": "wǒ xuéxí \"shízài\" zhège cí.",
+        "french": "J'apprends le mot \"real; indeed\"."
+      },
+      {
+        "chinese": "你知道\"实在\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shízài\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"real; indeed\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "食物",
+    "traditional": "食物",
+    "pinyin": "shíwù",
+    "french": "food",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "食",
+      "物"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"食物\"这个词。",
+        "pinyin": "wǒ xuéxí \"shíwù\" zhège cí.",
+        "french": "J'apprends le mot \"food\"."
+      },
+      {
+        "chinese": "你知道\"食物\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shíwù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"food\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "使用",
+    "traditional": "使用",
+    "pinyin": "shǐyòng",
+    "french": "utiliser",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "使",
+      "用"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"使用\"这个词。",
+        "pinyin": "wǒ xuéxí \"shǐyòng\" zhège cí.",
+        "french": "J'apprends le mot \"utiliser\"."
+      },
+      {
+        "chinese": "你知道\"使用\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shǐyòng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"utiliser\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "市",
+    "traditional": "市",
+    "pinyin": "shì",
+    "french": "ville",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "市"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"市\"这个词。",
+        "pinyin": "wǒ xuéxí \"shì\" zhège cí.",
+        "french": "J'apprends le mot \"ville\"."
+      },
+      {
+        "chinese": "你知道\"市\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ville\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "市长",
+    "traditional": "市长",
+    "pinyin": "shì zhǎng",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "市",
+      "长"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"市长\"这个词。",
+        "pinyin": "wǒ xuéxí \"shì zhǎng\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"市长\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shì zhǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "收",
+    "traditional": "收",
+    "pinyin": "shōu",
+    "french": "collect",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "收"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"收\"这个词。",
+        "pinyin": "wǒ xuéxí \"shōu\" zhège cí.",
+        "french": "J'apprends le mot \"collect\"."
+      },
+      {
+        "chinese": "你知道\"收\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shōu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"collect\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "收到",
+    "traditional": "收到",
+    "pinyin": "shōu dào",
+    "french": "receive; obtain",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "收",
+      "到"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"收到\"这个词。",
+        "pinyin": "wǒ xuéxí \"shōu dào\" zhège cí.",
+        "french": "J'apprends le mot \"receive; obtain\"."
+      },
+      {
+        "chinese": "你知道\"收到\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shōu dào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"receive; obtain\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "收入",
+    "traditional": "收入",
+    "pinyin": "shōurù",
+    "french": "venir",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "收",
+      "入"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"收入\"这个词。",
+        "pinyin": "wǒ xuéxí \"shōurù\" zhège cí.",
+        "french": "J'apprends le mot \"venir\"."
+      },
+      {
+        "chinese": "你知道\"收入\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shōurù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"venir\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "手表",
+    "traditional": "手表",
+    "pinyin": "shǒubiǎo",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "手",
+      "表"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"手表\"这个词。",
+        "pinyin": "wǒ xuéxí \"shǒubiǎo\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"手表\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shǒubiǎo\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "受到",
+    "traditional": "受到",
+    "pinyin": "shòudào",
+    "french": "Suffer",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "受",
+      "到"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"受到\"这个词。",
+        "pinyin": "wǒ xuéxí \"shòudào\" zhège cí.",
+        "french": "J'apprends le mot \"Suffer\"."
+      },
+      {
+        "chinese": "你知道\"受到\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shòudào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Suffer\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "熟",
+    "traditional": "熟",
+    "pinyin": "shú",
+    "french": "ripe; cooked; familiar",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "熟"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"熟\"这个词。",
+        "pinyin": "wǒ xuéxí \"shú\" zhège cí.",
+        "french": "J'apprends le mot \"ripe; cooked; familiar\"."
+      },
+      {
+        "chinese": "你知道\"熟\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shú\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ripe; cooked; familiar\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "数",
+    "traditional": "数",
+    "pinyin": "shǔ",
+    "french": "to count",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "数"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"数\"这个词。",
+        "pinyin": "wǒ xuéxí \"shǔ\" zhège cí.",
+        "french": "J'apprends le mot \"to count\"."
+      },
+      {
+        "chinese": "你知道\"数\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shǔ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"to count\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "数字",
+    "traditional": "数字",
+    "pinyin": "shùzì",
+    "french": "numéro",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "数",
+      "字"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"数字\"这个词。",
+        "pinyin": "wǒ xuéxí \"shùzì\" zhège cí.",
+        "french": "J'apprends le mot \"numéro\"."
+      },
+      {
+        "chinese": "你知道\"数字\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shùzì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"numéro\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "水平",
+    "traditional": "水平",
+    "pinyin": "shuǐpíng",
+    "french": "level",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "水",
+      "平"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"水平\"这个词。",
+        "pinyin": "wǒ xuéxí \"shuǐpíng\" zhège cí.",
+        "french": "J'apprends le mot \"level\"."
+      },
+      {
+        "chinese": "你知道\"水平\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shuǐpíng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"level\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "顺利",
+    "traditional": "顺利",
+    "pinyin": "shùnlì",
+    "french": "smoothly",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "顺",
+      "利"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"顺利\"这个词。",
+        "pinyin": "wǒ xuéxí \"shùnlì\" zhège cí.",
+        "french": "J'apprends le mot \"smoothly\"."
+      },
+      {
+        "chinese": "你知道\"顺利\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shùnlì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"smoothly\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "说明",
+    "traditional": "说明",
+    "pinyin": "shuōmíng",
+    "french": "Explain",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "说",
+      "明"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"说明\"这个词。",
+        "pinyin": "wǒ xuéxí \"shuōmíng\" zhège cí.",
+        "french": "J'apprends le mot \"Explain\"."
+      },
+      {
+        "chinese": "你知道\"说明\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"shuōmíng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Explain\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "司机",
+    "traditional": "司机",
+    "pinyin": "sījī",
+    "french": "Driver",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "司",
+      "机"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"司机\"这个词。",
+        "pinyin": "wǒ xuéxí \"sījī\" zhège cí.",
+        "french": "J'apprends le mot \"Driver\"."
+      },
+      {
+        "chinese": "你知道\"司机\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"sījī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Driver\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "送到",
+    "traditional": "送到",
+    "pinyin": "sòng dào",
+    "french": "endroit",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "送",
+      "到"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"送到\"这个词。",
+        "pinyin": "wǒ xuéxí \"sòng dào\" zhège cí.",
+        "french": "J'apprends le mot \"endroit\"."
+      },
+      {
+        "chinese": "你知道\"送到\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"sòng dào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"endroit\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "送给",
+    "traditional": "送给",
+    "pinyin": "sòng gěi",
+    "french": "donner",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "送",
+      "给"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"送给\"这个词。",
+        "pinyin": "wǒ xuéxí \"sòng gěi\" zhège cí.",
+        "french": "J'apprends le mot \"donner\"."
+      },
+      {
+        "chinese": "你知道\"送给\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"sòng gěi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"donner\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "算",
+    "traditional": "算",
+    "pinyin": "suàn",
+    "french": "count; calculate",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "算"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"算\"这个词。",
+        "pinyin": "wǒ xuéxí \"suàn\" zhège cí.",
+        "french": "J'apprends le mot \"count; calculate\"."
+      },
+      {
+        "chinese": "你知道\"算\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"suàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"count; calculate\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "随便",
+    "traditional": "随便",
+    "pinyin": "suíbiàn",
+    "french": "casual",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "随",
+      "便"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"随便\"这个词。",
+        "pinyin": "wǒ xuéxí \"suíbiàn\" zhège cí.",
+        "french": "J'apprends le mot \"casual\"."
+      },
+      {
+        "chinese": "你知道\"随便\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"suíbiàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"casual\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "随时",
+    "traditional": "随时",
+    "pinyin": "suíshí",
+    "french": "temps",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "随",
+      "时"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"随时\"这个词。",
+        "pinyin": "wǒ xuéxí \"suíshí\" zhège cí.",
+        "french": "J'apprends le mot \"temps\"."
+      },
+      {
+        "chinese": "你知道\"随时\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"suíshí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"temps\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "所以",
+    "traditional": "所以",
+    "pinyin": "suǒ yǐ",
+    "french": "désolé",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "所",
+      "以"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"所以\"这个词。",
+        "pinyin": "wǒ xuéxí \"suǒ yǐ\" zhège cí.",
+        "french": "J'apprends le mot \"désolé\"."
+      },
+      {
+        "chinese": "你知道\"所以\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"suǒ yǐ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"désolé\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "所有",
+    "traditional": "所有",
+    "pinyin": "suǒyǒu",
+    "french": "tous",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "所",
+      "有"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"所有\"这个词。",
+        "pinyin": "wǒ xuéxí \"suǒyǒu\" zhège cí.",
+        "french": "J'apprends le mot \"tous\"."
+      },
+      {
+        "chinese": "你知道\"所有\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"suǒyǒu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"tous\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "它",
+    "traditional": "它",
+    "pinyin": "tā",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "它"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"它\"这个词。",
+        "pinyin": "wǒ xuéxí \"tā\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"它\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tā\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "它们",
+    "traditional": "它们",
+    "pinyin": "tā men",
+    "french": "il",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "它",
+      "们"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"它们\"这个词。",
+        "pinyin": "wǒ xuéxí \"tā men\" zhège cí.",
+        "french": "J'apprends le mot \"il\"."
+      },
+      {
+        "chinese": "你知道\"它们\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tā men\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "太太",
+    "traditional": "太太",
+    "pinyin": "tàitai",
+    "french": "Ma'am",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "太"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"太太\"这个词。",
+        "pinyin": "wǒ xuéxí \"tàitai\" zhège cí.",
+        "french": "J'apprends le mot \"Ma'am\"."
+      },
+      {
+        "chinese": "你知道\"太太\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tàitai\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Ma'am\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "太阳",
+    "traditional": "太阳",
+    "pinyin": "tàiyáng",
+    "french": "sun",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "太",
+      "阳"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"太阳\"这个词。",
+        "pinyin": "wǒ xuéxí \"tàiyáng\" zhège cí.",
+        "french": "J'apprends le mot \"sun\"."
+      },
+      {
+        "chinese": "你知道\"太阳\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tàiyáng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"sun\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "态度",
+    "traditional": "态度",
+    "pinyin": "tàidu",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "态",
+      "度"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"态度\"这个词。",
+        "pinyin": "wǒ xuéxí \"tàidu\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"态度\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tàidu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "讨论",
+    "traditional": "讨论",
+    "pinyin": "tǎolùn",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "讨",
+      "论"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"讨论\"这个词。",
+        "pinyin": "wǒ xuéxí \"tǎolùn\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"讨论\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tǎolùn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "套",
+    "traditional": "套",
+    "pinyin": "tào",
+    "french": "set",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "套"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"套\"这个词。",
+        "pinyin": "wǒ xuéxí \"tào\" zhège cí.",
+        "french": "J'apprends le mot \"set\"."
+      },
+      {
+        "chinese": "你知道\"套\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"set\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "特点",
+    "traditional": "特点",
+    "pinyin": "tèdiǎn",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "特",
+      "点"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"特点\"这个词。",
+        "pinyin": "wǒ xuéxí \"tèdiǎn\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"特点\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tèdiǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "提",
+    "traditional": "提",
+    "pinyin": "tí",
+    "french": "carry",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "提"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"提\"这个词。",
+        "pinyin": "wǒ xuéxí \"tí\" zhège cí.",
+        "french": "J'apprends le mot \"carry\"."
+      },
+      {
+        "chinese": "你知道\"提\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"carry\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "提出",
+    "traditional": "提出",
+    "pinyin": "tí chū",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "提",
+      "出"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"提出\"这个词。",
+        "pinyin": "wǒ xuéxí \"tí chū\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"提出\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tí chū\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "提到",
+    "traditional": "提到",
+    "pinyin": "tí dào",
+    "french": "mention; refer to",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "提",
+      "到"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"提到\"这个词。",
+        "pinyin": "wǒ xuéxí \"tí dào\" zhège cí.",
+        "french": "J'apprends le mot \"mention; refer to\"."
+      },
+      {
+        "chinese": "你知道\"提到\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tí dào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"mention; refer to\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "提高",
+    "traditional": "提高",
+    "pinyin": "tígāo",
+    "french": "increase, promote",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "提",
+      "高"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"提高\"这个词。",
+        "pinyin": "wǒ xuéxí \"tígāo\" zhège cí.",
+        "french": "J'apprends le mot \"increase, promote\"."
+      },
+      {
+        "chinese": "你知道\"提高\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tígāo\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"increase, promote\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "题",
+    "traditional": "题",
+    "pinyin": "tí",
+    "french": "topic",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "题"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"题\"这个词。",
+        "pinyin": "wǒ xuéxí \"tí\" zhège cí.",
+        "french": "J'apprends le mot \"topic\"."
+      },
+      {
+        "chinese": "你知道\"题\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"topic\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "体育",
+    "traditional": "体育",
+    "pinyin": "tǐyù",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "体",
+      "育"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"体育\"这个词。",
+        "pinyin": "wǒ xuéxí \"tǐyù\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"体育\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tǐyù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "体育场",
+    "traditional": "体育场",
+    "pinyin": "tǐ yù chǎng",
+    "french": "stadium",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "体",
+      "育",
+      "场"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"体育场\"这个词。",
+        "pinyin": "wǒ xuéxí \"tǐ yù chǎng\" zhège cí.",
+        "french": "J'apprends le mot \"stadium\"."
+      },
+      {
+        "chinese": "你知道\"体育场\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tǐ yù chǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"stadium\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "体育馆",
+    "traditional": "体育馆",
+    "pinyin": "tǐ yù guǎn",
+    "french": "gymnasium; gym",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "体",
+      "育",
+      "馆"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"体育馆\"这个词。",
+        "pinyin": "wǒ xuéxí \"tǐ yù guǎn\" zhège cí.",
+        "french": "J'apprends le mot \"gymnasium; gym\"."
+      },
+      {
+        "chinese": "你知道\"体育馆\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tǐ yù guǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"gymnasium; gym\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "天上",
+    "traditional": "天上",
+    "pinyin": "tiān shàng",
+    "french": "il",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "天",
+      "上"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"天上\"这个词。",
+        "pinyin": "wǒ xuéxí \"tiān shàng\" zhège cí.",
+        "french": "J'apprends le mot \"il\"."
+      },
+      {
+        "chinese": "你知道\"天上\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tiān shàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "条件",
+    "traditional": "条件",
+    "pinyin": "tiáojiàn",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "条",
+      "件"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"条件\"这个词。",
+        "pinyin": "wǒ xuéxí \"tiáojiàn\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"条件\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tiáojiàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "听讲",
+    "traditional": "听讲",
+    "pinyin": "tīng jiǎng",
+    "french": "dix",
+    "hsk_level": 2,
+    "category": "nombres",
+    "components": [
+      "听",
+      "讲"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"听讲\"这个词。",
+        "pinyin": "wǒ xuéxí \"tīng jiǎng\" zhège cí.",
+        "french": "J'apprends le mot \"dix\"."
+      },
+      {
+        "chinese": "你知道\"听讲\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tīng jiǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"dix\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "听说",
+    "traditional": "听说",
+    "pinyin": "tīng shuō",
+    "french": "vieux",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "听",
+      "说"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"听说\"这个词。",
+        "pinyin": "wǒ xuéxí \"tīng shuō\" zhège cí.",
+        "french": "J'apprends le mot \"vieux\"."
+      },
+      {
+        "chinese": "你知道\"听说\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tīng shuō\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"vieux\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "停",
+    "traditional": "停",
+    "pinyin": "tíng",
+    "french": "Stop",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "停"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"停\"这个词。",
+        "pinyin": "wǒ xuéxí \"tíng\" zhège cí.",
+        "french": "J'apprends le mot \"Stop\"."
+      },
+      {
+        "chinese": "你知道\"停\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tíng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Stop\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "停车",
+    "traditional": "停车",
+    "pinyin": "tíng chē",
+    "french": "park",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "停",
+      "车"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"停车\"这个词。",
+        "pinyin": "wǒ xuéxí \"tíng chē\" zhège cí.",
+        "french": "J'apprends le mot \"park\"."
+      },
+      {
+        "chinese": "你知道\"停车\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tíng chē\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"park\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "停车场",
+    "traditional": "停车场",
+    "pinyin": "tíng chē chǎng",
+    "french": "parking lot",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "停",
+      "车",
+      "场"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"停车场\"这个词。",
+        "pinyin": "wǒ xuéxí \"tíng chē chǎng\" zhège cí.",
+        "french": "J'apprends le mot \"parking lot\"."
+      },
+      {
+        "chinese": "你知道\"停车场\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tíng chē chǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"parking lot\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "挺",
+    "traditional": "挺",
+    "pinyin": "tǐng",
+    "french": "très",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "挺"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"挺\"这个词。",
+        "pinyin": "wǒ xuéxí \"tǐng\" zhège cí.",
+        "french": "J'apprends le mot \"très\"."
+      },
+      {
+        "chinese": "你知道\"挺\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tǐng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"très\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "挺好",
+    "traditional": "挺好",
+    "pinyin": "tǐng hǎo",
+    "french": "demi",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "挺",
+      "好"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"挺好\"这个词。",
+        "pinyin": "wǒ xuéxí \"tǐng hǎo\" zhège cí.",
+        "french": "J'apprends le mot \"demi\"."
+      },
+      {
+        "chinese": "你知道\"挺好\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tǐng hǎo\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"demi\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "通",
+    "traditional": "通",
+    "pinyin": "tōng",
+    "french": "tous",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "通"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"通\"这个词。",
+        "pinyin": "wǒ xuéxí \"tōng\" zhège cí.",
+        "french": "J'apprends le mot \"tous\"."
+      },
+      {
+        "chinese": "你知道\"通\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tōng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"tous\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "通过",
+    "traditional": "通过",
+    "pinyin": "tōngguò",
+    "french": "faire",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "通",
+      "过"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"通过\"这个词。",
+        "pinyin": "wǒ xuéxí \"tōngguò\" zhège cí.",
+        "french": "J'apprends le mot \"faire\"."
+      },
+      {
+        "chinese": "你知道\"通过\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tōngguò\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"faire\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "通知",
+    "traditional": "通知",
+    "pinyin": "tōngzhī",
+    "french": "ne pas",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "通",
+      "知"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"通知\"这个词。",
+        "pinyin": "wǒ xuéxí \"tōngzhī\" zhège cí.",
+        "french": "J'apprends le mot \"ne pas\"."
+      },
+      {
+        "chinese": "你知道\"通知\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tōngzhī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ne pas\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "同时",
+    "traditional": "同时",
+    "pinyin": "tóngshí",
+    "french": "signifier",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "同",
+      "时"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"同时\"这个词。",
+        "pinyin": "wǒ xuéxí \"tóngshí\" zhège cí.",
+        "french": "J'apprends le mot \"signifier\"."
+      },
+      {
+        "chinese": "你知道\"同时\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tóngshí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"signifier\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "同样",
+    "traditional": "同样",
+    "pinyin": "tóng yàng",
+    "french": "same",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "同",
+      "样"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"同样\"这个词。",
+        "pinyin": "wǒ xuéxí \"tóng yàng\" zhège cí.",
+        "french": "J'apprends le mot \"same\"."
+      },
+      {
+        "chinese": "你知道\"同样\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tóng yàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"same\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "头",
+    "traditional": "头",
+    "pinyin": "tóu",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "头"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"头\"这个词。",
+        "pinyin": "wǒ xuéxí \"tóu\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"头\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tóu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "头发",
+    "traditional": "头发",
+    "pinyin": "tóufa",
+    "french": "Hair",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "头",
+      "发"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"头发\"这个词。",
+        "pinyin": "wǒ xuéxí \"tóufa\" zhège cí.",
+        "french": "J'apprends le mot \"Hair\"."
+      },
+      {
+        "chinese": "你知道\"头发\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tóufa\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Hair\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "图片",
+    "traditional": "图片",
+    "pinyin": "tú piàn",
+    "french": "chaud",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "图",
+      "片"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"图片\"这个词。",
+        "pinyin": "wǒ xuéxí \"tú piàn\" zhège cí.",
+        "french": "J'apprends le mot \"chaud\"."
+      },
+      {
+        "chinese": "你知道\"图片\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tú piàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"chaud\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "推",
+    "traditional": "推",
+    "pinyin": "tuī",
+    "french": "push",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "推"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"推\"这个词。",
+        "pinyin": "wǒ xuéxí \"tuī\" zhège cí.",
+        "french": "J'apprends le mot \"push\"."
+      },
+      {
+        "chinese": "你知道\"推\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"tuī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"push\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "外地",
+    "traditional": "外地",
+    "pinyin": "wài dì",
+    "french": "autre",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "外",
+      "地"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"外地\"这个词。",
+        "pinyin": "wǒ xuéxí \"wài dì\" zhège cí.",
+        "french": "J'apprends le mot \"autre\"."
+      },
+      {
+        "chinese": "你知道\"外地\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wài dì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"autre\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "外卖",
+    "traditional": "外卖",
+    "pinyin": "wài mài",
+    "french": "takeaway; take out",
+    "hsk_level": 2,
+    "category": "verbes",
+    "components": [
+      "外",
+      "卖"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"外卖\"这个词。",
+        "pinyin": "wǒ xuéxí \"wài mài\" zhège cí.",
+        "french": "J'apprends le mot \"takeaway; take out\"."
+      },
+      {
+        "chinese": "你知道\"外卖\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wài mài\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"takeaway; take out\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "完成",
+    "traditional": "完成",
+    "pinyin": "wánchéng",
+    "french": "complete",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "完",
+      "成"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"完成\"这个词。",
+        "pinyin": "wǒ xuéxí \"wánchéng\" zhège cí.",
+        "french": "J'apprends le mot \"complete\"."
+      },
+      {
+        "chinese": "你知道\"完成\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wánchéng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"complete\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "完全",
+    "traditional": "完全",
+    "pinyin": "wánquán",
+    "french": "completely",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "完",
+      "全"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"完全\"这个词。",
+        "pinyin": "wǒ xuéxí \"wánquán\" zhège cí.",
+        "french": "J'apprends le mot \"completely\"."
+      },
+      {
+        "chinese": "你知道\"完全\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wánquán\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"completely\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "晚安",
+    "traditional": "晚安",
+    "pinyin": "wǎn ān",
+    "french": "bon",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "晚",
+      "安"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"晚安\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎn ān\" zhège cí.",
+        "french": "J'apprends le mot \"bon\"."
+      },
+      {
+        "chinese": "你知道\"晚安\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎn ān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"bon\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "晚报",
+    "traditional": "晚报",
+    "pinyin": "wǎn bào",
+    "french": "soir",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "晚",
+      "报"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"晚报\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎn bào\" zhège cí.",
+        "french": "J'apprends le mot \"soir\"."
+      },
+      {
+        "chinese": "你知道\"晚报\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎn bào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"soir\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "晚餐",
+    "traditional": "晚餐",
+    "pinyin": "wǎn cān",
+    "french": "dinner; supper",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "晚",
+      "餐"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"晚餐\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎn cān\" zhège cí.",
+        "french": "J'apprends le mot \"dinner; supper\"."
+      },
+      {
+        "chinese": "你知道\"晚餐\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎn cān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"dinner; supper\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "晚会",
+    "traditional": "晚会",
+    "pinyin": "wǎn huì",
+    "french": "soir",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "晚",
+      "会"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"晚会\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎn huì\" zhège cí.",
+        "french": "J'apprends le mot \"soir\"."
+      },
+      {
+        "chinese": "你知道\"晚会\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎn huì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"soir\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "碗",
+    "traditional": "碗",
+    "pinyin": "wǎn",
+    "french": "bowl",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "碗"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"碗\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎn\" zhège cí.",
+        "french": "J'apprends le mot \"bowl\"."
+      },
+      {
+        "chinese": "你知道\"碗\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"bowl\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "网",
+    "traditional": "网",
+    "pinyin": "wǎng",
+    "french": "deux",
+    "hsk_level": 2,
+    "category": "nombres",
+    "components": [
+      "网"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"网\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎng\" zhège cí.",
+        "french": "J'apprends le mot \"deux\"."
+      },
+      {
+        "chinese": "你知道\"网\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"deux\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "网球",
+    "traditional": "网球",
+    "pinyin": "wǎngqiú",
+    "french": "dix",
+    "hsk_level": 2,
+    "category": "nombres",
+    "components": [
+      "网",
+      "球"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"网球\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎngqiú\" zhège cí.",
+        "french": "J'apprends le mot \"dix\"."
+      },
+      {
+        "chinese": "你知道\"网球\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎngqiú\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"dix\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "网站",
+    "traditional": "网站",
+    "pinyin": "wǎngzhàn",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "网",
+      "站"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"网站\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǎngzhàn\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"网站\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǎngzhàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "为",
+    "traditional": "为",
+    "pinyin": "wèi",
+    "french": "passe-temps",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "为"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"为\"这个词。",
+        "pinyin": "wǒ xuéxí \"wèi\" zhège cí.",
+        "french": "J'apprends le mot \"passe-temps\"."
+      },
+      {
+        "chinese": "你知道\"为\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wèi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"passe-temps\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "为什么",
+    "traditional": "为什么",
+    "pinyin": "wèishénme",
+    "french": "Why",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "为",
+      "什",
+      "么"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"为什么\"这个词。",
+        "pinyin": "wǒ xuéxí \"wèishénme\" zhège cí.",
+        "french": "J'apprends le mot \"Why\"."
+      },
+      {
+        "chinese": "你知道\"为什么\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wèishénme\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Why\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "位",
+    "traditional": "位",
+    "pinyin": "wèi",
+    "french": "fils",
+    "hsk_level": 2,
+    "category": "famille",
+    "components": [
+      "位"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"位\"这个词。",
+        "pinyin": "wǒ xuéxí \"wèi\" zhège cí.",
+        "french": "J'apprends le mot \"fils\"."
+      },
+      {
+        "chinese": "你知道\"位\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wèi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"fils\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "味道",
+    "traditional": "味道",
+    "pinyin": "wèidào",
+    "french": "taste",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "味",
+      "道"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"味道\"这个词。",
+        "pinyin": "wǒ xuéxí \"wèidào\" zhège cí.",
+        "french": "J'apprends le mot \"taste\"."
+      },
+      {
+        "chinese": "你知道\"味道\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wèidào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"taste\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "喂",
+    "traditional": "喂",
+    "pinyin": "wèi",
+    "french": "il",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "喂"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"喂\"这个词。",
+        "pinyin": "wǒ xuéxí \"wèi\" zhège cí.",
+        "french": "J'apprends le mot \"il\"."
+      },
+      {
+        "chinese": "你知道\"喂\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wèi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "温度",
+    "traditional": "温度",
+    "pinyin": "wēndù",
+    "french": "temperature",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "温",
+      "度"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"温度\"这个词。",
+        "pinyin": "wǒ xuéxí \"wēndù\" zhège cí.",
+        "french": "J'apprends le mot \"temperature\"."
+      },
+      {
+        "chinese": "你知道\"温度\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wēndù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"temperature\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "闻",
+    "traditional": "闻",
+    "pinyin": "wén",
+    "french": "smell",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "闻"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"闻\"这个词。",
+        "pinyin": "wǒ xuéxí \"wén\" zhège cí.",
+        "french": "J'apprends le mot \"smell\"."
+      },
+      {
+        "chinese": "你知道\"闻\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"smell\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "问路",
+    "traditional": "问路",
+    "pinyin": "wèn lù",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "问",
+      "路"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"问路\"这个词。",
+        "pinyin": "wǒ xuéxí \"wèn lù\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"问路\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wèn lù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "午餐",
+    "traditional": "午餐",
+    "pinyin": "wǔ cān",
+    "french": "lunch",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "午",
+      "餐"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"午餐\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǔ cān\" zhège cí.",
+        "french": "J'apprends le mot \"lunch\"."
+      },
+      {
+        "chinese": "你知道\"午餐\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǔ cān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"lunch\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "午睡",
+    "traditional": "午睡",
+    "pinyin": "wǔ shuì",
+    "french": "nap",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "午",
+      "睡"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"午睡\"这个词。",
+        "pinyin": "wǒ xuéxí \"wǔ shuì\" zhège cí.",
+        "french": "J'apprends le mot \"nap\"."
+      },
+      {
+        "chinese": "你知道\"午睡\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"wǔ shuì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"nap\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "西北",
+    "traditional": "西北",
+    "pinyin": "xī běi",
+    "french": "nord",
+    "hsk_level": 2,
+    "category": "lieux",
+    "components": [
+      "西",
+      "北"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"西北\"这个词。",
+        "pinyin": "wǒ xuéxí \"xī běi\" zhège cí.",
+        "french": "J'apprends le mot \"nord\"."
+      },
+      {
+        "chinese": "你知道\"西北\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xī běi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"nord\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "西餐",
+    "traditional": "西餐",
+    "pinyin": "xī cān",
+    "french": "ouest",
+    "hsk_level": 2,
+    "category": "lieux",
+    "components": [
+      "西",
+      "餐"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"西餐\"这个词。",
+        "pinyin": "wǒ xuéxí \"xī cān\" zhège cí.",
+        "french": "J'apprends le mot \"ouest\"."
+      },
+      {
+        "chinese": "你知道\"西餐\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xī cān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ouest\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "西方",
+    "traditional": "西方",
+    "pinyin": "xī fāng",
+    "french": "ouest",
+    "hsk_level": 2,
+    "category": "lieux",
+    "components": [
+      "西",
+      "方"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"西方\"这个词。",
+        "pinyin": "wǒ xuéxí \"xī fāng\" zhège cí.",
+        "french": "J'apprends le mot \"ouest\"."
+      },
+      {
+        "chinese": "你知道\"西方\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xī fāng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ouest\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "西南",
+    "traditional": "西南",
+    "pinyin": "xī nán",
+    "french": "sud",
+    "hsk_level": 2,
+    "category": "lieux",
+    "components": [
+      "西",
+      "南"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"西南\"这个词。",
+        "pinyin": "wǒ xuéxí \"xī nán\" zhège cí.",
+        "french": "J'apprends le mot \"sud\"."
+      },
+      {
+        "chinese": "你知道\"西南\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xī nán\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"sud\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "西医",
+    "traditional": "西医",
+    "pinyin": "xī yī",
+    "french": "ouest",
+    "hsk_level": 2,
+    "category": "lieux",
+    "components": [
+      "西",
+      "医"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"西医\"这个词。",
+        "pinyin": "wǒ xuéxí \"xī yī\" zhège cí.",
+        "french": "J'apprends le mot \"ouest\"."
+      },
+      {
+        "chinese": "你知道\"西医\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xī yī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ouest\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "习惯",
+    "traditional": "习惯",
+    "pinyin": "xíguàn",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "习",
+      "惯"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"习惯\"这个词。",
+        "pinyin": "wǒ xuéxí \"xíguàn\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"习惯\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xíguàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "洗衣机",
+    "traditional": "洗衣机",
+    "pinyin": "xǐ yī jī",
+    "french": "laver",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "洗",
+      "衣",
+      "机"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"洗衣机\"这个词。",
+        "pinyin": "wǒ xuéxí \"xǐ yī jī\" zhège cí.",
+        "french": "J'apprends le mot \"laver\"."
+      },
+      {
+        "chinese": "你知道\"洗衣机\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xǐ yī jī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"laver\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "洗澡",
+    "traditional": "洗澡",
+    "pinyin": "xǐzǎo",
+    "french": "Take a shower",
+    "hsk_level": 2,
+    "category": "verbes",
+    "components": [
+      "洗",
+      "澡"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"洗澡\"这个词。",
+        "pinyin": "wǒ xuéxí \"xǐzǎo\" zhège cí.",
+        "french": "J'apprends le mot \"Take a shower\"."
+      },
+      {
+        "chinese": "你知道\"洗澡\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xǐzǎo\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Take a shower\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "下",
+    "traditional": "下",
+    "pinyin": "xià",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "下"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"下\"这个词。",
+        "pinyin": "wǒ xuéxí \"xià\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"下\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xià\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "下雪",
+    "traditional": "下雪",
+    "pinyin": "xià xuě",
+    "french": "neige",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "下",
+      "雪"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"下雪\"这个词。",
+        "pinyin": "wǒ xuéxí \"xià xuě\" zhège cí.",
+        "french": "J'apprends le mot \"neige\"."
+      },
+      {
+        "chinese": "你知道\"下雪\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xià xuě\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"neige\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "下周",
+    "traditional": "下周",
+    "pinyin": "xià zhōu",
+    "french": "semaine",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "下",
+      "周"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"下周\"这个词。",
+        "pinyin": "wǒ xuéxí \"xià zhōu\" zhège cí.",
+        "french": "J'apprends le mot \"semaine\"."
+      },
+      {
+        "chinese": "你知道\"下周\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xià zhōu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"semaine\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "相同",
+    "traditional": "相同",
+    "pinyin": "xiāngtóng",
+    "french": "identical",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "相",
+      "同"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"相同\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiāngtóng\" zhège cí.",
+        "french": "J'apprends le mot \"identical\"."
+      },
+      {
+        "chinese": "你知道\"相同\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiāngtóng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"identical\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "响",
+    "traditional": "响",
+    "pinyin": "xiǎng",
+    "french": "loud",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "响"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"响\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎng\" zhège cí.",
+        "french": "J'apprends le mot \"loud\"."
+      },
+      {
+        "chinese": "你知道\"响\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"loud\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "想到",
+    "traditional": "想到",
+    "pinyin": "xiǎng dào",
+    "french": "tous",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "想",
+      "到"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"想到\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎng dào\" zhège cí.",
+        "french": "J'apprends le mot \"tous\"."
+      },
+      {
+        "chinese": "你知道\"想到\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎng dào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"tous\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "想法",
+    "traditional": "想法",
+    "pinyin": "xiǎng fǎ",
+    "french": "idea; opinion; thought",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "想",
+      "法"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"想法\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎng fǎ\" zhège cí.",
+        "french": "J'apprends le mot \"idea; opinion; thought\"."
+      },
+      {
+        "chinese": "你知道\"想法\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎng fǎ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"idea; opinion; thought\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "想起",
+    "traditional": "想起",
+    "pinyin": "xiǎng qǐ",
+    "french": "tous",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "想",
+      "起"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"想起\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎng qǐ\" zhège cí.",
+        "french": "J'apprends le mot \"tous\"."
+      },
+      {
+        "chinese": "你知道\"想起\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎng qǐ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"tous\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "相机",
+    "traditional": "相机",
+    "pinyin": "xiàng jī",
+    "french": "camera",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "相",
+      "机"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"相机\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiàng jī\" zhège cí.",
+        "french": "J'apprends le mot \"camera\"."
+      },
+      {
+        "chinese": "你知道\"相机\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiàng jī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"camera\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "像",
+    "traditional": "像",
+    "pinyin": "xiàng",
+    "french": "aimer",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "像"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"像\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiàng\" zhège cí.",
+        "french": "J'apprends le mot \"aimer\"."
+      },
+      {
+        "chinese": "你知道\"像\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"aimer\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "小",
+    "traditional": "小",
+    "pinyin": "xiǎo（xiǎo wáng）",
+    "french": "prefix (Xiao Wang)",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "小"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"小\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎo（xiǎo wáng）\" zhège cí.",
+        "french": "J'apprends le mot \"prefix (Xiao Wang)\"."
+      },
+      {
+        "chinese": "你知道\"小\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎo（xiǎo wáng）\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"prefix (Xiao Wang)\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "小声",
+    "traditional": "小声",
+    "pinyin": "xiǎo shēng",
+    "french": "in a low voice",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "小",
+      "声"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"小声\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎo shēng\" zhège cí.",
+        "french": "J'apprends le mot \"in a low voice\"."
+      },
+      {
+        "chinese": "你知道\"小声\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎo shēng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"in a low voice\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "小时候",
+    "traditional": "小时候",
+    "pinyin": "xiǎo shí hou",
+    "french": "enfant",
+    "hsk_level": 2,
+    "category": "famille",
+    "components": [
+      "小",
+      "时",
+      "候"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"小时候\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎo shí hou\" zhège cí.",
+        "french": "J'apprends le mot \"enfant\"."
+      },
+      {
+        "chinese": "你知道\"小时候\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎo shí hou\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"enfant\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "小说",
+    "traditional": "小说",
+    "pinyin": "xiǎoshuō",
+    "french": "Novel",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "小",
+      "说"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"小说\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎoshuō\" zhège cí.",
+        "french": "J'apprends le mot \"Novel\"."
+      },
+      {
+        "chinese": "你知道\"小说\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎoshuō\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Novel\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "小心",
+    "traditional": "小心",
+    "pinyin": "xiǎoxīn",
+    "french": "regarder",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "小",
+      "心"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"小心\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎoxīn\" zhège cí.",
+        "french": "J'apprends le mot \"regarder\"."
+      },
+      {
+        "chinese": "你知道\"小心\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎoxīn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"regarder\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "小组",
+    "traditional": "小组",
+    "pinyin": "xiǎo zǔ",
+    "french": "group",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "小",
+      "组"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"小组\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiǎo zǔ\" zhège cí.",
+        "french": "J'apprends le mot \"group\"."
+      },
+      {
+        "chinese": "你知道\"小组\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiǎo zǔ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"group\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "校园",
+    "traditional": "校园",
+    "pinyin": "xiào yuán",
+    "french": "école",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "校",
+      "园"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"校园\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiào yuán\" zhège cí.",
+        "french": "J'apprends le mot \"école\"."
+      },
+      {
+        "chinese": "你知道\"校园\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiào yuán\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"école\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "校长",
+    "traditional": "校长",
+    "pinyin": "xiàozhǎng",
+    "french": "Principal",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "校",
+      "长"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"校长\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiàozhǎng\" zhège cí.",
+        "french": "J'apprends le mot \"Principal\"."
+      },
+      {
+        "chinese": "你知道\"校长\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiàozhǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Principal\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "笑话",
+    "traditional": "笑话",
+    "pinyin": "xiàohua",
+    "french": "joke",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "笑",
+      "话"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"笑话\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiàohua\" zhège cí.",
+        "french": "J'apprends le mot \"joke\"."
+      },
+      {
+        "chinese": "你知道\"笑话\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiàohua\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"joke\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "笑话儿",
+    "traditional": "笑话儿",
+    "pinyin": "xiào huàr",
+    "french": "joke",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "笑",
+      "话",
+      "儿"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"笑话儿\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiào huàr\" zhège cí.",
+        "french": "J'apprends le mot \"joke\"."
+      },
+      {
+        "chinese": "你知道\"笑话儿\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiào huàr\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"joke\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "心里",
+    "traditional": "心里",
+    "pinyin": "xīn lǐ",
+    "french": "il",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "心",
+      "里"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"心里\"这个词。",
+        "pinyin": "wǒ xuéxí \"xīn lǐ\" zhège cí.",
+        "french": "J'apprends le mot \"il\"."
+      },
+      {
+        "chinese": "你知道\"心里\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xīn lǐ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "心情",
+    "traditional": "心情",
+    "pinyin": "xīnqíng",
+    "french": "mood",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "心",
+      "情"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"心情\"这个词。",
+        "pinyin": "wǒ xuéxí \"xīnqíng\" zhège cí.",
+        "french": "J'apprends le mot \"mood\"."
+      },
+      {
+        "chinese": "你知道\"心情\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xīnqíng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"mood\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "心中",
+    "traditional": "心中",
+    "pinyin": "xīn zhōng",
+    "french": "il",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "心",
+      "中"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"心中\"这个词。",
+        "pinyin": "wǒ xuéxí \"xīn zhōng\" zhège cí.",
+        "french": "J'apprends le mot \"il\"."
+      },
+      {
+        "chinese": "你知道\"心中\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xīn zhōng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "新闻",
+    "traditional": "新闻",
+    "pinyin": "xīnwén",
+    "french": "nouveau",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "新",
+      "闻"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"新闻\"这个词。",
+        "pinyin": "wǒ xuéxí \"xīnwén\" zhège cí.",
+        "french": "J'apprends le mot \"nouveau\"."
+      },
+      {
+        "chinese": "你知道\"新闻\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xīnwén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"nouveau\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "信",
+    "traditional": "信",
+    "pinyin": "xìn",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "信"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"信\"这个词。",
+        "pinyin": "wǒ xuéxí \"xìn\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"信\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xìn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "信号",
+    "traditional": "信号",
+    "pinyin": "xìnhào",
+    "french": "signal",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "信",
+      "号"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"信号\"这个词。",
+        "pinyin": "wǒ xuéxí \"xìnhào\" zhège cí.",
+        "french": "J'apprends le mot \"signal\"."
+      },
+      {
+        "chinese": "你知道\"信号\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xìnhào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"signal\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "信息",
+    "traditional": "信息",
+    "pinyin": "xìnxī",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "信",
+      "息"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"信息\"这个词。",
+        "pinyin": "wǒ xuéxí \"xìnxī\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"信息\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xìnxī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "信心",
+    "traditional": "信心",
+    "pinyin": "xìnxīn",
+    "french": "confidence",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "信",
+      "心"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"信心\"这个词。",
+        "pinyin": "wǒ xuéxí \"xìnxīn\" zhège cí.",
+        "french": "J'apprends le mot \"confidence\"."
+      },
+      {
+        "chinese": "你知道\"信心\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xìnxīn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"confidence\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "信用卡",
+    "traditional": "信用卡",
+    "pinyin": "xìnyòngkǎ",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "信",
+      "用",
+      "卡"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"信用卡\"这个词。",
+        "pinyin": "wǒ xuéxí \"xìnyòngkǎ\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"信用卡\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xìnyòngkǎ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "星星",
+    "traditional": "星星",
+    "pinyin": "xīng xing",
+    "french": "étoile",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "星"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"星星\"这个词。",
+        "pinyin": "wǒ xuéxí \"xīng xing\" zhège cí.",
+        "french": "J'apprends le mot \"étoile\"."
+      },
+      {
+        "chinese": "你知道\"星星\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xīng xing\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"étoile\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "行动",
+    "traditional": "行动",
+    "pinyin": "xíngdòng",
+    "french": "Get some action",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "行",
+      "动"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"行动\"这个词。",
+        "pinyin": "wǒ xuéxí \"xíngdòng\" zhège cí.",
+        "french": "J'apprends le mot \"Get some action\"."
+      },
+      {
+        "chinese": "你知道\"行动\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xíngdòng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Get some action\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "行人",
+    "traditional": "行人",
+    "pinyin": "xíngrén",
+    "french": "pedestrian",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "行",
+      "人"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"行人\"这个词。",
+        "pinyin": "wǒ xuéxí \"xíngrén\" zhège cí.",
+        "french": "J'apprends le mot \"pedestrian\"."
+      },
+      {
+        "chinese": "你知道\"行人\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xíngrén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"pedestrian\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "行为",
+    "traditional": "行为",
+    "pinyin": "xíngwéi",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "行",
+      "为"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"行为\"这个词。",
+        "pinyin": "wǒ xuéxí \"xíngwéi\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"行为\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xíngwéi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "姓",
+    "traditional": "姓",
+    "pinyin": "xìng",
+    "french": "nom",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "姓"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"姓\"这个词。",
+        "pinyin": "wǒ xuéxí \"xìng\" zhège cí.",
+        "french": "J'apprends le mot \"nom\"."
+      },
+      {
+        "chinese": "你知道\"姓\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xìng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"nom\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "姓名",
+    "traditional": "姓名",
+    "pinyin": "xìng míng",
+    "french": "plein",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "姓",
+      "名"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"姓名\"这个词。",
+        "pinyin": "wǒ xuéxí \"xìng míng\" zhège cí.",
+        "french": "J'apprends le mot \"plein\"."
+      },
+      {
+        "chinese": "你知道\"姓名\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xìng míng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"plein\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "休假",
+    "traditional": "休假",
+    "pinyin": "xiū jià",
+    "french": "jour",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "休",
+      "假"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"休假\"这个词。",
+        "pinyin": "wǒ xuéxí \"xiū jià\" zhège cí.",
+        "french": "J'apprends le mot \"jour\"."
+      },
+      {
+        "chinese": "你知道\"休假\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xiū jià\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"jour\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "许多",
+    "traditional": "许多",
+    "pinyin": "xǔduō",
+    "french": "beaucoup",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "许",
+      "多"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"许多\"这个词。",
+        "pinyin": "wǒ xuéxí \"xǔduō\" zhège cí.",
+        "french": "J'apprends le mot \"beaucoup\"."
+      },
+      {
+        "chinese": "你知道\"许多\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xǔduō\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"beaucoup\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "选",
+    "traditional": "选",
+    "pinyin": "xuǎn",
+    "french": "choose; select",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "选"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"选\"这个词。",
+        "pinyin": "wǒ xuéxí \"xuǎn\" zhège cí.",
+        "french": "J'apprends le mot \"choose; select\"."
+      },
+      {
+        "chinese": "你知道\"选\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xuǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"choose; select\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "学期",
+    "traditional": "学期",
+    "pinyin": "xuéqī",
+    "french": "Semester",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "学",
+      "期"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"学期\"这个词。",
+        "pinyin": "wǒ xuéxí \"xuéqī\" zhège cí.",
+        "french": "J'apprends le mot \"Semester\"."
+      },
+      {
+        "chinese": "你知道\"学期\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xuéqī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Semester\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "雪",
+    "traditional": "雪",
+    "pinyin": "xuě",
+    "french": "neige",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "雪"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"雪\"这个词。",
+        "pinyin": "wǒ xuéxí \"xuě\" zhège cí.",
+        "french": "J'apprends le mot \"neige\"."
+      },
+      {
+        "chinese": "你知道\"雪\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"xuě\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"neige\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "眼",
+    "traditional": "眼",
+    "pinyin": "yǎn",
+    "french": "oeil",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "眼"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"眼\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǎn\" zhège cí.",
+        "french": "J'apprends le mot \"oeil\"."
+      },
+      {
+        "chinese": "你知道\"眼\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"oeil\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "眼睛",
+    "traditional": "眼睛",
+    "pinyin": "yǎnjing",
+    "french": "oeil",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "眼",
+      "睛"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"眼睛\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǎnjing\" zhège cí.",
+        "french": "J'apprends le mot \"oeil\"."
+      },
+      {
+        "chinese": "你知道\"眼睛\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǎnjing\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"oeil\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "养",
+    "traditional": "养",
+    "pinyin": "yǎng",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "养"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"养\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǎng\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"养\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "样子",
+    "traditional": "样子",
+    "pinyin": "yàngzi",
+    "french": "regarder",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "样",
+      "子"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"样子\"这个词。",
+        "pinyin": "wǒ xuéxí \"yàngzi\" zhège cí.",
+        "french": "J'apprends le mot \"regarder\"."
+      },
+      {
+        "chinese": "你知道\"样子\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yàngzi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"regarder\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "要求",
+    "traditional": "要求",
+    "pinyin": "yāoqiú",
+    "french": "Requirement",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "要",
+      "求"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"要求\"这个词。",
+        "pinyin": "wǒ xuéxí \"yāoqiú\" zhège cí.",
+        "french": "J'apprends le mot \"Requirement\"."
+      },
+      {
+        "chinese": "你知道\"要求\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yāoqiú\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Requirement\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "药店",
+    "traditional": "药店",
+    "pinyin": "yào diàn",
+    "french": "pharmacy",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "药",
+      "店"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"药店\"这个词。",
+        "pinyin": "wǒ xuéxí \"yào diàn\" zhège cí.",
+        "french": "J'apprends le mot \"pharmacy\"."
+      },
+      {
+        "chinese": "你知道\"药店\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yào diàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"pharmacy\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "药片",
+    "traditional": "药片",
+    "pinyin": "yào piàn",
+    "french": "pill",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "药",
+      "片"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"药片\"这个词。",
+        "pinyin": "wǒ xuéxí \"yào piàn\" zhège cí.",
+        "french": "J'apprends le mot \"pill\"."
+      },
+      {
+        "chinese": "你知道\"药片\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yào piàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"pill\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "药水",
+    "traditional": "药水",
+    "pinyin": "yào shuǐ",
+    "french": "liquid medicine",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "药",
+      "水"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"药水\"这个词。",
+        "pinyin": "wǒ xuéxí \"yào shuǐ\" zhège cí.",
+        "french": "J'apprends le mot \"liquid medicine\"."
+      },
+      {
+        "chinese": "你知道\"药水\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yào shuǐ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"liquid medicine\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "也许",
+    "traditional": "也许",
+    "pinyin": "yěxǔ",
+    "french": "perhaps",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "也",
+      "许"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"也许\"这个词。",
+        "pinyin": "wǒ xuéxí \"yěxǔ\" zhège cí.",
+        "french": "J'apprends le mot \"perhaps\"."
+      },
+      {
+        "chinese": "你知道\"也许\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yěxǔ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"perhaps\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "夜",
+    "traditional": "夜",
+    "pinyin": "yè",
+    "french": "nuit",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "夜"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"夜\"这个词。",
+        "pinyin": "wǒ xuéxí \"yè\" zhège cí.",
+        "french": "J'apprends le mot \"nuit\"."
+      },
+      {
+        "chinese": "你知道\"夜\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yè\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"nuit\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "夜里",
+    "traditional": "夜里",
+    "pinyin": "yè lǐ",
+    "french": "nuit",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "夜",
+      "里"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"夜里\"这个词。",
+        "pinyin": "wǒ xuéxí \"yè lǐ\" zhège cí.",
+        "french": "J'apprends le mot \"nuit\"."
+      },
+      {
+        "chinese": "你知道\"夜里\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yè lǐ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"nuit\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一部分",
+    "traditional": "一部分",
+    "pinyin": "yí bù fèn",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "一",
+      "部",
+      "分"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一部分\"这个词。",
+        "pinyin": "wǒ xuéxí \"yí bù fèn\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"一部分\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yí bù fèn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一定",
+    "traditional": "一定",
+    "pinyin": "yídìng",
+    "french": "certainement",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "一",
+      "定"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一定\"这个词。",
+        "pinyin": "wǒ xuéxí \"yídìng\" zhège cí.",
+        "french": "J'apprends le mot \"certainement\"."
+      },
+      {
+        "chinese": "你知道\"一定\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yídìng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"certainement\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一共",
+    "traditional": "一共",
+    "pinyin": "yígòng",
+    "french": "il",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "一",
+      "共"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一共\"这个词。",
+        "pinyin": "wǒ xuéxí \"yígòng\" zhège cí.",
+        "french": "J'apprends le mot \"il\"."
+      },
+      {
+        "chinese": "你知道\"一共\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yígòng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一会儿",
+    "traditional": "一会儿",
+    "pinyin": "yí huìr",
+    "french": "awhile; in a moment",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "一",
+      "会",
+      "儿"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一会儿\"这个词。",
+        "pinyin": "wǒ xuéxí \"yí huìr\" zhège cí.",
+        "french": "J'apprends le mot \"awhile; in a moment\"."
+      },
+      {
+        "chinese": "你知道\"一会儿\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yí huìr\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"awhile; in a moment\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一路平安",
+    "traditional": "一路平安",
+    "pinyin": "yí lù píng ān",
+    "french": "sûr",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "一",
+      "路",
+      "平",
+      "安"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一路平安\"这个词。",
+        "pinyin": "wǒ xuéxí \"yí lù píng ān\" zhège cí.",
+        "french": "J'apprends le mot \"sûr\"."
+      },
+      {
+        "chinese": "你知道\"一路平安\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yí lù píng ān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"sûr\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一路顺风",
+    "traditional": "一路顺风",
+    "pinyin": "yí lù shùn fēng",
+    "french": "Bon voyage",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "一",
+      "路",
+      "顺",
+      "风"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一路顺风\"这个词。",
+        "pinyin": "wǒ xuéxí \"yí lù shùn fēng\" zhège cí.",
+        "french": "J'apprends le mot \"Bon voyage\"."
+      },
+      {
+        "chinese": "你知道\"一路顺风\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yí lù shùn fēng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Bon voyage\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "已经",
+    "traditional": "已经",
+    "pinyin": "yǐjīng",
+    "french": "déjà",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "已",
+      "经"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"已经\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐjīng\" zhège cí.",
+        "french": "J'apprends le mot \"déjà\"."
+      },
+      {
+        "chinese": "你知道\"已经\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐjīng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"déjà\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "以上",
+    "traditional": "以上",
+    "pinyin": "yǐ shàng",
+    "french": "au-dessus",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "以",
+      "上"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"以上\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐ shàng\" zhège cí.",
+        "french": "J'apprends le mot \"au-dessus\"."
+      },
+      {
+        "chinese": "你知道\"以上\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐ shàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"au-dessus\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "以外",
+    "traditional": "以外",
+    "pinyin": "yǐ wài",
+    "french": "beyond; outside",
+    "hsk_level": 2,
+    "category": "lieux",
+    "components": [
+      "以",
+      "外"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"以外\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐ wài\" zhège cí.",
+        "french": "J'apprends le mot \"beyond; outside\"."
+      },
+      {
+        "chinese": "你知道\"以外\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐ wài\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"beyond; outside\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "以为",
+    "traditional": "以为",
+    "pinyin": "yǐwéi",
+    "french": "penser",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "以",
+      "为"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"以为\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐwéi\" zhège cí.",
+        "french": "J'apprends le mot \"penser\"."
+      },
+      {
+        "chinese": "你知道\"以为\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐwéi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"penser\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "以下",
+    "traditional": "以下",
+    "pinyin": "yǐ xià",
+    "french": "below; under",
+    "hsk_level": 2,
+    "category": "lieux",
+    "components": [
+      "以",
+      "下"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"以下\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐ xià\" zhège cí.",
+        "french": "J'apprends le mot \"below; under\"."
+      },
+      {
+        "chinese": "你知道\"以下\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐ xià\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"below; under\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "椅子",
+    "traditional": "椅子",
+    "pinyin": "yǐzi",
+    "french": "Chair",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "椅",
+      "子"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"椅子\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐzi\" zhège cí.",
+        "french": "J'apprends le mot \"Chair\"."
+      },
+      {
+        "chinese": "你知道\"椅子\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐzi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Chair\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一般",
+    "traditional": "一般",
+    "pinyin": "yìbān",
+    "french": "seulement",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "一",
+      "般"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一般\"这个词。",
+        "pinyin": "wǒ xuéxí \"yìbān\" zhège cí.",
+        "french": "J'apprends le mot \"seulement\"."
+      },
+      {
+        "chinese": "你知道\"一般\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yìbān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"seulement\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一点点",
+    "traditional": "一点点",
+    "pinyin": "yì diǎn diǎn",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "一",
+      "点"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一点点\"这个词。",
+        "pinyin": "wǒ xuéxí \"yì diǎn diǎn\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"一点点\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yì diǎn diǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "一生",
+    "traditional": "一生",
+    "pinyin": "yì shēng",
+    "french": "temps",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "一",
+      "生"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"一生\"这个词。",
+        "pinyin": "wǒ xuéxí \"yì shēng\" zhège cí.",
+        "french": "J'apprends le mot \"temps\"."
+      },
+      {
+        "chinese": "你知道\"一生\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yì shēng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"temps\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "亿",
+    "traditional": "亿",
+    "pinyin": "yì",
+    "french": "Billion",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "亿"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"亿\"这个词。",
+        "pinyin": "wǒ xuéxí \"yì\" zhège cí.",
+        "french": "J'apprends le mot \"Billion\"."
+      },
+      {
+        "chinese": "你知道\"亿\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Billion\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "意见",
+    "traditional": "意见",
+    "pinyin": "yìjiàn",
+    "french": "Opinion",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "意",
+      "见"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"意见\"这个词。",
+        "pinyin": "wǒ xuéxí \"yìjiàn\" zhège cí.",
+        "french": "J'apprends le mot \"Opinion\"."
+      },
+      {
+        "chinese": "你知道\"意见\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yìjiàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Opinion\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "因为",
+    "traditional": "因为",
+    "pinyin": "yīn wèi",
+    "french": "utiliser",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "因",
+      "为"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"因为\"这个词。",
+        "pinyin": "wǒ xuéxí \"yīn wèi\" zhège cí.",
+        "french": "J'apprends le mot \"utiliser\"."
+      },
+      {
+        "chinese": "你知道\"因为\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yīn wèi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"utiliser\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "阴",
+    "traditional": "阴",
+    "pinyin": "yīn",
+    "french": "Yin",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "阴"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"阴\"这个词。",
+        "pinyin": "wǒ xuéxí \"yīn\" zhège cí.",
+        "french": "J'apprends le mot \"Yin\"."
+      },
+      {
+        "chinese": "你知道\"阴\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yīn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Yin\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "阴天",
+    "traditional": "阴天",
+    "pinyin": "yīn tiān",
+    "french": "jour",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "阴",
+      "天"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"阴天\"这个词。",
+        "pinyin": "wǒ xuéxí \"yīn tiān\" zhège cí.",
+        "french": "J'apprends le mot \"jour\"."
+      },
+      {
+        "chinese": "你知道\"阴天\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yīn tiān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"jour\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "音节",
+    "traditional": "音节",
+    "pinyin": "yīn jié",
+    "french": "syllable",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "音",
+      "节"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"音节\"这个词。",
+        "pinyin": "wǒ xuéxí \"yīn jié\" zhège cí.",
+        "french": "J'apprends le mot \"syllable\"."
+      },
+      {
+        "chinese": "你知道\"音节\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yīn jié\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"syllable\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "音乐会",
+    "traditional": "音乐会",
+    "pinyin": "yīn yuè huì",
+    "french": "concert",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "音",
+      "乐",
+      "会"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"音乐会\"这个词。",
+        "pinyin": "wǒ xuéxí \"yīn yuè huì\" zhège cí.",
+        "french": "J'apprends le mot \"concert\"."
+      },
+      {
+        "chinese": "你知道\"音乐会\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yīn yuè huì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"concert\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "银行卡",
+    "traditional": "银行卡",
+    "pinyin": "yín háng kǎ",
+    "french": "bank card",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "银",
+      "行",
+      "卡"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"银行卡\"这个词。",
+        "pinyin": "wǒ xuéxí \"yín háng kǎ\" zhège cí.",
+        "french": "J'apprends le mot \"bank card\"."
+      },
+      {
+        "chinese": "你知道\"银行卡\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yín háng kǎ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"bank card\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "英文",
+    "traditional": "英文",
+    "pinyin": "yīng wén",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "英",
+      "文"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"英文\"这个词。",
+        "pinyin": "wǒ xuéxí \"yīng wén\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"英文\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yīng wén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "英语",
+    "traditional": "英语",
+    "pinyin": "yīng yǔ",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "英",
+      "语"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"英语\"这个词。",
+        "pinyin": "wǒ xuéxí \"yīng yǔ\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"英语\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yīng yǔ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "影片",
+    "traditional": "影片",
+    "pinyin": "yǐng piàn",
+    "french": "film",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "影",
+      "片"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"影片\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐng piàn\" zhège cí.",
+        "french": "J'apprends le mot \"film\"."
+      },
+      {
+        "chinese": "你知道\"影片\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐng piàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"film\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "影响",
+    "traditional": "影响",
+    "pinyin": "yǐngxiǎng",
+    "french": "Influence",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "影",
+      "响"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"影响\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǐngxiǎng\" zhège cí.",
+        "french": "J'apprends le mot \"Influence\"."
+      },
+      {
+        "chinese": "你知道\"影响\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǐngxiǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Influence\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "永远",
+    "traditional": "永远",
+    "pinyin": "yǒngyuǎn",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "永",
+      "远"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"永远\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǒngyuǎn\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"永远\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǒngyuǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "油",
+    "traditional": "油",
+    "pinyin": "yóu",
+    "french": "oil; fat; grease",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "油"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"油\"这个词。",
+        "pinyin": "wǒ xuéxí \"yóu\" zhège cí.",
+        "french": "J'apprends le mot \"oil; fat; grease\"."
+      },
+      {
+        "chinese": "你知道\"油\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yóu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"oil; fat; grease\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "游客",
+    "traditional": "游客",
+    "pinyin": "yóu kè",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "游",
+      "客"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"游客\"这个词。",
+        "pinyin": "wǒ xuéxí \"yóu kè\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"游客\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yóu kè\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "友好",
+    "traditional": "友好",
+    "pinyin": "yǒuhǎo",
+    "french": "ami",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "友",
+      "好"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"友好\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǒuhǎo\" zhège cí.",
+        "french": "J'apprends le mot \"ami\"."
+      },
+      {
+        "chinese": "你知道\"友好\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǒuhǎo\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ami\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "有空儿",
+    "traditional": "有空儿",
+    "pinyin": "yǒu kòngr",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "有",
+      "空",
+      "儿"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"有空儿\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǒu kòngr\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"有空儿\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǒu kòngr\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "有人",
+    "traditional": "有人",
+    "pinyin": "yǒu rén",
+    "french": "someone",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "有",
+      "人"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"有人\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǒu rén\" zhège cí.",
+        "french": "J'apprends le mot \"someone\"."
+      },
+      {
+        "chinese": "你知道\"有人\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǒu rén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"someone\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "有点儿",
+    "traditional": "有点儿",
+    "pinyin": "yǒu（yì）diǎnr",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "有",
+      "点",
+      "儿"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"有点儿\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǒu（yì）diǎnr\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"有点儿\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǒu（yì）diǎnr\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "语言",
+    "traditional": "语言",
+    "pinyin": "yǔyán",
+    "french": "language",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "语",
+      "言"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"语言\"这个词。",
+        "pinyin": "wǒ xuéxí \"yǔyán\" zhège cí.",
+        "french": "J'apprends le mot \"language\"."
+      },
+      {
+        "chinese": "你知道\"语言\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yǔyán\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"language\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "原来",
+    "traditional": "原来",
+    "pinyin": "yuánlái",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "原",
+      "来"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"原来\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuánlái\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"原来\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuánlái\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "原因",
+    "traditional": "原因",
+    "pinyin": "yuányīn",
+    "french": "fils",
+    "hsk_level": 2,
+    "category": "famille",
+    "components": [
+      "原",
+      "因"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"原因\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuányīn\" zhège cí.",
+        "french": "J'apprends le mot \"fils\"."
+      },
+      {
+        "chinese": "你知道\"原因\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuányīn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"fils\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "院",
+    "traditional": "院",
+    "pinyin": "yuàn",
+    "french": "yard; compound; courtyard",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "院"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"院\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuàn\" zhège cí.",
+        "french": "J'apprends le mot \"yard; compound; courtyard\"."
+      },
+      {
+        "chinese": "你知道\"院\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"yard; compound; courtyard\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "院长",
+    "traditional": "院长",
+    "pinyin": "yuàn zhǎng",
+    "french": "dean",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "院",
+      "长"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"院长\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuàn zhǎng\" zhège cí.",
+        "french": "J'apprends le mot \"dean\"."
+      },
+      {
+        "chinese": "你知道\"院长\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuàn zhǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"dean\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "院子",
+    "traditional": "院子",
+    "pinyin": "yuàn zi",
+    "french": "courtyard; yard",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "院",
+      "子"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"院子\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuàn zi\" zhège cí.",
+        "french": "J'apprends le mot \"courtyard; yard\"."
+      },
+      {
+        "chinese": "你知道\"院子\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuàn zi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"courtyard; yard\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "愿意",
+    "traditional": "愿意",
+    "pinyin": "yuànyì",
+    "french": "Be willing",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "愿",
+      "意"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"愿意\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuànyì\" zhège cí.",
+        "french": "J'apprends le mot \"Be willing\"."
+      },
+      {
+        "chinese": "你知道\"愿意\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuànyì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Be willing\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "月份",
+    "traditional": "月份",
+    "pinyin": "yuè fèn",
+    "french": "mois",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "月",
+      "份"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"月份\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuè fèn\" zhège cí.",
+        "french": "J'apprends le mot \"mois\"."
+      },
+      {
+        "chinese": "你知道\"月份\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuè fèn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"mois\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "月亮",
+    "traditional": "月亮",
+    "pinyin": "yuèliang",
+    "french": "Moon",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "月",
+      "亮"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"月亮\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuèliang\" zhège cí.",
+        "french": "J'apprends le mot \"Moon\"."
+      },
+      {
+        "chinese": "你知道\"月亮\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuèliang\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Moon\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "越",
+    "traditional": "越",
+    "pinyin": "yuè",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "越"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"越\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuè\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"越\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuè\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "越来越",
+    "traditional": "越来越",
+    "pinyin": "yuè lái yuè",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "越",
+      "来"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"越来越\"这个词。",
+        "pinyin": "wǒ xuéxí \"yuè lái yuè\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"越来越\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yuè lái yuè\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "云",
+    "traditional": "云",
+    "pinyin": "yún",
+    "french": "cloud",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "云"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"云\"这个词。",
+        "pinyin": "wǒ xuéxí \"yún\" zhège cí.",
+        "french": "J'apprends le mot \"cloud\"."
+      },
+      {
+        "chinese": "你知道\"云\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"yún\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"cloud\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "咱",
+    "traditional": "咱",
+    "pinyin": "zán",
+    "french": "we; us",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "咱"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"咱\"这个词。",
+        "pinyin": "wǒ xuéxí \"zán\" zhège cí.",
+        "french": "J'apprends le mot \"we; us\"."
+      },
+      {
+        "chinese": "你知道\"咱\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zán\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"we; us\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "咱们",
+    "traditional": "咱们",
+    "pinyin": "zánmen",
+    "french": "porter",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "咱",
+      "们"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"咱们\"这个词。",
+        "pinyin": "wǒ xuéxí \"zánmen\" zhège cí.",
+        "french": "J'apprends le mot \"porter\"."
+      },
+      {
+        "chinese": "你知道\"咱们\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zánmen\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"porter\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "脏",
+    "traditional": "脏",
+    "pinyin": "zāng",
+    "french": "dirty",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "脏"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"脏\"这个词。",
+        "pinyin": "wǒ xuéxí \"zāng\" zhège cí.",
+        "french": "J'apprends le mot \"dirty\"."
+      },
+      {
+        "chinese": "你知道\"脏\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zāng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"dirty\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "早餐",
+    "traditional": "早餐",
+    "pinyin": "zǎo cān",
+    "french": "rapide",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "早",
+      "餐"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"早餐\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǎo cān\" zhège cí.",
+        "french": "J'apprends le mot \"rapide\"."
+      },
+      {
+        "chinese": "你知道\"早餐\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǎo cān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"rapide\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "早晨",
+    "traditional": "早晨",
+    "pinyin": "zǎo chén",
+    "french": "matin",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "早",
+      "晨"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"早晨\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǎo chén\" zhège cí.",
+        "french": "J'apprends le mot \"matin\"."
+      },
+      {
+        "chinese": "你知道\"早晨\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǎo chén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"matin\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "早就",
+    "traditional": "早就",
+    "pinyin": "zǎo jiù",
+    "french": "long",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "早",
+      "就"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"早就\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǎo jiù\" zhège cí.",
+        "french": "J'apprends le mot \"long\"."
+      },
+      {
+        "chinese": "你知道\"早就\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǎo jiù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"long\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "怎么办",
+    "traditional": "怎么办",
+    "pinyin": "zěn me bàn",
+    "french": "quoi",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "怎",
+      "么",
+      "办"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"怎么办\"这个词。",
+        "pinyin": "wǒ xuéxí \"zěn me bàn\" zhège cí.",
+        "french": "J'apprends le mot \"quoi\"."
+      },
+      {
+        "chinese": "你知道\"怎么办\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zěn me bàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"quoi\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "怎么样",
+    "traditional": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "french": "How about",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "怎",
+      "么",
+      "样"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"怎么样\"这个词。",
+        "pinyin": "wǒ xuéxí \"zěnmeyàng\" zhège cí.",
+        "french": "J'apprends le mot \"How about\"."
+      },
+      {
+        "chinese": "你知道\"怎么样\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zěnmeyàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"How about\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "怎样",
+    "traditional": "怎样",
+    "pinyin": "zěn yàng",
+    "french": "combien",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "怎",
+      "样"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"怎样\"这个词。",
+        "pinyin": "wǒ xuéxí \"zěn yàng\" zhège cí.",
+        "french": "J'apprends le mot \"combien\"."
+      },
+      {
+        "chinese": "你知道\"怎样\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zěn yàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"combien\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "占",
+    "traditional": "占",
+    "pinyin": "zhàn",
+    "french": "tasse",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "占"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"占\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhàn\" zhège cí.",
+        "french": "J'apprends le mot \"tasse\"."
+      },
+      {
+        "chinese": "你知道\"占\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"tasse\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "站",
+    "traditional": "站",
+    "pinyin": "zhàn",
+    "french": "se tenir debout",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "站"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"站\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhàn\" zhège cí.",
+        "french": "J'apprends le mot \"se tenir debout\"."
+      },
+      {
+        "chinese": "你知道\"站\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"se tenir debout\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "站住",
+    "traditional": "站住",
+    "pinyin": "zhàn zhù",
+    "french": "stop; halt",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "站",
+      "住"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"站住\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhàn zhù\" zhège cí.",
+        "french": "J'apprends le mot \"stop; halt\"."
+      },
+      {
+        "chinese": "你知道\"站住\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhàn zhù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"stop; halt\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "长大",
+    "traditional": "长大",
+    "pinyin": "zhǎng dà",
+    "french": "grandir",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "长",
+      "大"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"长大\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǎng dà\" zhège cí.",
+        "french": "J'apprends le mot \"grandir\"."
+      },
+      {
+        "chinese": "你知道\"长大\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǎng dà\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"grandir\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "找出",
+    "traditional": "找出",
+    "pinyin": "zhǎo chū",
+    "french": "find out",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "找",
+      "出"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"找出\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǎo chū\" zhège cí.",
+        "french": "J'apprends le mot \"find out\"."
+      },
+      {
+        "chinese": "你知道\"找出\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǎo chū\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"find out\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "照顾",
+    "traditional": "照顾",
+    "pinyin": "zhàogù",
+    "french": "regarder",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "照",
+      "顾"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"照顾\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhàogù\" zhège cí.",
+        "french": "J'apprends le mot \"regarder\"."
+      },
+      {
+        "chinese": "你知道\"照顾\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhàogù\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"regarder\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "照相",
+    "traditional": "照相",
+    "pinyin": "zhào xiàng",
+    "french": "take a picture",
+    "hsk_level": 2,
+    "category": "verbes",
+    "components": [
+      "照",
+      "相"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"照相\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhào xiàng\" zhège cí.",
+        "french": "J'apprends le mot \"take a picture\"."
+      },
+      {
+        "chinese": "你知道\"照相\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhào xiàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"take a picture\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "这么",
+    "traditional": "这么",
+    "pinyin": "zhè me",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "这",
+      "么"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"这么\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhè me\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"这么\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhè me\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "这时候",
+    "traditional": "这时候",
+    "pinyin": "zhè shí hou｜zhè shí",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "这",
+      "时",
+      "候"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"这时候\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhè shí hou｜zhè shí\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"这时候\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhè shí hou｜zhè shí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "这样",
+    "traditional": "这样",
+    "pinyin": "zhè yàng",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "这",
+      "样"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"这样\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhè yàng\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"这样\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhè yàng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "真正",
+    "traditional": "真正",
+    "pinyin": "zhēnzhèng",
+    "french": "vraiment",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "真",
+      "正"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"真正\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhēnzhèng\" zhège cí.",
+        "french": "J'apprends le mot \"vraiment\"."
+      },
+      {
+        "chinese": "你知道\"真正\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhēnzhèng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"vraiment\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "正常",
+    "traditional": "正常",
+    "pinyin": "zhèngcháng",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "正",
+      "常"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"正常\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhèngcháng\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"正常\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhèngcháng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "正好",
+    "traditional": "正好",
+    "pinyin": "zhènghǎo",
+    "french": "correct",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "正",
+      "好"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"正好\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhènghǎo\" zhège cí.",
+        "french": "J'apprends le mot \"correct\"."
+      },
+      {
+        "chinese": "你知道\"正好\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhènghǎo\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"correct\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "正确",
+    "traditional": "正确",
+    "pinyin": "zhèngquè",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "正",
+      "确"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"正确\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhèngquè\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"正确\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhèngquè\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "正是",
+    "traditional": "正是",
+    "pinyin": "zhèng shì",
+    "french": "exactly",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "正",
+      "是"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"正是\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhèng shì\" zhège cí.",
+        "french": "J'apprends le mot \"exactly\"."
+      },
+      {
+        "chinese": "你知道\"正是\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhèng shì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"exactly\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "直接",
+    "traditional": "直接",
+    "pinyin": "zhíjiē",
+    "french": "direct",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "直",
+      "接"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"直接\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhíjiē\" zhège cí.",
+        "french": "J'apprends le mot \"direct\"."
+      },
+      {
+        "chinese": "你知道\"直接\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhíjiē\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"direct\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "只能",
+    "traditional": "只能",
+    "pinyin": "zhǐ néng",
+    "french": "pouvoir",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "只",
+      "能"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"只能\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǐ néng\" zhège cí.",
+        "french": "J'apprends le mot \"pouvoir\"."
+      },
+      {
+        "chinese": "你知道\"只能\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǐ néng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"pouvoir\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "只要",
+    "traditional": "只要",
+    "pinyin": "zhǐyào",
+    "french": "long",
+    "hsk_level": 2,
+    "category": "adjectifs",
+    "components": [
+      "只",
+      "要"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"只要\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǐyào\" zhège cí.",
+        "french": "J'apprends le mot \"long\"."
+      },
+      {
+        "chinese": "你知道\"只要\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǐyào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"long\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "纸",
+    "traditional": "纸",
+    "pinyin": "zhǐ",
+    "french": "journal",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "纸"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"纸\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǐ\" zhège cí.",
+        "french": "J'apprends le mot \"journal\"."
+      },
+      {
+        "chinese": "你知道\"纸\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǐ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"journal\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "中餐",
+    "traditional": "中餐",
+    "pinyin": "zhōng cān",
+    "french": "Chinese food",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "中",
+      "餐"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"中餐\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōng cān\" zhège cí.",
+        "french": "J'apprends le mot \"Chinese food\"."
+      },
+      {
+        "chinese": "你知道\"中餐\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōng cān\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Chinese food\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "中级",
+    "traditional": "中级",
+    "pinyin": "zhōng jí",
+    "french": "intermediate",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "中",
+      "级"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"中级\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōng jí\" zhège cí.",
+        "french": "J'apprends le mot \"intermediate\"."
+      },
+      {
+        "chinese": "你知道\"中级\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōng jí\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"intermediate\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "中年",
+    "traditional": "中年",
+    "pinyin": "zhōng nián",
+    "french": "middle age",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "中",
+      "年"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"中年\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōng nián\" zhège cí.",
+        "french": "J'apprends le mot \"middle age\"."
+      },
+      {
+        "chinese": "你知道\"中年\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōng nián\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"middle age\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "中小学",
+    "traditional": "中小学",
+    "pinyin": "zhōng xiǎo xué",
+    "french": "école",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "中",
+      "小",
+      "学"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"中小学\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōng xiǎo xué\" zhège cí.",
+        "french": "J'apprends le mot \"école\"."
+      },
+      {
+        "chinese": "你知道\"中小学\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōng xiǎo xué\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"école\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "中心",
+    "traditional": "中心",
+    "pinyin": "zhōngxīn",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "中",
+      "心"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"中心\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōngxīn\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"中心\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōngxīn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "中医",
+    "traditional": "中医",
+    "pinyin": "zhōng yī",
+    "french": "Chinese Medicine",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "中",
+      "医"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"中医\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōng yī\" zhège cí.",
+        "french": "J'apprends le mot \"Chinese Medicine\"."
+      },
+      {
+        "chinese": "你知道\"中医\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōng yī\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Chinese Medicine\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "重点",
+    "traditional": "重点",
+    "pinyin": "zhòngdiǎn",
+    "french": "A key",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "重",
+      "点"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"重点\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhòngdiǎn\" zhège cí.",
+        "french": "J'apprends le mot \"A key\"."
+      },
+      {
+        "chinese": "你知道\"重点\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhòngdiǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"A key\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "重视",
+    "traditional": "重视",
+    "pinyin": "zhòngshì",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "重",
+      "视"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"重视\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhòngshì\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"重视\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhòngshì\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "周",
+    "traditional": "周",
+    "pinyin": "zhōu",
+    "french": "semaine",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "周"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"周\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōu\" zhège cí.",
+        "french": "J'apprends le mot \"semaine\"."
+      },
+      {
+        "chinese": "你知道\"周\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"semaine\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "周末",
+    "traditional": "周末",
+    "pinyin": "zhōumò",
+    "french": "semaine",
+    "hsk_level": 2,
+    "category": "temps",
+    "components": [
+      "周",
+      "末"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"周末\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōumò\" zhège cí.",
+        "french": "J'apprends le mot \"semaine\"."
+      },
+      {
+        "chinese": "你知道\"周末\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōumò\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"semaine\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "周年",
+    "traditional": "周年",
+    "pinyin": "zhōunián",
+    "french": "anniversary",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "周",
+      "年"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"周年\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhōunián\" zhège cí.",
+        "french": "J'apprends le mot \"anniversary\"."
+      },
+      {
+        "chinese": "你知道\"周年\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhōunián\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"anniversary\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "主人",
+    "traditional": "主人",
+    "pinyin": "zhǔrén",
+    "french": "master",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "主",
+      "人"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"主人\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǔrén\" zhège cí.",
+        "french": "J'apprends le mot \"master\"."
+      },
+      {
+        "chinese": "你知道\"主人\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǔrén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"master\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "主要",
+    "traditional": "主要",
+    "pinyin": "zhǔyào",
+    "french": "main",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "主",
+      "要"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"主要\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǔyào\" zhège cí.",
+        "french": "J'apprends le mot \"main\"."
+      },
+      {
+        "chinese": "你知道\"主要\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǔyào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"main\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "住房",
+    "traditional": "住房",
+    "pinyin": "zhù fáng",
+    "french": "chanter",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "住",
+      "房"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"住房\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhù fáng\" zhège cí.",
+        "french": "J'apprends le mot \"chanter\"."
+      },
+      {
+        "chinese": "你知道\"住房\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhù fáng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"chanter\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "住院",
+    "traditional": "住院",
+    "pinyin": "zhù yuàn",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "住",
+      "院"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"住院\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhù yuàn\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"住院\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhù yuàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "装",
+    "traditional": "装",
+    "pinyin": "zhuāng",
+    "french": "dix",
+    "hsk_level": 2,
+    "category": "nombres",
+    "components": [
+      "装"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"装\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhuāng\" zhège cí.",
+        "french": "J'apprends le mot \"dix\"."
+      },
+      {
+        "chinese": "你知道\"装\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhuāng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"dix\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "准确",
+    "traditional": "准确",
+    "pinyin": "zhǔnquè",
+    "french": "accuracy",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "准",
+      "确"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"准确\"这个词。",
+        "pinyin": "wǒ xuéxí \"zhǔnquè\" zhège cí.",
+        "french": "J'apprends le mot \"accuracy\"."
+      },
+      {
+        "chinese": "你知道\"准确\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zhǔnquè\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"accuracy\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "自由",
+    "traditional": "自由",
+    "pinyin": "zìyóu",
+    "french": "free",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "自",
+      "由"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"自由\"这个词。",
+        "pinyin": "wǒ xuéxí \"zìyóu\" zhège cí.",
+        "french": "J'apprends le mot \"free\"."
+      },
+      {
+        "chinese": "你知道\"自由\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zìyóu\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"free\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "字典",
+    "traditional": "字典",
+    "pinyin": "zì diǎn",
+    "french": "dictionary",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "字",
+      "典"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"字典\"这个词。",
+        "pinyin": "wǒ xuéxí \"zì diǎn\" zhège cí.",
+        "french": "J'apprends le mot \"dictionary\"."
+      },
+      {
+        "chinese": "你知道\"字典\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zì diǎn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"dictionary\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "走过",
+    "traditional": "走过",
+    "pinyin": "zǒu guò",
+    "french": "marcher",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "走",
+      "过"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"走过\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǒu guò\" zhège cí.",
+        "french": "J'apprends le mot \"marcher\"."
+      },
+      {
+        "chinese": "你知道\"走过\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǒu guò\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"marcher\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "走进",
+    "traditional": "走进",
+    "pinyin": "zǒu jìn",
+    "french": "marcher",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "走",
+      "进"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"走进\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǒu jìn\" zhège cí.",
+        "french": "J'apprends le mot \"marcher\"."
+      },
+      {
+        "chinese": "你知道\"走进\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǒu jìn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"marcher\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "走开",
+    "traditional": "走开",
+    "pinyin": "zǒu kāi",
+    "french": "aller",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "走",
+      "开"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"走开\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǒu kāi\" zhège cí.",
+        "french": "J'apprends le mot \"aller\"."
+      },
+      {
+        "chinese": "你知道\"走开\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǒu kāi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"aller\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "租",
+    "traditional": "租",
+    "pinyin": "zū",
+    "french": "rent",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "租"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"租\"这个词。",
+        "pinyin": "wǒ xuéxí \"zū\" zhège cí.",
+        "french": "J'apprends le mot \"rent\"."
+      },
+      {
+        "chinese": "你知道\"租\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zū\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"rent\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "组",
+    "traditional": "组",
+    "pinyin": "zǔ",
+    "french": "group",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "组"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"组\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǔ\" zhège cí.",
+        "french": "J'apprends le mot \"group\"."
+      },
+      {
+        "chinese": "你知道\"组\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǔ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"group\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "组成",
+    "traditional": "组成",
+    "pinyin": "zǔchéng",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "组",
+      "成"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"组成\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǔchéng\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"组成\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǔchéng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "组长",
+    "traditional": "组长",
+    "pinyin": "zǔ zhǎng",
+    "french": "group leader",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "组",
+      "长"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"组长\"这个词。",
+        "pinyin": "wǒ xuéxí \"zǔ zhǎng\" zhège cí.",
+        "french": "J'apprends le mot \"group leader\"."
+      },
+      {
+        "chinese": "你知道\"组长\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zǔ zhǎng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"group leader\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "最近",
+    "traditional": "最近",
+    "pinyin": "zuìjìn",
+    "french": "Lately",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "最",
+      "近"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"最近\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuìjìn\" zhège cí.",
+        "french": "J'apprends le mot \"Lately\"."
+      },
+      {
+        "chinese": "你知道\"最近\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuìjìn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Lately\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "作家",
+    "traditional": "作家",
+    "pinyin": "zuòjiā",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "作",
+      "家"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"作家\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuòjiā\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"作家\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuòjiā\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "作文",
+    "traditional": "作文",
+    "pinyin": "zuòwén",
+    "french": "il/elle",
+    "hsk_level": 2,
+    "category": "pronoms",
+    "components": [
+      "作",
+      "文"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"作文\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuòwén\" zhège cí.",
+        "french": "J'apprends le mot \"il/elle\"."
+      },
+      {
+        "chinese": "你知道\"作文\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuòwén\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"il/elle\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "作用",
+    "traditional": "作用",
+    "pinyin": "zuòyòng",
+    "french": "Effect",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "作",
+      "用"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"作用\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuòyòng\" zhège cí.",
+        "french": "J'apprends le mot \"Effect\"."
+      },
+      {
+        "chinese": "你知道\"作用\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuòyòng\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"Effect\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "座",
+    "traditional": "座",
+    "pinyin": "zuò",
+    "french": "manger",
+    "hsk_level": 2,
+    "category": "verbes",
+    "components": [
+      "座"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"座\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuò\" zhège cí.",
+        "french": "J'apprends le mot \"manger\"."
+      },
+      {
+        "chinese": "你知道\"座\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuò\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"manger\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "座位",
+    "traditional": "座位",
+    "pinyin": "zuòwèi",
+    "french": "manger",
+    "hsk_level": 2,
+    "category": "verbes",
+    "components": [
+      "座",
+      "位"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"座位\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuòwèi\" zhège cí.",
+        "french": "J'apprends le mot \"manger\"."
+      },
+      {
+        "chinese": "你知道\"座位\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuòwèi\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"manger\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "做到",
+    "traditional": "做到",
+    "pinyin": "zuò dào",
+    "french": "être",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "做",
+      "到"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"做到\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuò dào\" zhège cí.",
+        "french": "J'apprends le mot \"être\"."
+      },
+      {
+        "chinese": "你知道\"做到\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuò dào\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"être\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "做法",
+    "traditional": "做法",
+    "pinyin": "zuò fǎ",
+    "french": "ou",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "做",
+      "法"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"做法\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuò fǎ\" zhège cí.",
+        "french": "J'apprends le mot \"ou\"."
+      },
+      {
+        "chinese": "你知道\"做法\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuò fǎ\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"ou\" ?"
+      }
+    ]
+  },
+  {
+    "simplified": "做饭",
+    "traditional": "做饭",
+    "pinyin": "zuò fàn",
+    "french": "cook",
+    "hsk_level": 2,
+    "category": "noms",
+    "components": [
+      "做",
+      "饭"
+    ],
+    "examples": [
+      {
+        "chinese": "我学习\"做饭\"这个词。",
+        "pinyin": "wǒ xuéxí \"zuò fàn\" zhège cí.",
+        "french": "J'apprends le mot \"cook\"."
+      },
+      {
+        "chinese": "你知道\"做饭\"是什么意思吗？",
+        "pinyin": "nǐ zhīdào \"zuò fàn\" shì shénme yìsi ma?",
+        "french": "Sais-tu ce que signifie \"cook\" ?"
+      }
+    ]
   }
 ]

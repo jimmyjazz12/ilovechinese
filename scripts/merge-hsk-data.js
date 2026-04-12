@@ -2,12 +2,13 @@ const XLSX = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 
-const wb = XLSX.readFile(path.join(__dirname, '..', 'hsk_reference.xlsx'));
+const wb = XLSX.readFile(path.join(__dirname, '..', 'hsk_reference_complete.xlsx'));
 
 const sheets = {
   'HSK 1 (300 mots)': 1,
   'HSK 2 (200 nouveaux)': 2,
   'HSK 3 (500 nouveaux)': 3,
+  'HSK 4 (1000 nouveaux)': 4,
 };
 
 // English to French basic translation map

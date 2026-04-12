@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect, useMemo } from "react";
+import { useState, useCallback, useEffect, useMemo, useRef } from "react";
 import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
 
@@ -11,6 +11,7 @@ import hsk2Data from "@/data/hsk2.json";
 import hsk3Data from "@/data/hsk3.json";
 import hsk4Data from "@/data/hsk4.json";
 import { useChineseAudio } from "@/lib/useAudio";
+import { getSyllablesForInitial } from "@/lib/pinyin";
 
 interface VocabWord {
   simplified: string;
@@ -29,8 +30,12 @@ interface PhoneticsItem {
 
 type PracticeState = "idle" | "listening" | "result";
 
+type TabType = "initials" | "finals" | "drill" | "words";
+
+const INITIALS_LIST = ["b", "p", "m", "f", "d", "t", "n", "l", "g", "k", "h", "j", "q", "x", "zh", "ch", "sh", "r", "z", "c", "s"];
+
 export default function PronunciationPage() {
-  const [tab, setTab] = useState<"initials" | "finals" | "words">("initials");
+  const [tab, setTab] = useState<TabType>("initials");
   const [practiceItem, setPracticeItem] = useState<PhoneticsItem | null>(null);
   const [practiceExample, setPracticeExample] = useState<string>("");
   const [practiceState, setPracticeState] = useState<PracticeState>("idle");
@@ -48,6 +53,16 @@ export default function PronunciationPage() {
   const [wordAttempts, setWordAttempts] = useState(0);
   const [wordSuccesses, setWordSuccesses] = useState(0);
 
+  // Drill state
+  const [drillInitial, setDrillInitial] = useState<string | null>(null);
+  const [drillProgress, setDrillProgress] = useState<Record<string, Record<string, boolean>>>({});
+  const [drillRecording, setDrillRecording] = useState<string | null>(null);
+  const [drillResult, setDrillResult] = useState<Record<string, { matched: boolean; transcript: string }>>({});
+  const [drillCelebration, setDrillCelebration] = useState(false);
+
+  // Shared speech recognition ref
+  const recognitionRef = useRef<any>(null);
+
   const allVocab: VocabWord[] = useMemo(() => [
     ...(hsk1Data as VocabWord[]),
     ...(hsk2Data as VocabWord[]),
@@ -55,7 +70,6 @@ export default function PronunciationPage() {
     ...(hsk4Data as VocabWord[]),
   ], []);
 
-  // Get words the user has started learning (from SRS progress)
   const [learnedWords, setLearnedWords] = useState<VocabWord[]>([]);
 
   useEffect(() => {
@@ -64,12 +78,25 @@ export default function PronunciationPage() {
       const progress = JSON.parse(saved);
       const knownKeys = Object.keys(progress);
       const known = allVocab.filter((w) => knownKeys.includes(w.simplified));
-      // If user hasn't started learning yet, give them HSK1 basics
       setLearnedWords(known.length > 0 ? known : allVocab.filter((w) => w.hsk_level === 1).slice(0, 20));
     } else {
       setLearnedWords(allVocab.filter((w) => w.hsk_level === 1).slice(0, 20));
     }
   }, [allVocab]);
+
+  // Load drill progress from localStorage
+  useEffect(() => {
+    const saved = localStorage.getItem("drill_progress");
+    if (saved) {
+      try { setDrillProgress(JSON.parse(saved)); } catch {}
+    }
+  }, []);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => { stopRecording(); };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const initials = initialsData as PhoneticsItem[];
   const finals = finalsData as PhoneticsItem[];
@@ -77,10 +104,79 @@ export default function PronunciationPage() {
 
   const speak = useChineseAudio();
 
-  // Extract the Chinese character(s) from example string like "bā 八 (huit)"
+  // ─── Shared recording functions ───────────────────────────────────────
+
+  const startRecording = useCallback((targetText: string, onResult: (matched: boolean, transcript: string) => void) => {
+    // Stop any existing recognition
+    if (recognitionRef.current) {
+      try { recognitionRef.current.stop(); } catch {}
+      recognitionRef.current = null;
+    }
+
+    const win = window as any;
+    const Ctor = win.SpeechRecognition || win.webkitSpeechRecognition;
+    if (!Ctor) {
+      onResult(true, "(reconnaissance non disponible)");
+      return;
+    }
+
+    const recognition = new Ctor();
+    recognition.lang = "zh-CN";
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 5;
+    recognition.continuous = false;
+    recognitionRef.current = recognition;
+
+    let hasResult = false;
+
+    recognition.onresult = (event: any) => {
+      hasResult = true;
+      let matched = false;
+      let bestTranscript = "";
+      for (let i = 0; i < (event.results[0]?.length || 1); i++) {
+        const t = (event.results[0]?.[i]?.transcript || "").trim();
+        if (!bestTranscript) bestTranscript = t;
+        if (t.includes(targetText) || targetText.includes(t)) {
+          matched = true;
+          bestTranscript = t;
+          break;
+        }
+      }
+      onResult(matched, bestTranscript);
+    };
+
+    recognition.onerror = () => {
+      if (!hasResult) onResult(false, "Erreur micro");
+    };
+
+    recognition.onend = () => {
+      recognitionRef.current = null;
+      if (!hasResult) onResult(false, "Rien detecte - reessayez");
+    };
+
+    try {
+      recognition.start();
+      setTimeout(() => {
+        if (recognitionRef.current === recognition) {
+          try { recognition.stop(); } catch {}
+        }
+      }, 4000);
+    } catch {
+      onResult(false, "Erreur : permissions micro");
+    }
+  }, []);
+
+  const stopRecording = useCallback(() => {
+    if (recognitionRef.current) {
+      try { recognitionRef.current.stop(); } catch {}
+      recognitionRef.current = null;
+    }
+  }, []);
+
+  // ─── Helpers ──────────────────────────────────────────────────────────
+
   const getChineseFromExample = (example: string): string => {
     const parts = example.split(" ");
-    // The Chinese character is usually the second part
     for (const part of parts) {
       if (/[\u4e00-\u9fff]/.test(part)) return part;
     }
@@ -91,7 +187,8 @@ export default function PronunciationPage() {
     return example.split(" ")[0] || "";
   };
 
-  // Start practicing a specific phonetic item
+  // ─── Initials/Finals practice ─────────────────────────────────────────
+
   const startPractice = (item: PhoneticsItem) => {
     const example = item.examples[Math.floor(Math.random() * item.examples.length)];
     setPracticeItem(item);
@@ -101,7 +198,6 @@ export default function PronunciationPage() {
     setIsMatch(false);
   };
 
-  // Pick next example from same item
   const nextExample = () => {
     if (!practiceItem) return;
     const otherExamples = practiceItem.examples.filter((e) => e !== practiceExample);
@@ -114,74 +210,22 @@ export default function PronunciationPage() {
     setIsMatch(false);
   };
 
-  // Listen via Web Speech API
-  const startListening = useCallback(async () => {
+  const startListening = useCallback(() => {
+    const expectedChinese = getChineseFromExample(practiceExample);
     setPracticeState("listening");
     setRecognizedText("");
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const win = window as any;
-    const SpeechRecognitionCtor = win.SpeechRecognition || win.webkitSpeechRecognition;
-
-    if (!SpeechRecognitionCtor) {
-      setRecognizedText("Reconnaissance vocale non supportée par ce navigateur");
-      setPracticeState("result");
-      setIsMatch(false);
-      return;
-    }
-
-    const recognition = new SpeechRecognitionCtor();
-    recognition.lang = "zh-CN";
-    recognition.interimResults = false;
-    recognition.maxAlternatives = 3;
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    recognition.onresult = (event: any) => {
-      const transcript = event.results[0]?.[0]?.transcript ?? "";
-      const expectedChinese = getChineseFromExample(practiceExample);
-
-      // Check if any alternative matches
-      let matched = false;
-      for (let i = 0; i < (event.results[0]?.length || 1); i++) {
-        const alt = event.results[0]?.[i]?.transcript ?? "";
-        if (alt.includes(expectedChinese) || expectedChinese.includes(alt)) {
-          matched = true;
-          break;
-        }
-      }
-
+    startRecording(expectedChinese, (matched, transcript) => {
       setRecognizedText(transcript);
       setIsMatch(matched);
       setPracticeState("result");
       setAttempts((a) => a + 1);
       if (matched) setSuccesses((s) => s + 1);
-    };
+    });
+  }, [practiceExample, startRecording]);
 
-    recognition.onerror = () => {
-      setRecognizedText("Erreur - réessayez");
-      setIsMatch(false);
-      setPracticeState("result");
-    };
+  // ─── Word practice ────────────────────────────────────────────────────
 
-    recognition.onend = () => {
-      if (practiceState === "listening") {
-        setPracticeState("result");
-      }
-    };
-
-    try {
-      recognition.start();
-      // Auto-stop after 5 seconds
-      setTimeout(() => {
-        try { recognition.stop(); } catch {}
-      }, 5000);
-    } catch {
-      setPracticeState("result");
-      setRecognizedText("Erreur micro - vérifiez les permissions");
-    }
-  }, [practiceExample, practiceState]);
-
-  // Start word practice
   const startWordPractice = (word?: VocabWord) => {
     const w = word || learnedWords[Math.floor(Math.random() * learnedWords.length)];
     setWordPractice(w);
@@ -196,133 +240,176 @@ export default function PronunciationPage() {
     startWordPractice(next);
   };
 
-  // Listen for word practice
-  const startWordListening = useCallback(async () => {
+  const startWordListening = useCallback(() => {
     if (!wordPractice) return;
     setWordPracticeState("listening");
     setWordRecognized("");
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const win = window as any;
-    const SpeechRecognitionCtor = win.SpeechRecognition || win.webkitSpeechRecognition;
-
-    if (!SpeechRecognitionCtor) {
-      setWordRecognized("Reconnaissance vocale non supportée");
-      setWordPracticeState("result");
-      setWordIsMatch(false);
-      return;
-    }
-
-    const recognition = new SpeechRecognitionCtor();
-    recognition.lang = "zh-CN";
-    recognition.interimResults = false;
-    recognition.maxAlternatives = 3;
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    recognition.onresult = (event: any) => {
-      const transcript = event.results[0]?.[0]?.transcript ?? "";
-      let matched = false;
-      for (let i = 0; i < (event.results[0]?.length || 1); i++) {
-        const alt = event.results[0]?.[i]?.transcript ?? "";
-        if (alt.includes(wordPractice.simplified) || wordPractice.simplified.includes(alt)) {
-          matched = true;
-          break;
-        }
-      }
+    startRecording(wordPractice.simplified, (matched, transcript) => {
       setWordRecognized(transcript);
       setWordIsMatch(matched);
       setWordPracticeState("result");
       setWordAttempts((a) => a + 1);
       if (matched) setWordSuccesses((s) => s + 1);
-    };
+    });
+  }, [wordPractice, startRecording]);
 
-    recognition.onerror = () => {
-      setWordRecognized("Erreur - réessayez");
-      setWordIsMatch(false);
-      setWordPracticeState("result");
-    };
+  // ─── Drill logic ──────────────────────────────────────────────────────
 
-    try {
-      recognition.start();
-      setTimeout(() => { try { recognition.stop(); } catch {} }, 5000);
-    } catch {
-      setWordPracticeState("result");
-      setWordRecognized("Erreur micro");
-    }
-  }, [wordPractice]);
+  const saveDrillProgress = (newProgress: Record<string, Record<string, boolean>>) => {
+    setDrillProgress(newProgress);
+    localStorage.setItem("drill_progress", JSON.stringify(newProgress));
+  };
 
-  // Word practice view
+  const isInitialComplete = (initial: string): boolean => {
+    const syllables = getSyllablesForInitial(initial);
+    const progress = drillProgress[initial];
+    if (!progress || syllables.length === 0) return false;
+    return syllables.every((s) => progress[s] === true);
+  };
+
+  const getDrillSyllables = (initial: string): string[] => {
+    return getSyllablesForInitial(initial);
+  };
+
+  const getValidatedCount = (initial: string): number => {
+    const progress = drillProgress[initial];
+    if (!progress) return 0;
+    return Object.values(progress).filter(Boolean).length;
+  };
+
+  const startDrillRecording = useCallback((syllable: string, initial: string) => {
+    setDrillRecording(syllable);
+    // Clear previous result for this syllable
+    setDrillResult((prev) => {
+      const next = { ...prev };
+      delete next[syllable];
+      return next;
+    });
+
+    startRecording(syllable, (matched, transcript) => {
+      setDrillRecording(null);
+      setDrillResult((prev) => ({ ...prev, [syllable]: { matched, transcript } }));
+
+      if (matched) {
+        // Update drill progress
+        setDrillProgress((prev) => {
+          const next = { ...prev, [initial]: { ...(prev[initial] || {}), [syllable]: true } };
+          localStorage.setItem("drill_progress", JSON.stringify(next));
+
+          // Check if all syllables are now validated
+          const syllables = getSyllablesForInitial(initial);
+          const allDone = syllables.every((s) => next[initial]?.[s] === true);
+          if (allDone) {
+            setDrillCelebration(true);
+            // Award 20 XP
+            try {
+              const statsRaw = localStorage.getItem("learning_stats");
+              const stats = statsRaw ? JSON.parse(statsRaw) : {};
+              stats.xp_total = (stats.xp_total || 0) + 20;
+              localStorage.setItem("learning_stats", JSON.stringify(stats));
+            } catch {}
+            setTimeout(() => setDrillCelebration(false), 3000);
+          }
+
+          return next;
+        });
+      } else {
+        // Mark as failed (false)
+        setDrillProgress((prev) => {
+          const next = { ...prev, [initial]: { ...(prev[initial] || {}), [syllable]: false } };
+          localStorage.setItem("drill_progress", JSON.stringify(next));
+          return next;
+        });
+      }
+    });
+  }, [startRecording]);
+
+  // ─── MIC ICON SVG ─────────────────────────────────────────────────────
+
+  const MicIcon = ({ color = "#6B7280", size = 36 }: { color?: string; size?: number }) => (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none"
+      stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+      <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+      <line x1="12" y1="19" x2="12" y2="23" />
+      <line x1="8" y1="23" x2="16" y2="23" />
+    </svg>
+  );
+
+  const StopIcon = () => (
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="white">
+      <rect x="6" y="6" width="12" height="12" rx="2" />
+    </svg>
+  );
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // WORD PRACTICE VIEW
+  // ═══════════════════════════════════════════════════════════════════════
+
   if (wordPractice) {
     return (
-      <div className="min-h-screen">
-        <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
+      <div className="min-h-screen bg-[#F7F7F5]">
+        <header className="sticky top-0 z-50 glass border-b border-[#E5E7EB] px-4 py-3">
           <div className="max-w-lg mx-auto flex items-center justify-between">
-            <button onClick={() => setWordPractice(null)} className="text-[#6B7280] hover:text-[#1A1A1A]">
+            <button onClick={() => { stopRecording(); setWordPractice(null); }} className="text-[#6B7280] hover:text-[#1A1A1A]">
               ← Retour
             </button>
-            <h1 className="text-lg font-bold">Prononciation</h1>
+            <h1 className="text-lg font-bold text-[#1A1A1A]">Prononciation</h1>
             <div className="text-sm text-[#6B7280]">{wordSuccesses}/{wordAttempts}</div>
           </div>
         </header>
 
-        <main className="max-w-lg mx-auto px-4 py-8 flex flex-col items-center gap-6">
-          <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card w-full text-center">
+        <main className="max-w-lg mx-auto px-4 py-8 flex flex-col items-center gap-6 animate-fade-in">
+          <div className="bg-white rounded-2xl p-6 border border-[#E5E7EB] shadow-card w-full text-center">
             <p className="text-sm text-[#6B7280] mb-2">Prononcez ce mot :</p>
-            <p className="chinese-char text-5xl font-bold mb-3">{wordPractice.simplified}</p>
+            <p className="chinese-char text-5xl font-bold text-[#1A1A1A] mb-3">{wordPractice.simplified}</p>
             <ToneDisplay pinyin={wordPractice.pinyin} size="lg" />
             <p className="text-[#6B7280] mt-2">{wordPractice.french}</p>
             <p className="text-xs text-[#6B7280] mt-1">HSK {wordPractice.hsk_level}</p>
             <button
               onClick={() => speak(wordPractice.simplified)}
-              className="mt-4 btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-[#1A1A1A] font-bold px-6 py-2 rounded-xl"
+              className="mt-4 btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-white font-bold px-6 py-2 rounded-xl"
             >
-              🔊 Écouter le modèle
+              Ecouter le modele
             </button>
           </div>
 
-          {/* Mic */}
-          <button
-            onClick={wordPracticeState === "listening" ? undefined : startWordListening}
-            disabled={wordPracticeState === "listening"}
-            className={`relative w-24 h-24 rounded-full flex items-center justify-center transition-all ${
-              wordPracticeState === "listening"
-                ? "bg-[#FF4B4B] animate-pulse-ring"
-                : "bg-white border-2 border-[#E5E7EB] hover:border-[#CE82FF] cursor-pointer"
-            }`}
-          >
-            {wordPracticeState === "listening" && (
-              <span className="absolute inset-0 rounded-full border-4 border-[#FF4B4B] opacity-30 animate-pulse-ring" />
-            )}
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none"
-              stroke={wordPracticeState === "listening" ? "white" : "#6B7280"}
-              strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
-              <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
-              <line x1="12" y1="19" x2="12" y2="23" />
-              <line x1="8" y1="23" x2="16" y2="23" />
-            </svg>
-          </button>
-          <p className="text-xs text-[#6B7280]">
-            {wordPracticeState === "listening" ? "Parlez maintenant..." : wordPracticeState === "idle" ? "Appuyez et prononcez" : ""}
-          </p>
-
-          {wordPracticeState === "listening" && (
-            <div className="flex items-end gap-1 h-8">
-              {Array.from({ length: 16 }, (_, i) => (
-                <div key={i} className="w-1.5 bg-[#FF4B4B] rounded-full"
-                  style={{ height: `${20 + Math.random() * 80}%`, animation: `pulse-ring ${0.4 + Math.random() * 0.4}s ease-in-out infinite`, animationDelay: `${i * 0.04}s` }} />
-              ))}
+          {/* Mic / Stop button */}
+          {wordPracticeState === "listening" ? (
+            <div className="flex flex-col items-center gap-2">
+              <button
+                onClick={() => { stopRecording(); }}
+                className="w-24 h-24 rounded-full flex items-center justify-center bg-[#FF4B4B] hover:bg-[#E63E3E] transition-all"
+              >
+                <StopIcon />
+              </button>
+              <p className="text-sm text-[#FF4B4B] font-medium">Parlez maintenant... (4s max)</p>
+            </div>
+          ) : (
+            <div className="flex flex-col items-center gap-2">
+              <button
+                onClick={startWordListening}
+                className="w-24 h-24 rounded-full flex items-center justify-center bg-white border-2 border-[#E5E7EB] hover:border-[#CE82FF] cursor-pointer transition-all"
+              >
+                <MicIcon />
+              </button>
+              <p className="text-xs text-[#6B7280]">
+                {wordPracticeState === "idle" ? "Appuyez et prononcez" : ""}
+              </p>
             </div>
           )}
 
           {wordPracticeState === "result" && (
-            <div className="w-full space-y-4">
+            <div className="w-full space-y-4 animate-fade-in">
               <div className={`p-4 rounded-2xl text-center border ${
                 wordIsMatch ? "bg-[#58CC02]/15 border-[#58CC02]/30" : "bg-[#FF4B4B]/15 border-[#FF4B4B]/30"
               }`}>
-                <div className="text-3xl mb-2">{wordIsMatch ? "✓" : "✗"}</div>
+                <div className={`text-3xl mb-2 ${wordIsMatch ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
+                  {wordIsMatch ? "\u2713" : "\u2717"}
+                </div>
                 <div className={`text-lg font-bold ${wordIsMatch ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
-                  {wordIsMatch ? "Parfait !" : "Pas tout à fait..."}
+                  {wordIsMatch ? "Parfait !" : "Pas tout a fait..."}
                 </div>
                 {wordRecognized && (
                   <p className="text-sm text-[#6B7280] mt-2">
@@ -332,7 +419,7 @@ export default function PronunciationPage() {
                 {!wordIsMatch && (
                   <div className="mt-3 text-sm text-[#6B7280]">
                     <p>Attendu : <span className="chinese-char text-[#1A1A1A] font-bold">{wordPractice.simplified}</span> ({wordPractice.pinyin})</p>
-                    <p className="mt-2 text-[#FF9600]">Écoutez le modèle et concentrez-vous sur les tons</p>
+                    <p className="mt-2 text-[#FF9600]">Ecoutez le modele et concentrez-vous sur les tons</p>
                   </div>
                 )}
               </div>
@@ -341,16 +428,16 @@ export default function PronunciationPage() {
                 {!wordIsMatch && (
                   <button
                     onClick={() => { speak(wordPractice.simplified); setTimeout(() => startWordListening(), 1500); }}
-                    className="flex-1 btn-3d bg-[#FF9600] text-[#1A1A1A] font-bold py-3 rounded-xl"
+                    className="flex-1 btn-3d bg-[#FF9600] text-white font-bold py-3 rounded-xl"
                   >
-                    🔊 Écouter + Réessayer
+                    Ecouter + Reessayer
                   </button>
                 )}
                 <button
                   onClick={wordIsMatch ? nextWordPractice : startWordListening}
-                  className={`flex-1 btn-3d ${wordIsMatch ? "bg-[#58CC02]" : "bg-[#1CB0F6]"} text-[#1A1A1A] font-bold py-3 rounded-xl`}
+                  className={`flex-1 btn-3d ${wordIsMatch ? "bg-[#58CC02]" : "bg-[#1CB0F6]"} text-white font-bold py-3 rounded-xl`}
                 >
-                  {wordIsMatch ? "Mot suivant →" : "🎙️ Réessayer"}
+                  {wordIsMatch ? "Mot suivant \u2192" : "Reessayer"}
                 </button>
               </div>
             </div>
@@ -361,110 +448,81 @@ export default function PronunciationPage() {
     );
   }
 
-  // Practice view (initials/finals)
+  // ═══════════════════════════════════════════════════════════════════════
+  // INITIALS / FINALS PRACTICE VIEW
+  // ═══════════════════════════════════════════════════════════════════════
+
   if (practiceItem) {
     const key = practiceItem.initial || practiceItem.final || "";
     const expectedChinese = getChineseFromExample(practiceExample);
     const expectedPinyin = getPinyinFromExample(practiceExample);
 
     return (
-      <div className="min-h-screen">
-        <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
+      <div className="min-h-screen bg-[#F7F7F5]">
+        <header className="sticky top-0 z-50 glass border-b border-[#E5E7EB] px-4 py-3">
           <div className="max-w-lg mx-auto flex items-center justify-between">
-            <button
-              onClick={() => setPracticeItem(null)}
-              className="text-[#6B7280] hover:text-[#1A1A1A]"
-            >
+            <button onClick={() => { stopRecording(); setPracticeItem(null); }} className="text-[#6B7280] hover:text-[#1A1A1A]">
               ← Retour
             </button>
-            <h1 className="text-lg font-bold">Pratique : {key}</h1>
-            <div className="text-sm text-[#6B7280]">
-              {successes}/{attempts}
-            </div>
+            <h1 className="text-lg font-bold text-[#1A1A1A]">Pratique : {key}</h1>
+            <div className="text-sm text-[#6B7280]">{successes}/{attempts}</div>
           </div>
         </header>
 
-        <main className="max-w-lg mx-auto px-4 py-8 flex flex-col items-center gap-6">
-          {/* Phonetic info */}
-          <div className="bg-gradient-card rounded-2xl p-4 border border-white/5 shadow-card w-full text-center">
+        <main className="max-w-lg mx-auto px-4 py-8 flex flex-col items-center gap-6 animate-fade-in">
+          <div className="bg-white rounded-2xl p-4 border border-[#E5E7EB] shadow-card w-full text-center">
             <div className="text-3xl font-bold text-[#CE82FF] mb-1">{key}</div>
             <div className="text-sm text-[#6B7280]">IPA: {practiceItem.ipa}</div>
             <div className="text-sm text-[#6B7280] mt-1">{practiceItem.description_fr}</div>
           </div>
 
-          {/* Target word */}
-          <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card w-full text-center">
+          <div className="bg-white rounded-2xl p-6 border border-[#E5E7EB] shadow-card w-full text-center">
             <p className="text-sm text-[#6B7280] mb-2">Prononcez ce mot :</p>
-            <p className="chinese-char text-5xl font-bold mb-3">{expectedChinese}</p>
+            <p className="chinese-char text-5xl font-bold text-[#1A1A1A] mb-3">{expectedChinese}</p>
             <p className="text-xl text-[#CE82FF] font-bold mb-4">{expectedPinyin}</p>
             <button
               onClick={() => speak(expectedChinese)}
-              className="btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-[#1A1A1A] font-bold px-6 py-2 rounded-xl"
+              className="btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-white font-bold px-6 py-2 rounded-xl"
             >
-              🔊 Écouter le modèle
+              Ecouter le modele
             </button>
           </div>
 
-          {/* Mic button */}
-          <button
-            onClick={practiceState === "listening" ? undefined : startListening}
-            disabled={practiceState === "listening"}
-            className={`relative w-24 h-24 rounded-full flex items-center justify-center transition-all ${
-              practiceState === "listening"
-                ? "bg-[#FF4B4B] animate-pulse-ring"
-                : "bg-white border-2 border-[#E5E7EB] hover:border-[#CE82FF] cursor-pointer"
-            }`}
-          >
-            {practiceState === "listening" && (
-              <span className="absolute inset-0 rounded-full border-4 border-[#FF4B4B] opacity-30 animate-pulse-ring" />
-            )}
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none"
-              stroke={practiceState === "listening" ? "white" : "#6B7280"}
-              strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
-              <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
-              <line x1="12" y1="19" x2="12" y2="23" />
-              <line x1="8" y1="23" x2="16" y2="23" />
-            </svg>
-          </button>
-          <p className="text-xs text-[#6B7280]">
-            {practiceState === "listening"
-              ? "Parlez maintenant..."
-              : practiceState === "idle"
-              ? "Appuyez sur le micro et prononcez"
-              : ""}
-          </p>
-
-          {/* Waveform during recording */}
-          {practiceState === "listening" && (
-            <div className="flex items-end gap-1 h-8">
-              {Array.from({ length: 16 }, (_, i) => (
-                <div
-                  key={i}
-                  className="w-1.5 bg-[#FF4B4B] rounded-full"
-                  style={{
-                    height: `${20 + Math.random() * 80}%`,
-                    animation: `pulse-ring ${0.4 + Math.random() * 0.4}s ease-in-out infinite`,
-                    animationDelay: `${i * 0.04}s`,
-                  }}
-                />
-              ))}
+          {/* Mic / Stop */}
+          {practiceState === "listening" ? (
+            <div className="flex flex-col items-center gap-2">
+              <button
+                onClick={() => { stopRecording(); }}
+                className="w-24 h-24 rounded-full flex items-center justify-center bg-[#FF4B4B] hover:bg-[#E63E3E] transition-all"
+              >
+                <StopIcon />
+              </button>
+              <p className="text-sm text-[#FF4B4B] font-medium">Parlez maintenant... (4s max)</p>
+            </div>
+          ) : (
+            <div className="flex flex-col items-center gap-2">
+              <button
+                onClick={startListening}
+                className="w-24 h-24 rounded-full flex items-center justify-center bg-white border-2 border-[#E5E7EB] hover:border-[#CE82FF] cursor-pointer transition-all"
+              >
+                <MicIcon />
+              </button>
+              <p className="text-xs text-[#6B7280]">
+                {practiceState === "idle" ? "Appuyez sur le micro et prononcez" : ""}
+              </p>
             </div>
           )}
 
-          {/* Result */}
           {practiceState === "result" && (
-            <div className="w-full space-y-4">
-              <div
-                className={`p-4 rounded-2xl text-center border ${
-                  isMatch
-                    ? "bg-[#58CC02]/15 border-[#58CC02]/30"
-                    : "bg-[#FF4B4B]/15 border-[#FF4B4B]/30"
-                }`}
-              >
-                <div className="text-3xl mb-2">{isMatch ? "✓" : "✗"}</div>
+            <div className="w-full space-y-4 animate-fade-in">
+              <div className={`p-4 rounded-2xl text-center border ${
+                isMatch ? "bg-[#58CC02]/15 border-[#58CC02]/30" : "bg-[#FF4B4B]/15 border-[#FF4B4B]/30"
+              }`}>
+                <div className={`text-3xl mb-2 ${isMatch ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
+                  {isMatch ? "\u2713" : "\u2717"}
+                </div>
                 <div className={`text-lg font-bold ${isMatch ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
-                  {isMatch ? "Excellent !" : "Pas tout à fait..."}
+                  {isMatch ? "Excellent !" : "Pas tout a fait..."}
                 </div>
                 {recognizedText && (
                   <p className="text-sm text-[#6B7280] mt-2">
@@ -475,7 +533,7 @@ export default function PronunciationPage() {
                   <div className="mt-3 text-sm text-[#6B7280]">
                     <p>Attendu : <span className="chinese-char text-[#1A1A1A] font-bold">{expectedChinese}</span> ({expectedPinyin})</p>
                     <p className="mt-2 text-[#FF9600]">
-                      Conseil : Écoutez le modèle, puis réessayez en articulant bien le son "{key}"
+                      Conseil : Ecoutez le modele, puis reessayez en articulant bien le son &quot;{key}&quot;
                     </p>
                   </div>
                 )}
@@ -484,100 +542,266 @@ export default function PronunciationPage() {
               <div className="flex gap-3">
                 {!isMatch && (
                   <button
-                    onClick={() => {
-                      speak(expectedChinese);
-                      setTimeout(() => startListening(), 1500);
-                    }}
-                    className="flex-1 btn-3d bg-[#FF9600] text-[#1A1A1A] font-bold py-3 rounded-xl"
+                    onClick={() => { speak(expectedChinese); setTimeout(() => startListening(), 1500); }}
+                    className="flex-1 btn-3d bg-[#FF9600] text-white font-bold py-3 rounded-xl"
                   >
-                    🔊 Écouter + Réessayer
+                    Ecouter + Reessayer
                   </button>
                 )}
                 <button
                   onClick={isMatch ? nextExample : startListening}
-                  className={`flex-1 btn-3d ${
-                    isMatch ? "bg-[#58CC02]" : "bg-[#1CB0F6]"
-                  } text-[#1A1A1A] font-bold py-3 rounded-xl`}
+                  className={`flex-1 btn-3d ${isMatch ? "bg-[#58CC02]" : "bg-[#1CB0F6]"} text-white font-bold py-3 rounded-xl`}
                 >
-                  {isMatch ? "Mot suivant →" : "🎙️ Réessayer"}
+                  {isMatch ? "Mot suivant \u2192" : "Reessayer"}
                 </button>
               </div>
             </div>
           )}
         </main>
-
         <Navigation />
       </div>
     );
   }
 
-  // List view
+  // ═══════════════════════════════════════════════════════════════════════
+  // DRILL PRACTICE VIEW (initial selected)
+  // ═══════════════════════════════════════════════════════════════════════
+
+  if (drillInitial) {
+    const syllables = getDrillSyllables(drillInitial);
+    const validatedCount = getValidatedCount(drillInitial);
+    const allComplete = isInitialComplete(drillInitial);
+
+    return (
+      <div className="min-h-screen bg-[#F7F7F5]">
+        <header className="sticky top-0 z-50 glass border-b border-[#E5E7EB] px-4 py-3">
+          <div className="max-w-lg mx-auto flex items-center justify-between">
+            <button onClick={() => { stopRecording(); setDrillInitial(null); setDrillResult({}); }} className="text-[#6B7280] hover:text-[#1A1A1A]">
+              ← Retour
+            </button>
+            <h1 className="text-lg font-bold text-[#1A1A1A]">Drill : {drillInitial}</h1>
+            <div className="text-sm text-[#6B7280]">{validatedCount}/{syllables.length} validees</div>
+          </div>
+        </header>
+
+        <main className="max-w-lg mx-auto px-4 py-6 space-y-3 animate-fade-in">
+          {/* Celebration */}
+          {drillCelebration && (
+            <div className="bg-[#58CC02]/15 border border-[#58CC02]/30 rounded-2xl p-6 text-center animate-fade-in">
+              <div className="text-5xl mb-3">&#127881;</div>
+              <div className="text-xl font-bold text-[#58CC02]">Bravo ! Toutes les syllabes validees !</div>
+              <div className="text-sm text-[#6B7280] mt-2">+20 XP gagnes</div>
+            </div>
+          )}
+
+          {allComplete && !drillCelebration && (
+            <div className="bg-[#58CC02]/15 border border-[#58CC02]/30 rounded-2xl p-4 text-center">
+              <span className="text-[#58CC02] font-bold">Initiale &quot;{drillInitial}&quot; completee !</span>
+            </div>
+          )}
+
+          {/* Syllable cards */}
+          <div className="space-y-2">
+            {syllables.map((syllable) => {
+              const progress = drillProgress[drillInitial]?.[syllable];
+              const isValidated = progress === true;
+              const isFailed = progress === false;
+              const isCurrentlyRecording = drillRecording === syllable;
+              const result = drillResult[syllable];
+
+              return (
+                <div
+                  key={syllable}
+                  className={`bg-white rounded-xl border p-4 flex items-center gap-4 transition-all ${
+                    isValidated ? "border-[#58CC02]/40" : isFailed ? "border-[#FF4B4B]/40" : "border-[#E5E7EB]"
+                  }`}
+                >
+                  {/* Status indicator */}
+                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 ${
+                    isValidated
+                      ? "bg-[#58CC02]/15 text-[#58CC02]"
+                      : isFailed
+                      ? "bg-[#FF4B4B]/15 text-[#FF4B4B]"
+                      : "bg-[#F7F7F5] text-[#6B7280]"
+                  }`}>
+                    {isValidated ? "\u2713" : isFailed ? "\u2717" : "\u25CB"}
+                  </div>
+
+                  {/* Syllable name */}
+                  <div className="flex-1 min-w-0">
+                    <span className="text-lg font-bold text-[#1A1A1A]">{syllable}</span>
+                    {result && !isCurrentlyRecording && (
+                      <span className={`ml-2 text-xs ${result.matched ? "text-[#58CC02]" : "text-[#FF4B4B]"}`}>
+                        {result.transcript}
+                      </span>
+                    )}
+                    {isCurrentlyRecording && (
+                      <span className="ml-2 text-xs text-[#FF4B4B] font-medium">Parlez... (4s max)</span>
+                    )}
+                  </div>
+
+                  {/* Listen button */}
+                  <button
+                    onClick={() => speak(syllable)}
+                    className="w-10 h-10 rounded-full bg-[#1CB0F6]/10 flex items-center justify-center hover:bg-[#1CB0F6]/20 transition-all flex-shrink-0"
+                    title="Ecouter"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="#1CB0F6">
+                      <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+                    </svg>
+                  </button>
+
+                  {/* Record button / Stop button */}
+                  {isCurrentlyRecording ? (
+                    <button
+                      onClick={stopRecording}
+                      className="w-10 h-10 rounded-full bg-[#FF4B4B] flex items-center justify-center hover:bg-[#E63E3E] transition-all flex-shrink-0"
+                      title="Arreter"
+                    >
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                        <rect x="6" y="6" width="12" height="12" rx="2" />
+                      </svg>
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => startDrillRecording(syllable, drillInitial)}
+                      disabled={drillRecording !== null}
+                      className={`w-10 h-10 rounded-full flex items-center justify-center transition-all flex-shrink-0 ${
+                        drillRecording !== null
+                          ? "bg-[#F7F7F5] opacity-40 cursor-not-allowed"
+                          : "bg-[#CE82FF]/10 hover:bg-[#CE82FF]/20"
+                      }`}
+                      title="Enregistrer"
+                    >
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="#CE82FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                        <line x1="12" y1="19" x2="12" y2="23" />
+                        <line x1="8" y1="23" x2="16" y2="23" />
+                      </svg>
+                    </button>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </main>
+        <Navigation />
+      </div>
+    );
+  }
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // LIST VIEW (tabs: Initiales, Finales, Drill, Mots)
+  // ═══════════════════════════════════════════════════════════════════════
+
   return (
-    <div className="min-h-screen">
-      <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
+    <div className="min-h-screen bg-[#F7F7F5]">
+      <header className="sticky top-0 z-50 glass border-b border-[#E5E7EB] px-4 py-3">
         <div className="max-w-lg mx-auto">
-          <h1 className="text-lg font-bold mb-3">🎙️ Prononciation</h1>
+          <h1 className="text-lg font-bold text-[#1A1A1A] mb-3">Prononciation</h1>
           <div className="flex gap-2">
-            {(["initials", "finals", "words"] as const).map((t) => (
+            {(["initials", "finals", "drill", "words"] as const).map((t) => (
               <button
                 key={t}
                 onClick={() => setTab(t)}
                 className={`flex-1 py-2 rounded-xl text-sm font-bold transition-all ${
                   tab === t
-                    ? "bg-[#CE82FF] text-[#1A1A1A]"
-                    : "bg-white text-[#6B7280]"
+                    ? "bg-[#CE82FF] text-white"
+                    : "bg-white text-[#6B7280] border border-[#E5E7EB]"
                 }`}
               >
-                {t === "initials" ? "Initiales" : t === "finals" ? "Finales" : "Mots"}
+                {t === "initials" ? "Initiales" : t === "finals" ? "Finales" : t === "drill" ? "Drill" : "Mots"}
               </button>
             ))}
           </div>
         </div>
       </header>
 
-      <main className="max-w-lg mx-auto px-4 py-6 space-y-3">
-        {tab === "words" ? (
+      <main className="max-w-lg mx-auto px-4 py-6 space-y-3 animate-fade-in">
+        {/* ─── WORDS TAB ─────────────────────────────────────────── */}
+        {tab === "words" && (
           <div className="space-y-4">
-            {/* Quick start */}
             <button
               onClick={() => startWordPractice()}
-              className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-[#1A1A1A] font-bold py-3 rounded-xl text-lg"
+              className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-white font-bold py-3 rounded-xl text-lg"
             >
-              🎙️ Session de prononciation
+              Session de prononciation
             </button>
             <p className="text-sm text-[#6B7280] text-center">
-              {learnedWords.length} mots disponibles (basé sur votre progression)
+              {learnedWords.length} mots disponibles (base sur votre progression)
             </p>
 
-            {/* Word list */}
             <div className="space-y-2">
               {learnedWords.map((word, i) => (
                 <button
                   key={`${word.simplified}-${i}`}
                   onClick={() => startWordPractice(word)}
-                  className="w-full flex items-center gap-4 bg-white rounded-xl p-3 border border-[#E5E7EB] hover:border-[#CE82FF] transition-all text-left"
+                  className="w-full flex items-center gap-4 bg-white rounded-xl p-3 border border-[#E5E7EB] hover:border-[#CE82FF] transition-all text-left shadow-card"
                 >
-                  <div className="w-12 h-12 bg-[#F7F7F5] rounded-xl flex items-center justify-center chinese-char text-xl font-bold">
+                  <div className="w-12 h-12 bg-[#F7F7F5] rounded-xl flex items-center justify-center chinese-char text-xl font-bold text-[#1A1A1A]">
                     {word.simplified}
                   </div>
                   <div className="flex-1 min-w-0">
                     <ToneDisplay pinyin={word.pinyin} size="sm" />
                     <div className="text-sm text-[#6B7280] truncate">{word.french}</div>
                   </div>
-                  <div className="text-[#CE82FF]">🎙️</div>
+                  <div className="text-[#CE82FF]">
+                    <MicIcon color="#CE82FF" size={20} />
+                  </div>
                 </button>
               ))}
             </div>
           </div>
-        ) : null}
+        )}
 
-        {tab !== "words" && items.map((item, i) => {
+        {/* ─── DRILL TAB (no initial selected) ───────────────────── */}
+        {tab === "drill" && (
+          <div className="space-y-4">
+            <div className="text-center mb-2">
+              <h2 className="text-xl font-bold text-[#1A1A1A]">Drill : Initiale x Finales</h2>
+              <p className="text-sm text-[#6B7280] mt-1">
+                Choisissez une initiale et prononcez-la avec toutes les finales valides, comme a l&apos;ecole chinoise.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-4 gap-3">
+              {INITIALS_LIST.map((initial) => {
+                const complete = isInitialComplete(initial);
+                const started = drillProgress[initial] && Object.keys(drillProgress[initial]).length > 0;
+                return (
+                  <button
+                    key={initial}
+                    onClick={() => { setDrillInitial(initial); setDrillResult({}); }}
+                    className={`relative bg-white rounded-xl border p-4 flex flex-col items-center justify-center hover:border-[#CE82FF] transition-all shadow-card ${
+                      complete ? "border-[#58CC02]" : started ? "border-[#CE82FF]/50" : "border-[#E5E7EB]"
+                    }`}
+                  >
+                    <span className="text-2xl font-bold text-[#1A1A1A]">{initial}</span>
+                    {complete && (
+                      <span className="absolute top-1 right-1 text-[#58CC02] text-sm">{"\u2713"}</span>
+                    )}
+                    {started && !complete && (
+                      <span className="text-xs text-[#6B7280] mt-1">
+                        {getValidatedCount(initial)}/{getSyllablesForInitial(initial).length}
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* ─── INITIALS / FINALS TAB ─────────────────────────────── */}
+        {(tab === "initials" || tab === "finals") && items.map((item, i) => {
           const key = item.initial || item.final || "";
           const isExpanded = expandedItem === item;
           return (
             <div
               key={i}
-              className="bg-gradient-card rounded-xl border border-white/5 shadow-card overflow-hidden"
+              className="bg-white rounded-xl border border-[#E5E7EB] shadow-card overflow-hidden"
             >
               <button
                 onClick={() => setExpandedItem(isExpanded ? null : item)}
@@ -587,7 +811,7 @@ export default function PronunciationPage() {
                   {key}
                 </div>
                 <div className="flex-1 text-left">
-                  <div className="font-bold">{key}</div>
+                  <div className="font-bold text-[#1A1A1A]">{key}</div>
                   <div className="text-sm text-[#6B7280] line-clamp-1">{item.description_fr}</div>
                 </div>
                 <div className="text-xs text-[#6B7280] bg-[#F7F7F5] px-2 py-1 rounded-full">
@@ -606,16 +830,16 @@ export default function PronunciationPage() {
                         onClick={() => speak(getChineseFromExample(ex))}
                         className="bg-white border border-[#E5E7EB] rounded-lg px-3 py-2 text-sm hover:border-[#CE82FF] transition-all"
                       >
-                        🔊 {ex}
+                        {ex}
                       </button>
                     ))}
                   </div>
 
                   <button
                     onClick={() => startPractice(item)}
-                    className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-[#1A1A1A] font-bold py-2.5 rounded-xl mt-2"
+                    className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-white font-bold py-2.5 rounded-xl mt-2"
                   >
-                    🎙️ S'entraîner sur "{key}"
+                    S&apos;entrainer sur &quot;{key}&quot;
                   </button>
                 </div>
               )}

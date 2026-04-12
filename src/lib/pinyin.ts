@@ -35,7 +35,7 @@ const TONE_MARKS: Record<string, { base: string; tone: number }> = {
 
 // ── Complete valid pinyin syllable table (sorted longest first) ──
 
-const VALID_SYLLABLES: string[] = [
+export const VALID_SYLLABLES: string[] = [
   // 6-letter syllables
   'zhuang', 'chuang', 'shuang',
   // 5-letter syllables
@@ -396,4 +396,19 @@ function changeTone(syllable: string, newTone: number): string {
   }
 
   return result
+}
+
+/**
+ * Get all valid syllables that start with a given initial.
+ * E.g., getSyllablesForInitial("b") → ["ba", "bai", "ban", "bang", "bao", ...]
+ */
+export function getSyllablesForInitial(initial: string): string[] {
+  const lower = initial.toLowerCase()
+  return VALID_SYLLABLES.filter(s => {
+    if (lower.length === 2) return s.startsWith(lower)
+    if (lower === 'z') return s.startsWith('z') && !s.startsWith('zh')
+    if (lower === 'c') return s.startsWith('c') && !s.startsWith('ch')
+    if (lower === 's') return s.startsWith('s') && !s.startsWith('sh')
+    return s.startsWith(lower)
+  }).sort()
 }

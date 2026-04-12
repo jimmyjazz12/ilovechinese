@@ -96,10 +96,10 @@ export default function Navigation() {
     <nav
       className="fixed bottom-0 left-0 right-0 z-50"
       style={{
-        background: "rgba(19, 31, 36, 0.85)",
+        background: "rgba(255, 255, 255, 0.85)",
         backdropFilter: "blur(20px)",
         WebkitBackdropFilter: "blur(20px)",
-        borderTop: "1px solid rgba(255, 255, 255, 0.06)",
+        borderTop: "1px solid #E5E7EB",
       }}
     >
       <div className="flex justify-around items-center h-16 max-w-lg mx-auto">
@@ -117,8 +117,8 @@ export default function Navigation() {
                 transition-all duration-300 ease-out
                 ${
                   isActive
-                    ? "text-[var(--color-green)] nav-active-glow"
-                    : "text-[var(--color-text-secondary)] hover:text-white"
+                    ? "text-[#58CC02]"
+                    : "text-[#6B7280] hover:text-[#1A1A1A]"
                 }
               `}
             >

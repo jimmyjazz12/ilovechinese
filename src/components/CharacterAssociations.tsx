@@ -28,7 +28,7 @@ export default function CharacterAssociations({
 
   return (
     <div className={`space-y-5 ${className}`}>
-      <h3 className="text-sm font-bold text-[var(--color-text-secondary)] uppercase tracking-wider">
+      <h3 className="text-sm font-bold text-[#6B7280] uppercase tracking-wider">
         Mots associes
       </h3>
       {groups.map((group, groupIdx) => (
@@ -39,15 +39,14 @@ export default function CharacterAssociations({
         >
           <div className="flex items-center gap-3 mb-3">
             <span
-              className="chinese-char text-2xl font-bold text-[var(--color-blue)]"
-              style={{ textShadow: "0 0 12px rgba(28, 176, 246, 0.3)" }}
+              className="chinese-char text-2xl font-bold text-[#1CB0F6]"
             >
               {group.character}
             </span>
             <div
               className="flex-1 h-px"
               style={{
-                background: "linear-gradient(90deg, rgba(28, 176, 246, 0.4), transparent)",
+                background: "linear-gradient(90deg, rgba(28, 176, 246, 0.3), transparent)",
               }}
             />
           </div>
@@ -58,25 +57,31 @@ export default function CharacterAssociations({
                 onClick={() => onWordClick?.(word)}
                 className="
                   flex flex-col items-start gap-1 px-4 py-3
-                  rounded-xl shadow-card hover-lift
+                  rounded-xl
                   transition-all duration-300 cursor-pointer
-                  border border-[var(--color-border)]
-                  hover:border-[var(--color-blue)]
+                  hover:-translate-y-0.5
                 "
                 style={{
-                  background: "rgba(26, 44, 52, 0.8)",
-                  backdropFilter: "blur(8px)",
-                  WebkitBackdropFilter: "blur(8px)",
+                  background: "#FFFFFF",
+                  border: "1px solid #E5E7EB",
+                  boxShadow: "0 2px 8px rgba(0, 0, 0, 0.06)",
+                }}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLElement).style.borderColor = "#1CB0F6";
+                  (e.currentTarget as HTMLElement).style.boxShadow = "0 4px 16px rgba(0, 0, 0, 0.1)";
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLElement).style.borderColor = "#E5E7EB";
+                  (e.currentTarget as HTMLElement).style.boxShadow = "0 2px 8px rgba(0, 0, 0, 0.06)";
                 }}
               >
                 <span
-                  className="chinese-char text-lg font-bold text-white"
-                  style={{ textShadow: "0 1px 2px rgba(0, 0, 0, 0.3)" }}
+                  className="chinese-char text-lg font-bold text-[#1A1A1A]"
                 >
                   {word.simplified}
                 </span>
                 <ToneDisplay pinyin={word.pinyin} size="sm" />
-                <span className="text-xs text-[var(--color-text-secondary)] font-medium">
+                <span className="text-xs text-[#6B7280] font-medium">
                   {word.french}
                 </span>
               </button>

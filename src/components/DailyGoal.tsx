@@ -59,8 +59,8 @@ export default function DailyGoal({
         <svg viewBox="0 0 120 120" className="w-full h-full -rotate-90">
           <defs>
             <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="var(--color-green)" />
-              <stop offset="100%" stopColor="var(--color-blue)" />
+              <stop offset="0%" stopColor="#58CC02" />
+              <stop offset="100%" stopColor="#1CB0F6" />
             </linearGradient>
             <filter id="glow">
               <feGaussianBlur stdDeviation="3" result="blur" />
@@ -75,10 +75,10 @@ export default function DailyGoal({
             cx="60"
             cy="60"
             r={radius}
-            stroke="var(--color-border)"
+            stroke="#E5E7EB"
             strokeWidth="8"
             fill="none"
-            opacity="0.5"
+            opacity="0.7"
           />
           {/* Progress ring with gradient + glow */}
           <circle
@@ -98,23 +98,22 @@ export default function DailyGoal({
         {/* Center content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <span
-            className="text-3xl font-extrabold text-white"
-            style={{ textShadow: "0 0 12px rgba(88, 204, 2, 0.3)" }}
+            className="text-3xl font-extrabold text-[#1A1A1A]"
           >
             {displayXp}
           </span>
-          <span className="text-xs text-[var(--color-text-secondary)] font-semibold tracking-wide">
+          <span className="text-xs text-[#6B7280] font-semibold tracking-wide">
             XP
           </span>
         </div>
       </div>
 
-      <p className="text-sm text-[var(--color-text-secondary)] font-medium">
-        Objectif du jour : <span className="text-white font-bold">{currentXp}</span>/{goalXp} XP
+      <p className="text-sm text-[#6B7280] font-medium">
+        Objectif du jour : <span className="text-[#1A1A1A] font-bold">{currentXp}</span>/{goalXp} XP
       </p>
 
       {streak > 0 && (
-        <div className="flex items-center gap-2 text-[var(--color-orange)] font-bold">
+        <div className="flex items-center gap-2 text-[#FF9600] font-bold">
           <svg
             width="22"
             height="22"
@@ -124,8 +123,8 @@ export default function DailyGoal({
           >
             <defs>
               <linearGradient id="flame-grad" x1="0%" y1="100%" x2="0%" y2="0%">
-                <stop offset="0%" stopColor="var(--color-red)" />
-                <stop offset="50%" stopColor="var(--color-orange)" />
+                <stop offset="0%" stopColor="#FF4B4B" />
+                <stop offset="50%" stopColor="#FF9600" />
                 <stop offset="100%" stopColor="#FFD700" />
               </linearGradient>
             </defs>

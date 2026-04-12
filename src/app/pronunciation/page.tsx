@@ -262,24 +262,24 @@ export default function PronunciationPage() {
       <div className="min-h-screen">
         <header className="sticky top-0 z-50 glass-dark border-b border-white/5 px-4 py-3">
           <div className="max-w-lg mx-auto flex items-center justify-between">
-            <button onClick={() => setWordPractice(null)} className="text-[#9EAAB4] hover:text-white">
+            <button onClick={() => setWordPractice(null)} className="text-[#6B7280] hover:text-[#1A1A1A]">
               ← Retour
             </button>
             <h1 className="text-lg font-bold">Prononciation</h1>
-            <div className="text-sm text-[#9EAAB4]">{wordSuccesses}/{wordAttempts}</div>
+            <div className="text-sm text-[#6B7280]">{wordSuccesses}/{wordAttempts}</div>
           </div>
         </header>
 
         <main className="max-w-lg mx-auto px-4 py-8 flex flex-col items-center gap-6">
           <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card w-full text-center">
-            <p className="text-sm text-[#9EAAB4] mb-2">Prononcez ce mot :</p>
+            <p className="text-sm text-[#6B7280] mb-2">Prononcez ce mot :</p>
             <p className="chinese-char text-5xl font-bold mb-3">{wordPractice.simplified}</p>
             <ToneDisplay pinyin={wordPractice.pinyin} size="lg" />
-            <p className="text-[#9EAAB4] mt-2">{wordPractice.french}</p>
-            <p className="text-xs text-[#9EAAB4] mt-1">HSK {wordPractice.hsk_level}</p>
+            <p className="text-[#6B7280] mt-2">{wordPractice.french}</p>
+            <p className="text-xs text-[#6B7280] mt-1">HSK {wordPractice.hsk_level}</p>
             <button
               onClick={() => speak(wordPractice.simplified, 0.7)}
-              className="mt-4 btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-white font-bold px-6 py-2 rounded-xl"
+              className="mt-4 btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-[#1A1A1A] font-bold px-6 py-2 rounded-xl"
             >
               🔊 Écouter le modèle
             </button>
@@ -292,14 +292,14 @@ export default function PronunciationPage() {
             className={`relative w-24 h-24 rounded-full flex items-center justify-center transition-all ${
               wordPracticeState === "listening"
                 ? "bg-[#FF4B4B] animate-pulse-ring"
-                : "bg-[#1A2C34] border-2 border-[#2A4050] hover:border-[#CE82FF] cursor-pointer"
+                : "bg-white border-2 border-[#E5E7EB] hover:border-[#CE82FF] cursor-pointer"
             }`}
           >
             {wordPracticeState === "listening" && (
               <span className="absolute inset-0 rounded-full border-4 border-[#FF4B4B] opacity-30 animate-pulse-ring" />
             )}
             <svg width="36" height="36" viewBox="0 0 24 24" fill="none"
-              stroke={wordPracticeState === "listening" ? "white" : "#9EAAB4"}
+              stroke={wordPracticeState === "listening" ? "white" : "#6B7280"}
               strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
               <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
@@ -307,7 +307,7 @@ export default function PronunciationPage() {
               <line x1="8" y1="23" x2="16" y2="23" />
             </svg>
           </button>
-          <p className="text-xs text-[#9EAAB4]">
+          <p className="text-xs text-[#6B7280]">
             {wordPracticeState === "listening" ? "Parlez maintenant..." : wordPracticeState === "idle" ? "Appuyez et prononcez" : ""}
           </p>
 
@@ -330,13 +330,13 @@ export default function PronunciationPage() {
                   {wordIsMatch ? "Parfait !" : "Pas tout à fait..."}
                 </div>
                 {wordRecognized && (
-                  <p className="text-sm text-[#9EAAB4] mt-2">
-                    Reconnu : <span className="chinese-char text-white">{wordRecognized}</span>
+                  <p className="text-sm text-[#6B7280] mt-2">
+                    Reconnu : <span className="chinese-char text-[#1A1A1A]">{wordRecognized}</span>
                   </p>
                 )}
                 {!wordIsMatch && (
-                  <div className="mt-3 text-sm text-[#9EAAB4]">
-                    <p>Attendu : <span className="chinese-char text-white font-bold">{wordPractice.simplified}</span> ({wordPractice.pinyin})</p>
+                  <div className="mt-3 text-sm text-[#6B7280]">
+                    <p>Attendu : <span className="chinese-char text-[#1A1A1A] font-bold">{wordPractice.simplified}</span> ({wordPractice.pinyin})</p>
                     <p className="mt-2 text-[#FF9600]">Écoutez le modèle et concentrez-vous sur les tons</p>
                   </div>
                 )}
@@ -346,14 +346,14 @@ export default function PronunciationPage() {
                 {!wordIsMatch && (
                   <button
                     onClick={() => { speak(wordPractice.simplified, 0.7); setTimeout(() => startWordListening(), 1500); }}
-                    className="flex-1 btn-3d bg-[#FF9600] text-white font-bold py-3 rounded-xl"
+                    className="flex-1 btn-3d bg-[#FF9600] text-[#1A1A1A] font-bold py-3 rounded-xl"
                   >
                     🔊 Écouter + Réessayer
                   </button>
                 )}
                 <button
                   onClick={wordIsMatch ? nextWordPractice : startWordListening}
-                  className={`flex-1 btn-3d ${wordIsMatch ? "bg-[#58CC02]" : "bg-[#1CB0F6]"} text-white font-bold py-3 rounded-xl`}
+                  className={`flex-1 btn-3d ${wordIsMatch ? "bg-[#58CC02]" : "bg-[#1CB0F6]"} text-[#1A1A1A] font-bold py-3 rounded-xl`}
                 >
                   {wordIsMatch ? "Mot suivant →" : "🎙️ Réessayer"}
                 </button>
@@ -378,12 +378,12 @@ export default function PronunciationPage() {
           <div className="max-w-lg mx-auto flex items-center justify-between">
             <button
               onClick={() => setPracticeItem(null)}
-              className="text-[#9EAAB4] hover:text-white"
+              className="text-[#6B7280] hover:text-[#1A1A1A]"
             >
               ← Retour
             </button>
             <h1 className="text-lg font-bold">Pratique : {key}</h1>
-            <div className="text-sm text-[#9EAAB4]">
+            <div className="text-sm text-[#6B7280]">
               {successes}/{attempts}
             </div>
           </div>
@@ -393,18 +393,18 @@ export default function PronunciationPage() {
           {/* Phonetic info */}
           <div className="bg-gradient-card rounded-2xl p-4 border border-white/5 shadow-card w-full text-center">
             <div className="text-3xl font-bold text-[#CE82FF] mb-1">{key}</div>
-            <div className="text-sm text-[#9EAAB4]">IPA: {practiceItem.ipa}</div>
-            <div className="text-sm text-[#9EAAB4] mt-1">{practiceItem.description_fr}</div>
+            <div className="text-sm text-[#6B7280]">IPA: {practiceItem.ipa}</div>
+            <div className="text-sm text-[#6B7280] mt-1">{practiceItem.description_fr}</div>
           </div>
 
           {/* Target word */}
           <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card w-full text-center">
-            <p className="text-sm text-[#9EAAB4] mb-2">Prononcez ce mot :</p>
+            <p className="text-sm text-[#6B7280] mb-2">Prononcez ce mot :</p>
             <p className="chinese-char text-5xl font-bold mb-3">{expectedChinese}</p>
             <p className="text-xl text-[#CE82FF] font-bold mb-4">{expectedPinyin}</p>
             <button
               onClick={() => speak(expectedChinese)}
-              className="btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-white font-bold px-6 py-2 rounded-xl"
+              className="btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-[#1A1A1A] font-bold px-6 py-2 rounded-xl"
             >
               🔊 Écouter le modèle
             </button>
@@ -417,14 +417,14 @@ export default function PronunciationPage() {
             className={`relative w-24 h-24 rounded-full flex items-center justify-center transition-all ${
               practiceState === "listening"
                 ? "bg-[#FF4B4B] animate-pulse-ring"
-                : "bg-[#1A2C34] border-2 border-[#2A4050] hover:border-[#CE82FF] cursor-pointer"
+                : "bg-white border-2 border-[#E5E7EB] hover:border-[#CE82FF] cursor-pointer"
             }`}
           >
             {practiceState === "listening" && (
               <span className="absolute inset-0 rounded-full border-4 border-[#FF4B4B] opacity-30 animate-pulse-ring" />
             )}
             <svg width="36" height="36" viewBox="0 0 24 24" fill="none"
-              stroke={practiceState === "listening" ? "white" : "#9EAAB4"}
+              stroke={practiceState === "listening" ? "white" : "#6B7280"}
               strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
               <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
@@ -432,7 +432,7 @@ export default function PronunciationPage() {
               <line x1="8" y1="23" x2="16" y2="23" />
             </svg>
           </button>
-          <p className="text-xs text-[#9EAAB4]">
+          <p className="text-xs text-[#6B7280]">
             {practiceState === "listening"
               ? "Parlez maintenant..."
               : practiceState === "idle"
@@ -472,13 +472,13 @@ export default function PronunciationPage() {
                   {isMatch ? "Excellent !" : "Pas tout à fait..."}
                 </div>
                 {recognizedText && (
-                  <p className="text-sm text-[#9EAAB4] mt-2">
-                    Reconnu : <span className="chinese-char text-white">{recognizedText}</span>
+                  <p className="text-sm text-[#6B7280] mt-2">
+                    Reconnu : <span className="chinese-char text-[#1A1A1A]">{recognizedText}</span>
                   </p>
                 )}
                 {!isMatch && (
-                  <div className="mt-3 text-sm text-[#9EAAB4]">
-                    <p>Attendu : <span className="chinese-char text-white font-bold">{expectedChinese}</span> ({expectedPinyin})</p>
+                  <div className="mt-3 text-sm text-[#6B7280]">
+                    <p>Attendu : <span className="chinese-char text-[#1A1A1A] font-bold">{expectedChinese}</span> ({expectedPinyin})</p>
                     <p className="mt-2 text-[#FF9600]">
                       Conseil : Écoutez le modèle, puis réessayez en articulant bien le son "{key}"
                     </p>
@@ -493,7 +493,7 @@ export default function PronunciationPage() {
                       speak(expectedChinese);
                       setTimeout(() => startListening(), 1500);
                     }}
-                    className="flex-1 btn-3d bg-[#FF9600] text-white font-bold py-3 rounded-xl"
+                    className="flex-1 btn-3d bg-[#FF9600] text-[#1A1A1A] font-bold py-3 rounded-xl"
                   >
                     🔊 Écouter + Réessayer
                   </button>
@@ -502,7 +502,7 @@ export default function PronunciationPage() {
                   onClick={isMatch ? nextExample : startListening}
                   className={`flex-1 btn-3d ${
                     isMatch ? "bg-[#58CC02]" : "bg-[#1CB0F6]"
-                  } text-white font-bold py-3 rounded-xl`}
+                  } text-[#1A1A1A] font-bold py-3 rounded-xl`}
                 >
                   {isMatch ? "Mot suivant →" : "🎙️ Réessayer"}
                 </button>
@@ -529,8 +529,8 @@ export default function PronunciationPage() {
                 onClick={() => setTab(t)}
                 className={`flex-1 py-2 rounded-xl text-sm font-bold transition-all ${
                   tab === t
-                    ? "bg-[#CE82FF] text-white"
-                    : "bg-[#1A2C34] text-[#9EAAB4]"
+                    ? "bg-[#CE82FF] text-[#1A1A1A]"
+                    : "bg-white text-[#6B7280]"
                 }`}
               >
                 {t === "initials" ? "Initiales" : t === "finals" ? "Finales" : "Mots"}
@@ -546,11 +546,11 @@ export default function PronunciationPage() {
             {/* Quick start */}
             <button
               onClick={() => startWordPractice()}
-              className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-white font-bold py-3 rounded-xl text-lg"
+              className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-[#1A1A1A] font-bold py-3 rounded-xl text-lg"
             >
               🎙️ Session de prononciation
             </button>
-            <p className="text-sm text-[#9EAAB4] text-center">
+            <p className="text-sm text-[#6B7280] text-center">
               {learnedWords.length} mots disponibles (basé sur votre progression)
             </p>
 
@@ -560,14 +560,14 @@ export default function PronunciationPage() {
                 <button
                   key={`${word.simplified}-${i}`}
                   onClick={() => startWordPractice(word)}
-                  className="w-full flex items-center gap-4 bg-[#1A2C34] rounded-xl p-3 border border-[#2A4050] hover:border-[#CE82FF] transition-all text-left"
+                  className="w-full flex items-center gap-4 bg-white rounded-xl p-3 border border-[#E5E7EB] hover:border-[#CE82FF] transition-all text-left"
                 >
-                  <div className="w-12 h-12 bg-[#223A44] rounded-xl flex items-center justify-center chinese-char text-xl font-bold">
+                  <div className="w-12 h-12 bg-[#F7F7F5] rounded-xl flex items-center justify-center chinese-char text-xl font-bold">
                     {word.simplified}
                   </div>
                   <div className="flex-1 min-w-0">
                     <ToneDisplay pinyin={word.pinyin} size="sm" />
-                    <div className="text-sm text-[#9EAAB4] truncate">{word.french}</div>
+                    <div className="text-sm text-[#6B7280] truncate">{word.french}</div>
                   </div>
                   <div className="text-[#CE82FF]">🎙️</div>
                 </button>
@@ -586,30 +586,30 @@ export default function PronunciationPage() {
             >
               <button
                 onClick={() => setExpandedItem(isExpanded ? null : item)}
-                className="w-full flex items-center gap-4 p-4 hover:bg-[#223A44] transition-all"
+                className="w-full flex items-center gap-4 p-4 hover:bg-[#F7F7F5] transition-all"
               >
                 <div className="w-12 h-12 bg-[#CE82FF]/20 rounded-xl flex items-center justify-center text-xl font-bold text-[#CE82FF]">
                   {key}
                 </div>
                 <div className="flex-1 text-left">
                   <div className="font-bold">{key}</div>
-                  <div className="text-sm text-[#9EAAB4] line-clamp-1">{item.description_fr}</div>
+                  <div className="text-sm text-[#6B7280] line-clamp-1">{item.description_fr}</div>
                 </div>
-                <div className="text-xs text-[#9EAAB4] bg-[#223A44] px-2 py-1 rounded-full">
+                <div className="text-xs text-[#6B7280] bg-[#F7F7F5] px-2 py-1 rounded-full">
                   {item.ipa}
                 </div>
               </button>
 
               {isExpanded && (
-                <div className="border-t border-[#2A4050] p-4 bg-[#223A44] space-y-3">
-                  <p className="text-sm text-[#9EAAB4]">{item.description_fr}</p>
+                <div className="border-t border-[#E5E7EB] p-4 bg-[#F7F7F5] space-y-3">
+                  <p className="text-sm text-[#6B7280]">{item.description_fr}</p>
 
                   <div className="flex flex-wrap gap-2">
                     {item.examples.map((ex, j) => (
                       <button
                         key={j}
                         onClick={() => speak(getChineseFromExample(ex))}
-                        className="bg-[#1A2C34] border border-[#2A4050] rounded-lg px-3 py-2 text-sm hover:border-[#CE82FF] transition-all"
+                        className="bg-white border border-[#E5E7EB] rounded-lg px-3 py-2 text-sm hover:border-[#CE82FF] transition-all"
                       >
                         🔊 {ex}
                       </button>
@@ -618,7 +618,7 @@ export default function PronunciationPage() {
 
                   <button
                     onClick={() => startPractice(item)}
-                    className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-white font-bold py-2.5 rounded-xl mt-2"
+                    className="w-full btn-3d bg-[#CE82FF] hover:bg-[#B86EE6] text-[#1A1A1A] font-bold py-2.5 rounded-xl mt-2"
                   >
                     🎙️ S'entraîner sur "{key}"
                   </button>

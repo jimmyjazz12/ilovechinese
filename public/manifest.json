@@ -4,8 +4,8 @@
   "description": "Apprends le mandarin avec flashcards, SRS, quiz et prof IA",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#131F24",
-  "theme_color": "#131F24",
+  "background_color": "#F7F7F5",
+  "theme_color": "#F7F7F5",
   "orientation": "portrait",
   "scope": "/",
   "icons": [

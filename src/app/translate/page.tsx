@@ -113,8 +113,8 @@ export default function TranslatePage() {
               onClick={() => setDirection("fr_to_cn")}
               className={`flex-1 py-2 rounded-xl text-sm font-bold transition-all ${
                 direction === "fr_to_cn"
-                  ? "bg-[#58CC02] text-white"
-                  : "bg-[#1A2C34] text-[#9EAAB4]"
+                  ? "bg-[#58CC02] text-[#1A1A1A]"
+                  : "bg-white text-[#6B7280]"
               }`}
             >
               FR → 中文
@@ -123,8 +123,8 @@ export default function TranslatePage() {
               onClick={() => setDirection("cn_to_fr")}
               className={`flex-1 py-2 rounded-xl text-sm font-bold transition-all ${
                 direction === "cn_to_fr"
-                  ? "bg-[#1CB0F6] text-white"
-                  : "bg-[#1A2C34] text-[#9EAAB4]"
+                  ? "bg-[#1CB0F6] text-[#1A1A1A]"
+                  : "bg-white text-[#6B7280]"
               }`}
             >
               中文 → FR
@@ -142,8 +142,8 @@ export default function TranslatePage() {
               onClick={() => setMaxHsk(level)}
               className={`px-3 py-1 rounded-full text-xs font-bold ${
                 maxHsk === level
-                  ? "bg-[#58CC02] text-white"
-                  : "bg-[#1A2C34] text-[#9EAAB4]"
+                  ? "bg-[#58CC02] text-[#1A1A1A]"
+                  : "bg-white text-[#6B7280]"
               }`}
             >
               HSK {level}
@@ -152,7 +152,7 @@ export default function TranslatePage() {
         </div>
 
         {/* Score */}
-        <div className="text-center text-sm text-[#9EAAB4]">
+        <div className="text-center text-sm text-[#6B7280]">
           Score: {score.correct}/{score.total}
         </div>
 
@@ -160,7 +160,7 @@ export default function TranslatePage() {
           <div className="space-y-4">
             {/* Question */}
             <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card text-center">
-              <p className="text-sm text-[#9EAAB4] mb-2">Traduisez :</p>
+              <p className="text-sm text-[#6B7280] mb-2">Traduisez :</p>
               {direction === "fr_to_cn" ? (
                 <p className="text-2xl font-bold">{currentSentence.french}</p>
               ) : (
@@ -190,7 +190,7 @@ export default function TranslatePage() {
                     ? "Écrivez en chinois..."
                     : "Écrivez en français..."
                 }
-                className="w-full bg-[#1A2C34] rounded-xl px-4 py-3 text-lg text-center placeholder-[#9EAAB4] input-focus"
+                className="w-full bg-white rounded-xl px-4 py-3 text-lg text-center placeholder-[#6B7280] input-focus"
                 disabled={showResult}
               />
             </div>
@@ -199,7 +199,7 @@ export default function TranslatePage() {
               <button
                 onClick={checkAnswer}
                 disabled={!userInput.trim()}
-                className="w-full btn-3d bg-[#58CC02] hover:bg-[#46A302] disabled:bg-[#2A4050] disabled:text-[#9EAAB4] text-white font-bold py-3 rounded-xl"
+                className="w-full btn-3d bg-[#58CC02] hover:bg-[#46A302] disabled:bg-[#2A4050] disabled:text-[#6B7280] text-[#1A1A1A] font-bold py-3 rounded-xl"
               >
                 Vérifier
               </button>
@@ -216,8 +216,8 @@ export default function TranslatePage() {
                 </div>
 
                 {!isCorrect && (
-                  <div className="bg-[#1A2C34] rounded-xl p-4 border border-[#2A4050]">
-                    <p className="text-sm text-[#9EAAB4] mb-1">Réponse attendue :</p>
+                  <div className="bg-white rounded-xl p-4 border border-[#E5E7EB]">
+                    <p className="text-sm text-[#6B7280] mb-1">Réponse attendue :</p>
                     {direction === "fr_to_cn" ? (
                       <div>
                         <p className="chinese-char text-xl font-bold">{currentSentence.chinese}</p>
@@ -231,7 +231,7 @@ export default function TranslatePage() {
 
                 <button
                   onClick={newSentence}
-                  className="w-full btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-white font-bold py-3 rounded-xl"
+                  className="w-full btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] text-[#1A1A1A] font-bold py-3 rounded-xl"
                 >
                   Suivant →
                 </button>

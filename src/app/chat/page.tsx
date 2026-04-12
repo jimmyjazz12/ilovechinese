@@ -121,7 +121,7 @@ export default function ChatPage() {
           </div>
           <button
             onClick={clearChat}
-            className="text-xs text-[#9EAAB4] hover:text-[#FF4B4B] transition-colors"
+            className="text-xs text-[#6B7280] hover:text-[#FF4B4B] transition-colors"
           >
             Effacer
           </button>
@@ -133,7 +133,7 @@ export default function ChatPage() {
           <div className="text-center py-12 space-y-4">
             <div className="text-6xl">👨‍🏫</div>
             <h2 className="text-xl font-bold">Bonjour ! Je suis Prof Wang</h2>
-            <p className="text-[#9EAAB4] text-sm max-w-xs mx-auto">
+            <p className="text-[#6B7280] text-sm max-w-xs mx-auto">
               Je suis votre professeur de mandarin. Posez-moi vos questions,
               demandez-moi des exercices ou discutons en chinois !
             </p>
@@ -149,7 +149,7 @@ export default function ChatPage() {
                   onClick={() => {
                     setInput(suggestion);
                   }}
-                  className="bg-gradient-card border border-white/5 rounded-xl shadow-card hover-lift px-3 py-2 text-xs text-[#9EAAB4] hover:border-[#1CB0F6] transition-all"
+                  className="bg-gradient-card border border-white/5 rounded-xl shadow-card hover-lift px-3 py-2 text-xs text-[#6B7280] hover:border-[#1CB0F6] transition-all"
                 >
                   {suggestion}
                 </button>
@@ -163,11 +163,11 @@ export default function ChatPage() {
             <ChatMessage key={i} role={msg.role} content={msg.content} timestamp={msg.timestamp} />
           ))}
           {loading && (
-            <div className="flex items-center gap-2 text-[#9EAAB4]">
+            <div className="flex items-center gap-2 text-[#6B7280]">
               <div className="flex gap-1">
-                <span className="w-2 h-2 bg-[#9EAAB4] rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
-                <span className="w-2 h-2 bg-[#9EAAB4] rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
-                <span className="w-2 h-2 bg-[#9EAAB4] rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
+                <span className="w-2 h-2 bg-[#6B7280] rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
+                <span className="w-2 h-2 bg-[#6B7280] rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
+                <span className="w-2 h-2 bg-[#6B7280] rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
               </div>
               <span className="text-xs">Prof Wang écrit...</span>
             </div>
@@ -185,12 +185,12 @@ export default function ChatPage() {
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && sendMessage()}
             placeholder="Écrivez votre message..."
-            className="flex-1 bg-[#1A2C34] rounded-xl px-4 py-2.5 text-sm placeholder-[#9EAAB4] input-focus"
+            className="flex-1 bg-white rounded-xl px-4 py-2.5 text-sm placeholder-[#6B7280] input-focus"
           />
           <button
             onClick={sendMessage}
             disabled={!input.trim() || loading}
-            className="btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] disabled:bg-[#2A4050] text-white font-bold px-4 py-2.5 rounded-xl"
+            className="btn-3d bg-[#1CB0F6] hover:bg-[#1899D6] disabled:bg-[#2A4050] text-[#1A1A1A] font-bold px-4 py-2.5 rounded-xl"
           >
             ↑
           </button>

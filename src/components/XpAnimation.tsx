@@ -106,7 +106,7 @@ export default function XpAnimation({
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
           backgroundClip: "text",
-          filter: "drop-shadow(0 2px 8px rgba(88, 204, 2, 0.4))",
+          filter: "drop-shadow(0 2px 8px rgba(88, 204, 2, 0.5)) drop-shadow(0 0 4px rgba(0,0,0,0.1))",
         }}
       >
         +{amount} XP

@@ -12,17 +12,17 @@
   --color-red: #FF4B4B;
   --color-orange: #FF9600;
   --color-purple: #CE82FF;
-  --color-bg: #131F24;
-  --color-card: #1A2C34;
-  --color-card-hover: #223A44;
-  --color-border: #2A4050;
-  --color-text: #FFFFFF;
-  --color-text-secondary: #9EAAB4;
+  --color-bg: #F7F7F5;
+  --color-card: #FFFFFF;
+  --color-card-hover: #FAFAFA;
+  --color-border: #E5E7EB;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #6B7280;
   --color-tone1: #FF4B4B;
-  --color-tone2: #FF9600;
+  --color-tone2: #F5A623;
   --color-tone3: #58CC02;
   --color-tone4: #1CB0F6;
-  --color-tone5: #AFAFAF;
+  --color-tone5: #9CA3AF;
 }
 
 @theme inline {
@@ -54,12 +54,12 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(42, 64, 80, 0.6);
+  background: rgba(0, 0, 0, 0.15);
   border-radius: 3px;
   transition: background 0.2s;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(42, 64, 80, 0.9);
+  background: rgba(0, 0, 0, 0.3);
 }
 ::-webkit-scrollbar-corner {
   background: transparent;
@@ -68,7 +68,7 @@ body {
 /* Firefox scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(42, 64, 80, 0.6) transparent;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
 }
 
 /* ===================================================================
@@ -76,33 +76,33 @@ body {
    =================================================================== */
 
 .shadow-card {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2),
-    0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06),
+    0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
 .shadow-card-hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3),
-    0 12px 32px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08),
+    0 12px 32px rgba(0, 0, 0, 0.06);
 }
 
 .shadow-glow-green {
-  box-shadow: 0 0 20px rgba(88, 204, 2, 0.2),
-    0 0 40px rgba(88, 204, 2, 0.1);
+  box-shadow: 0 0 20px rgba(88, 204, 2, 0.15),
+    0 0 40px rgba(88, 204, 2, 0.08);
 }
 
 .shadow-glow-blue {
-  box-shadow: 0 0 20px rgba(28, 176, 246, 0.2),
-    0 0 40px rgba(28, 176, 246, 0.1);
+  box-shadow: 0 0 20px rgba(28, 176, 246, 0.15),
+    0 0 40px rgba(28, 176, 246, 0.08);
 }
 
 .shadow-glow-purple {
-  box-shadow: 0 0 20px rgba(206, 130, 255, 0.2),
-    0 0 40px rgba(206, 130, 255, 0.1);
+  box-shadow: 0 0 20px rgba(206, 130, 255, 0.15),
+    0 0 40px rgba(206, 130, 255, 0.08);
 }
 
 .shadow-glow-orange {
-  box-shadow: 0 0 20px rgba(255, 150, 0, 0.2),
-    0 0 40px rgba(255, 150, 0, 0.1);
+  box-shadow: 0 0 20px rgba(255, 150, 0, 0.15),
+    0 0 40px rgba(255, 150, 0, 0.08);
 }
 
 /* ===================================================================
@@ -219,16 +219,16 @@ body {
 }
 .hover-lift:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3),
-    0 12px 32px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08),
+    0 12px 32px rgba(0, 0, 0, 0.06);
 }
 
 .hover-glow {
   transition: box-shadow 0.2s ease;
 }
 .hover-glow:hover {
-  box-shadow: 0 0 16px rgba(255, 255, 255, 0.08),
-    0 0 32px rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.06),
+    0 0 32px rgba(0, 0, 0, 0.03);
 }
 
 .hover-scale {
@@ -243,17 +243,17 @@ body {
    =================================================================== */
 
 .glass {
-  background: rgba(26, 44, 52, 0.8);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .glass-dark {
-  background: rgba(19, 31, 36, 0.85);
+  background: rgba(247, 247, 245, 0.9);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 /* ===================================================================
@@ -261,11 +261,11 @@ body {
    =================================================================== */
 
 .bg-gradient-dark {
-  background: linear-gradient(145deg, #131F24 0%, #0D171C 50%, #111D22 100%);
+  background: linear-gradient(145deg, #F7F7F5 0%, #F0F0EE 50%, #F5F5F3 100%);
 }
 
 .bg-gradient-card {
-  background: linear-gradient(145deg, #1A2C34 0%, #1E3540 100%);
+  background: linear-gradient(145deg, #FFFFFF 0%, #FAFAFA 100%);
 }
 
 .bg-gradient-green {
@@ -301,7 +301,7 @@ body {
 
 .text-glow {
   text-shadow: 0 0 10px currentColor,
-    0 0 20px rgba(255, 255, 255, 0.06);
+    0 0 20px rgba(0, 0, 0, 0.04);
 }
 
 /* ===================================================================

@@ -272,12 +272,12 @@ export default function ReviewPage() {
         <main className="max-w-lg mx-auto px-4 py-8 text-center space-y-6">
           <div className="text-6xl mb-4">🧠</div>
           <h2 className="text-2xl font-bold">Session de révision</h2>
-          <p className="text-[#9EAAB4]">
+          <p className="text-[#6B7280]">
             Révisez votre vocabulaire avec des quiz intelligents adaptés à votre niveau.
           </p>
 
           <div className="space-y-3">
-            <label className="text-sm text-[#9EAAB4]">Niveau maximum</label>
+            <label className="text-sm text-[#6B7280]">Niveau maximum</label>
             <div className="flex gap-2 justify-center">
               {[1, 2, 3, 4].map((level) => (
                 <button
@@ -285,8 +285,8 @@ export default function ReviewPage() {
                   onClick={() => setCurrentHsk(level)}
                   className={`px-4 py-2 rounded-xl font-bold transition-all ${
                     currentHsk === level
-                      ? "bg-[#58CC02] text-white"
-                      : "bg-[#1A2C34] text-[#9EAAB4] hover:bg-[#223A44] hover-scale"
+                      ? "bg-[#58CC02] text-[#1A1A1A]"
+                      : "bg-white text-[#6B7280] hover:bg-[#F7F7F5] hover-scale"
                   }`}
                 >
                   HSK {level}
@@ -297,7 +297,7 @@ export default function ReviewPage() {
 
           <button
             onClick={startSession}
-            className="btn-3d bg-[#58CC02] hover:bg-[#46A302] text-white font-bold px-8 py-3 rounded-xl text-lg"
+            className="btn-3d bg-[#58CC02] hover:bg-[#46A302] text-[#1A1A1A] font-bold px-8 py-3 rounded-xl text-lg"
           >
             Commencer la révision
           </button>
@@ -316,20 +316,20 @@ export default function ReviewPage() {
           <h2 className="text-2xl font-bold">Session terminée !</h2>
           <div className="bg-gradient-card rounded-2xl p-6 border border-white/5 shadow-card">
             <div className="text-4xl font-bold text-[#58CC02] mb-2">{percentage}%</div>
-            <div className="text-[#9EAAB4]">
+            <div className="text-[#6B7280]">
               {sessionScore.correct} / {sessionScore.total} bonnes réponses
             </div>
           </div>
           <div className="flex gap-3 justify-center">
             <button
               onClick={startSession}
-              className="btn-3d bg-[#58CC02] hover:bg-[#46A302] text-white font-bold px-6 py-3 rounded-xl"
+              className="btn-3d bg-[#58CC02] hover:bg-[#46A302] text-[#1A1A1A] font-bold px-6 py-3 rounded-xl"
             >
               Nouvelle session
             </button>
             <button
               onClick={() => setStarted(false)}
-              className="btn-3d bg-[#1A2C34] border border-[#2A4050] text-white font-bold px-6 py-3 rounded-xl"
+              className="btn-3d bg-white border border-[#E5E7EB] text-[#1A1A1A] font-bold px-6 py-3 rounded-xl"
             >
               Retour
             </button>
@@ -343,19 +343,19 @@ export default function ReviewPage() {
   return (
     <div className="min-h-screen">
       {/* Progress bar */}
-      <div className="sticky top-0 z-50 bg-[#131F24] px-4 py-3">
+      <div className="sticky top-0 z-50 bg-[#F7F7F5] px-4 py-3">
         <div className="max-w-lg mx-auto">
           <div className="flex items-center gap-3 mb-2">
-            <button onClick={() => setStarted(false)} className="text-[#9EAAB4]">
+            <button onClick={() => setStarted(false)} className="text-[#6B7280]">
               ✕
             </button>
-            <div className="flex-1 h-3 bg-[#1A2C34] rounded-full overflow-hidden">
+            <div className="flex-1 h-3 bg-white rounded-full overflow-hidden">
               <div
                 className="h-full bg-[#58CC02] rounded-full transition-all duration-300"
                 style={{ width: `${((currentIndex + 1) / sessionWords.length) * 100}%` }}
               />
             </div>
-            <span className="text-sm text-[#9EAAB4]">
+            <span className="text-sm text-[#6B7280]">
               {currentIndex + 1}/{sessionWords.length}
             </span>
           </div>
@@ -382,7 +382,7 @@ export default function ReviewPage() {
               u.rate = 0.8;
               speechSynthesis.speak(u);
             }}
-            className="mx-auto mt-4 btn-3d bg-[#1CB0F6] text-white font-bold px-6 py-2 rounded-xl flex items-center gap-2"
+            className="mx-auto mt-4 btn-3d bg-[#1CB0F6] text-[#1A1A1A] font-bold px-6 py-2 rounded-xl flex items-center gap-2"
           >
             🔊 Réécouter
           </button>

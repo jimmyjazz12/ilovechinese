@@ -78,14 +78,14 @@ export function getToneColor(toneNumber: number): string {
     case 1:
       return '#FF4B4B'
     case 2:
-      return '#FF9600'
+      return '#F5A623'
     case 3:
       return '#58CC02'
     case 4:
       return '#1CB0F6'
     case 5:
     default:
-      return '#AFAFAF'
+      return '#9CA3AF'
   }
 }
 

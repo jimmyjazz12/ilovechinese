@@ -52,7 +52,7 @@ export default function GrammarPage() {
             <h1 className="text-lg font-bold">📝 Grammaire</h1>
             <Link
               href="/grammar/review"
-              className="btn-3d bg-[#58CC02] text-white text-sm font-bold px-4 py-1.5 rounded-xl"
+              className="btn-3d bg-[#58CC02] text-[#1A1A1A] text-sm font-bold px-4 py-1.5 rounded-xl"
             >
               Quiz →
             </Link>
@@ -64,8 +64,8 @@ export default function GrammarPage() {
                 onClick={() => setSelectedHsk(level)}
                 className={`px-4 py-1.5 rounded-full text-sm font-bold transition-all ${
                   selectedHsk === level
-                    ? "text-white"
-                    : "bg-[#1A2C34] text-[#9EAAB4] hover:bg-[#223A44]"
+                    ? "text-[#1A1A1A]"
+                    : "bg-white text-[#6B7280] hover:bg-[#F7F7F5]"
                 }`}
                 style={selectedHsk === level ? { backgroundColor: hskColors[level] } : {}}
               >
@@ -86,18 +86,18 @@ export default function GrammarPage() {
               onClick={() =>
                 setExpandedRule(expandedRule === rule.id ? null : rule.id)
               }
-              className="w-full text-left p-4 hover:bg-[#223A44] transition-all"
+              className="w-full text-left p-4 hover:bg-[#F7F7F5] transition-all"
             >
               <div className="flex items-start gap-3">
                 <div
-                  className="w-8 h-8 rounded-lg flex items-center justify-center text-white text-xs font-bold shrink-0"
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-[#1A1A1A] text-xs font-bold shrink-0"
                   style={{ backgroundColor: hskColors[rule.hsk_level] }}
                 >
                   {rule.id}
                 </div>
                 <div>
                   <div className="font-bold text-sm">{rule.title}</div>
-                  <div className="text-xs text-[#9EAAB4] mt-1 font-mono">
+                  <div className="text-xs text-[#6B7280] mt-1 font-mono">
                     {rule.pattern}
                   </div>
                 </div>
@@ -105,19 +105,19 @@ export default function GrammarPage() {
             </button>
 
             {expandedRule === rule.id && (
-              <div className="border-t border-[#2A4050] p-4 space-y-4">
-                <p className="text-sm text-[#9EAAB4] leading-relaxed">
+              <div className="border-t border-[#E5E7EB] p-4 space-y-4">
+                <p className="text-sm text-[#6B7280] leading-relaxed">
                   {rule.explanation_fr}
                 </p>
 
                 <div className="space-y-3">
-                  <h3 className="text-xs font-bold text-[#9EAAB4] uppercase tracking-wide">
+                  <h3 className="text-xs font-bold text-[#6B7280] uppercase tracking-wide">
                     Exemples
                   </h3>
                   {rule.examples.map((ex, i) => (
                     <div
                       key={i}
-                      className="bg-[#223A44] rounded-lg p-3"
+                      className="bg-[#F7F7F5] rounded-lg p-3"
                     >
                       <div className="flex items-center gap-2 mb-1">
                         <button
@@ -131,7 +131,7 @@ export default function GrammarPage() {
                         </span>
                       </div>
                       <ToneDisplay pinyin={ex.pinyin} size="sm" />
-                      <div className="text-sm text-[#9EAAB4] mt-1">
+                      <div className="text-sm text-[#6B7280] mt-1">
                         {ex.french}
                       </div>
                     </div>

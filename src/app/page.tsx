@@ -117,15 +117,15 @@ export default function Dashboard() {
             </div>
             <div>
               <h1 className="text-base font-extrabold tracking-tight">I Love Chinese</h1>
-              <p className="text-xs text-[#9EAAB4]">{getGreeting()} !</p>
+              <p className="text-xs text-[#6B7280]">{getGreeting()} !</p>
             </div>
           </div>
           <div className="flex items-center gap-4 animate-fade-in animate-delay-1">
-            <div className="flex items-center gap-1.5 bg-[#FF9600]/10 px-3 py-1.5 rounded-full">
+            <div className="flex items-center gap-1.5 bg-[#FF9600]/15 px-3 py-1.5 rounded-full">
               <span className="text-sm">🔥</span>
               <span className="font-bold text-sm text-[#FF9600]">{stats.daily_streak}</span>
             </div>
-            <div className="flex items-center gap-1.5 bg-[#FFD900]/10 px-3 py-1.5 rounded-full">
+            <div className="flex items-center gap-1.5 bg-[#FFD900]/15 px-3 py-1.5 rounded-full">
               <span className="text-sm">⚡</span>
               <span className="font-bold text-sm text-[#FFD900]">{stats.xp_total}</span>
             </div>
@@ -141,7 +141,7 @@ export default function Dashboard() {
 
         {/* Progress Overview */}
         <div className="bg-gradient-card rounded-2xl p-5 border border-white/5 shadow-card animate-fade-in animate-delay-2">
-          <h2 className="font-bold text-xs text-[#9EAAB4] uppercase tracking-widest mb-4">
+          <h2 className="font-bold text-xs text-[#6B7280] uppercase tracking-widest mb-4">
             Progression HSK {stats.current_hsk_level}
           </h2>
           <div className="grid grid-cols-3 gap-4 text-center">
@@ -149,26 +149,26 @@ export default function Dashboard() {
               <div className="text-3xl font-extrabold text-[#58CC02]">
                 <AnimatedNumber value={stats.words_mastered} />
               </div>
-              <div className="text-[10px] text-[#9EAAB4] uppercase tracking-wider font-semibold">Maîtrisés</div>
+              <div className="text-[10px] text-[#6B7280] uppercase tracking-wider font-semibold">Maîtrisés</div>
             </div>
             <div className="space-y-1">
               <div className="text-3xl font-extrabold text-[#FF9600]">
                 <AnimatedNumber value={stats.words_in_progress} />
               </div>
-              <div className="text-[10px] text-[#9EAAB4] uppercase tracking-wider font-semibold">En cours</div>
+              <div className="text-[10px] text-[#6B7280] uppercase tracking-wider font-semibold">En cours</div>
             </div>
             <div className="space-y-1">
               <div className="text-3xl font-extrabold text-[#1CB0F6]">
                 <AnimatedNumber value={stats.words_to_review} />
               </div>
-              <div className="text-[10px] text-[#9EAAB4] uppercase tracking-wider font-semibold">À revoir</div>
+              <div className="text-[10px] text-[#6B7280] uppercase tracking-wider font-semibold">À revoir</div>
             </div>
           </div>
         </div>
 
         {/* Quick Actions */}
         <div className="animate-fade-in animate-delay-3">
-          <h2 className="font-bold text-xs text-[#9EAAB4] uppercase tracking-widest mb-3">
+          <h2 className="font-bold text-xs text-[#6B7280] uppercase tracking-widest mb-3">
             Activités
           </h2>
           <div className="grid grid-cols-2 gap-3">
@@ -183,7 +183,7 @@ export default function Dashboard() {
                   {action.icon}
                 </div>
                 <div className="font-bold text-sm">{action.title}</div>
-                <div className="text-xs text-[#9EAAB4] mt-0.5">{action.subtitle}</div>
+                <div className="text-xs text-[#6B7280] mt-0.5">{action.subtitle}</div>
               </Link>
             ))}
           </div>

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Badge from "./ui/Badge";
-import ToneDisplay from "./ToneDisplay";
+import ToneDisplay, { ToneColoredText } from "./ToneDisplay";
 
 interface FlashCardWord {
   simplified: string;
@@ -29,48 +29,32 @@ export default function FlashCard({ word, onAudioPlay, className = "" }: FlashCa
       <div className="flip-card-inner w-full h-full">
         {/* Front */}
         <div
-          className="flip-card-front flex flex-col items-center justify-center gap-4 p-6 shadow-xl gradient-border"
+          className="flip-card-front flex flex-col items-center justify-center gap-4 p-6 rounded-2xl"
           style={{
-            background: "rgba(26, 44, 52, 0.8)",
-            backdropFilter: "blur(16px)",
-            WebkitBackdropFilter: "blur(16px)",
-            border: "1px solid rgba(255, 255, 255, 0.05)",
+            background: "#FFFFFF",
+            border: "1px solid #E5E7EB",
+            boxShadow: "0 4px 16px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04)",
           }}
         >
-          <div className="shadow-glow-green rounded-full">
-            <Badge level={word.hsk_level} className="shadow-lg" />
-          </div>
-          <span
-            className="chinese-char text-7xl font-bold text-white"
-            style={{ textShadow: "0 0 30px rgba(255, 255, 255, 0.08), 0 2px 4px rgba(0, 0, 0, 0.3)" }}
-          >
-            {word.simplified}
-          </span>
-          <span className="text-[var(--color-text-secondary)] text-sm mt-2">
+          <Badge level={word.hsk_level} className="shadow-lg" />
+          <ToneColoredText characters={word.simplified} pinyin={word.pinyin} size="xl" />
+          <span className="text-[#6B7280] text-sm mt-2">
             Appuyer pour retourner
           </span>
         </div>
 
         {/* Back */}
         <div
-          className="flip-card-back flex flex-col items-center justify-center gap-5 p-6 shadow-xl gradient-border"
+          className="flip-card-back flex flex-col items-center justify-center gap-5 p-6 rounded-2xl"
           style={{
-            background: "rgba(26, 44, 52, 0.8)",
-            backdropFilter: "blur(16px)",
-            WebkitBackdropFilter: "blur(16px)",
-            border: "1px solid rgba(255, 255, 255, 0.05)",
+            background: "#FFFFFF",
+            border: "1px solid #E5E7EB",
+            boxShadow: "0 4px 16px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04)",
           }}
         >
-          <span
-            className="chinese-char text-4xl text-white"
-            style={{ textShadow: "0 2px 4px rgba(0, 0, 0, 0.3)" }}
-          >
-            {word.simplified}
-          </span>
-          <div className="text-glow">
-            <ToneDisplay pinyin={word.pinyin} size="lg" />
-          </div>
-          <p className="text-xl text-[var(--color-text-secondary)] font-medium">{word.french}</p>
+          <ToneColoredText characters={word.simplified} pinyin={word.pinyin} size="lg" />
+          <ToneDisplay pinyin={word.pinyin} size="lg" />
+          <p className="text-xl text-[#6B7280] font-medium">{word.french}</p>
           <button
             onClick={(e) => {
               e.stopPropagation();
@@ -81,7 +65,7 @@ export default function FlashCard({ word, onAudioPlay, className = "" }: FlashCa
             className={`
               relative flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold
               text-white transition-all duration-300 cursor-pointer
-              bg-gradient-to-r from-[var(--color-blue)] to-[var(--color-blue-dark)]
+              bg-gradient-to-r from-[#1CB0F6] to-[#1899D6]
               hover:shadow-glow-blue hover:scale-105
               ${audioHover ? "shadow-glow-blue" : "shadow-lg"}
             `}

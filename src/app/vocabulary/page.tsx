@@ -75,7 +75,7 @@ export default function VocabularyPage() {
                 className={`px-4 py-1.5 rounded-full text-sm font-bold transition-all ${
                   selectedHsk === level
                     ? "text-white"
-                    : "bg-[#1A2C34] text-[#9EAAB4] hover:bg-[#223A44]"
+                    : "bg-white text-[#6B7280] hover:bg-[#F7F7F5]"
                 }`}
                 style={selectedHsk === level ? { backgroundColor: hskColors[level] } : {}}
               >
@@ -89,7 +89,7 @@ export default function VocabularyPage() {
             placeholder="Rechercher un mot..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-[#1A2C34] rounded-xl px-4 py-2.5 text-sm placeholder-[#9EAAB4] input-focus"
+            className="w-full bg-white rounded-xl px-4 py-2.5 text-sm placeholder-[#9EAAB4] input-focus"
           />
         </div>
       </header>
@@ -104,7 +104,7 @@ export default function VocabularyPage() {
               className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
                 selectedCategory === cat
                   ? "bg-[#58CC02] text-white"
-                  : "bg-[#1A2C34] text-[#9EAAB4] hover:bg-[#223A44]"
+                  : "bg-white text-[#6B7280] hover:bg-[#F7F7F5]"
               }`}
             >
               {cat === "all" ? "Tout" : cat}
@@ -114,12 +114,12 @@ export default function VocabularyPage() {
 
         {/* View toggle */}
         <div className="flex items-center justify-between mb-4">
-          <span className="text-sm text-[#9EAAB4]">{filteredWords.length} mots</span>
-          <div className="flex gap-1 bg-[#1A2C34] rounded-lg p-1">
+          <span className="text-sm text-[#6B7280]">{filteredWords.length} mots</span>
+          <div className="flex gap-1 bg-white rounded-lg p-1">
             <button
               onClick={() => setViewMode("list")}
               className={`px-3 py-1 rounded-md text-xs font-semibold transition-all ${
-                viewMode === "list" ? "bg-[#58CC02] text-white" : "text-[#9EAAB4]"
+                viewMode === "list" ? "bg-[#58CC02] text-white" : "text-[#6B7280]"
               }`}
             >
               Liste
@@ -127,7 +127,7 @@ export default function VocabularyPage() {
             <button
               onClick={() => setViewMode("cards")}
               className={`px-3 py-1 rounded-md text-xs font-semibold transition-all ${
-                viewMode === "cards" ? "bg-[#58CC02] text-white" : "text-[#9EAAB4]"
+                viewMode === "cards" ? "bg-[#58CC02] text-white" : "text-[#6B7280]"
               }`}
             >
               Cartes
@@ -143,14 +143,14 @@ export default function VocabularyPage() {
                 href={`/vocabulary/${encodeURIComponent(word.simplified)}`}
                 className="flex items-center gap-4 bg-gradient-card rounded-xl p-3 border border-white/5 shadow-card hover-lift transition-all duration-200"
               >
-                <div className="w-12 h-12 bg-[#223A44] rounded-xl flex items-center justify-center chinese-char text-xl font-bold">
+                <div className="w-12 h-12 bg-[#F7F7F5] rounded-xl flex items-center justify-center chinese-char text-xl font-bold">
                   {word.simplified}
                 </div>
                 <div className="flex-1 min-w-0">
                   <ToneDisplay pinyin={word.pinyin} size="sm" />
-                  <div className="text-sm text-[#9EAAB4] truncate">{word.french}</div>
+                  <div className="text-sm text-[#6B7280] truncate">{word.french}</div>
                 </div>
-                <span className="text-xs text-[#9EAAB4] bg-[#223A44] px-2 py-0.5 rounded-full">
+                <span className="text-xs text-[#6B7280] bg-[#F7F7F5] px-2 py-0.5 rounded-full">
                   {word.category}
                 </span>
               </Link>
@@ -165,11 +165,11 @@ export default function VocabularyPage() {
                   <button
                     onClick={() => setCurrentCardIndex(Math.max(0, currentCardIndex - 1))}
                     disabled={currentCardIndex === 0}
-                    className="w-10 h-10 rounded-full bg-[#1A2C34] border border-[#2A4050] flex items-center justify-center disabled:opacity-30"
+                    className="w-10 h-10 rounded-full bg-white border border-[#2A4050] flex items-center justify-center disabled:opacity-30"
                   >
                     ←
                   </button>
-                  <span className="text-sm text-[#9EAAB4]">
+                  <span className="text-sm text-[#6B7280]">
                     {currentCardIndex + 1} / {filteredWords.length}
                   </span>
                   <button
@@ -177,7 +177,7 @@ export default function VocabularyPage() {
                       setCurrentCardIndex(Math.min(filteredWords.length - 1, currentCardIndex + 1))
                     }
                     disabled={currentCardIndex === filteredWords.length - 1}
-                    className="w-10 h-10 rounded-full bg-[#1A2C34] border border-[#2A4050] flex items-center justify-center disabled:opacity-30"
+                    className="w-10 h-10 rounded-full bg-white border border-[#2A4050] flex items-center justify-center disabled:opacity-30"
                   >
                     →
                   </button>

@@ -537,11 +537,11 @@ export default function ReviewPage() {
         };
       case "audio_to_char":
         return {
-          question: "\uD83D\uDD0A",
-          questionLabel: "Ecoutez et choisissez le bon caractere",
+          question: "🔊 Appuyez pour écouter",
+          questionLabel: "Écoutez et choisissez le bon caractère",
           options: options.map((w) => ({ text: w.simplified, correct: w.simplified === word.simplified })),
           showChinese: false,
-          autoPlay: true,
+          isAudio: true,
         };
       case "pinyin_tone":
         return {
@@ -565,20 +565,18 @@ export default function ReviewPage() {
     }
   }, [currentItem]);
 
-  // Auto-play audio for audio quiz
-  useEffect(() => {
-    if (quizData?.autoPlay && currentItem?.word) {
-      speechSynthesis.cancel();
-      // Small delay to ensure cancel completes
-      const timer = setTimeout(() => {
-        const utterance = new SpeechSynthesisUtterance(currentItem.word!.simplified);
-        utterance.lang = "zh-CN";
-        utterance.rate = 0.7;
-        speechSynthesis.speak(utterance);
-      }, 200);
-      return () => clearTimeout(timer);
-    }
-  }, [currentIndex]);
+  // Speak function that works on mobile (must be called from user interaction)
+  const speakWord = (text: string) => {
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "zh-CN";
+    u.rate = 0.7;
+    // Try to find a Chinese voice
+    const voices = speechSynthesis.getVoices();
+    const zhVoice = voices.find(v => v.lang.startsWith("zh"));
+    if (zhVoice) u.voice = zhVoice;
+    speechSynthesis.speak(u);
+  };
 
   // Grammar quiz data
   const grammarQuizData = useMemo(() => {
@@ -884,29 +882,34 @@ export default function ReviewPage() {
         {/* Vocabulary quiz */}
         {currentItem?.type === "vocabulary" && currentItem.quizType !== "pronunciation" && quizData && (
           <>
+            {/* Audio quiz: big listen button */}
+            {currentItem.quizType === "audio_to_char" && currentItem.word && (
+              <div className="flex flex-col items-center gap-3 mb-6">
+                <p className="text-sm text-[#6B7280]">Écoutez et choisissez le bon caractère</p>
+                <button
+                  onClick={() => speakWord(currentItem.word!.simplified)}
+                  className="w-20 h-20 rounded-full bg-gradient-to-br from-[#1CB0F6] to-[#1899D6] flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-transform"
+                >
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="white">
+                    <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                  </svg>
+                </button>
+                <button
+                  onClick={() => speakWord(currentItem.word!.simplified)}
+                  className="text-[#1CB0F6] text-sm font-semibold"
+                >
+                  Appuyez pour écouter
+                </button>
+              </div>
+            )}
             <QuizCard
               key={`quiz-${currentIndex}`}
-              question={quizData.question}
-              questionLabel={quizData.questionLabel}
+              question={currentItem.quizType === "audio_to_char" ? "" : quizData.question}
+              questionLabel={currentItem.quizType === "audio_to_char" ? "" : quizData.questionLabel}
               options={quizData.options}
               onAnswer={handleVocabAnswer}
               showChinese={quizData.showChinese}
             />
-            {/* Replay audio button for audio quiz */}
-            {currentItem.quizType === "audio_to_char" && currentItem.word && (
-              <button
-                onClick={() => {
-                  speechSynthesis.cancel();
-                  const u = new SpeechSynthesisUtterance(currentItem.word!.simplified);
-                  u.lang = "zh-CN";
-                  u.rate = 0.7;
-                  speechSynthesis.speak(u);
-                }}
-                className="mx-auto mt-4 bg-[#1CB0F6] text-white font-bold px-6 py-2 rounded-xl flex items-center gap-2 hover:bg-[#0D9FE5] transition-all"
-              >
-                &#x1F50A; Reecouter
-              </button>
-            )}
           </>
         )}
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
+import { useUser } from "@/lib/UserContext";
 
 interface DayData {
   xp: number;
@@ -39,13 +40,14 @@ function getCellTooltipLabel(day: DayData | undefined): string {
 }
 
 export default function StreakCalendar() {
+  const { getUserKey } = useUser();
   const [calendar, setCalendar] = useState<StudyCalendar>({});
   const [selectedDay, setSelectedDay] = useState<string | null>(null);
   const [streak, setStreak] = useState(0);
   const [bestStreak, setBestStreak] = useState(0);
 
   useEffect(() => {
-    const saved = localStorage.getItem("study_calendar");
+    const saved = localStorage.getItem(getUserKey("study_calendar"));
     if (saved) {
       try {
         setCalendar(JSON.parse(saved));

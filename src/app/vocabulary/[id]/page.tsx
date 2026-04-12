@@ -6,6 +6,7 @@ import Navigation from "@/components/Navigation";
 import ToneDisplay from "@/components/ToneDisplay";
 import CharacterAssociations from "@/components/CharacterAssociations";
 import { useChineseAudio } from "@/lib/useAudio";
+import { useUser } from "@/lib/UserContext";
 import Link from "next/link";
 
 import hsk1Data from "@/data/hsk1.json";
@@ -38,15 +39,16 @@ const allWords: Word[] = [
 ];
 
 export default function VocabularyDetailPage() {
+  const { getUserKey } = useUser();
   const params = useParams();
   const id = decodeURIComponent(params.id as string);
 
   // Get user's current level from localStorage
   const [userLevel, setUserLevel] = useState(1);
   useEffect(() => {
-    const stats = JSON.parse(localStorage.getItem("user_stats") || "{}");
+    const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
     setUserLevel(stats.current_hsk_level || 1);
-  }, []);
+  }, [getUserKey]);
 
   const word = allWords.find((w) => w.simplified === id);
 

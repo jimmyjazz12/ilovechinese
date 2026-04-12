@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import { getUserKey } from "@/lib/auth";
 
 interface UserStats {
   words_mastered: number;
@@ -12,7 +13,7 @@ interface UserStats {
 
 function getWordsToReview(): number {
   try {
-    const progress = localStorage.getItem("srs_progress");
+    const progress = localStorage.getItem(getUserKey("srs_progress"));
     if (!progress) return 0;
     const data = JSON.parse(progress);
     if (Array.isArray(data)) {
@@ -29,7 +30,7 @@ function getWordsToReview(): number {
 
 function getStreak(): number {
   try {
-    const stats = localStorage.getItem("user_stats");
+    const stats = localStorage.getItem(getUserKey("user_stats"));
     if (!stats) return 0;
     const data: UserStats = JSON.parse(stats);
     return data.daily_streak || 0;

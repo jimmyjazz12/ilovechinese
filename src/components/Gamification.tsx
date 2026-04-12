@@ -65,7 +65,7 @@ const DEFAULT_BADGES: BadgeData[] = [
 
 function loadBadges(): BadgeData[] {
   try {
-    const saved = localStorage.getItem("badges");
+    const saved = localStorage.getItem(getUserKey("badges"));
     if (saved) {
       const parsed: BadgeData[] = JSON.parse(saved);
       // Merge with defaults to handle new badges added later
@@ -81,7 +81,7 @@ function loadBadges(): BadgeData[] {
 }
 
 function saveBadges(badges: BadgeData[]): void {
-  localStorage.setItem("badges", JSON.stringify(badges));
+  localStorage.setItem(getUserKey("badges"), JSON.stringify(badges));
 }
 
 // ─── Weekly Goal ─────────────────────────────────────────────────────────────
@@ -102,7 +102,7 @@ function getCurrentMonday(): string {
 
 function loadWeeklyGoal(): WeeklyGoalData {
   try {
-    const saved = localStorage.getItem("weekly_goal");
+    const saved = localStorage.getItem(getUserKey("weekly_goal"));
     if (saved) {
       const data: WeeklyGoalData = JSON.parse(saved);
       const currentMonday = getCurrentMonday();
@@ -117,7 +117,7 @@ function loadWeeklyGoal(): WeeklyGoalData {
 }
 
 function saveWeeklyGoal(goal: WeeklyGoalData): void {
-  localStorage.setItem("weekly_goal", JSON.stringify(goal));
+  localStorage.setItem(getUserKey("weekly_goal"), JSON.stringify(goal));
 }
 
 // ─── Unlock Badge Helper ─────────────────────────────────────────────────────
@@ -364,7 +364,7 @@ export default function Gamification({
       return;
     }
     try {
-      const stats = localStorage.getItem("user_stats");
+      const stats = localStorage.getItem(getUserKey("user_stats"));
       if (stats) {
         const data = JSON.parse(stats);
         setTotalXp(data.xp_total || 0);

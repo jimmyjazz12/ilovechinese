@@ -1298,5 +1298,265 @@
       {"chinese": "这本书值得看。", "pinyin": "zhè běn shū zhíde kàn.", "french": "Ce livre vaut la peine d'être lu."},
       {"chinese": "这个地方值得去。", "pinyin": "zhège dìfang zhíde qù.", "french": "Cet endroit vaut le détour."}
     ]
+  },
+  {
+    "simplified": "理解",
+    "traditional": "理解",
+    "pinyin": "lǐjiě",
+    "french": "comprendre",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["理", "解"],
+    "examples": [
+      {"chinese": "我理解你的心情。", "pinyin": "wǒ lǐjiě nǐ de xīnqíng.", "french": "Je comprends tes sentiments."},
+      {"chinese": "你理解我的意思吗？", "pinyin": "nǐ lǐjiě wǒ de yìsi ma?", "french": "Comprends-tu ce que je veux dire ?"}
+    ]
+  },
+  {
+    "simplified": "深刻",
+    "traditional": "深刻",
+    "pinyin": "shēnkè",
+    "french": "profond",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["深", "刻"],
+    "examples": [
+      {"chinese": "他给我留下了深刻的印象。", "pinyin": "tā gěi wǒ liúxià le shēnkè de yìnxiàng.", "french": "Il m'a laissé une impression profonde."},
+      {"chinese": "这个问题很深刻。", "pinyin": "zhège wèntí hěn shēnkè.", "french": "Ce problème est profond."}
+    ]
+  },
+  {
+    "simplified": "丰富",
+    "traditional": "豐富",
+    "pinyin": "fēngfù",
+    "french": "enrichir, abondant",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["丰", "富"],
+    "examples": [
+      {"chinese": "他的经历很丰富。", "pinyin": "tā de jīnglì hěn fēngfù.", "french": "Son parcours est riche."},
+      {"chinese": "我想丰富自己的知识。", "pinyin": "wǒ xiǎng fēngfù zìjǐ de zhīshi.", "french": "Je veux enrichir mes connaissances."}
+    ]
+  },
+  {
+    "simplified": "普遍",
+    "traditional": "普遍",
+    "pinyin": "pǔbiàn",
+    "french": "universel, courant",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["普", "遍"],
+    "examples": [
+      {"chinese": "这个问题很普遍。", "pinyin": "zhège wèntí hěn pǔbiàn.", "french": "Ce problème est très courant."},
+      {"chinese": "智能手机已经很普遍了。", "pinyin": "zhìnéng shǒujī yǐjīng hěn pǔbiàn le.", "french": "Les smartphones sont déjà très répandus."}
+    ]
+  },
+  {
+    "simplified": "目前",
+    "traditional": "目前",
+    "pinyin": "mùqián",
+    "french": "actuellement, pour le moment",
+    "hsk_level": 4,
+    "category": "adverbes",
+    "components": ["目", "前"],
+    "examples": [
+      {"chinese": "目前情况还不错。", "pinyin": "mùqián qíngkuàng hái búcuò.", "french": "Pour le moment, la situation est pas mal."},
+      {"chinese": "目前我在北京工作。", "pinyin": "mùqián wǒ zài Běijīng gōngzuò.", "french": "Actuellement, je travaille à Pékin."}
+    ]
+  },
+  {
+    "simplified": "逐渐",
+    "traditional": "逐漸",
+    "pinyin": "zhújiàn",
+    "french": "progressivement, peu à peu",
+    "hsk_level": 4,
+    "category": "adverbes",
+    "components": ["逐", "渐"],
+    "examples": [
+      {"chinese": "他逐渐习惯了这里的生活。", "pinyin": "tā zhújiàn xíguàn le zhèlǐ de shēnghuó.", "french": "Il s'est progressivement habitué à la vie ici."},
+      {"chinese": "问题正在逐渐解决。", "pinyin": "wèntí zhèngzài zhújiàn jiějué.", "french": "Le problème se résout progressivement."}
+    ]
+  },
+  {
+    "simplified": "总是",
+    "traditional": "總是",
+    "pinyin": "zǒngshì",
+    "french": "toujours",
+    "hsk_level": 4,
+    "category": "adverbes",
+    "components": ["总", "是"],
+    "examples": [
+      {"chinese": "他总是迟到。", "pinyin": "tā zǒngshì chídào.", "french": "Il est toujours en retard."},
+      {"chinese": "妈妈总是担心我。", "pinyin": "māma zǒngshì dānxīn wǒ.", "french": "Maman s'inquiète toujours pour moi."}
+    ]
+  },
+  {
+    "simplified": "从来",
+    "traditional": "從來",
+    "pinyin": "cónglái",
+    "french": "jamais (avec négation)",
+    "hsk_level": 4,
+    "category": "adverbes",
+    "components": ["从", "来"],
+    "examples": [
+      {"chinese": "我从来没去过日本。", "pinyin": "wǒ cónglái méi qù guò Rìběn.", "french": "Je ne suis jamais allé au Japon."},
+      {"chinese": "他从来不迟到。", "pinyin": "tā cónglái bù chídào.", "french": "Il n'est jamais en retard."}
+    ]
+  },
+  {
+    "simplified": "至少",
+    "traditional": "至少",
+    "pinyin": "zhìshǎo",
+    "french": "au moins",
+    "hsk_level": 4,
+    "category": "adverbes",
+    "components": ["至", "少"],
+    "examples": [
+      {"chinese": "你至少要学两年。", "pinyin": "nǐ zhìshǎo yào xué liǎng nián.", "french": "Tu dois étudier au moins deux ans."},
+      {"chinese": "至少有五十个人来了。", "pinyin": "zhìshǎo yǒu wǔshí gè rén lái le.", "french": "Au moins cinquante personnes sont venues."}
+    ]
+  },
+  {
+    "simplified": "千万",
+    "traditional": "千萬",
+    "pinyin": "qiānwàn",
+    "french": "surtout (impératif)",
+    "hsk_level": 4,
+    "category": "adverbes",
+    "components": ["千", "万"],
+    "examples": [
+      {"chinese": "你千万不要迟到。", "pinyin": "nǐ qiānwàn bú yào chídào.", "french": "Surtout ne sois pas en retard."},
+      {"chinese": "千万别忘了！", "pinyin": "qiānwàn bié wàng le!", "french": "Surtout n'oublie pas !"}
+    ]
+  },
+  {
+    "simplified": "往往",
+    "traditional": "往往",
+    "pinyin": "wǎngwǎng",
+    "french": "souvent, généralement",
+    "hsk_level": 4,
+    "category": "adverbes",
+    "components": ["往", "往"],
+    "examples": [
+      {"chinese": "成功往往需要时间。", "pinyin": "chénggōng wǎngwǎng xūyào shíjiān.", "french": "Le succès demande souvent du temps."},
+      {"chinese": "他往往很晚才回家。", "pinyin": "tā wǎngwǎng hěn wǎn cái huí jiā.", "french": "Il rentre généralement très tard."}
+    ]
+  },
+  {
+    "simplified": "相反",
+    "traditional": "相反",
+    "pinyin": "xiāngfǎn",
+    "french": "au contraire, opposé",
+    "hsk_level": 4,
+    "category": "adjectifs",
+    "components": ["相", "反"],
+    "examples": [
+      {"chinese": "结果恰恰相反。", "pinyin": "jiéguǒ qiàqià xiāngfǎn.", "french": "Le résultat est tout le contraire."},
+      {"chinese": "相反，他做得很好。", "pinyin": "xiāngfǎn, tā zuò de hěn hǎo.", "french": "Au contraire, il a très bien fait."}
+    ]
+  },
+  {
+    "simplified": "困难",
+    "traditional": "困難",
+    "pinyin": "kùnnan",
+    "french": "difficulté, difficile",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["困", "难"],
+    "examples": [
+      {"chinese": "我们遇到了很多困难。", "pinyin": "wǒmen yùdào le hěn duō kùnnan.", "french": "Nous avons rencontré beaucoup de difficultés."},
+      {"chinese": "困难是暂时的。", "pinyin": "kùnnan shì zànshí de.", "french": "Les difficultés sont temporaires."}
+    ]
+  },
+  {
+    "simplified": "资源",
+    "traditional": "資源",
+    "pinyin": "zīyuán",
+    "french": "ressource",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["资", "源"],
+    "examples": [
+      {"chinese": "我们要节约资源。", "pinyin": "wǒmen yào jiéyuē zīyuán.", "french": "Nous devons économiser les ressources."},
+      {"chinese": "人才是最重要的资源。", "pinyin": "réncái shì zuì zhòngyào de zīyuán.", "french": "Les talents sont la ressource la plus importante."}
+    ]
+  },
+  {
+    "simplified": "范围",
+    "traditional": "範圍",
+    "pinyin": "fànwéi",
+    "french": "portée, étendue",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["范", "围"],
+    "examples": [
+      {"chinese": "在这个范围内。", "pinyin": "zài zhège fànwéi nèi.", "french": "Dans cette étendue."},
+      {"chinese": "影响范围很大。", "pinyin": "yǐngxiǎng fànwéi hěn dà.", "french": "La portée de l'impact est grande."}
+    ]
+  },
+  {
+    "simplified": "趋势",
+    "traditional": "趨勢",
+    "pinyin": "qūshì",
+    "french": "tendance",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["趋", "势"],
+    "examples": [
+      {"chinese": "这是一个发展趋势。", "pinyin": "zhè shì yí gè fāzhǎn qūshì.", "french": "C'est une tendance de développement."},
+      {"chinese": "网购是现在的趋势。", "pinyin": "wǎnggòu shì xiànzài de qūshì.", "french": "Les achats en ligne sont la tendance actuelle."}
+    ]
+  },
+  {
+    "simplified": "印象",
+    "traditional": "印象",
+    "pinyin": "yìnxiàng",
+    "french": "impression",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["印", "象"],
+    "examples": [
+      {"chinese": "他给我留下了很好的印象。", "pinyin": "tā gěi wǒ liúxià le hěn hǎo de yìnxiàng.", "french": "Il m'a laissé une très bonne impression."},
+      {"chinese": "你对北京的印象怎么样？", "pinyin": "nǐ duì Běijīng de yìnxiàng zěnmeyàng?", "french": "Quelle est ton impression de Pékin ?"}
+    ]
+  },
+  {
+    "simplified": "观点",
+    "traditional": "觀點",
+    "pinyin": "guāndiǎn",
+    "french": "point de vue",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["观", "点"],
+    "examples": [
+      {"chinese": "你的观点是什么？", "pinyin": "nǐ de guāndiǎn shì shénme?", "french": "Quel est ton point de vue ?"},
+      {"chinese": "我同意你的观点。", "pinyin": "wǒ tóngyì nǐ de guāndiǎn.", "french": "Je suis d'accord avec ton point de vue."}
+    ]
+  },
+  {
+    "simplified": "概念",
+    "traditional": "概念",
+    "pinyin": "gàiniàn",
+    "french": "concept, notion",
+    "hsk_level": 4,
+    "category": "noms",
+    "components": ["概", "念"],
+    "examples": [
+      {"chinese": "这是一个新概念。", "pinyin": "zhè shì yí gè xīn gàiniàn.", "french": "C'est un nouveau concept."},
+      {"chinese": "你理解这个概念吗？", "pinyin": "nǐ lǐjiě zhège gàiniàn ma?", "french": "Comprends-tu ce concept ?"}
+    ]
+  },
+  {
+    "simplified": "重视",
+    "traditional": "重視",
+    "pinyin": "zhòngshì",
+    "french": "attacher de l'importance à",
+    "hsk_level": 4,
+    "category": "verbes",
+    "components": ["重", "视"],
+    "examples": [
+      {"chinese": "我们要重视教育。", "pinyin": "wǒmen yào zhòngshì jiàoyù.", "french": "Nous devons attacher de l'importance à l'éducation."},
+      {"chinese": "健康应该被重视。", "pinyin": "jiànkāng yīnggāi bèi zhòngshì.", "french": "La santé devrait être prise au sérieux."}
+    ]
   }
 ]

@@ -57,6 +57,7 @@ export interface UserProgress {
   pinyin_mastery: number
   character_mastery: number
   overall_mastery: number
+  box_level: number
   correct_count: number
   incorrect_count: number
   streak: number

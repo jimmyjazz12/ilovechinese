@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import InstallPWA from "@/components/InstallPWA";
+import NotificationManager from "@/components/NotificationManager";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col pb-20">
         <InstallPWA />
+        <NotificationManager />
         {children}
         <ServiceWorkerRegister />
       </body>

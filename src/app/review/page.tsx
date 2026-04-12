@@ -26,6 +26,7 @@ interface Word {
 interface Progress {
   vocabulary_id: string;
   overall_mastery: number;
+  box_level: number;
   easiness_factor: number;
   interval_days: number;
   next_review: string;
@@ -137,6 +138,7 @@ export default function ReviewPage() {
     const currentProg = progress[key] || {
       vocabulary_id: key,
       overall_mastery: 0,
+      box_level: 0,
       easiness_factor: 2.5,
       interval_days: 0,
       next_review: new Date().toISOString(),

@@ -3096,7 +3096,7 @@
     "simplified": "暗",
     "traditional": "暗",
     "pinyin": "àn",
-    "french": "dark",
+    "french": "sombre, foncé",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -4116,7 +4116,7 @@
     "simplified": "不管",
     "traditional": "不管",
     "pinyin": "bùguǎn",
-    "french": "no matter",
+    "french": "peu importe",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -4354,7 +4354,7 @@
     "simplified": "参考",
     "traditional": "参考",
     "pinyin": "cānkǎo",
-    "french": "Reference resources",
+    "french": "documents de référence",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -4568,7 +4568,7 @@
     "simplified": "长途",
     "traditional": "长途",
     "pinyin": "chángtú",
-    "french": "long",
+    "french": "longue distance",
     "hsk_level": 4,
     "category": "adjectifs",
     "components": [
@@ -4949,7 +4949,7 @@
     "simplified": "吃惊",
     "traditional": "吃惊",
     "pinyin": "chījīng",
-    "french": "Be amazed",
+    "french": "être surpris, étonné",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -5402,7 +5402,7 @@
     "simplified": "穿上",
     "traditional": "穿上",
     "pinyin": "chuān shàng",
-    "french": "put on",
+    "french": "mettre, enfiler",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -5997,7 +5997,7 @@
     "simplified": "打针",
     "traditional": "打针",
     "pinyin": "dǎzhēn",
-    "french": "To make an injection",
+    "french": "faire une piqûre",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -6428,7 +6428,7 @@
     "simplified": "担任",
     "traditional": "担任",
     "pinyin": "dānrèn",
-    "french": "To serve as",
+    "french": "servir de, occuper le poste de",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -6571,7 +6571,7 @@
     "simplified": "淡",
     "traditional": "淡",
     "pinyin": "dàn",
-    "french": "light",
+    "french": "léger, clair",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -6784,7 +6784,7 @@
     "simplified": "登录",
     "traditional": "登录",
     "pinyin": "dēnglù",
-    "french": "Sign in",
+    "french": "se connecter",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -7359,7 +7359,7 @@
     "simplified": "堵",
     "traditional": "堵",
     "pinyin": "dǔ",
-    "french": "stop up; block up",
+    "french": "boucher, bloquer",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -7382,7 +7382,7 @@
     "simplified": "堵车",
     "traditional": "堵车",
     "pinyin": "dǔchē",
-    "french": "Traffic jam",
+    "french": "embouteillage",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -7430,7 +7430,7 @@
     "simplified": "度过",
     "traditional": "度过",
     "pinyin": "dùguò",
-    "french": "Spend",
+    "french": "passer (du temps)",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -8214,7 +8214,7 @@
     "simplified": "分手",
     "traditional": "分手",
     "pinyin": "fēnshǒu",
-    "french": "Break up",
+    "french": "se séparer, rompre",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -8550,7 +8550,7 @@
     "simplified": "付出",
     "traditional": "付出",
     "pinyin": "fù chū",
-    "french": "pay out",
+    "french": "payer, fournir",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -8741,7 +8741,7 @@
     "simplified": "感兴趣",
     "traditional": "感兴趣",
     "pinyin": "gǎnxìngqù",
-    "french": "be interested in",
+    "french": "s'intéresser à",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -10099,7 +10099,7 @@
     "simplified": "后头",
     "traditional": "后头",
     "pinyin": "hòu tou",
-    "french": "back",
+    "french": "derrière, à l'arrière",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -10666,7 +10666,7 @@
     "simplified": "获奖",
     "traditional": "获奖",
     "pinyin": "huò jiǎng",
-    "french": "win a prize",
+    "french": "remporter un prix",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -11214,7 +11214,7 @@
     "simplified": "寄",
     "traditional": "寄",
     "pinyin": "jì",
-    "french": "send",
+    "french": "envoyer",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -11285,7 +11285,7 @@
     "simplified": "加油站",
     "traditional": "加油站",
     "pinyin": "jiāyóuzhàn",
-    "french": "Gas station",
+    "french": "station-service",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -12313,7 +12313,7 @@
     "simplified": "镜头",
     "traditional": "镜头",
     "pinyin": "jìngtóu",
-    "french": "Camera lens",
+    "french": "objectif (appareil photo)",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -12862,7 +12862,7 @@
     "simplified": "空",
     "traditional": "空",
     "pinyin": "kōng",
-    "french": "empty",
+    "french": "vide",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -14850,7 +14850,7 @@
     "simplified": "摸",
     "traditional": "摸",
     "pinyin": "mō",
-    "french": "feel",
+    "french": "sentir, ressentir",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -15182,7 +15182,7 @@
     "simplified": "内科",
     "traditional": "内科",
     "pinyin": "nèikē",
-    "french": "Internal medicine",
+    "french": "médecine interne",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -15325,7 +15325,7 @@
     "simplified": "拍照",
     "traditional": "拍照",
     "pinyin": "pāi zhào",
-    "french": "take a picture",
+    "french": "prendre une photo",
     "hsk_level": 4,
     "category": "verbes",
     "components": [
@@ -15827,7 +15827,7 @@
     "simplified": "期末",
     "traditional": "期末",
     "pinyin": "qī mò",
-    "french": "end of term",
+    "french": "fin de semestre",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -16139,7 +16139,7 @@
     "simplified": "切",
     "traditional": "切",
     "pinyin": "qiē",
-    "french": "cut",
+    "french": "couper",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -17159,7 +17159,7 @@
     "simplified": "设置",
     "traditional": "设置",
     "pinyin": "shèzhì",
-    "french": "Set up",
+    "french": "installer, configurer",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -18426,7 +18426,7 @@
     "simplified": "说不定",
     "traditional": "说不定",
     "pinyin": "shuōbudìng",
-    "french": "maybe",
+    "french": "peut-être",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -18857,7 +18857,7 @@
     "simplified": "套餐",
     "traditional": "套餐",
     "pinyin": "tào cān",
-    "french": "set meal",
+    "french": "menu, formule",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -19309,7 +19309,7 @@
     "simplified": "停下",
     "traditional": "停下",
     "pinyin": "tíng xià",
-    "french": "stop",
+    "french": "arrêter",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -19548,7 +19548,7 @@
     "simplified": "投入",
     "traditional": "投入",
     "pinyin": "tóurù",
-    "french": "put into",
+    "french": "investir, mettre dans",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -19739,7 +19739,7 @@
     "simplified": "脱",
     "traditional": "脱",
     "pinyin": "tuō",
-    "french": "take off",
+    "french": "décoller, enlever",
     "hsk_level": 4,
     "category": "verbes",
     "components": [
@@ -19906,7 +19906,7 @@
     "simplified": "万一",
     "traditional": "万一",
     "pinyin": "wànyī",
-    "french": "In case",
+    "french": "au cas où",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -20311,7 +20311,7 @@
     "simplified": "问候",
     "traditional": "问候",
     "pinyin": "wènhòu",
-    "french": "To greet",
+    "french": "saluer",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -20406,7 +20406,7 @@
     "simplified": "无论",
     "traditional": "无论",
     "pinyin": "wúlùn",
-    "french": "no matter",
+    "french": "peu importe",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -21125,7 +21125,7 @@
     "simplified": "相处",
     "traditional": "相处",
     "pinyin": "xiāngchǔ",
-    "french": "long",
+    "french": "s'entendre, cohabiter",
     "hsk_level": 4,
     "category": "adjectifs",
     "components": [
@@ -21436,7 +21436,7 @@
     "simplified": "些",
     "traditional": "些",
     "pinyin": "xiē",
-    "french": "some",
+    "french": "quelques",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -24308,7 +24308,7 @@
     "simplified": "着",
     "traditional": "着",
     "pinyin": "zhe",
-    "french": "in process of",
+    "french": "en train de",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -24664,7 +24664,7 @@
     "simplified": "之一",
     "traditional": "之一",
     "pinyin": "zhī yī",
-    "french": "one of",
+    "french": "l'un de, parmi",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -24950,7 +24950,7 @@
     "simplified": "中奖",
     "traditional": "中奖",
     "pinyin": "zhòng jiǎng",
-    "french": "win a lottery",
+    "french": "gagner à la loterie",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -25285,7 +25285,7 @@
     "simplified": "转身",
     "traditional": "转身",
     "pinyin": "zhuǎn shēn",
-    "french": "turn round; face about",
+    "french": "se retourner",
     "hsk_level": 4,
     "category": "noms",
     "components": [
@@ -25572,7 +25572,7 @@
     "simplified": "总共",
     "traditional": "总共",
     "pinyin": "zǒnggòng",
-    "french": "In total",
+    "french": "au total, en tout",
     "hsk_level": 4,
     "category": "noms",
     "components": [

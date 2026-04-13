@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><title>Migration</title></head>
+<body style="font-family:sans-serif;max-width:600px;margin:40px auto;padding:20px">
+<h1>🔄 Migration des données vers le profil Clem</h1>
+<p>Ce script copie vos anciennes données (sans préfixe) vers les clés préfixées "clem_".</p>
+<button id="btn" style="background:#58CC02;color:white;border:none;padding:12px 24px;border-radius:8px;font-size:16px;cursor:pointer">Migrer maintenant</button>
+<pre id="log" style="background:#f5f5f5;padding:12px;border-radius:8px;margin-top:16px;white-space:pre-wrap"></pre>
+<script>
+document.getElementById('btn').onclick = function() {
+  const log = document.getElementById('log');
+  const keys = ['srs_progress','user_stats','study_calendar','daily_plan','chat_history','drill_progress','badges','weekly_goal'];
+  let count = 0;
+  keys.forEach(key => {
+    const old = localStorage.getItem(key);
+    const newKey = 'clem_' + key;
+    const existing = localStorage.getItem(newKey);
+    if (old && !existing) {
+      localStorage.setItem(newKey, old);
+      log.textContent += '✅ ' + key + ' → ' + newKey + ' (' + old.length + ' chars)\n';
+      count++;
+    } else if (old && existing) {
+      log.textContent += '⚠️ ' + newKey + ' existe déjà, ignoré\n';
+    } else {
+      log.textContent += '⏭️ ' + key + ' pas trouvé (rien à migrer)\n';
+    }
+  });
+  log.textContent += '\n🎉 Migration terminée ! ' + count + ' clés migrées.\nVous pouvez fermer cette page et retourner sur l\'app.';
+};
+</script>
+</body></html>

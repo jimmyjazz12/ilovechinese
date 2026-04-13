@@ -6056,7 +6056,7 @@
     "simplified": "打车",
     "traditional": "打车",
     "pinyin": "dǎ chē",
-    "french": "take a taxi",
+    "french": "prendre un taxi",
     "hsk_level": 1,
     "category": "verbes",
     "components": [
@@ -6080,7 +6080,7 @@
     "simplified": "打开",
     "traditional": "打开",
     "pinyin": "dǎ kāi",
-    "french": "turn on",
+    "french": "allumer",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -6177,7 +6177,7 @@
     "simplified": "得到",
     "traditional": "得到",
     "pinyin": "dé dào",
-    "french": "get",
+    "french": "obtenir",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -6769,7 +6769,7 @@
     "simplified": "干",
     "traditional": "干",
     "pinyin": "gān",
-    "french": "dry",
+    "french": "sec, sécher",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -7362,7 +7362,7 @@
     "simplified": "回到",
     "traditional": "回到",
     "pinyin": "huí dào",
-    "french": "back to",
+    "french": "retourner à",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -7933,7 +7933,7 @@
     "simplified": "开车",
     "traditional": "开车",
     "pinyin": "kāi chē",
-    "french": "drive",
+    "french": "conduire",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -7981,7 +7981,7 @@
     "simplified": "开玩笑",
     "traditional": "开玩笑",
     "pinyin": "kāiwánxiào",
-    "french": "Make fun of",
+    "french": "plaisanter",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -8745,7 +8745,7 @@
     "simplified": "拿",
     "traditional": "拿",
     "pinyin": "ná",
-    "french": "take",
+    "french": "prendre",
     "hsk_level": 1,
     "category": "verbes",
     "components": [
@@ -9102,7 +9102,7 @@
     "simplified": "难",
     "traditional": "难",
     "pinyin": "nán",
-    "french": "hard, difficult",
+    "french": "dur, difficile",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -9386,7 +9386,7 @@
     "simplified": "起来",
     "traditional": "起来",
     "pinyin": "qǐlái",
-    "french": "get up",
+    "french": "se lever",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -9838,7 +9838,7 @@
     "simplified": "上车",
     "traditional": "上车",
     "pinyin": "shàng chē",
-    "french": "get on",
+    "french": "monter (dans un véhicule)",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -10030,7 +10030,7 @@
     "simplified": "生气",
     "traditional": "生气",
     "pinyin": "shēngqì",
-    "french": "get angry",
+    "french": "se mettre en colère",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -10458,7 +10458,7 @@
     "simplified": "外边",
     "traditional": "外边",
     "pinyin": "wài biān",
-    "french": "outside",
+    "french": "à l'extérieur",
     "hsk_level": 1,
     "category": "lieux",
     "components": [
@@ -10863,7 +10863,7 @@
     "simplified": "下车",
     "traditional": "下车",
     "pinyin": "xià chē",
-    "french": "get off",
+    "french": "descendre (d'un véhicule)",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -11442,7 +11442,7 @@
     "simplified": "一边",
     "traditional": "一边",
     "pinyin": "yìbiān",
-    "french": "One side",
+    "french": "un côté",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -11515,7 +11515,7 @@
     "simplified": "一些",
     "traditional": "一些",
     "pinyin": "yì xiē",
-    "french": "some",
+    "french": "quelques",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -11539,7 +11539,7 @@
     "simplified": "有的",
     "traditional": "有的",
     "pinyin": "yǒu de",
-    "french": "some",
+    "french": "quelques",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -11612,7 +11612,7 @@
     "simplified": "有些",
     "traditional": "有些",
     "pinyin": "yǒu（yì）xiē",
-    "french": "some",
+    "french": "quelques",
     "hsk_level": 1,
     "category": "noms",
     "components": [
@@ -12059,7 +12059,7 @@
     "simplified": "正在",
     "traditional": "正在",
     "pinyin": "zhèngzài",
-    "french": "in process of",
+    "french": "en train de",
     "hsk_level": 1,
     "category": "noms",
     "components": [

@@ -546,7 +546,7 @@ export default function TranslatePage() {
                   placeholder={
                     direction === "fr_to_cn"
                       ? "Ecrivez en chinois..."
-                      : "Ecrivez en fran\u00e7ais..."
+                      : "Écrivez en français..."
                   }
                   className="flex-1 bg-white rounded-xl px-4 py-3 text-lg text-center text-[#1A1A1A] placeholder-[#9CA3AF] border border-[#E5E7EB] focus:outline-none focus:ring-2 focus:ring-[#7C3AED]/30 focus:border-[#7C3AED] transition-all"
                   disabled={showResult}
@@ -561,7 +561,7 @@ export default function TranslatePage() {
                       ? "bg-[#7C3AED] text-white shadow-md animate-pulse"
                       : "bg-white border border-[#E5E7EB] text-[#6B7280] hover:text-[#7C3AED] hover:border-[#7C3AED]"
                   } ${showResult ? "opacity-50 cursor-not-allowed" : ""}`}
-                  title={isListening ? "Arr\u00eater" : "Dicter"}
+                  title={isListening ? "Arrêter" : "Dicter"}
                 >
                   <svg
                     className="w-5 h-5"
@@ -593,7 +593,7 @@ export default function TranslatePage() {
                 disabled={!userInput.trim()}
                 className="w-full bg-[#58CC02] hover:bg-[#46A302] disabled:opacity-40 text-white font-bold py-3.5 rounded-xl transition-all shadow-md text-lg btn-3d"
               >
-                V\u00e9rifier
+                Vérifier
               </button>
             ) : (
               <div className="space-y-3">
@@ -612,7 +612,7 @@ export default function TranslatePage() {
                 {!isCorrect && (
                   <div className="bg-white rounded-xl p-4 border border-[#E5E7EB] shadow-sm">
                     <p className="text-xs text-[#6B7280] mb-2 uppercase tracking-wide">
-                      R\u00e9ponse attendue
+                      Réponse attendue
                     </p>
                     {direction === "fr_to_cn" ? (
                       <div className="space-y-1">

@@ -64,6 +64,7 @@ type QuizType =
   | "audio_to_char"
   | "pinyin_tone"
   | "char_to_pinyin"
+  | "fill_blank"
   | "pronunciation"
   | "grammar";
 
@@ -211,6 +212,7 @@ export default function ReviewPage() {
       "audio_to_char",
       "pinyin_tone",
       "char_to_pinyin",
+      "fill_blank",
     ];
     const toneTypes: QuizType[] = ["pinyin_tone", "char_to_pinyin", "audio_to_char"];
 
@@ -512,10 +514,10 @@ export default function ReviewPage() {
 
     try {
       recognition.start();
-      // Auto-stop after 5 seconds
+      // Auto-stop after 6 seconds
       setTimeout(() => {
         try { recognition.stop(); } catch {}
-      }, 5000);
+      }, 6000);
     } catch (err) {
       setPronResult("incorrect");
       setPronTranscript("Erreur : vérifiez les permissions micro");
@@ -596,6 +598,30 @@ export default function ReviewPage() {
           options: options.map((w) => ({ text: w.pinyin, correct: w.simplified === word.simplified })),
           showChinese: true,
         };
+      case "fill_blank": {
+        const examples = (word as any).examples as { chinese: string; pinyin: string; french: string }[] | undefined;
+        if (examples && examples.length > 0) {
+          const example = examples[Math.floor(Math.random() * examples.length)];
+          const blankSentence = example.chinese.replace(word.simplified, "____");
+          // Only use fill_blank if the word actually appears in the sentence
+          if (blankSentence !== example.chinese) {
+            return {
+              question: blankSentence,
+              questionLabel: "Completez la phrase",
+              options: options.map((w) => ({ text: w.simplified, correct: w.simplified === word.simplified })),
+              showChinese: true,
+              hint: example.french,
+            };
+          }
+        }
+        // Fallback to char_to_french if no suitable example
+        return {
+          question: word.simplified,
+          questionLabel: "Quel est le sens de ce caractere ?",
+          options: options.map((w) => ({ text: w.french, correct: w.simplified === word.simplified })),
+          showChinese: true,
+        };
+      }
       default:
         return null;
     }
@@ -928,6 +954,12 @@ export default function ReviewPage() {
                 </button>
               </div>
             )}
+            {/* Fill-in-the-blank hint */}
+            {currentItem.quizType === "fill_blank" && (quizData as any).hint && (
+              <p className="text-sm text-[#6B7280] text-center mb-3 italic">
+                {(quizData as any).hint}
+              </p>
+            )}
             <QuizCard
               key={`quiz-${currentIndex}`}
               question={currentItem.quizType === "audio_to_char" ? "" : quizData.question}
@@ -962,17 +994,29 @@ export default function ReviewPage() {
 
             {/* Step 2: Record */}
             {pronResult === "idle" && (
-              <button
-                onClick={handlePronunciation}
-                className="block mx-auto w-16 h-16 rounded-full bg-gradient-to-br from-[#FF4B4B] to-[#E03E3E] flex items-center justify-center shadow-lg active:scale-95 transition-transform"
-              >
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
-                  <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
-                  <line x1="12" y1="19" x2="12" y2="23" />
-                  <line x1="8" y1="23" x2="16" y2="23" />
-                </svg>
-              </button>
+              <div className="flex gap-3 justify-center items-center">
+                <button
+                  onClick={handlePronunciation}
+                  className="w-16 h-16 rounded-full bg-gradient-to-br from-[#FF4B4B] to-[#E03E3E] flex items-center justify-center shadow-lg active:scale-95 transition-transform"
+                >
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                    <line x1="12" y1="19" x2="12" y2="23" />
+                    <line x1="8" y1="23" x2="16" y2="23" />
+                  </svg>
+                </button>
+                <button
+                  onClick={() => {
+                    setSessionScore((prev) => ({ ...prev, total: prev.total + 1 }));
+                    setSessionResults((prev) => [...prev, { correct: false, oldBox: -1, newBox: -1, isNew: false }]);
+                    advanceToNext();
+                  }}
+                  className="text-[#6B7280] text-sm hover:text-[#1A1A1A] transition-colors"
+                >
+                  Passer →
+                </button>
+              </div>
             )}
 
             {pronResult === "listening" && (
@@ -985,7 +1029,7 @@ export default function ReviewPage() {
                     <rect x="6" y="6" width="12" height="12" rx="2" />
                   </svg>
                 </button>
-                <p className="text-[#FF4B4B] text-sm font-semibold">Parlez maintenant... (5s max)</p>
+                <p className="text-[#FF4B4B] text-sm font-semibold">Parlez maintenant... (6s max)</p>
               </div>
             )}
 

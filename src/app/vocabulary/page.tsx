@@ -50,6 +50,60 @@ export default function VocabularyPage() {
   const [viewMode, setViewMode] = useState<"list" | "cards">("list");
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
+  // Swipe gesture state
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+  const [swipeOffset, setSwipeOffset] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+    setSwipeOffset(0);
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    const currentX = e.targetTouches[0].clientX;
+    setTouchEnd(currentX);
+    if (touchStart !== null) {
+      setSwipeOffset(currentX - touchStart);
+    }
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) {
+      setSwipeOffset(0);
+      return;
+    }
+    const distance = touchStart - touchEnd;
+    if (Math.abs(distance) < minSwipeDistance) {
+      setSwipeOffset(0);
+      return;
+    }
+    if (distance > 0 && currentCardIndex < filteredWords.length - 1) {
+      // Swiped left -> next card
+      setIsAnimating(true);
+      setSwipeOffset(-300);
+      setTimeout(() => {
+        setCurrentCardIndex(currentCardIndex + 1);
+        setSwipeOffset(0);
+        setIsAnimating(false);
+      }, 200);
+    } else if (distance < 0 && currentCardIndex > 0) {
+      // Swiped right -> previous card
+      setIsAnimating(true);
+      setSwipeOffset(300);
+      setTimeout(() => {
+        setCurrentCardIndex(currentCardIndex - 1);
+        setSwipeOffset(0);
+        setIsAnimating(false);
+      }, 200);
+    } else {
+      setSwipeOffset(0);
+    }
+  };
+
   const words = hskData[selectedHsk] || [];
 
   const categories = useMemo(() => {
@@ -172,8 +226,27 @@ export default function VocabularyPage() {
           <div className="flex flex-col items-center">
             {filteredWords.length > 0 && (
               <>
-                <FlashCard word={filteredWords[currentCardIndex]} />
-                <div className="flex items-center gap-4 mt-4">
+                <div
+                  className="w-full overflow-hidden"
+                  onTouchStart={onTouchStart}
+                  onTouchMove={onTouchMove}
+                  onTouchEnd={onTouchEnd}
+                  style={{ touchAction: "pan-y" }}
+                >
+                  <div
+                    style={{
+                      transform: `translateX(${swipeOffset}px)`,
+                      transition: isAnimating ? "transform 0.2s ease-out" : "none",
+                      opacity: isAnimating ? 0.6 : 1,
+                    }}
+                  >
+                    <FlashCard word={filteredWords[currentCardIndex]} />
+                  </div>
+                </div>
+                <p className="text-xs text-[#9EAAB4] mt-2 select-none">
+                  ← Glissez pour naviguer →
+                </p>
+                <div className="flex items-center gap-4 mt-3">
                   <button
                     onClick={() => setCurrentCardIndex(Math.max(0, currentCardIndex - 1))}
                     disabled={currentCardIndex === 0}

@@ -51,7 +51,7 @@
     "simplified": "关系",
     "traditional": "關係",
     "pinyin": "guānxi",
-    "french": "relation, rapport",
+    "french": "relation",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -603,7 +603,7 @@
     "simplified": "表示",
     "traditional": "表示",
     "pinyin": "biǎoshì",
-    "french": "exprimer, indiquer",
+    "french": "exprimer",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -771,7 +771,7 @@
     "simplified": "比较",
     "traditional": "比較",
     "pinyin": "bǐjiào",
-    "french": "comparer, relativement",
+    "french": "comparer",
     "hsk_level": 3,
     "category": "adverbes",
     "components": [
@@ -843,7 +843,7 @@
     "simplified": "影响",
     "traditional": "影響",
     "pinyin": "yǐngxiǎng",
-    "french": "influencer, influence",
+    "french": "influencer",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -867,7 +867,7 @@
     "simplified": "改变",
     "traditional": "改變",
     "pinyin": "gǎibiàn",
-    "french": "changer, modifier",
+    "french": "changer, changer",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -939,7 +939,7 @@
     "simplified": "完成",
     "traditional": "完成",
     "pinyin": "wánchéng",
-    "french": "accomplir, terminer",
+    "french": "complet",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -1011,7 +1011,7 @@
     "simplified": "计划",
     "traditional": "計劃",
     "pinyin": "jìhuà",
-    "french": "plan, planifier",
+    "french": "plan, projet",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -1035,7 +1035,7 @@
     "simplified": "安排",
     "traditional": "安排",
     "pinyin": "ānpái",
-    "french": "organiser, arrangement",
+    "french": "arranger, organiser",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -1107,7 +1107,7 @@
     "simplified": "感觉",
     "traditional": "感覺",
     "pinyin": "gǎnjué",
-    "french": "sentir, sensation",
+    "french": "sentir, ressentir",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -1514,7 +1514,7 @@
     "simplified": "拿",
     "traditional": "拿",
     "pinyin": "ná",
-    "french": "prendre, tenir",
+    "french": "prendre",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -1770,7 +1770,7 @@
     "simplified": "国家",
     "traditional": "國家",
     "pinyin": "guójiā",
-    "french": "pays, nation",
+    "french": "pays",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2034,7 +2034,7 @@
     "simplified": "习惯",
     "traditional": "習慣",
     "pinyin": "xíguàn",
-    "french": "habitude, s'habituer",
+    "french": "habitude",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2106,7 +2106,7 @@
     "simplified": "原因",
     "traditional": "原因",
     "pinyin": "yuányīn",
-    "french": "raison, cause",
+    "french": "raison",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2130,7 +2130,7 @@
     "simplified": "条件",
     "traditional": "條件",
     "pinyin": "tiáojiàn",
-    "french": "condition",
+    "french": "condition, état",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2154,7 +2154,7 @@
     "simplified": "情况",
     "traditional": "情況",
     "pinyin": "qíngkuàng",
-    "french": "situation, circonstance",
+    "french": "situation",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2226,7 +2226,7 @@
     "simplified": "意见",
     "traditional": "意見",
     "pinyin": "yìjiàn",
-    "french": "avis, opinion",
+    "french": "opinion, avis",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2298,7 +2298,7 @@
     "simplified": "其他",
     "traditional": "其他",
     "pinyin": "qítā",
-    "french": "autre",
+    "french": "other",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -2322,7 +2322,7 @@
     "simplified": "丰富",
     "traditional": "豐富",
     "pinyin": "fēngfù",
-    "french": "riche, abondant",
+    "french": "riche",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -2586,7 +2586,7 @@
     "simplified": "道理",
     "traditional": "道理",
     "pinyin": "dàolǐ",
-    "french": "raison, logique",
+    "french": "vérité",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2634,7 +2634,7 @@
     "simplified": "爱好",
     "traditional": "愛好",
     "pinyin": "àihào",
-    "french": "passe-temps, hobby",
+    "french": "passe-temps, loisir",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -2778,7 +2778,7 @@
     "simplified": "然而",
     "traditional": "然而",
     "pinyin": "rán'ér",
-    "french": "cependant, toutefois",
+    "french": "cependant, pourtant",
     "hsk_level": 3,
     "category": "conjonctions",
     "components": [
@@ -2852,7 +2852,7 @@
     "simplified": "无论",
     "traditional": "無論",
     "pinyin": "wúlùn",
-    "french": "quel que soit, peu importe",
+    "french": "peu importe, quel que soit",
     "hsk_level": 3,
     "category": "conjonctions",
     "components": [
@@ -3142,7 +3142,7 @@
     "simplified": "确实",
     "traditional": "確實",
     "pinyin": "quèshí",
-    "french": "effectivement, en effet",
+    "french": "exactement",
     "hsk_level": 3,
     "category": "adverbes",
     "components": [
@@ -3616,7 +3616,7 @@
     "simplified": "按",
     "traditional": "按",
     "pinyin": "àn",
-    "french": "il",
+    "french": "press; push; check",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -3710,7 +3710,7 @@
     "simplified": "白",
     "traditional": "白",
     "pinyin": "bái",
-    "french": "il/elle",
+    "french": "without results; in vain",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -3757,7 +3757,7 @@
     "simplified": "班级",
     "traditional": "班级",
     "pinyin": "bān jí",
-    "french": "classe",
+    "french": "classe, cours",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -3875,7 +3875,7 @@
     "simplified": "保安",
     "traditional": "保安",
     "pinyin": "bǎo ān",
-    "french": "il/elle",
+    "french": "security guard",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -4019,7 +4019,7 @@
     "simplified": "报",
     "traditional": "报",
     "pinyin": "bào",
-    "french": "nouveau",
+    "french": "journal",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -4042,7 +4042,7 @@
     "simplified": "报到",
     "traditional": "报到",
     "pinyin": "bàodào",
-    "french": "être",
+    "french": "register; check in",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4066,7 +4066,7 @@
     "simplified": "报道",
     "traditional": "报道",
     "pinyin": "bàodào",
-    "french": "rapport",
+    "french": "rapport, rapporter",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4232,7 +4232,7 @@
     "simplified": "本来",
     "traditional": "本来",
     "pinyin": "běnlái",
-    "french": "tous",
+    "french": "originally",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4256,7 +4256,7 @@
     "simplified": "本领",
     "traditional": "本领",
     "pinyin": "běnlǐng",
-    "french": "il/elle",
+    "french": "ability",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -4304,7 +4304,7 @@
     "simplified": "比例",
     "traditional": "比例",
     "pinyin": "bǐlì",
-    "french": "ou",
+    "french": "proportion",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4328,7 +4328,7 @@
     "simplified": "必然",
     "traditional": "必然",
     "pinyin": "bìrán",
-    "french": "il/elle",
+    "french": "inevitable",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -4352,7 +4352,7 @@
     "simplified": "必要",
     "traditional": "必要",
     "pinyin": "bìyào",
-    "french": "necessary",
+    "french": "nécessaire",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4376,7 +4376,7 @@
     "simplified": "变化",
     "traditional": "变化",
     "pinyin": "biànhuà",
-    "french": "changer",
+    "french": "changer, changer",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4400,7 +4400,7 @@
     "simplified": "变为",
     "traditional": "变为",
     "pinyin": "biàn wéi",
-    "french": "venir",
+    "french": "devenir",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4424,7 +4424,7 @@
     "simplified": "标题",
     "traditional": "标题",
     "pinyin": "biāotí",
-    "french": "il",
+    "french": "title; heading",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -4472,7 +4472,7 @@
     "simplified": "表格",
     "traditional": "表格",
     "pinyin": "biǎogé",
-    "french": "ou",
+    "french": "form",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4520,7 +4520,7 @@
     "simplified": "表明",
     "traditional": "表明",
     "pinyin": "biǎomíng",
-    "french": "chat",
+    "french": "indicate",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4544,7 +4544,7 @@
     "simplified": "表现",
     "traditional": "表现",
     "pinyin": "biǎoxiàn",
-    "french": "ou",
+    "french": "performance",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4568,7 +4568,7 @@
     "simplified": "并",
     "traditional": "并",
     "pinyin": "bìng",
-    "french": "tous",
+    "french": "combine; merge; incorporate",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4615,7 +4615,7 @@
     "simplified": "播出",
     "traditional": "播出",
     "pinyin": "bō chū",
-    "french": "route",
+    "french": "broadcast",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4663,7 +4663,7 @@
     "simplified": "不必",
     "traditional": "不必",
     "pinyin": "bú bì",
-    "french": "ne pas",
+    "french": "need not",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4687,7 +4687,7 @@
     "simplified": "不论",
     "traditional": "不论",
     "pinyin": "bú lùn",
-    "french": "il",
+    "french": "no matter",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -4711,7 +4711,7 @@
     "simplified": "补",
     "traditional": "补",
     "pinyin": "bǔ",
-    "french": "repair; mend; supply",
+    "french": "réparer",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4806,7 +4806,7 @@
     "simplified": "不光",
     "traditional": "不光",
     "pinyin": "bù guāng",
-    "french": "ne pas",
+    "french": "non seulement",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4830,7 +4830,7 @@
     "simplified": "不仅",
     "traditional": "不仅",
     "pinyin": "bùjǐn",
-    "french": "ne pas",
+    "french": "non seulement",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4900,7 +4900,7 @@
     "simplified": "部",
     "traditional": "部",
     "pinyin": "bù",
-    "french": "être",
+    "french": "unit; ministry; department",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4947,7 +4947,7 @@
     "simplified": "部长",
     "traditional": "部长",
     "pinyin": "bù zhǎng",
-    "french": "être",
+    "french": "minister",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -4971,7 +4971,7 @@
     "simplified": "才能",
     "traditional": "才能",
     "pinyin": "cái néng",
-    "french": "il/elle",
+    "french": "talent; ability",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -4995,7 +4995,7 @@
     "simplified": "采取",
     "traditional": "采取",
     "pinyin": "cǎiqǔ",
-    "french": "faire",
+    "french": "prendre",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5019,7 +5019,7 @@
     "simplified": "采用",
     "traditional": "采用",
     "pinyin": "cǎi yòng",
-    "french": "faire",
+    "french": "put to use; adopt",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5115,7 +5115,7 @@
     "simplified": "长城",
     "traditional": "长城",
     "pinyin": "Chángchéng",
-    "french": "manger",
+    "french": "the Great Wall",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -5139,7 +5139,7 @@
     "simplified": "长处",
     "traditional": "长处",
     "pinyin": "cháng chù",
-    "french": "ou",
+    "french": "strength; forte",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5187,7 +5187,7 @@
     "simplified": "厂",
     "traditional": "厂",
     "pinyin": "chǎng",
-    "french": "ou",
+    "french": "usine",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5305,7 +5305,7 @@
     "simplified": "吵",
     "traditional": "吵",
     "pinyin": "chǎo",
-    "french": "être",
+    "french": "noisy",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5352,7 +5352,7 @@
     "simplified": "衬衫",
     "traditional": "衬衫",
     "pinyin": "chènshān",
-    "french": "shirt",
+    "french": "chemise",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5376,7 +5376,7 @@
     "simplified": "衬衣",
     "traditional": "衬衣",
     "pinyin": "chèn yī",
-    "french": "shirt",
+    "french": "chemise",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5400,7 +5400,7 @@
     "simplified": "称为",
     "traditional": "称为",
     "pinyin": "chēng wéi",
-    "french": "tous",
+    "french": "appeler",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5472,7 +5472,7 @@
     "simplified": "成立",
     "traditional": "成立",
     "pinyin": "chénglì",
-    "french": "être",
+    "french": "establish",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5568,7 +5568,7 @@
     "simplified": "城",
     "traditional": "城",
     "pinyin": "chéng",
-    "french": "il/elle",
+    "french": "city; town",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -5663,7 +5663,7 @@
     "simplified": "重",
     "traditional": "重",
     "pinyin": "zhòng",
-    "french": "il",
+    "french": "heavy",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -5757,7 +5757,7 @@
     "simplified": "初中",
     "traditional": "初中",
     "pinyin": "chū zhōng",
-    "french": "ou",
+    "french": "junior high school",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5781,7 +5781,7 @@
     "simplified": "除了",
     "traditional": "除了",
     "pinyin": "chúle",
-    "french": "except",
+    "french": "sauf",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5829,7 +5829,7 @@
     "simplified": "传",
     "traditional": "传",
     "pinyin": "chuán",
-    "french": "lire",
+    "french": "pass; pass on; spread",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5852,7 +5852,7 @@
     "simplified": "传播",
     "traditional": "传播",
     "pinyin": "chuánbō",
-    "french": "lire",
+    "french": "spread",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5876,7 +5876,7 @@
     "simplified": "传来",
     "traditional": "传来",
     "pinyin": "chuán lái",
-    "french": "venir",
+    "french": "came; come through",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -5972,7 +5972,7 @@
     "simplified": "创造",
     "traditional": "创造",
     "pinyin": "chuàngzào",
-    "french": "manger",
+    "french": "create",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -5996,7 +5996,7 @@
     "simplified": "创作",
     "traditional": "创作",
     "pinyin": "chuàngzuò",
-    "french": "manger",
+    "french": "literary creation",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -6044,7 +6044,7 @@
     "simplified": "从前",
     "traditional": "从前",
     "pinyin": "cóngqián",
-    "french": "ou",
+    "french": "avant",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6068,7 +6068,7 @@
     "simplified": "从事",
     "traditional": "从事",
     "pinyin": "cóngshì",
-    "french": "s'engager dans, exercer",
+    "french": "exercer, s'engager dans",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6092,7 +6092,7 @@
     "simplified": "村",
     "traditional": "村",
     "pinyin": "cūn",
-    "french": "village; hamlet",
+    "french": "village",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6115,7 +6115,7 @@
     "simplified": "存",
     "traditional": "存",
     "pinyin": "cún",
-    "french": "il/elle",
+    "french": "deposit",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -6138,7 +6138,7 @@
     "simplified": "存在",
     "traditional": "存在",
     "pinyin": "cúnzài",
-    "french": "dix",
+    "french": "existence",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -6162,7 +6162,7 @@
     "simplified": "错误",
     "traditional": "错误",
     "pinyin": "cuòwù",
-    "french": "ou",
+    "french": "error",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6186,7 +6186,7 @@
     "simplified": "达到",
     "traditional": "达到",
     "pinyin": "dádào",
-    "french": "Achieve",
+    "french": "réaliser, accomplir",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6210,7 +6210,7 @@
     "simplified": "打破",
     "traditional": "打破",
     "pinyin": "dǎ pò",
-    "french": "break; smash",
+    "french": "casser",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6258,7 +6258,7 @@
     "simplified": "大概",
     "traditional": "大概",
     "pinyin": "dàgài",
-    "french": "Probably",
+    "french": "probablement",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6403,7 +6403,7 @@
     "simplified": "带动",
     "traditional": "带动",
     "pinyin": "dài dòng",
-    "french": "drive; spur",
+    "french": "conduire",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6451,7 +6451,7 @@
     "simplified": "单元",
     "traditional": "单元",
     "pinyin": "dānyuán",
-    "french": "il/elle",
+    "french": "unit",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -6475,7 +6475,7 @@
     "simplified": "当初",
     "traditional": "当初",
     "pinyin": "dāngchū",
-    "french": "ou",
+    "french": "original",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6547,7 +6547,7 @@
     "simplified": "当中",
     "traditional": "当中",
     "pinyin": "dāng zhōng",
-    "french": "il",
+    "french": "among; in the middle",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -6571,7 +6571,7 @@
     "simplified": "刀",
     "traditional": "刀",
     "pinyin": "dāo",
-    "french": "knife",
+    "french": "couteau",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6594,7 +6594,7 @@
     "simplified": "导演",
     "traditional": "导演",
     "pinyin": "dǎoyǎn",
-    "french": "ou",
+    "french": "director",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6642,7 +6642,7 @@
     "simplified": "到底",
     "traditional": "到底",
     "pinyin": "dàodǐ",
-    "french": "il",
+    "french": "to the end",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -6666,7 +6666,7 @@
     "simplified": "得分",
     "traditional": "得分",
     "pinyin": "dé fēn",
-    "french": "ou",
+    "french": "score",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6909,7 +6909,7 @@
     "simplified": "订",
     "traditional": "订",
     "pinyin": "dìng",
-    "french": "ou",
+    "french": "conclude; draw up; order",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -6980,7 +6980,7 @@
     "simplified": "动力",
     "traditional": "动力",
     "pinyin": "dònglì",
-    "french": "power; motivation",
+    "french": "pouvoir, puissance",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7028,7 +7028,7 @@
     "simplified": "读者",
     "traditional": "读者",
     "pinyin": "dú zhě",
-    "french": "lire",
+    "french": "reader",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7052,7 +7052,7 @@
     "simplified": "短处",
     "traditional": "短处",
     "pinyin": "duǎn chù",
-    "french": "ou",
+    "french": "shortcoming",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7076,7 +7076,7 @@
     "simplified": "短裤",
     "traditional": "短裤",
     "pinyin": "duǎn kù",
-    "french": "ou",
+    "french": "shorts",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7100,7 +7100,7 @@
     "simplified": "短期",
     "traditional": "短期",
     "pinyin": "duǎn qī",
-    "french": "ou",
+    "french": "short term",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7124,7 +7124,7 @@
     "simplified": "断",
     "traditional": "断",
     "pinyin": "duàn",
-    "french": "break",
+    "french": "casser",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7147,7 +7147,7 @@
     "simplified": "队员",
     "traditional": "队员",
     "pinyin": "duì yuán",
-    "french": "thé",
+    "french": "team member",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7171,7 +7171,7 @@
     "simplified": "对待",
     "traditional": "对待",
     "pinyin": "duìdài",
-    "french": "manger",
+    "french": "treat",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -7195,7 +7195,7 @@
     "simplified": "对方",
     "traditional": "对方",
     "pinyin": "duìfāng",
-    "french": "autre",
+    "french": "other party",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7290,7 +7290,7 @@
     "simplified": "发表",
     "traditional": "发表",
     "pinyin": "fābiǎo",
-    "french": "être",
+    "french": "publish",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7314,7 +7314,7 @@
     "simplified": "发出",
     "traditional": "发出",
     "pinyin": "fā chū",
-    "french": "être",
+    "french": "issue; send out",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7434,7 +7434,7 @@
     "simplified": "发送",
     "traditional": "发送",
     "pinyin": "fā sòng",
-    "french": "il/elle",
+    "french": "send; transmit",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -7482,7 +7482,7 @@
     "simplified": "反复",
     "traditional": "反复",
     "pinyin": "fǎnfù",
-    "french": "manger",
+    "french": "repeatedly",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -7625,7 +7625,7 @@
     "simplified": "防止",
     "traditional": "防止",
     "pinyin": "fángzhǐ",
-    "french": "Prevent",
+    "french": "empêcher",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7649,7 +7649,7 @@
     "simplified": "房东",
     "traditional": "房东",
     "pinyin": "fángdōng",
-    "french": "ou",
+    "french": "landlord",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7673,7 +7673,7 @@
     "simplified": "房屋",
     "traditional": "房屋",
     "pinyin": "fáng wū",
-    "french": "utiliser",
+    "french": "houses; buildings",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7697,7 +7697,7 @@
     "simplified": "房租",
     "traditional": "房租",
     "pinyin": "fáng zū",
-    "french": "rent",
+    "french": "louer",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7721,7 +7721,7 @@
     "simplified": "访问",
     "traditional": "访问",
     "pinyin": "fǎngwèn",
-    "french": "être",
+    "french": "visit",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7912,7 +7912,7 @@
     "simplified": "风险",
     "traditional": "风险",
     "pinyin": "fēngxiǎn",
-    "french": "être",
+    "french": "risk",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -7936,7 +7936,7 @@
     "simplified": "否定",
     "traditional": "否定",
     "pinyin": "fǒudìng",
-    "french": "negative",
+    "french": "négatif",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8008,7 +8008,7 @@
     "simplified": "福",
     "traditional": "福",
     "pinyin": "fú",
-    "french": "chanter",
+    "french": "blessing; good fortune",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8079,7 +8079,7 @@
     "simplified": "付",
     "traditional": "付",
     "pinyin": "fù",
-    "french": "il/elle",
+    "french": "pay; commit",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -8102,7 +8102,7 @@
     "simplified": "负责",
     "traditional": "负责",
     "pinyin": "fùzé",
-    "french": "ou",
+    "french": "be responsible for",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8197,7 +8197,7 @@
     "simplified": "改造",
     "traditional": "改造",
     "pinyin": "gǎi zào",
-    "french": "ou",
+    "french": "transform; reform",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8245,7 +8245,7 @@
     "simplified": "赶",
     "traditional": "赶",
     "pinyin": "gǎn",
-    "french": "chat",
+    "french": "catch up with",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8316,7 +8316,7 @@
     "simplified": "赶快",
     "traditional": "赶快",
     "pinyin": "gǎnkuài",
-    "french": "venir",
+    "french": "come on",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8387,7 +8387,7 @@
     "simplified": "感情",
     "traditional": "感情",
     "pinyin": "gǎnqíng",
-    "french": "feeling",
+    "french": "sentiment",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8557,7 +8557,7 @@
     "simplified": "歌声",
     "traditional": "歌声",
     "pinyin": "gē shēng",
-    "french": "chanter",
+    "french": "singing",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8581,7 +8581,7 @@
     "simplified": "歌手",
     "traditional": "歌手",
     "pinyin": "gē shǒu",
-    "french": "chanter",
+    "french": "chanteur, chanteuse",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8605,7 +8605,7 @@
     "simplified": "个人",
     "traditional": "个人",
     "pinyin": "gèrén",
-    "french": "fils",
+    "french": "personal",
     "hsk_level": 3,
     "category": "famille",
     "components": [
@@ -8629,7 +8629,7 @@
     "simplified": "个性",
     "traditional": "个性",
     "pinyin": "gèxìng",
-    "french": "fils",
+    "french": "personality",
     "hsk_level": 3,
     "category": "famille",
     "components": [
@@ -8653,7 +8653,7 @@
     "simplified": "各",
     "traditional": "各",
     "pinyin": "gè",
-    "french": "various",
+    "french": "divers",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8724,7 +8724,7 @@
     "simplified": "各种",
     "traditional": "各种",
     "pinyin": "gè zhǒng",
-    "french": "tous",
+    "french": "all kinds; various",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8772,7 +8772,7 @@
     "simplified": "根本",
     "traditional": "根本",
     "pinyin": "gēnběn",
-    "french": "tous",
+    "french": "at all",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8796,7 +8796,7 @@
     "simplified": "更加",
     "traditional": "更加",
     "pinyin": "gèng jiā",
-    "french": "ou",
+    "french": "more; even more",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8820,7 +8820,7 @@
     "simplified": "工厂",
     "traditional": "工厂",
     "pinyin": "gōngchǎng",
-    "french": "ou",
+    "french": "usine",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8869,7 +8869,7 @@
     "simplified": "工夫",
     "traditional": "工夫",
     "pinyin": "gōng fu",
-    "french": "temps",
+    "french": "temps, fois",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8941,7 +8941,7 @@
     "simplified": "公布",
     "traditional": "公布",
     "pinyin": "gōngbù",
-    "french": "être",
+    "french": "publish",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -8965,7 +8965,7 @@
     "simplified": "公共",
     "traditional": "公共",
     "pinyin": "gōng gòng",
-    "french": "public; common",
+    "french": "public",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9013,7 +9013,7 @@
     "simplified": "公民",
     "traditional": "公民",
     "pinyin": "gōngmín",
-    "french": "il/elle",
+    "french": "citizen",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -9134,7 +9134,7 @@
     "simplified": "共同",
     "traditional": "共同",
     "pinyin": "gòngtóng",
-    "french": "common",
+    "french": "commun, courant",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9158,7 +9158,7 @@
     "simplified": "共有",
     "traditional": "共有",
     "pinyin": "gòng yǒu",
-    "french": "il",
+    "french": "have altogether; share",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -9206,7 +9206,7 @@
     "simplified": "古",
     "traditional": "古",
     "pinyin": "gǔ",
-    "french": "vieux",
+    "french": "ancient; old",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -9300,7 +9300,7 @@
     "simplified": "关注",
     "traditional": "关注",
     "pinyin": "guān zhù",
-    "french": "dix",
+    "french": "attention; pay close attention",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -9348,7 +9348,7 @@
     "simplified": "观看",
     "traditional": "观看",
     "pinyin": "guān kàn",
-    "french": "watch; view",
+    "french": "montre, regarder",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9420,7 +9420,7 @@
     "simplified": "管",
     "traditional": "管",
     "pinyin": "guǎn",
-    "french": "control; be in charge of",
+    "french": "contrôler",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9443,7 +9443,7 @@
     "simplified": "管理",
     "traditional": "管理",
     "pinyin": "guǎnlǐ",
-    "french": "être",
+    "french": "administration",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9490,7 +9490,7 @@
     "simplified": "光明",
     "traditional": "光明",
     "pinyin": "guāngmíng",
-    "french": "lumineux, brillant",
+    "french": "léger, clair, lumière",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9514,7 +9514,7 @@
     "simplified": "广播",
     "traditional": "广播",
     "pinyin": "guǎngbō",
-    "french": "route",
+    "french": "radio broadcast",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9586,7 +9586,7 @@
     "simplified": "规范",
     "traditional": "规范",
     "pinyin": "guīfàn",
-    "french": "il/elle",
+    "french": "criterion; rule",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -9610,7 +9610,7 @@
     "simplified": "国内",
     "traditional": "国内",
     "pinyin": "guó nèi",
-    "french": "faire",
+    "french": "domestic; internal",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9634,7 +9634,7 @@
     "simplified": "国庆",
     "traditional": "国庆",
     "pinyin": "guó qìng",
-    "french": "jour",
+    "french": "national Day",
     "hsk_level": 3,
     "category": "temps",
     "components": [
@@ -9682,7 +9682,7 @@
     "simplified": "果汁",
     "traditional": "果汁",
     "pinyin": "guǒzhī",
-    "french": "il/elle",
+    "french": "fruit juice",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -9730,7 +9730,7 @@
     "simplified": "过去",
     "traditional": "过去",
     "pinyin": "guò qù",
-    "french": "vieux",
+    "french": "past; old",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -9824,7 +9824,7 @@
     "simplified": "好好",
     "traditional": "好好",
     "pinyin": "hǎo hǎo",
-    "french": "tous",
+    "french": "really good, really nice",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -9894,7 +9894,7 @@
     "simplified": "合法",
     "traditional": "合法",
     "pinyin": "héfǎ",
-    "french": "il/elle",
+    "french": "legitimate",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -9942,7 +9942,7 @@
     "simplified": "合理",
     "traditional": "合理",
     "pinyin": "hélǐ",
-    "french": "fils",
+    "french": "reasonable",
     "hsk_level": 3,
     "category": "famille",
     "components": [
@@ -9990,7 +9990,7 @@
     "simplified": "和平",
     "traditional": "和平",
     "pinyin": "hépíng",
-    "french": "peace",
+    "french": "paix",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10014,7 +10014,7 @@
     "simplified": "红茶",
     "traditional": "红茶",
     "pinyin": "hóng chá",
-    "french": "thé",
+    "french": "black tea",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10038,7 +10038,7 @@
     "simplified": "红酒",
     "traditional": "红酒",
     "pinyin": "hóng jiǔ",
-    "french": "rouge",
+    "french": "red wine",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10110,7 +10110,7 @@
     "simplified": "后年",
     "traditional": "后年",
     "pinyin": "hòu nián",
-    "french": "année",
+    "french": "the year after next",
     "hsk_level": 3,
     "category": "temps",
     "components": [
@@ -10159,7 +10159,7 @@
     "simplified": "互相",
     "traditional": "互相",
     "pinyin": "hùxiāng",
-    "french": "autre",
+    "french": "each other",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10302,7 +10302,7 @@
     "simplified": "欢乐",
     "traditional": "欢乐",
     "pinyin": "huānlè",
-    "french": "heureux",
+    "french": "heureux, content",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10445,7 +10445,7 @@
     "simplified": "活",
     "traditional": "活",
     "pinyin": "huó",
-    "french": "travailler",
+    "french": "vivre, habiter",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10515,7 +10515,7 @@
     "simplified": "积极",
     "traditional": "积极",
     "pinyin": "jījí",
-    "french": "il/elle",
+    "french": "positive",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -10539,7 +10539,7 @@
     "simplified": "基本",
     "traditional": "基本",
     "pinyin": "jīběn",
-    "french": "basic",
+    "french": "fondamental, basique",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10563,7 +10563,7 @@
     "simplified": "基本上",
     "traditional": "基本上",
     "pinyin": "jī běn shàng",
-    "french": "tous",
+    "french": "basically",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10612,7 +10612,7 @@
     "simplified": "及时",
     "traditional": "及时",
     "pinyin": "jíshí",
-    "french": "temps",
+    "french": "timely",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10733,7 +10733,7 @@
     "simplified": "记录",
     "traditional": "记录",
     "pinyin": "jìlù",
-    "french": "ou",
+    "french": "record",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10757,7 +10757,7 @@
     "simplified": "记者",
     "traditional": "记者",
     "pinyin": "jìzhě",
-    "french": "ou",
+    "french": "reporter",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10781,7 +10781,7 @@
     "simplified": "纪录",
     "traditional": "纪录",
     "pinyin": "jìlù",
-    "french": "ou",
+    "french": "record",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10901,7 +10901,7 @@
     "simplified": "加强",
     "traditional": "加强",
     "pinyin": "jiā qiáng",
-    "french": "ou",
+    "french": "strengthen; reinforce",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -10925,7 +10925,7 @@
     "simplified": "家具",
     "traditional": "家具",
     "pinyin": "jiājù",
-    "french": "il/elle",
+    "french": "furniture",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -10997,7 +10997,7 @@
     "simplified": "价钱",
     "traditional": "价钱",
     "pinyin": "jià qián",
-    "french": "riz",
+    "french": "prix",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -11045,7 +11045,7 @@
     "simplified": "架",
     "traditional": "架",
     "pinyin": "jià",
-    "french": "il",
+    "french": "frame; rack; shelf",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -11164,7 +11164,7 @@
     "simplified": "建",
     "traditional": "建",
     "pinyin": "jiàn",
-    "french": "être",
+    "french": "build; construct; establish",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -11211,7 +11211,7 @@
     "simplified": "建立",
     "traditional": "建立",
     "pinyin": "jiànlì",
-    "french": "être",
+    "french": "establish",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -11355,7 +11355,7 @@
     "simplified": "交往",
     "traditional": "交往",
     "pinyin": "jiāowǎng",
-    "french": "il/elle",
+    "french": "affiliate with",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -11403,7 +11403,7 @@
     "simplified": "叫",
     "traditional": "叫",
     "pinyin": "jiào",
-    "french": "il/elle",
+    "french": "(preposition)",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -11497,7 +11497,7 @@
     "simplified": "结实",
     "traditional": "结实",
     "pinyin": "jiēshi",
-    "french": "strong",
+    "french": "fort",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -11689,7 +11689,7 @@
     "simplified": "金",
     "traditional": "金",
     "pinyin": "jīn",
-    "french": "vieux",
+    "french": "gold",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -11712,7 +11712,7 @@
     "simplified": "金牌",
     "traditional": "金牌",
     "pinyin": "jīn pái",
-    "french": "vieux",
+    "french": "gold medal",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -11853,7 +11853,7 @@
     "simplified": "紧张",
     "traditional": "紧张",
     "pinyin": "jǐnzhāng",
-    "french": "Nervous",
+    "french": "nerveux",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -11877,7 +11877,7 @@
     "simplified": "进步",
     "traditional": "进步",
     "pinyin": "jìnbù",
-    "french": "progress",
+    "french": "progrès",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -11901,7 +11901,7 @@
     "simplified": "进一步",
     "traditional": "进一步",
     "pinyin": "jìn yí bù",
-    "french": "aller",
+    "french": "go a step further",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -11998,7 +11998,7 @@
     "simplified": "经历",
     "traditional": "经历",
     "pinyin": "jīnglì",
-    "french": "experience",
+    "french": "expérience",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12022,7 +12022,7 @@
     "simplified": "经营",
     "traditional": "经营",
     "pinyin": "jīngyíng",
-    "french": "homme",
+    "french": "management",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12070,7 +12070,7 @@
     "simplified": "精神",
     "traditional": "精神",
     "pinyin": "jīngshén",
-    "french": "il/elle",
+    "french": "lively, vigour",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -12118,7 +12118,7 @@
     "simplified": "警察",
     "traditional": "警察",
     "pinyin": "jǐngchá",
-    "french": "Police",
+    "french": "police",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12165,7 +12165,7 @@
     "simplified": "久",
     "traditional": "久",
     "pinyin": "jiǔ",
-    "french": "longtemps",
+    "french": "long",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -12188,7 +12188,7 @@
     "simplified": "旧",
     "traditional": "旧",
     "pinyin": "jiù",
-    "french": "utiliser",
+    "french": "used",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12234,7 +12234,7 @@
     "simplified": "就是",
     "traditional": "就是",
     "pinyin": "jiù shì",
-    "french": "être",
+    "french": "precisely; exactly",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12282,7 +12282,7 @@
     "simplified": "举办",
     "traditional": "举办",
     "pinyin": "jǔbàn",
-    "french": "vieux",
+    "french": "tenir",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -12354,7 +12354,7 @@
     "simplified": "剧场",
     "traditional": "剧场",
     "pinyin": "jù chǎng",
-    "french": "manger",
+    "french": "theater",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -12378,7 +12378,7 @@
     "simplified": "据说",
     "traditional": "据说",
     "pinyin": "jùshuō",
-    "french": "tous",
+    "french": "allegedly",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12402,7 +12402,7 @@
     "simplified": "决定",
     "traditional": "决定",
     "pinyin": "juédìng",
-    "french": "être",
+    "french": "decision",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12498,7 +12498,7 @@
     "simplified": "咖啡",
     "traditional": "咖啡",
     "pinyin": "kāfēi",
-    "french": "Coffee",
+    "french": "café",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12667,7 +12667,7 @@
     "simplified": "看上去",
     "traditional": "看上去",
     "pinyin": "kàn shàng qù",
-    "french": "voir",
+    "french": "seem",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12692,7 +12692,7 @@
     "simplified": "考验",
     "traditional": "考验",
     "pinyin": "kǎoyàn",
-    "french": "examen",
+    "french": "examen, test",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12788,7 +12788,7 @@
     "simplified": "克服",
     "traditional": "克服",
     "pinyin": "kèfú",
-    "french": "venir",
+    "french": "overcome",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12883,7 +12883,7 @@
     "simplified": "空调",
     "traditional": "空调",
     "pinyin": "kōngtiáo",
-    "french": "il/elle",
+    "french": "air conditioner",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -12931,7 +12931,7 @@
     "simplified": "空儿",
     "traditional": "空儿",
     "pinyin": "kòngr",
-    "french": "temps",
+    "french": "free time",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -12955,7 +12955,7 @@
     "simplified": "裤子",
     "traditional": "裤子",
     "pinyin": "kùzi",
-    "french": "utiliser",
+    "french": "trousers",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13074,7 +13074,7 @@
     "simplified": "老百姓",
     "traditional": "老百姓",
     "pinyin": "lǎobǎixìng",
-    "french": "ou",
+    "french": "ordinary people",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13099,7 +13099,7 @@
     "simplified": "老板",
     "traditional": "老板",
     "pinyin": "lǎobǎn",
-    "french": "Boss",
+    "french": "patron",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13123,7 +13123,7 @@
     "simplified": "老太太",
     "traditional": "老太太",
     "pinyin": "lǎo tài tai",
-    "french": "vieux",
+    "french": "old lady",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -13147,7 +13147,7 @@
     "simplified": "老头儿",
     "traditional": "老头儿",
     "pinyin": "lǎo tóur",
-    "french": "vieux",
+    "french": "old man",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -13172,7 +13172,7 @@
     "simplified": "乐",
     "traditional": "乐",
     "pinyin": "lè",
-    "french": "heureux",
+    "french": "heureux, content",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13195,7 +13195,7 @@
     "simplified": "乐观",
     "traditional": "乐观",
     "pinyin": "lèguān",
-    "french": "être",
+    "french": "optimistic",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13219,7 +13219,7 @@
     "simplified": "类",
     "traditional": "类",
     "pinyin": "lèi",
-    "french": "ou",
+    "french": "classe, cours",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13242,7 +13242,7 @@
     "simplified": "类似",
     "traditional": "类似",
     "pinyin": "lèisì",
-    "french": "Similar",
+    "french": "similaire",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13266,7 +13266,7 @@
     "simplified": "离婚",
     "traditional": "离婚",
     "pinyin": "líhūn",
-    "french": "ou",
+    "french": "divorce",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13290,7 +13290,7 @@
     "simplified": "里面",
     "traditional": "里面",
     "pinyin": "lǐ miàn",
-    "french": "ou",
+    "french": "à l'intérieur, dedans",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13362,7 +13362,7 @@
     "simplified": "理论",
     "traditional": "理论",
     "pinyin": "lǐlùn",
-    "french": "ou",
+    "french": "theory",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13386,7 +13386,7 @@
     "simplified": "理由",
     "traditional": "理由",
     "pinyin": "lǐyóu",
-    "french": "fils",
+    "french": "raison",
     "hsk_level": 3,
     "category": "famille",
     "components": [
@@ -13410,7 +13410,7 @@
     "simplified": "力",
     "traditional": "力",
     "pinyin": "lì",
-    "french": "ou",
+    "french": "pouvoir, puissance",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13433,7 +13433,7 @@
     "simplified": "力量",
     "traditional": "力量",
     "pinyin": "lìliàng",
-    "french": "Power",
+    "french": "pouvoir, puissance",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13457,7 +13457,7 @@
     "simplified": "立刻",
     "traditional": "立刻",
     "pinyin": "lìkè",
-    "french": "immediately",
+    "french": "immédiatement",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13625,7 +13625,7 @@
     "simplified": "联合国",
     "traditional": "联合国",
     "pinyin": "lián hé guó",
-    "french": "il/elle",
+    "french": "united Nations",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -13698,7 +13698,7 @@
     "simplified": "了",
     "traditional": "了",
     "pinyin": "le",
-    "french": "dix",
+    "french": "past tense marker",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -13768,7 +13768,7 @@
     "simplified": "领先",
     "traditional": "领先",
     "pinyin": "lǐngxiān",
-    "french": "il",
+    "french": "keep ahead",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -13792,7 +13792,7 @@
     "simplified": "另一方面",
     "traditional": "另一方面",
     "pinyin": "lìng yì fāng miàn",
-    "french": "autre",
+    "french": "on the other hand",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13842,7 +13842,7 @@
     "simplified": "龙",
     "traditional": "龙",
     "pinyin": "lóng",
-    "french": "aller",
+    "french": "dragon",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13865,7 +13865,7 @@
     "simplified": "录",
     "traditional": "录",
     "pinyin": "lù",
-    "french": "ou",
+    "french": "record; write down",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13888,7 +13888,7 @@
     "simplified": "录音",
     "traditional": "录音",
     "pinyin": "lùyīn",
-    "french": "ou",
+    "french": "sound recording",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -13936,7 +13936,7 @@
     "simplified": "旅馆",
     "traditional": "旅馆",
     "pinyin": "lǚ guǎn",
-    "french": "chaud",
+    "french": "hôtel",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -13985,7 +13985,7 @@
     "simplified": "绿茶",
     "traditional": "绿茶",
     "pinyin": "lǜ chá",
-    "french": "thé",
+    "french": "green tea",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14103,7 +14103,7 @@
     "simplified": "满足",
     "traditional": "满足",
     "pinyin": "mǎnzú",
-    "french": "être",
+    "french": "satisfy",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14197,7 +14197,7 @@
     "simplified": "没用",
     "traditional": "没用",
     "pinyin": "méi yòng",
-    "french": "utiliser",
+    "french": "useless",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14268,7 +14268,7 @@
     "simplified": "美",
     "traditional": "美",
     "pinyin": "měi",
-    "french": "beautiful; pretty",
+    "french": "beau, belle",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -14315,7 +14315,7 @@
     "simplified": "美丽",
     "traditional": "美丽",
     "pinyin": "měilì",
-    "french": "beautiful",
+    "french": "beau, belle",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -14339,7 +14339,7 @@
     "simplified": "美食",
     "traditional": "美食",
     "pinyin": "měi shí",
-    "french": "aller",
+    "french": "delicious food; gourmet",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14387,7 +14387,7 @@
     "simplified": "美元",
     "traditional": "美元",
     "pinyin": "měi yuán",
-    "french": "faire",
+    "french": "u.S. dollar",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14411,7 +14411,7 @@
     "simplified": "迷",
     "traditional": "迷",
     "pinyin": "mí",
-    "french": "utiliser",
+    "french": "fan; confused",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14457,7 +14457,7 @@
     "simplified": "面对",
     "traditional": "面对",
     "pinyin": "miànduì",
-    "french": "Face",
+    "french": "visage",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14481,7 +14481,7 @@
     "simplified": "面积",
     "traditional": "面积",
     "pinyin": "miànjī",
-    "french": "il",
+    "french": "the measure of area",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -14505,7 +14505,7 @@
     "simplified": "民间",
     "traditional": "民间",
     "pinyin": "mínjiān",
-    "french": "aller",
+    "french": "nongovernmental",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14577,7 +14577,7 @@
     "simplified": "明显",
     "traditional": "明显",
     "pinyin": "míngxiǎn",
-    "french": "obvious",
+    "french": "évident",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14744,7 +14744,7 @@
     "simplified": "奶茶",
     "traditional": "奶茶",
     "pinyin": "nǎi chá",
-    "french": "thé",
+    "french": "milk tea",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14768,7 +14768,7 @@
     "simplified": "男子",
     "traditional": "男子",
     "pinyin": "nán zǐ",
-    "french": "homme",
+    "french": "man; male",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14864,7 +14864,7 @@
     "simplified": "内",
     "traditional": "内",
     "pinyin": "nèi",
-    "french": "il/elle",
+    "french": "within",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -14887,7 +14887,7 @@
     "simplified": "内心",
     "traditional": "内心",
     "pinyin": "nèi xīn",
-    "french": "il",
+    "french": "heart; inner centre",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -14911,7 +14911,7 @@
     "simplified": "能不能",
     "traditional": "能不能",
     "pinyin": "néng bù néng",
-    "french": "pouvoir",
+    "french": "can or not",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -14959,7 +14959,7 @@
     "simplified": "年代",
     "traditional": "年代",
     "pinyin": "niándài",
-    "french": "année",
+    "french": "years",
     "hsk_level": 3,
     "category": "temps",
     "components": [
@@ -14983,7 +14983,7 @@
     "simplified": "年底",
     "traditional": "年底",
     "pinyin": "nián dǐ",
-    "french": "année",
+    "french": "end of the year",
     "hsk_level": 3,
     "category": "temps",
     "components": [
@@ -15007,7 +15007,7 @@
     "simplified": "年纪",
     "traditional": "年纪",
     "pinyin": "niánjì",
-    "french": "Age",
+    "french": "âge",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15031,7 +15031,7 @@
     "simplified": "念",
     "traditional": "念",
     "pinyin": "niàn",
-    "french": "lire",
+    "french": "read",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15054,7 +15054,7 @@
     "simplified": "牛",
     "traditional": "牛",
     "pinyin": "niú",
-    "french": "chat",
+    "french": "cattle; ox; cow",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15077,7 +15077,7 @@
     "simplified": "农民",
     "traditional": "农民",
     "pinyin": "nóngmín",
-    "french": "farmer",
+    "french": "agriculteur",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15125,7 +15125,7 @@
     "simplified": "女子",
     "traditional": "女子",
     "pinyin": "nǚ zǐ",
-    "french": "homme",
+    "french": "femme",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15149,7 +15149,7 @@
     "simplified": "暖和",
     "traditional": "暖和",
     "pinyin": "nuǎnhuo",
-    "french": "chaud",
+    "french": "chaud, tiède",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -15173,7 +15173,7 @@
     "simplified": "怕",
     "traditional": "怕",
     "pinyin": "pà",
-    "french": "perhaps; afraid",
+    "french": "peut-être",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15196,7 +15196,7 @@
     "simplified": "拍",
     "traditional": "拍",
     "pinyin": "pāi",
-    "french": "manger",
+    "french": "beat",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -15219,7 +15219,7 @@
     "simplified": "排",
     "traditional": "排",
     "pinyin": "pái",
-    "french": "ou",
+    "french": "arranger, organiser",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15407,7 +15407,7 @@
     "simplified": "配合",
     "traditional": "配合",
     "pinyin": "pèihé",
-    "french": "ou",
+    "french": "coordination",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15455,7 +15455,7 @@
     "simplified": "皮",
     "traditional": "皮",
     "pinyin": "pí",
-    "french": "manger",
+    "french": "peau",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -15502,7 +15502,7 @@
     "simplified": "啤酒",
     "traditional": "啤酒",
     "pinyin": "píjiǔ",
-    "french": "Beer",
+    "french": "bière",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15693,7 +15693,7 @@
     "simplified": "期",
     "traditional": "期",
     "pinyin": "qī",
-    "french": "temps",
+    "french": "period; time; term",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15716,7 +15716,7 @@
     "simplified": "齐",
     "traditional": "齐",
     "pinyin": "qí",
-    "french": "manger",
+    "french": "ensemble",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -15763,7 +15763,7 @@
     "simplified": "其实",
     "traditional": "其实",
     "pinyin": "qíshí",
-    "french": "tous",
+    "french": "en fait",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15883,7 +15883,7 @@
     "simplified": "前进",
     "traditional": "前进",
     "pinyin": "qián jìn",
-    "french": "ou",
+    "french": "advance; go forward",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15931,7 +15931,7 @@
     "simplified": "前往",
     "traditional": "前往",
     "pinyin": "qián wǎng",
-    "french": "ou",
+    "french": "go to; leave for",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15955,7 +15955,7 @@
     "simplified": "强",
     "traditional": "强",
     "pinyin": "qiáng",
-    "french": "strong; powerful",
+    "french": "fort",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -15978,7 +15978,7 @@
     "simplified": "强大",
     "traditional": "强大",
     "pinyin": "qiáng dà",
-    "french": "ou",
+    "french": "powerful; formidable",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16026,7 +16026,7 @@
     "simplified": "强烈",
     "traditional": "强烈",
     "pinyin": "qiángliè",
-    "french": "strong",
+    "french": "fort",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16050,7 +16050,7 @@
     "simplified": "桥",
     "traditional": "桥",
     "pinyin": "qiáo",
-    "french": "Bridge",
+    "french": "pont",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16073,7 +16073,7 @@
     "simplified": "巧",
     "traditional": "巧",
     "pinyin": "qiǎo",
-    "french": "ou",
+    "french": "opportunely; skilful",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16167,7 +16167,7 @@
     "simplified": "亲自",
     "traditional": "亲自",
     "pinyin": "qīnzì",
-    "french": "tous",
+    "french": "personally",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16191,7 +16191,7 @@
     "simplified": "情感",
     "traditional": "情感",
     "pinyin": "qíng gǎn",
-    "french": "feeling; emotion",
+    "french": "sentiment",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16263,7 +16263,7 @@
     "simplified": "球迷",
     "traditional": "球迷",
     "pinyin": "qiúmí",
-    "french": "tous",
+    "french": "fans (ball game)",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16287,7 +16287,7 @@
     "simplified": "区",
     "traditional": "区",
     "pinyin": "qū",
-    "french": "être",
+    "french": "area; district; region",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16334,7 +16334,7 @@
     "simplified": "取消",
     "traditional": "取消",
     "pinyin": "qǔxiāo",
-    "french": "pouvoir",
+    "french": "cancel",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16358,7 +16358,7 @@
     "simplified": "去世",
     "traditional": "去世",
     "pinyin": "qùshì",
-    "french": "manger",
+    "french": "death",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -16382,7 +16382,7 @@
     "simplified": "全场",
     "traditional": "全场",
     "pinyin": "quán chǎng",
-    "french": "il",
+    "french": "the whole audience",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -16406,7 +16406,7 @@
     "simplified": "全面",
     "traditional": "全面",
     "pinyin": "quánmiàn",
-    "french": "il",
+    "french": "comprehensive",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -16430,7 +16430,7 @@
     "simplified": "全球",
     "traditional": "全球",
     "pinyin": "quán qiú",
-    "french": "ou",
+    "french": "global; the whole world",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16454,7 +16454,7 @@
     "simplified": "缺",
     "traditional": "缺",
     "pinyin": "quē",
-    "french": "ou",
+    "french": "be short of; lack",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16477,7 +16477,7 @@
     "simplified": "缺点",
     "traditional": "缺点",
     "pinyin": "quēdiǎn",
-    "french": "ou",
+    "french": "shortcoming",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16644,7 +16644,7 @@
     "simplified": "热烈",
     "traditional": "热烈",
     "pinyin": "rèliè",
-    "french": "chaud",
+    "french": "chaud, tiède",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -16668,7 +16668,7 @@
     "simplified": "人才",
     "traditional": "人才",
     "pinyin": "réncái",
-    "french": "fils",
+    "french": "talented person",
     "hsk_level": 3,
     "category": "famille",
     "components": [
@@ -16716,7 +16716,7 @@
     "simplified": "人类",
     "traditional": "人类",
     "pinyin": "rénlèi",
-    "french": "homme",
+    "french": "human beings",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -16813,7 +16813,7 @@
     "simplified": "人员",
     "traditional": "人员",
     "pinyin": "rényuán",
-    "french": "fils",
+    "french": "personnel",
     "hsk_level": 3,
     "category": "famille",
     "components": [
@@ -16885,7 +16885,7 @@
     "simplified": "认可",
     "traditional": "认可",
     "pinyin": "rènkě",
-    "french": "chat",
+    "french": "certificate; ratify",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17147,7 +17147,7 @@
     "simplified": "沙子",
     "traditional": "沙子",
     "pinyin": "shā zi",
-    "french": "il/elle",
+    "french": "sand; grit",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -17218,7 +17218,7 @@
     "simplified": "商品",
     "traditional": "商品",
     "pinyin": "shāngpǐn",
-    "french": "il/elle",
+    "french": "commodity",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -17266,7 +17266,7 @@
     "simplified": "上来",
     "traditional": "上来",
     "pinyin": "shàng lái",
-    "french": "venir",
+    "french": "come up",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17314,7 +17314,7 @@
     "simplified": "上去",
     "traditional": "上去",
     "pinyin": "shàng qù",
-    "french": "aller",
+    "french": "go up",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17338,7 +17338,7 @@
     "simplified": "上升",
     "traditional": "上升",
     "pinyin": "shàng shēng",
-    "french": "aller",
+    "french": "rise; go up",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17434,7 +17434,7 @@
     "simplified": "设立",
     "traditional": "设立",
     "pinyin": "shèlì",
-    "french": "être",
+    "french": "establish",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17530,7 +17530,7 @@
     "simplified": "深入",
     "traditional": "深入",
     "pinyin": "shēn rù",
-    "french": "ou",
+    "french": "go deep into; thorough",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17554,7 +17554,7 @@
     "simplified": "升",
     "traditional": "升",
     "pinyin": "shēng",
-    "french": "être",
+    "french": "rise",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17624,7 +17624,7 @@
     "simplified": "生存",
     "traditional": "生存",
     "pinyin": "shēngcún",
-    "french": "dix",
+    "french": "existence",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -17720,7 +17720,7 @@
     "simplified": "生长",
     "traditional": "生长",
     "pinyin": "shēngzhǎng",
-    "french": "grandir",
+    "french": "grandir, pousser",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17768,7 +17768,7 @@
     "simplified": "胜",
     "traditional": "胜",
     "pinyin": "shèng",
-    "french": "manger",
+    "french": "gagner",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -17791,7 +17791,7 @@
     "simplified": "胜利",
     "traditional": "胜利",
     "pinyin": "shènglì",
-    "french": "ou",
+    "french": "victory",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17839,7 +17839,7 @@
     "simplified": "石头",
     "traditional": "石头",
     "pinyin": "shítou",
-    "french": "stone",
+    "french": "pierre",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17887,7 +17887,7 @@
     "simplified": "时",
     "traditional": "时",
     "pinyin": "shí",
-    "french": "temps",
+    "french": "temps, fois",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17910,7 +17910,7 @@
     "simplified": "时代",
     "traditional": "时代",
     "pinyin": "shídài",
-    "french": "temps",
+    "french": "times",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17934,7 +17934,7 @@
     "simplified": "时刻",
     "traditional": "时刻",
     "pinyin": "shíkè",
-    "french": "temps",
+    "french": "temps, fois",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -17958,7 +17958,7 @@
     "simplified": "实际上",
     "traditional": "实际上",
     "pinyin": "shí jì shàng",
-    "french": "tous",
+    "french": "en fait",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18055,7 +18055,7 @@
     "simplified": "实验室",
     "traditional": "实验室",
     "pinyin": "shí yàn shì",
-    "french": "ou",
+    "french": "laboratory",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18200,7 +18200,7 @@
     "simplified": "市场",
     "traditional": "市场",
     "pinyin": "shìchǎng",
-    "french": "market",
+    "french": "marché",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18224,7 +18224,7 @@
     "simplified": "事故",
     "traditional": "事故",
     "pinyin": "shìgù",
-    "french": "Accident",
+    "french": "accident",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18272,7 +18272,7 @@
     "simplified": "事实",
     "traditional": "事实",
     "pinyin": "shìshí",
-    "french": "Fact",
+    "french": "fait",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18296,7 +18296,7 @@
     "simplified": "事实上",
     "traditional": "事实上",
     "pinyin": "shì shí shàng",
-    "french": "tous",
+    "french": "en fait",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18369,7 +18369,7 @@
     "simplified": "试验",
     "traditional": "试验",
     "pinyin": "shìyàn",
-    "french": "examen",
+    "french": "examen, test",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18417,7 +18417,7 @@
     "simplified": "适用",
     "traditional": "适用",
     "pinyin": "shì yòng",
-    "french": "il/elle",
+    "french": "be applicable; be suitable",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -18441,7 +18441,7 @@
     "simplified": "室",
     "traditional": "室",
     "pinyin": "shì",
-    "french": "chambre",
+    "french": "chambre, salle",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18512,7 +18512,7 @@
     "simplified": "收听",
     "traditional": "收听",
     "pinyin": "shōu tīng",
-    "french": "dix",
+    "french": "écouter",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -18585,7 +18585,7 @@
     "simplified": "手指",
     "traditional": "手指",
     "pinyin": "shǒuzhǐ",
-    "french": "finger",
+    "french": "doigt",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18609,7 +18609,7 @@
     "simplified": "首都",
     "traditional": "首都",
     "pinyin": "shǒudū",
-    "french": "il/elle",
+    "french": "capital",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -18680,7 +18680,7 @@
     "simplified": "受伤",
     "traditional": "受伤",
     "pinyin": "shòushāng",
-    "french": "rouge",
+    "french": "injured",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18751,7 +18751,7 @@
     "simplified": "输入",
     "traditional": "输入",
     "pinyin": "shūrù",
-    "french": "ou",
+    "french": "import; input",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18869,7 +18869,7 @@
     "simplified": "双",
     "traditional": "双",
     "pinyin": "shuāng",
-    "french": "faire",
+    "french": "double",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18963,7 +18963,7 @@
     "simplified": "速度",
     "traditional": "速度",
     "pinyin": "sùdù",
-    "french": "speed",
+    "french": "vitesse",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -18987,7 +18987,7 @@
     "simplified": "随",
     "traditional": "随",
     "pinyin": "suí",
-    "french": "il/elle",
+    "french": "follow; comply with",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -19033,7 +19033,7 @@
     "simplified": "所长",
     "traditional": "所长",
     "pinyin": "suǒ zhǎng",
-    "french": "dix",
+    "french": "superintendent",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -19057,7 +19057,7 @@
     "simplified": "台",
     "traditional": "台",
     "pinyin": "tái",
-    "french": "ou",
+    "french": "platform",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19127,7 +19127,7 @@
     "simplified": "谈判",
     "traditional": "谈判",
     "pinyin": "tánpàn",
-    "french": "aller",
+    "french": "negotiation",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19151,7 +19151,7 @@
     "simplified": "汤",
     "traditional": "汤",
     "pinyin": "tāng",
-    "french": "soup",
+    "french": "soupe",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19174,7 +19174,7 @@
     "simplified": "糖",
     "traditional": "糖",
     "pinyin": "táng",
-    "french": "sugar",
+    "french": "sucre",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19197,7 +19197,7 @@
     "simplified": "特色",
     "traditional": "特色",
     "pinyin": "tèsè",
-    "french": "être",
+    "french": "characteristic",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19293,7 +19293,7 @@
     "simplified": "体会",
     "traditional": "体会",
     "pinyin": "tǐhuì",
-    "french": "Experience",
+    "french": "expérience",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19341,7 +19341,7 @@
     "simplified": "体验",
     "traditional": "体验",
     "pinyin": "tǐyàn",
-    "french": "experience; taste",
+    "french": "expérience",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19365,7 +19365,7 @@
     "simplified": "天空",
     "traditional": "天空",
     "pinyin": "tiānkōng",
-    "french": "sky",
+    "french": "ciel",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19483,7 +19483,7 @@
     "simplified": "跳舞",
     "traditional": "跳舞",
     "pinyin": "tiàowǔ",
-    "french": "dance",
+    "french": "danser",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -19554,7 +19554,7 @@
     "simplified": "铁路",
     "traditional": "铁路",
     "pinyin": "tiě lù",
-    "french": "route",
+    "french": "railway; railroad",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19578,7 +19578,7 @@
     "simplified": "听力",
     "traditional": "听力",
     "pinyin": "tīng lì",
-    "french": "il",
+    "french": "hearing; aural comprehension",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -19602,7 +19602,7 @@
     "simplified": "听众",
     "traditional": "听众",
     "pinyin": "tīng zhòng",
-    "french": "dix",
+    "french": "audience; listeners",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -19626,7 +19626,7 @@
     "simplified": "停止",
     "traditional": "停止",
     "pinyin": "tíng zhǐ",
-    "french": "stop; cease; suspend",
+    "french": "arrêter",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19650,7 +19650,7 @@
     "simplified": "通常",
     "traditional": "通常",
     "pinyin": "tōngcháng",
-    "french": "tous",
+    "french": "usually",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19674,7 +19674,7 @@
     "simplified": "通信",
     "traditional": "通信",
     "pinyin": "tōng xìn",
-    "french": "ou",
+    "french": "communicate; correspond",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19698,7 +19698,7 @@
     "simplified": "痛",
     "traditional": "痛",
     "pinyin": "tòng",
-    "french": "ou",
+    "french": "sore; painful; sad",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19745,7 +19745,7 @@
     "simplified": "头",
     "traditional": "头",
     "pinyin": "tóu",
-    "french": "il",
+    "french": "lead; head",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -19816,7 +19816,7 @@
     "simplified": "突然",
     "traditional": "突然",
     "pinyin": "tūrán",
-    "french": "suddenly",
+    "french": "soudainement",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -19933,7 +19933,7 @@
     "simplified": "团结",
     "traditional": "团结",
     "pinyin": "tuánjié",
-    "french": "il/elle",
+    "french": "unite",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -19981,7 +19981,7 @@
     "simplified": "推动",
     "traditional": "推动",
     "pinyin": "tuī dòng",
-    "french": "ou",
+    "french": "promote; push forward",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20005,7 +20005,7 @@
     "simplified": "推广",
     "traditional": "推广",
     "pinyin": "tuīguǎng",
-    "french": "dix",
+    "french": "extension",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -20029,7 +20029,7 @@
     "simplified": "推进",
     "traditional": "推进",
     "pinyin": "tuī jìn",
-    "french": "ou",
+    "french": "advance; carry forward",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20077,7 +20077,7 @@
     "simplified": "退",
     "traditional": "退",
     "pinyin": "tuì",
-    "french": "manger",
+    "french": "retreat",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -20100,7 +20100,7 @@
     "simplified": "退出",
     "traditional": "退出",
     "pinyin": "tuì chū",
-    "french": "il/elle",
+    "french": "drop out; quit",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -20172,7 +20172,7 @@
     "simplified": "外面",
     "traditional": "外面",
     "pinyin": "wài miàn",
-    "french": "ou",
+    "french": "à l'extérieur, dehors",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20196,7 +20196,7 @@
     "simplified": "外文",
     "traditional": "外文",
     "pinyin": "wài wén",
-    "french": "ou",
+    "french": "foreign language",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20268,7 +20268,7 @@
     "simplified": "完整",
     "traditional": "完整",
     "pinyin": "wánzhěng",
-    "french": "complete",
+    "french": "complet",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20363,7 +20363,7 @@
     "simplified": "为",
     "traditional": "为",
     "pinyin": "wéi",
-    "french": "venir",
+    "french": "(preposition)",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20409,7 +20409,7 @@
     "simplified": "伟大",
     "traditional": "伟大",
     "pinyin": "wěidà",
-    "french": "manger",
+    "french": "grand, formidable",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -20433,7 +20433,7 @@
     "simplified": "卫生",
     "traditional": "卫生",
     "pinyin": "wèi shēng",
-    "french": "il",
+    "french": "hygiene; health",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -20482,7 +20482,7 @@
     "simplified": "为了",
     "traditional": "为了",
     "pinyin": "wèile",
-    "french": "ou",
+    "french": "in order to",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20506,7 +20506,7 @@
     "simplified": "温暖",
     "traditional": "温暖",
     "pinyin": "wēnnuǎn",
-    "french": "chaud",
+    "french": "chaud, tiède",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -20578,7 +20578,7 @@
     "simplified": "文学",
     "traditional": "文学",
     "pinyin": "wénxué",
-    "french": "il/elle",
+    "french": "literature",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -20602,7 +20602,7 @@
     "simplified": "文字",
     "traditional": "文字",
     "pinyin": "wénzì",
-    "french": "il/elle",
+    "french": "writing; character",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -20650,7 +20650,7 @@
     "simplified": "屋子",
     "traditional": "屋子",
     "pinyin": "wūzi",
-    "french": "utiliser",
+    "french": "maison",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20817,7 +20817,7 @@
     "simplified": "下来",
     "traditional": "下来",
     "pinyin": "xià lái",
-    "french": "venir",
+    "french": "come down; get down",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20865,7 +20865,7 @@
     "simplified": "下去",
     "traditional": "下去",
     "pinyin": "xià qù",
-    "french": "aller",
+    "french": "go down; continue",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -20961,7 +20961,7 @@
     "simplified": "显示",
     "traditional": "显示",
     "pinyin": "xiǎnshì",
-    "french": "être",
+    "french": "display",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21057,7 +21057,7 @@
     "simplified": "现实",
     "traditional": "现实",
     "pinyin": "xiànshí",
-    "french": "il/elle",
+    "french": "reality",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -21081,7 +21081,7 @@
     "simplified": "现象",
     "traditional": "现象",
     "pinyin": "xiànxiàng",
-    "french": "il",
+    "french": "phenomenon",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -21105,7 +21105,7 @@
     "simplified": "线",
     "traditional": "线",
     "pinyin": "xiàn",
-    "french": "lire",
+    "french": "thread; string; wire; line",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21152,7 +21152,7 @@
     "simplified": "相当",
     "traditional": "相当",
     "pinyin": "xiāngdāng",
-    "french": "il/elle",
+    "french": "quite",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -21176,7 +21176,7 @@
     "simplified": "相关",
     "traditional": "相关",
     "pinyin": "xiāngguān",
-    "french": "ou",
+    "french": "correlate",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21319,7 +21319,7 @@
     "simplified": "消失",
     "traditional": "消失",
     "pinyin": "xiāoshī",
-    "french": "être",
+    "french": "disappear",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21343,7 +21343,7 @@
     "simplified": "效果",
     "traditional": "效果",
     "pinyin": "xiàoguǒ",
-    "french": "Effect",
+    "french": "effet",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21367,7 +21367,7 @@
     "simplified": "写作",
     "traditional": "写作",
     "pinyin": "xiězuò",
-    "french": "il/elle",
+    "french": "writing",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -21391,7 +21391,7 @@
     "simplified": "血",
     "traditional": "血",
     "pinyin": "xuè",
-    "french": "blood",
+    "french": "sang",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21414,7 +21414,7 @@
     "simplified": "心",
     "traditional": "心",
     "pinyin": "xīn",
-    "french": "il",
+    "french": "heart; feeling; centre",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -21484,7 +21484,7 @@
     "simplified": "信任",
     "traditional": "信任",
     "pinyin": "xìnrèn",
-    "french": "trust",
+    "french": "faire confiance",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21532,7 +21532,7 @@
     "simplified": "形成",
     "traditional": "形成",
     "pinyin": "xíngchéng",
-    "french": "ou",
+    "french": "formation",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21556,7 +21556,7 @@
     "simplified": "形式",
     "traditional": "形式",
     "pinyin": "xíngshì",
-    "french": "ou",
+    "french": "form",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21676,7 +21676,7 @@
     "simplified": "性",
     "traditional": "性",
     "pinyin": "xìng（jī jí xìng）",
-    "french": "il/elle",
+    "french": "suffix (positivity)",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -21747,7 +21747,7 @@
     "simplified": "需求",
     "traditional": "需求",
     "pinyin": "xūqiú",
-    "french": "homme",
+    "french": "demand",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21867,7 +21867,7 @@
     "simplified": "学费",
     "traditional": "学费",
     "pinyin": "xué fèi",
-    "french": "il/elle",
+    "french": "tuition fee",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -21891,7 +21891,7 @@
     "simplified": "训练",
     "traditional": "训练",
     "pinyin": "xùnliàn",
-    "french": "pluie",
+    "french": "train",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -21985,7 +21985,7 @@
     "simplified": "眼前",
     "traditional": "眼前",
     "pinyin": "yǎn qián",
-    "french": "il",
+    "french": "now; at the moment",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -22009,7 +22009,7 @@
     "simplified": "演",
     "traditional": "演",
     "pinyin": "yǎn",
-    "french": "ou",
+    "french": "jouer",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22032,7 +22032,7 @@
     "simplified": "演唱",
     "traditional": "演唱",
     "pinyin": "yǎn chàng",
-    "french": "chanter",
+    "french": "sing",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22105,7 +22105,7 @@
     "simplified": "演员",
     "traditional": "演员",
     "pinyin": "yǎnyuán",
-    "french": "ou",
+    "french": "performer; actor",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22129,7 +22129,7 @@
     "simplified": "羊",
     "traditional": "羊",
     "pinyin": "yáng",
-    "french": "il",
+    "french": "sheep",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -22248,7 +22248,7 @@
     "simplified": "已",
     "traditional": "已",
     "pinyin": "yǐ",
-    "french": "lire",
+    "french": "déjà",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22271,7 +22271,7 @@
     "simplified": "以来",
     "traditional": "以来",
     "pinyin": "yǐlái",
-    "french": "Since",
+    "french": "depuis, puisque",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22295,7 +22295,7 @@
     "simplified": "一方面",
     "traditional": "一方面",
     "pinyin": "yì fāng miàn",
-    "french": "il",
+    "french": "on the one hand",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -22320,7 +22320,7 @@
     "simplified": "艺术",
     "traditional": "艺术",
     "pinyin": "yìshù",
-    "french": "terre",
+    "french": "art",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22344,7 +22344,7 @@
     "simplified": "意外",
     "traditional": "意外",
     "pinyin": "yìwài",
-    "french": "Accident",
+    "french": "accident",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22368,7 +22368,7 @@
     "simplified": "意义",
     "traditional": "意义",
     "pinyin": "yìyì",
-    "french": "pouvoir",
+    "french": "significance",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22392,7 +22392,7 @@
     "simplified": "因此",
     "traditional": "因此",
     "pinyin": "yīncǐ",
-    "french": "ou",
+    "french": "therefore",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22511,7 +22511,7 @@
     "simplified": "迎接",
     "traditional": "迎接",
     "pinyin": "yíngjiē",
-    "french": "bienvenue",
+    "french": "rencontrer",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22535,7 +22535,7 @@
     "simplified": "营养",
     "traditional": "营养",
     "pinyin": "yíngyǎng",
-    "french": "il/elle",
+    "french": "nutrition",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -22559,7 +22559,7 @@
     "simplified": "赢",
     "traditional": "赢",
     "pinyin": "yíng",
-    "french": "hiver",
+    "french": "gagner",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22582,7 +22582,7 @@
     "simplified": "影视",
     "traditional": "影视",
     "pinyin": "yǐng shì",
-    "french": "être",
+    "french": "film and television",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22606,7 +22606,7 @@
     "simplified": "应用",
     "traditional": "应用",
     "pinyin": "yìngyòng",
-    "french": "chat",
+    "french": "application",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22630,7 +22630,7 @@
     "simplified": "优点",
     "traditional": "优点",
     "pinyin": "yōudiǎn",
-    "french": "Advantage",
+    "french": "avantage",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22654,7 +22654,7 @@
     "simplified": "优势",
     "traditional": "优势",
     "pinyin": "yōushì",
-    "french": "advantage",
+    "french": "avantage",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22701,7 +22701,7 @@
     "simplified": "由于",
     "traditional": "由于",
     "pinyin": "yóuyú",
-    "french": "utiliser",
+    "french": "parce que",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22797,7 +22797,7 @@
     "simplified": "游",
     "traditional": "游",
     "pinyin": "yóu",
-    "french": "swim; wander; travel",
+    "french": "nager",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22820,7 +22820,7 @@
     "simplified": "游戏",
     "traditional": "游戏",
     "pinyin": "yóuxì",
-    "french": "Game",
+    "french": "jeu",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -22941,7 +22941,7 @@
     "simplified": "预报",
     "traditional": "预报",
     "pinyin": "yùbào",
-    "french": "rouge",
+    "french": "prediction",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23131,7 +23131,7 @@
     "simplified": "乐队",
     "traditional": "乐队",
     "pinyin": "yuè duì",
-    "french": "ou",
+    "french": "orchestra; band",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23155,7 +23155,7 @@
     "simplified": "运输",
     "traditional": "运输",
     "pinyin": "yùnshū",
-    "french": "ou",
+    "french": "transport",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23179,7 +23179,7 @@
     "simplified": "杂志",
     "traditional": "杂志",
     "pinyin": "zázhì",
-    "french": "Magazine",
+    "french": "magazine",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23227,7 +23227,7 @@
     "simplified": "造",
     "traditional": "造",
     "pinyin": "zào",
-    "french": "manger",
+    "french": "make; build; create",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -23250,7 +23250,7 @@
     "simplified": "造成",
     "traditional": "造成",
     "pinyin": "zàochéng",
-    "french": "utiliser",
+    "french": "cause",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23274,7 +23274,7 @@
     "simplified": "责任",
     "traditional": "责任",
     "pinyin": "zérèn",
-    "french": "il/elle",
+    "french": "responsibility",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -23415,7 +23415,7 @@
     "simplified": "真实",
     "traditional": "真实",
     "pinyin": "zhēnshí",
-    "french": "vraiment",
+    "french": "réel, vrai",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23439,7 +23439,7 @@
     "simplified": "争",
     "traditional": "争",
     "pinyin": "zhēng",
-    "french": "dix",
+    "french": "contend; dispute; fight",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -23462,7 +23462,7 @@
     "simplified": "争取",
     "traditional": "争取",
     "pinyin": "zhēngqǔ",
-    "french": "ou",
+    "french": "strive for",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23486,7 +23486,7 @@
     "simplified": "整",
     "traditional": "整",
     "pinyin": "zhěng",
-    "french": "tous",
+    "french": "entier, tout",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23509,7 +23509,7 @@
     "simplified": "整个",
     "traditional": "整个",
     "pinyin": "zhěnggè",
-    "french": "Whole",
+    "french": "entier, tout",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23557,7 +23557,7 @@
     "simplified": "整齐",
     "traditional": "整齐",
     "pinyin": "zhěngqí",
-    "french": "manger",
+    "french": "neat",
     "hsk_level": 3,
     "category": "verbes",
     "components": [
@@ -23581,7 +23581,7 @@
     "simplified": "整体",
     "traditional": "整体",
     "pinyin": "zhěngtǐ",
-    "french": "Whole",
+    "french": "entier, tout",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23629,7 +23629,7 @@
     "simplified": "整整",
     "traditional": "整整",
     "pinyin": "zhěng zhěng",
-    "french": "plein",
+    "french": "entier, tout",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23652,7 +23652,7 @@
     "simplified": "正",
     "traditional": "正",
     "pinyin": "zhèng",
-    "french": "correct",
+    "french": "droit",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23675,7 +23675,7 @@
     "simplified": "正式",
     "traditional": "正式",
     "pinyin": "zhèngshì",
-    "french": "ou",
+    "french": "formal",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23699,7 +23699,7 @@
     "simplified": "证",
     "traditional": "证",
     "pinyin": "zhèng",
-    "french": "chat",
+    "french": "certificate; proof",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23722,7 +23722,7 @@
     "simplified": "证件",
     "traditional": "证件",
     "pinyin": "zhèngjiàn",
-    "french": "chat",
+    "french": "certificates",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23794,7 +23794,7 @@
     "simplified": "支",
     "traditional": "支",
     "pinyin": "zhī",
-    "french": "ou",
+    "french": "put up; protrude; support",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23817,7 +23817,7 @@
     "simplified": "支持",
     "traditional": "支持",
     "pinyin": "zhīchí",
-    "french": "ou",
+    "french": "soutenir, supporter",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23865,7 +23865,7 @@
     "simplified": "只",
     "traditional": "只",
     "pinyin": "zhī",
-    "french": "chanter",
+    "french": "seul, unique",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23888,7 +23888,7 @@
     "simplified": "直",
     "traditional": "直",
     "pinyin": "zhí",
-    "french": "straight",
+    "french": "droit",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23959,7 +23959,7 @@
     "simplified": "值",
     "traditional": "值",
     "pinyin": "zhí",
-    "french": "ou",
+    "french": "value; be worth",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -23982,7 +23982,7 @@
     "simplified": "值得",
     "traditional": "值得",
     "pinyin": "zhíde",
-    "french": "ou",
+    "french": "worth",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24126,7 +24126,7 @@
     "simplified": "指",
     "traditional": "指",
     "pinyin": "zhǐ",
-    "french": "finger",
+    "french": "doigt",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24221,7 +24221,7 @@
     "simplified": "至少",
     "traditional": "至少",
     "pinyin": "zhìshǎo",
-    "french": "est",
+    "french": "au moins",
     "hsk_level": 3,
     "category": "lieux",
     "components": [
@@ -24294,7 +24294,7 @@
     "simplified": "制定",
     "traditional": "制定",
     "pinyin": "zhìdìng",
-    "french": "ou",
+    "french": "formulate",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24342,7 +24342,7 @@
     "simplified": "制造",
     "traditional": "制造",
     "pinyin": "zhìzào",
-    "french": "homme",
+    "french": "manufacture",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24440,7 +24440,7 @@
     "simplified": "钟",
     "traditional": "钟",
     "pinyin": "zhōng",
-    "french": "temps",
+    "french": "bell; clock; time",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24463,7 +24463,7 @@
     "simplified": "种子",
     "traditional": "种子",
     "pinyin": "zhǒngzi",
-    "french": "voir",
+    "french": "seed",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24487,7 +24487,7 @@
     "simplified": "重大",
     "traditional": "重大",
     "pinyin": "zhòngdà",
-    "french": "pouvoir",
+    "french": "significant",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24582,7 +24582,7 @@
     "simplified": "主动",
     "traditional": "主动",
     "pinyin": "zhǔdòng",
-    "french": "active",
+    "french": "actif",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24606,7 +24606,7 @@
     "simplified": "主任",
     "traditional": "主任",
     "pinyin": "zhǔrèn",
-    "french": "il",
+    "french": "headmaster",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -24630,7 +24630,7 @@
     "simplified": "主意",
     "traditional": "主意",
     "pinyin": "zhǔyi",
-    "french": "idea",
+    "french": "idée",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24654,7 +24654,7 @@
     "simplified": "主张",
     "traditional": "主张",
     "pinyin": "zhǔzhāng",
-    "french": "opinion",
+    "french": "opinion, avis",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24702,7 +24702,7 @@
     "simplified": "祝",
     "traditional": "祝",
     "pinyin": "zhù",
-    "french": "bon",
+    "french": "express good wishes",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -24748,7 +24748,7 @@
     "simplified": "抓住",
     "traditional": "抓住",
     "pinyin": "zhuā zhù",
-    "french": "vieux",
+    "french": "catch; catch hold of",
     "hsk_level": 3,
     "category": "adjectifs",
     "components": [
@@ -24844,7 +24844,7 @@
     "simplified": "专业",
     "traditional": "专业",
     "pinyin": "zhuānyè",
-    "french": "ou",
+    "french": "major",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24891,7 +24891,7 @@
     "simplified": "转变",
     "traditional": "转变",
     "pinyin": "zhuǎnbiàn",
-    "french": "changer",
+    "french": "changer, changer",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -24986,7 +24986,7 @@
     "simplified": "准",
     "traditional": "准",
     "pinyin": "zhǔn",
-    "french": "tous",
+    "french": "suivre",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -25009,7 +25009,7 @@
     "simplified": "资格",
     "traditional": "资格",
     "pinyin": "zīgé",
-    "french": "chat",
+    "french": "qualifications",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -25033,7 +25033,7 @@
     "simplified": "资金",
     "traditional": "资金",
     "pinyin": "zījīn",
-    "french": "il/elle",
+    "french": "capital",
     "hsk_level": 3,
     "category": "pronoms",
     "components": [
@@ -25081,7 +25081,7 @@
     "simplified": "自从",
     "traditional": "自从",
     "pinyin": "zìcóng",
-    "french": "Since",
+    "french": "depuis, puisque",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -25225,7 +25225,7 @@
     "simplified": "总",
     "traditional": "总",
     "pinyin": "zǒng",
-    "french": "dix",
+    "french": "toujours",
     "hsk_level": 3,
     "category": "nombres",
     "components": [
@@ -25320,7 +25320,7 @@
     "simplified": "足球",
     "traditional": "足球",
     "pinyin": "zú qiú",
-    "french": "tous",
+    "french": "soccer; football",
     "hsk_level": 3,
     "category": "noms",
     "components": [
@@ -25368,7 +25368,7 @@
     "simplified": "左右",
     "traditional": "左右",
     "pinyin": "zuǒyòu",
-    "french": "About",
+    "french": "à propos de, environ",
     "hsk_level": 3,
     "category": "noms",
     "components": [

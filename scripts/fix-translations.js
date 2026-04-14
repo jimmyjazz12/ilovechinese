@@ -242,6 +242,56 @@ const EN_TO_FR = {
   "In total": "au total, en tout",
   "one of": "l'un de, parmi",
   "turn round; face about": "se retourner",
+  "send out": "émettre, envoyer",
+  "find out": "trouver, découvrir",
+  "A key": "point clé, essentiel",
+  "put to; put into": "mettre dans, poser dans",
+  "Put questions to": "poser des questions",
+  "push away": "repousser, pousser",
+  "A martial art": "arts martiaux",
+  "pay out": "payer, fournir",
+  "win a prize": "remporter un prix",
+  "end of term": "fin de semestre",
+  "put into": "investir, mettre dans",
+  "win a lottery": "gagner à la loterie",
+};
+
+// Context-aware corrections by simplified character (overrides EN_TO_FR when
+// the generic English word maps to the wrong French meaning for a specific character)
+const CONTEXT_CORRECTIONS = {
+  "多久": "combien de temps",
+  "好久": "longtemps",
+  "早就": "depuis longtemps",
+  "早已": "depuis longtemps",
+  "长期": "long terme, à long terme",
+  "长途": "longue distance",
+  "进展": "progrès, avancement",
+  "属": "appartenir à, signe du zodiaque",
+  "属于": "appartenir à",
+  "跳远": "saut en longueur",
+  "相处": "s'entendre, cohabiter",
+  "整天": "toute la journée",
+  "只要": "pourvu que, du moment que",
+  "目的": "but, objectif",
+  "收看": "regarder (la télévision)",
+  "光": "lumière, lumineux",
+  "光明": "lumineux, brillant",
+  "演出": "spectacle, représentation",
+  "弄": "faire, arranger",
+  "后头": "derrière, à l'arrière",
+  "久": "longtemps",
+  "发": "émettre, envoyer",
+  "找出": "trouver, découvrir",
+  "重点": "point clé, essentiel",
+  "放到": "mettre dans, poser dans",
+  "提问": "poser des questions",
+  "推开": "repousser, pousser",
+  "武术": "arts martiaux",
+  "付出": "payer, fournir",
+  "获奖": "remporter un prix",
+  "期末": "fin de semestre",
+  "投入": "investir, mettre dans",
+  "中奖": "gagner à la loterie",
 };
 
 // Build a case-insensitive lookup map
@@ -308,10 +358,18 @@ for (const file of files) {
   let fixedExamples = 0;
 
   for (const word of data) {
-    // Check main french field
-    if (isLikelyEnglish(word.french)) {
+    // Apply context-aware corrections first (highest priority)
+    if (CONTEXT_CORRECTIONS[word.simplified] !== undefined) {
+      if (word.french !== CONTEXT_CORRECTIONS[word.simplified]) {
+        console.log(`  ${file}: ${word.simplified} "${word.french}" -> "${CONTEXT_CORRECTIONS[word.simplified]}" (context fix)`);
+        word.french = CONTEXT_CORRECTIONS[word.simplified];
+        fixedWords++;
+      }
+    }
+    // Then check dictionary-based fixes for remaining English translations
+    else if (isLikelyEnglish(word.french)) {
       const frenchTranslation = findFrenchTranslation(word.french);
-      if (frenchTranslation) {
+      if (frenchTranslation && frenchTranslation !== word.french) {
         console.log(`  ${file}: ${word.simplified} "${word.french}" -> "${frenchTranslation}"`);
         word.french = frenchTranslation;
         fixedWords++;
@@ -324,7 +382,6 @@ for (const file of files) {
         if (isEnglishSentence(ex.french)) {
           console.log(`  ${file}: example "${ex.french.substring(0, 50)}..." (English sentence detected)`);
           fixedExamples++;
-          // We don't auto-translate sentences as they need proper context
         }
       }
     }

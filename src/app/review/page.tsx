@@ -362,8 +362,11 @@ export default function ReviewPage() {
     }
 
     const stats = JSON.parse(localStorage.getItem(getUserKey("user_stats")) || "{}");
+    const today = new Date().toISOString().slice(0, 10);
+    if (stats.last_active !== today) stats.xp_today = 0;
     stats.xp_today = (stats.xp_today || 0) + xp;
     stats.xp_total = (stats.xp_total || 0) + xp;
+    stats.last_active = today;
     localStorage.setItem(getUserKey("user_stats"), JSON.stringify(stats));
 
     setSessionResults((prev) => [

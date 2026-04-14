@@ -34,6 +34,7 @@ interface Stats {
   current_hsk_level: number;
   words_in_progress: number;
   words_to_review: number;
+  last_active?: string;
 }
 
 interface DailyPlan {
@@ -141,6 +142,15 @@ export default function Dashboard() {
       } catch {
         /* ignore */
       }
+    }
+
+    // Reset xp_today if it's a new day
+    const lastActiveDate = currentStats.last_active || "";
+    const today = todayKey();
+    if (lastActiveDate !== today) {
+      currentStats.xp_today = 0;
+      currentStats.last_active = today;
+      localStorage.setItem(getUserKey("user_stats"), JSON.stringify(currentStats));
     }
 
     // Read SRS progress to count words by box
@@ -518,7 +528,7 @@ export default function Dashboard() {
                 <div className="w-full h-1 bg-[#E5E7EB] rounded-full mt-1.5 overflow-hidden">
                   <div
                     className="h-full bg-[#FFD900] rounded-full transition-all duration-500"
-                    style={{ width: `${Math.min((stats.xp_today / 50) * 100, 100)}%` }}
+                    style={{ width: `${Math.min((stats.xp_today / 1000) * 100, 100)}%` }}
                   />
                 </div>
               </div>

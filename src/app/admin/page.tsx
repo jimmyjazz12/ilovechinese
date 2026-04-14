@@ -223,6 +223,40 @@ export default function AdminPage() {
         {/* Reports tab */}
         {activeTab === "reports" && (
           <div className="space-y-3">
+            {/* Export buttons */}
+            {reports.length > 0 && (
+              <div className="flex gap-2 mb-4">
+                <button
+                  onClick={() => {
+                    const pending = reports.filter(r => r.status === "pending");
+                    const text = pending.map(r =>
+                      `${r.word} | ${r.type} | Actuel: "${r.currentValue}" → Suggéré: "${r.suggestedValue}"${r.comment ? ` | Note: ${r.comment}` : ""}`
+                    ).join("\n");
+                    navigator.clipboard.writeText(text);
+                    alert(`${pending.length} signalement(s) copié(s) dans le presse-papier !\nCollez-les dans le chat Claude pour correction.`);
+                  }}
+                  className="flex-1 bg-[#CE82FF] text-white font-bold py-2.5 rounded-xl text-sm hover:bg-[#B86EE6] transition-all"
+                >
+                  📋 Copier pour Claude ({reports.filter(r => r.status === "pending").length})
+                </button>
+                <button
+                  onClick={() => {
+                    const json = JSON.stringify(reports.filter(r => r.status === "pending"), null, 2);
+                    const blob = new Blob([json], { type: "application/json" });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement("a");
+                    a.href = url;
+                    a.download = `signalements-${new Date().toISOString().slice(0, 10)}.json`;
+                    a.click();
+                    URL.revokeObjectURL(url);
+                  }}
+                  className="bg-white border border-[#E5E7EB] text-[#6B7280] font-bold py-2.5 px-4 rounded-xl text-sm hover:bg-[#F7F7F5] transition-all"
+                >
+                  💾 JSON
+                </button>
+              </div>
+            )}
+
             {reports.length === 0 ? (
               <div className="bg-white rounded-2xl p-8 border border-[#E5E7EB] text-center">
                 <div className="text-3xl mb-2">&#x2705;</div>

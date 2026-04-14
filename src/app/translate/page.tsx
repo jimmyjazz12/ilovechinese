@@ -148,19 +148,29 @@ function checkFrToChAnswer(userInput: string, expected: string): boolean {
 }
 
 function checkChToFrAnswer(userInput: string, expected: string): boolean {
-  const input = userInput.trim().toLowerCase();
+  const inputNorm = normalize(userInput);
+  const expectedNorm = normalize(expected);
+
+  // Exact match after normalization (ignore case, punctuation, spaces)
+  if (inputNorm === expectedNorm) return true;
+
+  // Check if normalized input contains normalized expected or vice versa
+  if (inputNorm.includes(expectedNorm) || expectedNorm.includes(inputNorm)) return true;
+
   // Split expected by comma/semicolon and check if any segment matches
   const segments = expected
     .split(/[,;，；\/]/)
-    .map((s) => s.trim().toLowerCase())
+    .map((s) => normalize(s))
     .filter(Boolean);
 
   for (const seg of segments) {
-    if (input.includes(seg)) return true;
+    if (inputNorm.includes(seg) || seg.includes(inputNorm)) return true;
   }
-  // Also check if all key words (3+ chars) are present
-  const keyWords = segments
-    .flatMap((s) => s.split(/\s+/))
+
+  // Check key words (3+ chars) — 50% threshold
+  const input = userInput.trim().toLowerCase();
+  const keyWords = expected.toLowerCase()
+    .split(/[\s,;\/]+/)
     .filter((w) => w.length >= 3);
   if (keyWords.length > 0) {
     const matchCount = keyWords.filter((w) => input.includes(w)).length;

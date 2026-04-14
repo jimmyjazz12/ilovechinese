@@ -7,6 +7,8 @@ import ToneDisplay from "@/components/ToneDisplay";
 import CharacterAssociations from "@/components/CharacterAssociations";
 import { useChineseAudio } from "@/lib/useAudio";
 import { useUser } from "@/lib/UserContext";
+import { getCorrectedValue } from "@/lib/corrections";
+import ReportError from "@/components/ReportError";
 import Link from "next/link";
 
 import hsk1Data from "@/data/hsk1.json";
@@ -66,6 +68,9 @@ export default function VocabularyDetailPage() {
 
   const speak = useChineseAudio();
 
+  const displayFrench = word ? getCorrectedValue(word.simplified, "french", word.french) : "";
+  const displayPinyin = word ? getCorrectedValue(word.simplified, "pinyin", word.pinyin) : "";
+
   if (!word) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -94,15 +99,18 @@ export default function VocabularyDetailPage() {
             <div className="text-[#6B7280] text-sm mb-2">Traditionnel: {word.traditional}</div>
           )}
           <div className="mb-3">
-            <ToneDisplay pinyin={word.pinyin} size="lg" />
+            <ToneDisplay pinyin={displayPinyin} size="lg" />
           </div>
-          <div className="text-xl text-[#6B7280] mb-4">{word.french}</div>
+          <div className="text-xl text-[#6B7280] mb-4">{displayFrench}</div>
           <button
             onClick={() => speak(word.simplified)}
             className="btn-3d bg-gradient-to-r from-[#1CB0F6] to-[#1899D6] text-white font-bold px-6 py-2 rounded-xl"
           >
             🔊 Écouter
           </button>
+          <div className="mt-3">
+            <ReportError word={word.simplified} currentFrench={displayFrench} currentPinyin={displayPinyin} />
+          </div>
         </div>
 
         {/* Info */}

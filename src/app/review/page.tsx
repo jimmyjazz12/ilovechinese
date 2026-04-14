@@ -7,6 +7,7 @@ import { useUser } from "@/lib/UserContext";
 import XpAnimation from "@/components/XpAnimation";
 import { getToneNumber, removeTones } from "@/lib/pinyin";
 import { useChineseAudio } from "@/lib/useAudio";
+import ReportError from "@/components/ReportError";
 import {
   calculateNextReview,
   getBoxLabel,
@@ -131,6 +132,9 @@ export default function ReviewPage() {
   // Pronunciation state
   const [pronResult, setPronResult] = useState<"idle" | "listening" | "correct" | "incorrect">("idle");
   const [pronTranscript, setPronTranscript] = useState("");
+
+  // Track when vocab quiz has been answered (for showing ReportError)
+  const [vocabAnswered, setVocabAnswered] = useState(false);
 
   // Grammar quiz state
   const [grammarAnswer, setGrammarAnswer] = useState<number | null>(null);
@@ -311,6 +315,7 @@ export default function ReviewPage() {
   const handleVocabAnswer = (correct: boolean) => {
     const item = sessionItems[currentIndex];
     if (!item?.word) return;
+    setVocabAnswered(true);
 
     const word = item.word;
     const key = word.simplified;
@@ -541,6 +546,7 @@ export default function ReviewPage() {
         setPronTranscript("");
         setGrammarAnswer(null);
         setGrammarAnswered(false);
+        setVocabAnswered(false);
       } else {
         setSessionComplete(true);
       }
@@ -968,6 +974,11 @@ export default function ReviewPage() {
               onAnswer={handleVocabAnswer}
               showChinese={quizData.showChinese}
             />
+            {vocabAnswered && currentItem?.word && (
+              <div className="mt-2 flex justify-center">
+                <ReportError word={currentItem.word.simplified} currentFrench={currentItem.word.french} />
+              </div>
+            )}
           </>
         )}
 

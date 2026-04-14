@@ -6,6 +6,7 @@ import ToneDisplay from "@/components/ToneDisplay";
 import { useChineseAudio } from "@/lib/useAudio";
 import { removeTones, isValidSyllable } from "@/lib/pinyin";
 import { useUser } from "@/lib/UserContext";
+import ReportError from "@/components/ReportError";
 
 import hsk1Data from "@/data/hsk1.json";
 import hsk2Data from "@/data/hsk2.json";
@@ -655,6 +656,9 @@ export default function TranslatePage() {
                         {currentItem.french}
                       </p>
                     )}
+                    <div className="mt-3 flex justify-center">
+                      <ReportError word={currentItem.chinese} currentFrench={currentItem.french} />
+                    </div>
                   </div>
                 )}
 

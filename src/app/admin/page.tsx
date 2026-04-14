@@ -3,6 +3,12 @@
 import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { USERS, type AppUser } from "@/lib/auth";
+import {
+  getErrorReports,
+  updateReportStatus,
+  applyCorrection,
+  type ErrorReport,
+} from "@/lib/corrections";
 
 interface UserStats {
   words_mastered: number;
@@ -80,6 +86,8 @@ export default function AdminPage() {
   const [editHsk, setEditHsk] = useState<string | null>(null);
   const [hskValue, setHskValue] = useState(1);
   const [expandedUser, setExpandedUser] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState<"users" | "reports">("users");
+  const [reports, setReports] = useState<ErrorReport[]>([]);
 
   const loadData = useCallback(() => {
     const data = USERS.map((u) => ({
@@ -89,6 +97,7 @@ export default function AdminPage() {
       srsWords: getSrsWordCount(u.id),
     }));
     setUsersData(data);
+    setReports(getErrorReports());
   }, []);
 
   useEffect(() => {
@@ -124,6 +133,46 @@ export default function AdminPage() {
     loadData();
   };
 
+  const handleApproveReport = (report: ErrorReport) => {
+    applyCorrection(report.word, report.field, report.suggestedValue);
+    updateReportStatus(report.id, "approved");
+    setReports(getErrorReports());
+  };
+
+  const handleRejectReport = (id: string) => {
+    updateReportStatus(id, "rejected");
+    setReports(getErrorReports());
+  };
+
+  const pendingCount = reports.filter((r) => r.status === "pending").length;
+
+  const typeLabels: Record<string, string> = {
+    wrong_translation: "Traduction",
+    wrong_pinyin: "Pinyin",
+    wrong_tone: "Ton",
+    other: "Autre",
+  };
+
+  const statusBadge = (status: ErrorReport["status"]) => {
+    if (status === "pending")
+      return (
+        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#FFF3E0] text-[#FF9600]">
+          En attente
+        </span>
+      );
+    if (status === "approved")
+      return (
+        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#ECFDF5] text-[#059669]">
+          &#x2713; Approuv&eacute;
+        </span>
+      );
+    return (
+      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#FEF2F2] text-[#DC2626]">
+        &#x2717; Rejet&eacute;
+      </span>
+    );
+  };
+
   return (
     <div className="min-h-screen bg-[#F7F7F5]">
       {/* Header */}
@@ -142,7 +191,120 @@ export default function AdminPage() {
       </header>
 
       <main className="max-w-2xl mx-auto px-4 py-6 space-y-4">
-        {usersData.map((u) => (
+        {/* Tab selector */}
+        <div className="flex gap-2">
+          <button
+            onClick={() => setActiveTab("users")}
+            className={`flex-1 py-2.5 rounded-xl text-sm font-bold transition-all ${
+              activeTab === "users"
+                ? "bg-[#1CB0F6] text-white shadow-md"
+                : "bg-white text-[#6B7280] border border-[#E5E7EB]"
+            }`}
+          >
+            Utilisateurs
+          </button>
+          <button
+            onClick={() => setActiveTab("reports")}
+            className={`flex-1 py-2.5 rounded-xl text-sm font-bold transition-all relative ${
+              activeTab === "reports"
+                ? "bg-[#FF9600] text-white shadow-md"
+                : "bg-white text-[#6B7280] border border-[#E5E7EB]"
+            }`}
+          >
+            Signalements
+            {pendingCount > 0 && (
+              <span className="absolute -top-1.5 -right-1.5 w-5 h-5 rounded-full bg-[#FF4B4B] text-white text-[10px] font-bold flex items-center justify-center">
+                {pendingCount}
+              </span>
+            )}
+          </button>
+        </div>
+
+        {/* Reports tab */}
+        {activeTab === "reports" && (
+          <div className="space-y-3">
+            {reports.length === 0 ? (
+              <div className="bg-white rounded-2xl p-8 border border-[#E5E7EB] text-center">
+                <div className="text-3xl mb-2">&#x2705;</div>
+                <p className="text-[#6B7280] text-sm">Aucun signalement pour le moment.</p>
+              </div>
+            ) : (
+              reports
+                .sort((a, b) => {
+                  // pending first, then by date desc
+                  if (a.status === "pending" && b.status !== "pending") return -1;
+                  if (a.status !== "pending" && b.status === "pending") return 1;
+                  return new Date(b.date).getTime() - new Date(a.date).getTime();
+                })
+                .map((report) => (
+                  <div
+                    key={report.id}
+                    className="bg-white rounded-2xl border border-[#E5E7EB] shadow-sm p-4 space-y-3"
+                  >
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <span className="text-xl font-bold text-[#1A1A1A] mr-2">{report.word}</span>
+                        {statusBadge(report.status)}
+                      </div>
+                      <span className="text-[10px] text-[#6B7280]">
+                        {new Date(report.date).toLocaleDateString("fr-FR")}
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-2 text-xs">
+                      <div className="bg-[#F7F7F5] rounded-lg px-2 py-1.5">
+                        <span className="text-[#6B7280]">Type : </span>
+                        <span className="font-semibold text-[#1A1A1A]">{typeLabels[report.type] || report.type}</span>
+                      </div>
+                      <div className="bg-[#F7F7F5] rounded-lg px-2 py-1.5">
+                        <span className="text-[#6B7280]">Champ : </span>
+                        <span className="font-semibold text-[#1A1A1A]">{report.field}</span>
+                      </div>
+                      <div className="bg-[#FEF2F2] rounded-lg px-2 py-1.5">
+                        <span className="text-[#6B7280]">Actuel : </span>
+                        <span className="font-semibold text-[#DC2626]">{report.currentValue || "—"}</span>
+                      </div>
+                      <div className="bg-[#ECFDF5] rounded-lg px-2 py-1.5">
+                        <span className="text-[#6B7280]">Suggestion : </span>
+                        <span className="font-semibold text-[#059669]">{report.suggestedValue}</span>
+                      </div>
+                    </div>
+
+                    {report.comment && (
+                      <p className="text-xs text-[#6B7280] italic bg-[#F7F7F5] rounded-lg px-2 py-1.5">
+                        {report.comment}
+                      </p>
+                    )}
+
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] text-[#6B7280]">
+                        Par : {report.userId}
+                      </span>
+                      {report.status === "pending" && (
+                        <div className="flex gap-2">
+                          <button
+                            onClick={() => handleApproveReport(report)}
+                            className="px-3 py-1.5 rounded-lg text-xs font-bold text-white bg-[#58CC02] hover:bg-[#46A302] transition-colors"
+                          >
+                            Approuver
+                          </button>
+                          <button
+                            onClick={() => handleRejectReport(report.id)}
+                            className="px-3 py-1.5 rounded-lg text-xs font-bold text-white bg-[#FF4B4B] hover:bg-[#E63E3E] transition-colors"
+                          >
+                            Rejeter
+                          </button>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))
+            )}
+          </div>
+        )}
+
+        {/* Users tab */}
+        {activeTab === "users" && usersData.map((u) => (
           <div
             key={u.id}
             className="bg-white rounded-2xl border border-[#E5E7EB] shadow-sm overflow-hidden"
@@ -292,6 +454,7 @@ export default function AdminPage() {
           </div>
         ))}
       </main>
+
     </div>
   );
 }
